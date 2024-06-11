@@ -1,10 +1,10 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../constants.dart';
-import '../models/question_model.dart'; // our question
-import '../widgets/question_widget.dart'; // question widget
-import '../widgets/next_button.dart';
-import '../widgets/option_card.dart';
+import '../models/question_model.dart'; // Modelo de questão
+import '../widgets/question_widget.dart'; // Widget de questão
+import '../widgets/next_button.dart'; // Botão de próxima questão
+import '../widgets/option_card.dart'; // Card de opção
+import '../widgets/result_box.dart'; // Caixa de resultados
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -17,36 +17,40 @@ class _HomeScreenState extends State<HomeScreen> {
   List<Question> _questions = [
     Question(
         id: '10',
-        title: 'quanto é 2+2',
+        title: 'Quanto é 2+2?',
         options: {'5': false, '30': false, '4': true, '3': false}),
     Question(
         id: '10',
-        title: 'quanto é 20+20',
+        title: 'Quanto é 20+20?',
         options: {'5': false, '30': false, '40': true, '3': false}),
   ];
 
-  int index = 0;
+  int index = 0; // Índice da pergunta atual
+  int score = 0; // Pontuação do usuário
 
-  int score = 0; //variavel do score
-
-  // a bloeana que faz verificação das questões
-  bool isPressed = false;
-
-  bool isAlreadySelected = false;
+  bool isPressed = false; // Indica se uma opção foi pressionada
+  bool isAlreadySelected = false; // Indica se uma opção já foi selecionada
 
   void nextQuestion() {
     if (index == _questions.length - 1) {
-      return;
+      showDialog(
+          context: context,
+          barrierDismissible: false,
+          builder: (ctx) => ResultBox(
+                result: score,
+                questionLength: _questions.length,
+                onPressed: startOver,
+              ));
     } else {
       if (isPressed) {
         setState(() {
-          index++; // mudando o index pra 1
+          index++;
           isPressed = false;
           isAlreadySelected = false;
         });
       } else {
         ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-          content: Text('selecione uma questão'),
+          content: Text('Selecione uma questão'),
           behavior: SnackBarBehavior.floating,
           margin: EdgeInsets.symmetric(vertical: 20.0),
         ));
@@ -54,25 +58,33 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-// função pra mudar a cor quando clicar na opção
   void checkAnswerAndUpdate(bool value) {
     if (isAlreadySelected) {
       return;
     } else {
       if (value == true) {
         score++;
-        setState(() {
-          isPressed = true;
-          isAlreadySelected = true;
-        });
       }
+      setState(() {
+        isPressed = true;
+        isAlreadySelected = true;
+      });
     }
+  }
+
+  void startOver() {
+    setState(() {
+      index = 0;
+      score = 0;
+      isPressed = false;
+      isAlreadySelected = false;
+    });
+    Navigator.pop(context);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // changing background
       backgroundColor: background,
       appBar: AppBar(
         title: const Text('Quiz App'),
@@ -95,17 +107,13 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.symmetric(horizontal: 10.0),
         child: Column(
           children: [
-            // adicionar o QuestionWidget aqui
             QuestionWidget(
               indexAction: index,
-              questions: _questions[index].title, // primeira questão da lista
-              totalQuestions: _questions.length, // tamanho da lista
+              questions: _questions[index].title,
+              totalQuestions: _questions.length,
             ),
             const Divider(color: neutral),
-            //adicionar espaços
-            const SizedBox(
-              height: 25.0,
-            ),
+            const SizedBox(height: 25.0),
             for (int i = 0; i < _questions[index].options.length; i++)
               GestureDetector(
                 onTap: () => checkAnswerAndUpdate(
