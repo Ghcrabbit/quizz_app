@@ -31,9 +31,14 @@ class _HomeScreenState extends State<HomeScreen> {
   void loadQuestions() async {
     var db = DbConnect();
     try {
-      List<Question> questions = await db.fetchQuestionsFromAssets();
+      List<Question> questions =
+          await db.fetchNewQuestions(); // Método para obter novas perguntas
       setState(() {
         _questions = questions;
+        index = 0; // Reinicia o índice para a primeira pergunta
+        score = 0; // Reinicia a pontuação
+        isPressed = false; // Reinicia os estados de botão pressionado
+        isAlreadySelected = false; // Reinicia o estado de seleção
       });
     } catch (error) {
       print('Erro ao carregar perguntas: $error');
@@ -99,13 +104,15 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void startOver() {
+    loadQuestions(); // Carrega novas perguntas
     setState(() {
-      index = 0;
-      score = 0;
-      isPressed = false;
-      isAlreadySelected = false;
+      index = 0; // Reinicia o índice para a primeira pergunta
+      score = 0; // Reinicia a pontuação
+      isPressed = false; // Reinicia os estados de botão pressionado
+      isAlreadySelected = false; // Reinicia o estado de seleção
     });
-    Navigator.pop(context);
+    Navigator.pop(
+        context); // Fecha a caixa de diálogo de resultados, se estiver aberta
   }
 
   @override
