@@ -28,6 +28,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  logging: ^1.0.2
   flutter:
     sdk: flutter
 
@@ -35,6 +36,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  http: ^1.2.1
 
 dev_dependencies:
   flutter_test:
@@ -59,4 +61,6 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/data/ # Adicionando o diretório assets/data ao projeto
+    - assets/data/updated-excel-to-json.json # Adicionando o diretório assets/data ao projeto
+
+ 
