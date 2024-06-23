@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../constants.dart';
 import '../models/question_model.dart';
 import '../widgets/question_widget.dart';
 import '../widgets/next_button.dart';
 import '../widgets/option_card.dart';
 import '../widgets/result_box.dart';
+import '../helpers/shared_preferences_helper.dart'; // Importa o helper para salvar os resultados
 import '../models/db_connect.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -30,6 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
     loadQuestions();
   }
 
+  // Carregar perguntas do JSON
   void loadQuestions() async {
     setState(() {
       loading = true;
@@ -37,6 +40,9 @@ class _HomeScreenState extends State<HomeScreen> {
     var db = DbConnect();
     try {
       List<Question> questions = await db.fetchNewQuestions(widget.jsonPath);
+      if (questions.isEmpty) {
+        throw 'Nenhuma pergunta disponível';
+      }
       setState(() {
         _questions = questions;
         index = 0;
@@ -50,52 +56,58 @@ class _HomeScreenState extends State<HomeScreen> {
       setState(() {
         loading = false;
       });
-      showDialog(
-        context: context,
-        builder: (ctx) => AlertDialog(
-          title: const Text('Erro'),
-          content: const Text('Não foi possível carregar as perguntas.'),
-          actions: [
-            TextButton(
-              onPressed: () {
-                Navigator.of(ctx).pop();
-              },
-              child: const Text('OK'),
-            ),
-          ],
-        ),
-      );
+      _showErrorDialog();
     }
   }
 
+  // Mostrar diálogo de erro
+  void _showErrorDialog() {
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('Erro'),
+        content: const Text('Não foi possível carregar as perguntas.'),
+        actions: [
+          TextButton(
+            onPressed: () {
+              Navigator.of(ctx).pop();
+            },
+            child: const Text('OK'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  // Navegar para a próxima pergunta ou mostrar os resultados
   void nextQuestion() {
     if (index == _questions.length - 1) {
-      showDialog(
-        context: context,
-        barrierDismissible: false,
-        builder: (ctx) => ResultBox(
-          result: score,
-          questionLength: _questions.length,
-          onPressed: startOver,
-        ),
-      );
+      _saveResult(); // Salva o resultado ao final do quiz
+      _showResultBox();
     } else {
-      if (isPressed) {
-        setState(() {
-          index++;
-          isPressed = false;
-          isAlreadySelected = false;
-        });
-      } else {
-        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-          content: Text('Selecione uma resposta'),
-          behavior: SnackBarBehavior.floating,
-          margin: EdgeInsets.symmetric(vertical: 20.0),
-        ));
+      if (!isPressed) {
+        // Verifica se uma resposta foi pressionada
+        _showSelectAnswerMessage();
+        return; // Evita a atualização do índice sem resposta
       }
+      setState(() {
+        index++;
+        isPressed = false;
+        isAlreadySelected = false;
+      });
     }
   }
 
+  // Mostrar mensagem para selecionar uma resposta
+  void _showSelectAnswerMessage() {
+    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+      content: Text('Selecione uma resposta'),
+      behavior: SnackBarBehavior.floating,
+      margin: EdgeInsets.symmetric(vertical: 20.0),
+    ));
+  }
+
+  // Verificar e atualizar a resposta
   void checkAnswerAndUpdate(bool isCorrect) {
     if (isAlreadySelected) {
       return;
@@ -109,15 +121,52 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
+  // Reiniciar o quiz
   void startOver() {
-    loadQuestions();
-    setState(() {
-      index = 0;
-      score = 0;
-      isPressed = false;
-      isAlreadySelected = false;
-    });
-    Navigator.pop(context);
+    loadQuestions(); // Já reinicializa o estado
+    Navigator.pop(context); // Fecha a caixa de diálogo de resultados
+  }
+
+  // Salvar o resultado do quiz
+  Future<void> _saveResult() async {
+    try {
+      await SharedPreferencesHelper.saveResult(widget.jsonPath, score);
+    } catch (e) {
+      print('Failed to save result: $e');
+      _showSaveErrorDialog();
+    }
+  }
+
+  // Mostrar caixa de diálogo de resultados
+  void _showResultBox() {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (ctx) => ResultBox(
+        result: score,
+        questionLength: _questions.length,
+        onPressed: startOver,
+      ),
+    );
+  }
+
+  // Mostrar diálogo de erro ao salvar resultado
+  void _showSaveErrorDialog() {
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('Erro'),
+        content: const Text('Não foi possível salvar o resultado.'),
+        actions: [
+          TextButton(
+            onPressed: () {
+              Navigator.of(ctx).pop();
+            },
+            child: const Text('OK'),
+          ),
+        ],
+      ),
+    );
   }
 
   @override
@@ -181,7 +230,9 @@ class _HomeScreenState extends State<HomeScreen> {
       floatingActionButton: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10.0),
         child: NextButton(
-          nextQuestion: nextQuestion,
+          nextQuestion: isPressed
+              ? nextQuestion
+              : () {}, // Função vazia se não pressionado
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,

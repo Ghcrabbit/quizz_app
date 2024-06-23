@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import './home_screen.dart'; // Importe o arquivo home_screen.dart
+import './home_screen.dart';
+import './results_screen.dart'; // Importe o arquivo results_screen.dart
 
 class InitialScreen extends StatelessWidget {
   const InitialScreen({Key? key}) : super(key: key);
@@ -18,13 +19,23 @@ class InitialScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildButton(BuildContext context, String text, String jsonPath) {
+  void _navigateToResultsScreen(BuildContext context) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => const ResultsScreen(),
+      ),
+    );
+  }
+
+  Widget _buildButton(
+      BuildContext context, String text, VoidCallback onPressed) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: SizedBox(
         width: double.infinity, // O botão ocupará toda a largura disponível
         child: ElevatedButton(
-          onPressed: () => _navigateToHomeScreen(context, jsonPath),
+          onPressed: onPressed,
           style: ElevatedButton.styleFrom(
             padding:
                 const EdgeInsets.symmetric(horizontal: 20.0, vertical: 15.0),
@@ -58,11 +69,17 @@ class InitialScreen extends StatelessWidget {
                 .stretch, // Os botões vão se esticar para ocupar toda a largura disponível
             children: [
               _buildButton(context, 'Bloco 1 - Emergência e Segurança de voo',
-                  bloco1Path),
-              _buildButton(context, 'Bloco 2 - Regulamentação', bloco2Path),
-              _buildButton(context, 'Bloco 3 - Primeiros Socorros', bloco3Path),
-              _buildButton(context,
-                  'Bloco 4 - Conhecimentos gerais da aeronave', bloco4Path),
+                  () => _navigateToHomeScreen(context, bloco1Path)),
+              _buildButton(context, 'Bloco 2 - Regulamentação',
+                  () => _navigateToHomeScreen(context, bloco2Path)),
+              _buildButton(context, 'Bloco 3 - Primeiros Socorros',
+                  () => _navigateToHomeScreen(context, bloco3Path)),
+              _buildButton(
+                  context,
+                  'Bloco 4 - Conhecimentos gerais da aeronave',
+                  () => _navigateToHomeScreen(context, bloco4Path)),
+              _buildButton(context, 'Ver Resultados Anteriores',
+                  () => _navigateToResultsScreen(context)),
             ],
           ),
         ),
