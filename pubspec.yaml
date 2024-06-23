@@ -61,6 +61,9 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/data/updated-excel-to-json.json # Adicionando o diretório assets/data ao projeto
+    - assets\data\bloco_1.json # Adicionando o diretório assets/data ao projeto
+    - assets\data\bloco_2.json
+    - assets\data\bloco_3.json
+    - assets\data\bloco_4.json
 
  

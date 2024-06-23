@@ -1,13 +1,12 @@
 import 'dart:convert';
-import 'package:flutter/services.dart'; // Para carregar o JSON dos assets
+import 'package:flutter/services.dart';
 import 'question_model.dart';
 import 'dart:developer' as developer;
 
 class DbConnect {
-  Future<List<Question>> fetchNewQuestions() async {
+  Future<List<Question>> fetchNewQuestions(String jsonPath) async {
     try {
-      String jsonString =
-          await rootBundle.loadString('assets/data/updated-excel-to-json.json');
+      String jsonString = await rootBundle.loadString(jsonPath);
       final Map<String, dynamic> data = json.decode(jsonString);
 
       if (data['Question'] is List) {
@@ -25,7 +24,7 @@ class DbConnect {
         allQuestions.shuffle();
 
         List<Question> selectedQuestions =
-            allQuestions.take(20).toList(); // Seleciona 5 perguntas aleatórias
+            allQuestions.take(20).toList(); // Seleciona 20 perguntas aleatórias
 
         return selectedQuestions;
       } else {

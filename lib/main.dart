@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './screens/home_screen.dart';
+import './screens/initial_screen.dart'; // Importe o arquivo initial_screen.dart
 
 void main() {
   runApp(
@@ -8,13 +8,13 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: InitialScreen(), // Alterado para InitialScreen
     );
   }
 }

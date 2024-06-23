@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import '../constants.dart';
 import '../models/question_model.dart';
 import '../widgets/question_widget.dart';
@@ -9,7 +8,9 @@ import '../widgets/result_box.dart';
 import '../models/db_connect.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  final String jsonPath;
+
+  const HomeScreen({Key? key, required this.jsonPath}) : super(key: key);
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -21,6 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int score = 0;
   bool isPressed = false;
   bool isAlreadySelected = false;
+  bool loading = true;
 
   @override
   void initState() {
@@ -29,20 +31,25 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void loadQuestions() async {
+    setState(() {
+      loading = true;
+    });
     var db = DbConnect();
     try {
-      List<Question> questions =
-          await db.fetchNewQuestions(); // Método para obter novas perguntas
+      List<Question> questions = await db.fetchNewQuestions(widget.jsonPath);
       setState(() {
         _questions = questions;
-        index = 0; // Reinicia o índice para a primeira pergunta
-        score = 0; // Reinicia a pontuação
-        isPressed = false; // Reinicia os estados de botão pressionado
-        isAlreadySelected = false; // Reinicia o estado de seleção
+        index = 0;
+        score = 0;
+        isPressed = false;
+        isAlreadySelected = false;
+        loading = false;
       });
     } catch (error) {
       print('Erro ao carregar perguntas: $error');
-      // Mostrar um feedback visual ao usuário em caso de erro
+      setState(() {
+        loading = false;
+      });
       showDialog(
         context: context,
         builder: (ctx) => AlertDialog(
@@ -63,7 +70,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void nextQuestion() {
     if (index == _questions.length - 1) {
-      // Mostra a caixa de resultados quando todas as perguntas são respondidas
       showDialog(
         context: context,
         barrierDismissible: false,
@@ -104,15 +110,14 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void startOver() {
-    loadQuestions(); // Carrega novas perguntas
+    loadQuestions();
     setState(() {
-      index = 0; // Reinicia o índice para a primeira pergunta
-      score = 0; // Reinicia a pontuação
-      isPressed = false; // Reinicia os estados de botão pressionado
-      isAlreadySelected = false; // Reinicia o estado de seleção
+      index = 0;
+      score = 0;
+      isPressed = false;
+      isAlreadySelected = false;
     });
-    Navigator.pop(
-        context); // Fecha a caixa de diálogo de resultados, se estiver aberta
+    Navigator.pop(context);
   }
 
   @override
@@ -133,44 +138,46 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
-      body: Container(
-        width: double.infinity,
-        padding: const EdgeInsets.symmetric(horizontal: 10.0),
-        child: _questions.isEmpty
-            ? const Center(
-                child: CircularProgressIndicator(),
-              )
-            : Column(
-                children: [
-                  QuestionWidget(
-                    indexAction: index,
-                    questions: _questions[index].question,
-                    totalQuestions: _questions.length,
-                  ),
-                  const Divider(color: neutral),
-                  const SizedBox(height: 25.0),
-                  // Display options A, B, C, D
-                  for (int i = 0; i < _questions[index].options.length; i++)
-                    GestureDetector(
-                      onTap: () {
-                        bool isCorrect = _questions[index].correctOption ==
-                            _questions[index].options.values.toList()[i];
-                        checkAnswerAndUpdate(isCorrect);
-                      },
-                      child: OptionCard(
-                        option:
-                            '${_questions[index].options.keys.toList()[i]}: ${_questions[index].options.values.toList()[i]}',
-                        color: isPressed
-                            ? _questions[index].correctOption ==
-                                    _questions[index].options.values.toList()[i]
-                                ? correct
-                                : incorrect // Ajusta a cor para respostas incorretas
-                            : neutral, // Cor padrão para opções
-                      ),
+      body: loading
+          ? const Center(
+              child: CircularProgressIndicator(),
+            )
+          : _questions.isEmpty
+              ? const Center(
+                  child: Text('Nenhuma pergunta disponível.'),
+                )
+              : Column(
+                  children: [
+                    QuestionWidget(
+                      indexAction: index,
+                      questions: _questions[index].question,
+                      totalQuestions: _questions.length,
                     ),
-                ],
-              ),
-      ),
+                    const Divider(color: neutral),
+                    const SizedBox(height: 25.0),
+                    for (int i = 0; i < _questions[index].options.length; i++)
+                      GestureDetector(
+                        onTap: () {
+                          bool isCorrect = _questions[index].correctOption ==
+                              _questions[index].options.values.toList()[i];
+                          checkAnswerAndUpdate(isCorrect);
+                        },
+                        child: OptionCard(
+                          option:
+                              '${_questions[index].options.keys.toList()[i]}: ${_questions[index].options.values.toList()[i]}',
+                          color: isPressed
+                              ? _questions[index].correctOption ==
+                                      _questions[index]
+                                          .options
+                                          .values
+                                          .toList()[i]
+                                  ? correct
+                                  : incorrect
+                              : neutral,
+                        ),
+                      ),
+                  ],
+                ),
       floatingActionButton: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10.0),
         child: NextButton(
