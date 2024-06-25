@@ -26,7 +26,6 @@ class SharedPreferencesHelper {
     } catch (e) {
       // Lida com exceções ou erros
       print('Failed to save result: $e');
-      // Adicionar um tratamento adicional de erro ou notificação ao usuário, se necessário
       throw Exception('Failed to save result: $e');
     }
   }
@@ -41,16 +40,15 @@ class SharedPreferencesHelper {
       return results
           .map((result) {
             try {
-              final Map<String, dynamic> decodedResult = json.decode(result);
+              final decodedResult = json.decode(result);
 
-              // Verifica se 'quiz', 'score' e 'date' não são nulos
-              if (decodedResult != null &&
-                  decodedResult['quiz'] != null &&
-                  decodedResult['score'] != null &&
-                  decodedResult['date'] != null) {
+              // Verifica se o resultado tem a estrutura correta
+              if (decodedResult is Map<String, dynamic> &&
+                  decodedResult['quiz'] is String &&
+                  decodedResult['score'] is int &&
+                  decodedResult['date'] is String) {
                 return decodedResult;
               } else {
-                // Retorna um Map vazio se qualquer campo necessário for nulo
                 return <String, dynamic>{};
               }
             } catch (e) {
@@ -64,7 +62,6 @@ class SharedPreferencesHelper {
     } catch (e) {
       // Lida com exceções ou erros
       print('Failed to load results: $e');
-      // Adicionar um tratamento adicional de erro ou notificação ao usuário, se necessário
       throw Exception('Failed to load results: $e');
     }
   }
@@ -77,8 +74,27 @@ class SharedPreferencesHelper {
     } catch (e) {
       // Lida com exceções ou erros
       print('Failed to clear results: $e');
-      // Adicionar um tratamento adicional de erro ou notificação ao usuário, se necessário
       throw Exception('Failed to clear results: $e');
+    }
+  }
+
+  /// Remover um resultado específico do SharedPreferences.
+  static Future<void> removeResult(String quizName) async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final results = prefs.getStringList(_keyResults) ?? [];
+
+      // Filtra os resultados que não correspondem ao quizName
+      final updatedResults = results.where((result) {
+        final decodedResult = json.decode(result);
+        return decodedResult['quiz'] != quizName;
+      }).toList();
+
+      // Atualiza os resultados no SharedPreferences
+      await prefs.setStringList(_keyResults, updatedResults);
+    } catch (e) {
+      print('Failed to remove result: $e');
+      throw Exception('Failed to remove result: $e');
     }
   }
 }

@@ -4,10 +4,9 @@ import '../constants.dart';
 import '../models/question_model.dart';
 import '../widgets/question_widget.dart';
 import '../widgets/next_button.dart';
-import '../widgets/option_card.dart';
-import '../widgets/result_box.dart';
-import '../helpers/shared_preferences_helper.dart'; // Importa o helper para salvar os resultados
+import '../helpers/shared_preferences_helper.dart';
 import '../models/db_connect.dart';
+import './initial_screen.dart'; // Importe a tela inicial
 
 class HomeScreen extends StatefulWidget {
   final String jsonPath;
@@ -25,6 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
   bool isPressed = false;
   bool isAlreadySelected = false;
   bool loading = true;
+  int selectedOptionIndex = -1; // Para rastrear a opção selecionada
 
   @override
   void initState() {
@@ -50,23 +50,25 @@ class _HomeScreenState extends State<HomeScreen> {
         isPressed = false;
         isAlreadySelected = false;
         loading = false;
+        selectedOptionIndex = -1;
       });
     } catch (error) {
       print('Erro ao carregar perguntas: $error');
       setState(() {
         loading = false;
       });
-      _showErrorDialog();
+      _showErrorDialog('Erro ao carregar perguntas',
+          'Por favor, verifique sua conexão e tente novamente.');
     }
   }
 
   // Mostrar diálogo de erro
-  void _showErrorDialog() {
+  void _showErrorDialog(String title, String content) {
     showDialog(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text('Erro'),
-        content: const Text('Não foi possível carregar as perguntas.'),
+        title: Text(title),
+        content: Text(content),
         actions: [
           TextButton(
             onPressed: () {
@@ -86,14 +88,14 @@ class _HomeScreenState extends State<HomeScreen> {
       _showResultBox();
     } else {
       if (!isPressed) {
-        // Verifica se uma resposta foi pressionada
         _showSelectAnswerMessage();
-        return; // Evita a atualização do índice sem resposta
+        return;
       }
       setState(() {
         index++;
         isPressed = false;
         isAlreadySelected = false;
+        selectedOptionIndex = -1;
       });
     }
   }
@@ -108,7 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   // Verificar e atualizar a resposta
-  void checkAnswerAndUpdate(bool isCorrect) {
+  void checkAnswerAndUpdate(bool isCorrect, int optionIndex) {
     if (isAlreadySelected) {
       return;
     }
@@ -118,6 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       isPressed = true;
       isAlreadySelected = true;
+      selectedOptionIndex = optionIndex;
     });
   }
 
@@ -127,13 +130,20 @@ class _HomeScreenState extends State<HomeScreen> {
     Navigator.pop(context); // Fecha a caixa de diálogo de resultados
   }
 
+  // Voltar à tela inicial
+  void goToInitialScreen() {
+    Navigator.of(context).pop(); // Fecha a caixa de diálogo de resultados
+    Navigator.of(context)
+        .pop(); // Fecha a tela do quiz e retorna à tela inicial
+  }
+
   // Salvar o resultado do quiz
   Future<void> _saveResult() async {
     try {
       await SharedPreferencesHelper.saveResult(widget.jsonPath, score);
     } catch (e) {
       print('Failed to save result: $e');
-      _showSaveErrorDialog();
+      _showErrorDialog('Erro', 'Não foi possível salvar o resultado.');
     }
   }
 
@@ -142,27 +152,17 @@ class _HomeScreenState extends State<HomeScreen> {
     showDialog(
       context: context,
       barrierDismissible: false,
-      builder: (ctx) => ResultBox(
-        result: score,
-        questionLength: _questions.length,
-        onPressed: startOver,
-      ),
-    );
-  }
-
-  // Mostrar diálogo de erro ao salvar resultado
-  void _showSaveErrorDialog() {
-    showDialog(
-      context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text('Erro'),
-        content: const Text('Não foi possível salvar o resultado.'),
+        title: const Text('Resultado do Quiz'),
+        content: Text('Você marcou $score de ${_questions.length} pontos.'),
         actions: [
           TextButton(
-            onPressed: () {
-              Navigator.of(ctx).pop();
-            },
-            child: const Text('OK'),
+            onPressed: startOver,
+            child: const Text('Recomeçar'),
+          ),
+          TextButton(
+            onPressed: goToInitialScreen,
+            child: const Text('Página Inicial'),
           ),
         ],
       ),
@@ -195,37 +195,75 @@ class _HomeScreenState extends State<HomeScreen> {
               ? const Center(
                   child: Text('Nenhuma pergunta disponível.'),
                 )
-              : Column(
-                  children: [
-                    QuestionWidget(
-                      indexAction: index,
-                      questions: _questions[index].question,
-                      totalQuestions: _questions.length,
-                    ),
-                    const Divider(color: neutral),
-                    const SizedBox(height: 25.0),
-                    for (int i = 0; i < _questions[index].options.length; i++)
-                      GestureDetector(
-                        onTap: () {
-                          bool isCorrect = _questions[index].correctOption ==
-                              _questions[index].options.values.toList()[i];
-                          checkAnswerAndUpdate(isCorrect);
-                        },
-                        child: OptionCard(
-                          option:
-                              '${_questions[index].options.keys.toList()[i]}: ${_questions[index].options.values.toList()[i]}',
-                          color: isPressed
-                              ? _questions[index].correctOption ==
-                                      _questions[index]
-                                          .options
-                                          .values
-                                          .toList()[i]
-                                  ? correct
-                                  : incorrect
-                              : neutral,
-                        ),
+              : SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      QuestionWidget(
+                        indexAction: index,
+                        questions: _questions[index].question,
+                        totalQuestions: _questions.length,
                       ),
-                  ],
+                      const Divider(color: neutral),
+                      const SizedBox(height: 25.0),
+                      LayoutBuilder(
+                        builder: (context, constraints) {
+                          double maxWidth = constraints.maxWidth;
+                          return Column(
+                            children: [
+                              for (int i = 0;
+                                  i < _questions[index].options.length;
+                                  i++)
+                                GestureDetector(
+                                  onTap: () {
+                                    bool isCorrect =
+                                        _questions[index].correctOption ==
+                                            _questions[index]
+                                                .options
+                                                .values
+                                                .toList()[i];
+                                    checkAnswerAndUpdate(isCorrect, i);
+                                  },
+                                  child: AnimatedContainer(
+                                    duration: const Duration(milliseconds: 100),
+                                    curve: Curves.easeInOut,
+                                    decoration: BoxDecoration(
+                                      color: isPressed
+                                          ? (i == selectedOptionIndex ||
+                                                  _questions[index]
+                                                          .correctOption ==
+                                                      _questions[index]
+                                                          .options
+                                                          .values
+                                                          .toList()[i])
+                                              ? (_questions[index]
+                                                          .correctOption ==
+                                                      _questions[index]
+                                                          .options
+                                                          .values
+                                                          .toList()[i]
+                                                  ? correct
+                                                  : incorrect)
+                                              : neutral
+                                          : neutral,
+                                      borderRadius: BorderRadius.circular(15),
+                                    ),
+                                    width:
+                                        maxWidth, // Define a largura máxima disponível
+                                    padding: const EdgeInsets.all(16),
+                                    margin:
+                                        const EdgeInsets.symmetric(vertical: 8),
+                                    child: Text(
+                                      '${_questions[index].options.keys.toList()[i]}: ${_questions[index].options.values.toList()[i]}',
+                                      style: const TextStyle(fontSize: 16),
+                                    ),
+                                  ),
+                                ),
+                            ],
+                          );
+                        },
+                      ),
+                    ],
+                  ),
                 ),
       floatingActionButton: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10.0),

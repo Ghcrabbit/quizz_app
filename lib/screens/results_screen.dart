@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import '../helpers/shared_preferences_helper.dart';
 
 class ResultsScreen extends StatefulWidget {
@@ -22,13 +23,18 @@ class _ResultsScreenState extends State<ResultsScreen> {
       List<Map<String, dynamic>> results =
           await SharedPreferencesHelper.loadResults();
       setState(() {
-        // Invertendo a ordem dos resultados para exibir os últimos primeiro
-        _results = results.reversed.toList();
+        _results =
+            results.reversed.toList(); // Invertendo a ordem dos resultados
       });
     } catch (e) {
       print('Failed to load results: $e');
       // Tratar erro de carregamento aqui, se necessário
     }
+  }
+
+  String _formatDate(String dateStr) {
+    final date = DateTime.parse(dateStr);
+    return DateFormat('dd/MM/yyyy - HH:mm').format(date); // Formato desejado
   }
 
   @override
@@ -49,16 +55,26 @@ class _ResultsScreenState extends State<ResultsScreen> {
                   margin:
                       const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
                   child: ListTile(
+                    leading: Icon(
+                      Icons.quiz,
+                      color: Theme.of(context).primaryColor,
+                    ),
                     title: Text(
                       result['quiz'],
                       style: const TextStyle(fontWeight: FontWeight.bold),
                     ),
                     subtitle: Text(
-                      '${result['date']} - Resultado: ${result['score']}',
+                      '${_formatDate(result['date'])} - Resultado alterado: ${result['score']}',
                       style: const TextStyle(fontSize: 14),
                     ),
+                    trailing: IconButton(
+                      icon: Icon(Icons.share),
+                      onPressed: () {
+                        // Implementar ação de compartilhar
+                      },
+                    ),
                     onTap: () {
-                      // Implemente aqui o que deseja fazer ao clicar no resultado
+                      // Implementar ação ao clicar no resultado
                     },
                   ),
                 );

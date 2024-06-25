@@ -24,7 +24,7 @@ class DbConnect {
         allQuestions.shuffle();
 
         List<Question> selectedQuestions =
-            allQuestions.take(5).toList(); // Seleciona 20 perguntas aleatórias
+            allQuestions.take(20).toList(); // Seleciona 20 perguntas aleatórias
 
         return selectedQuestions;
       } else {
