@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../constants.dart';
 import '../models/question_model.dart';
@@ -7,6 +8,7 @@ import '../widgets/next_button.dart';
 import '../helpers/shared_preferences_helper.dart';
 import '../models/db_connect.dart';
 import './initial_screen.dart'; // Importe a tela inicial
+import './results_screen.dart'; // Importe a tela de resultados
 
 class HomeScreen extends StatefulWidget {
   final String jsonPath;
@@ -25,6 +27,8 @@ class _HomeScreenState extends State<HomeScreen> {
   bool isAlreadySelected = false;
   bool loading = true;
   int selectedOptionIndex = -1; // Para rastrear a opção selecionada
+  List<String> _selectedAnswers =
+      []; // Lista para salvar as respostas selecionadas
 
   @override
   void initState() {
@@ -37,12 +41,14 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       loading = true;
     });
+
     var db = DbConnect();
     try {
       List<Question> questions = await db.fetchNewQuestions(widget.jsonPath);
       if (questions.isEmpty) {
         throw 'Nenhuma pergunta disponível';
       }
+
       setState(() {
         _questions = questions;
         index = 0;
@@ -51,6 +57,8 @@ class _HomeScreenState extends State<HomeScreen> {
         isAlreadySelected = false;
         loading = false;
         selectedOptionIndex = -1;
+        _selectedAnswers =
+            List.filled(questions.length, ''); // Inicializa com strings vazias
       });
     } catch (error) {
       print('Erro ao carregar perguntas: $error');
@@ -84,13 +92,13 @@ class _HomeScreenState extends State<HomeScreen> {
   // Navegar para a próxima pergunta ou mostrar os resultados
   void nextQuestion() {
     if (index == _questions.length - 1) {
-      _saveResult(); // Salva o resultado ao final do quiz
-      _showResultBox();
+      _saveResultAndNavigate();
     } else {
       if (!isPressed) {
         _showSelectAnswerMessage();
         return;
       }
+
       setState(() {
         index++;
         isPressed = false;
@@ -102,11 +110,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
   // Mostrar mensagem para selecionar uma resposta
   void _showSelectAnswerMessage() {
-    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-      content: Text('Selecione uma resposta'),
-      behavior: SnackBarBehavior.floating,
-      margin: EdgeInsets.symmetric(vertical: 20.0),
-    ));
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        content: Text('Selecione uma resposta'),
+        behavior: SnackBarBehavior.floating,
+        margin: EdgeInsets.symmetric(vertical: 20.0),
+      ),
+    );
   }
 
   // Verificar e atualizar a resposta
@@ -114,9 +124,15 @@ class _HomeScreenState extends State<HomeScreen> {
     if (isAlreadySelected) {
       return;
     }
+
     if (isCorrect) {
       score++;
     }
+
+    // Salvar a resposta selecionada
+    _selectedAnswers[index] =
+        _questions[index].options.keys.toList()[optionIndex];
+
     setState(() {
       isPressed = true;
       isAlreadySelected = true;
@@ -124,49 +140,27 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
-  // Reiniciar o quiz
-  void startOver() {
-    loadQuestions(); // Já reinicializa o estado
-    Navigator.pop(context); // Fecha a caixa de diálogo de resultados
-  }
-
-  // Voltar à tela inicial
-  void goToInitialScreen() {
-    Navigator.of(context).pop(); // Fecha a caixa de diálogo de resultados
-    Navigator.of(context)
-        .pop(); // Fecha a tela do quiz e retorna à tela inicial
-  }
-
-  // Salvar o resultado do quiz
-  Future<void> _saveResult() async {
+  // Salvar o resultado do quiz e navegar para InitialScreen
+  void _saveResultAndNavigate() async {
     try {
+      // Salvar o resultado do quiz
       await SharedPreferencesHelper.saveResult(widget.jsonPath, score);
+
+      // Salvar as respostas selecionadas
+      await SharedPreferencesHelper.saveSelectedAnswers(
+          widget.jsonPath, _selectedAnswers);
+
+      // Navegar para a tela inicial ou outra ação após salvar os resultados
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) => InitialScreen(),
+        ),
+      );
     } catch (e) {
       print('Failed to save result: $e');
       _showErrorDialog('Erro', 'Não foi possível salvar o resultado.');
     }
-  }
-
-  // Mostrar caixa de diálogo de resultados
-  void _showResultBox() {
-    showDialog(
-      context: context,
-      barrierDismissible: false,
-      builder: (ctx) => AlertDialog(
-        title: const Text('Resultado do Quiz'),
-        content: Text('Você marcou $score de ${_questions.length} pontos.'),
-        actions: [
-          TextButton(
-            onPressed: startOver,
-            child: const Text('Recomeçar'),
-          ),
-          TextButton(
-            onPressed: goToInitialScreen,
-            child: const Text('Página Inicial'),
-          ),
-        ],
-      ),
-    );
   }
 
   @override
@@ -184,6 +178,18 @@ class _HomeScreenState extends State<HomeScreen> {
               'Score: $score',
               style: const TextStyle(fontSize: 18.0),
             ),
+          ),
+          IconButton(
+            icon: Icon(Icons.history),
+            onPressed: () {
+              // Navegar para a ResultsScreen ao clicar no ícone de histórico
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ResultsScreen(),
+                ),
+              );
+            },
           ),
         ],
       ),

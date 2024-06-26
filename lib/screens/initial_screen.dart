@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import './home_screen.dart';
-import './results_screen.dart'; // Importe o arquivo results_screen.dart
+import './results_screen.dart'; // Verifique o caminho correto se necessário
 
 class InitialScreen extends StatelessWidget {
   const InitialScreen({Key? key}) : super(key: key);
@@ -23,7 +23,7 @@ class InitialScreen extends StatelessWidget {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => const ResultsScreen(),
+        builder: (context) => ResultsScreen(),
       ),
     );
   }
@@ -33,19 +33,18 @@ class InitialScreen extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: SizedBox(
-        width: double.infinity, // O botão ocupará toda a largura disponível
+        width: double.infinity,
         child: ElevatedButton(
           onPressed: onPressed,
           style: ElevatedButton.styleFrom(
             padding:
                 const EdgeInsets.symmetric(horizontal: 20.0, vertical: 15.0),
             textStyle: const TextStyle(fontSize: 16.0),
-            minimumSize:
-                const Size(200, 50), // Define o tamanho mínimo do botão
+            minimumSize: const Size(200, 50),
           ),
           child: Text(
             text,
-            textAlign: TextAlign.center, // Centraliza o texto
+            textAlign: TextAlign.center,
           ),
         ),
       ),
@@ -60,13 +59,10 @@ class InitialScreen extends StatelessWidget {
       ),
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.symmetric(
-              horizontal:
-                  20.0), // Adicionei padding para centralizar os botões na tela
+          padding: const EdgeInsets.symmetric(horizontal: 20.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment
-                .stretch, // Os botões vão se esticar para ocupar toda a largura disponível
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               _buildButton(context, 'Bloco 1 - Emergência e Segurança de voo',
                   () => _navigateToHomeScreen(context, bloco1Path)),

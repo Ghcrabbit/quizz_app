@@ -3,46 +3,40 @@ import 'dart:convert';
 
 class SharedPreferencesHelper {
   static const String _keyResults = 'results';
+  static const String _keySelectedAnswers = 'selected_answers';
 
-  /// Salvar um resultado no SharedPreferences.
+  // Salvar resultado do quiz
   static Future<void> saveResult(String quizName, int score) async {
     try {
       final prefs = await SharedPreferences.getInstance();
       final results = prefs.getStringList(_keyResults) ?? [];
 
-      // Novo resultado a ser salvo
       final newResult = {
         'quiz': quizName,
         'score': score,
         'date': DateTime.now().toIso8601String(),
       };
 
-      // Adiciona o novo resultado à lista existente
-      results.add(
-          json.encode(newResult)); // Codifica o resultado como uma string JSON
+      results.add(json.encode(newResult));
 
-      // Salva a lista atualizada no SharedPreferences
       await prefs.setStringList(_keyResults, results);
     } catch (e) {
-      // Lida com exceções ou erros
       print('Failed to save result: $e');
       throw Exception('Failed to save result: $e');
     }
   }
 
-  /// Carregar todos os resultados do SharedPreferences.
+  // Carregar todos os resultados do quiz
   static Future<List<Map<String, dynamic>>> loadResults() async {
     try {
       final prefs = await SharedPreferences.getInstance();
       final results = prefs.getStringList(_keyResults) ?? [];
 
-      // Decodifica cada string salva de volta para um Map<String, dynamic>
       return results
           .map((result) {
             try {
               final decodedResult = json.decode(result);
 
-              // Verifica se o resultado tem a estrutura correta
               if (decodedResult is Map<String, dynamic> &&
                   decodedResult['quiz'] is String &&
                   decodedResult['score'] is int &&
@@ -53,48 +47,86 @@ class SharedPreferencesHelper {
               }
             } catch (e) {
               print('Failed to decode result: $e');
-              return <String,
-                  dynamic>{}; // Retorna um Map<String, dynamic> vazio em caso de erro de decodificação
+              return <String, dynamic>{};
             }
           })
           .where((result) => result.isNotEmpty)
-          .toList(); // Filtra mapas vazios
+          .toList();
     } catch (e) {
-      // Lida com exceções ou erros
       print('Failed to load results: $e');
       throw Exception('Failed to load results: $e');
     }
   }
 
-  /// Limpar todos os resultados do SharedPreferences.
+  // Limpar todos os resultados do quiz
   static Future<void> clearResults() async {
     try {
       final prefs = await SharedPreferences.getInstance();
       await prefs.remove(_keyResults);
     } catch (e) {
-      // Lida com exceções ou erros
       print('Failed to clear results: $e');
       throw Exception('Failed to clear results: $e');
     }
   }
 
-  /// Remover um resultado específico do SharedPreferences.
+  // Remover um resultado específico do quiz
   static Future<void> removeResult(String quizName) async {
     try {
       final prefs = await SharedPreferences.getInstance();
       final results = prefs.getStringList(_keyResults) ?? [];
 
-      // Filtra os resultados que não correspondem ao quizName
       final updatedResults = results.where((result) {
         final decodedResult = json.decode(result);
         return decodedResult['quiz'] != quizName;
       }).toList();
 
-      // Atualiza os resultados no SharedPreferences
       await prefs.setStringList(_keyResults, updatedResults);
     } catch (e) {
       print('Failed to remove result: $e');
       throw Exception('Failed to remove result: $e');
+    }
+  }
+
+  // Salvar as respostas selecionadas para um quiz específico
+  static Future<void> saveSelectedAnswers(
+      String quizName, List<String> selectedAnswers) async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final allSelectedAnswers = prefs.getString(_keySelectedAnswers);
+
+      // Decodificar o JSON existente ou criar um novo Map se não houver dados salvos
+      Map<String, dynamic> selectedAnswersMap =
+          allSelectedAnswers != null ? json.decode(allSelectedAnswers) : {};
+
+      // Atualizar ou adicionar as respostas selecionadas para o quiz atual
+      selectedAnswersMap[quizName] = selectedAnswers;
+
+      await prefs.setString(
+          _keySelectedAnswers, json.encode(selectedAnswersMap));
+    } catch (e) {
+      print('Failed to save selected answers: $e');
+      throw Exception('Failed to save selected answers: $e');
+    }
+  }
+
+  // Carregar as respostas selecionadas para um quiz específico
+  static Future<List<String>> loadSelectedAnswers(String quizName) async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final allSelectedAnswers = prefs.getString(_keySelectedAnswers);
+
+      if (allSelectedAnswers != null) {
+        final selectedAnswersMap = json.decode(allSelectedAnswers);
+
+        if (selectedAnswersMap[quizName] is List<dynamic>) {
+          return List<String>.from(selectedAnswersMap[quizName]);
+        }
+      }
+
+      return [];
+    } catch (e) {
+      print('Failed to load selected answers: $e');
+      throw Exception('Failed to load selected answers: $e');
     }
   }
 }

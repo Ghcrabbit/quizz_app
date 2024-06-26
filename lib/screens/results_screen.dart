@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import '../helpers/shared_preferences_helper.dart';
+import 'result_detail_screen.dart';
+import 'package:intl/intl.dart';
 
 class ResultsScreen extends StatefulWidget {
   const ResultsScreen({Key? key}) : super(key: key);
@@ -23,18 +24,16 @@ class _ResultsScreenState extends State<ResultsScreen> {
       List<Map<String, dynamic>> results =
           await SharedPreferencesHelper.loadResults();
       setState(() {
-        _results =
-            results.reversed.toList(); // Invertendo a ordem dos resultados
+        _results = results.reversed.toList();
       });
     } catch (e) {
       print('Failed to load results: $e');
-      // Tratar erro de carregamento aqui, se necessário
     }
   }
 
   String _formatDate(String dateStr) {
     final date = DateTime.parse(dateStr);
-    return DateFormat('dd/MM/yyyy - HH:mm').format(date); // Formato desejado
+    return DateFormat('dd/MM/yyyy - HH:mm').format(date);
   }
 
   @override
@@ -43,8 +42,9 @@ class _ResultsScreenState extends State<ResultsScreen> {
       appBar: AppBar(
         title: const Text('Resultados Anteriores'),
       ),
+      backgroundColor: Colors.grey[200], // Altere para a cor desejada aqui
       body: _results.isEmpty
-          ? const Center(
+          ? Center(
               child: Text('Nenhum resultado disponível.'),
             )
           : ListView.builder(
@@ -64,7 +64,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                       style: const TextStyle(fontWeight: FontWeight.bold),
                     ),
                     subtitle: Text(
-                      '${_formatDate(result['date'])} - Resultado alterado: ${result['score']}',
+                      '${_formatDate(result['date'])} - Resultado: ${result['score']}',
                       style: const TextStyle(fontSize: 14),
                     ),
                     trailing: IconButton(
@@ -73,8 +73,24 @@ class _ResultsScreenState extends State<ResultsScreen> {
                         // Implementar ação de compartilhar
                       },
                     ),
-                    onTap: () {
-                      // Implementar ação ao clicar no resultado
+                    onTap: () async {
+                      // Carregar as respostas selecionadas para o quiz específico
+                      List<String> selectedAnswers =
+                          await SharedPreferencesHelper.loadSelectedAnswers(
+                              result['quiz']);
+
+                      // Navegar para ResultDetailScreen ao clicar no resultado
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => ResultDetailScreen(
+                            quizName: result['quiz'],
+                            score: result['score'],
+                            date: _formatDate(result['date']),
+                            selectedAnswers: selectedAnswers,
+                          ),
+                        ),
+                      );
                     },
                   ),
                 );
