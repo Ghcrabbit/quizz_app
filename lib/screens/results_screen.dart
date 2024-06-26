@@ -12,6 +12,8 @@ class ResultsScreen extends StatefulWidget {
 
 class _ResultsScreenState extends State<ResultsScreen> {
   List<Map<String, dynamic>> _results = [];
+  bool _isSelecting = false;
+  List<Map<String, dynamic>> _selectedResults = [];
 
   @override
   void initState() {
@@ -36,11 +38,89 @@ class _ResultsScreenState extends State<ResultsScreen> {
     return DateFormat('dd/MM/yyyy - HH:mm').format(date);
   }
 
+  void _deleteSelectedResults() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Confirmar exclusão'),
+          content:
+              Text('Tem certeza que deseja excluir os testes selecionados?'),
+          actions: <Widget>[
+            TextButton(
+              child: Text('Cancelar'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+            TextButton(
+              child: Text('Confirmar'),
+              onPressed: () {
+                setState(() {
+                  _results.removeWhere(
+                      (result) => _selectedResults.contains(result));
+                  _selectedResults.clear();
+                  _isSelecting = false;
+                });
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void _selectAllResults(bool select) {
+    setState(() {
+      if (select) {
+        _selectedResults.addAll(_results);
+      } else {
+        _selectedResults.clear();
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Resultados Anteriores'),
+        title:
+            Text(_isSelecting ? 'Selecionar Testes' : 'Resultados Anteriores'),
+        actions: _isSelecting
+            ? [
+                IconButton(
+                  icon: Icon(Icons.delete),
+                  onPressed: () {
+                    _deleteSelectedResults();
+                  },
+                ),
+                IconButton(
+                  icon: Icon(Icons.cancel),
+                  onPressed: () {
+                    setState(() {
+                      _selectedResults.clear();
+                      _isSelecting = false;
+                    });
+                  },
+                ),
+                IconButton(
+                  icon: Icon(Icons.select_all),
+                  onPressed: () {
+                    _selectAllResults(true);
+                  },
+                ),
+              ]
+            : [
+                IconButton(
+                  icon: Icon(Icons.delete_forever),
+                  onPressed: () {
+                    setState(() {
+                      _isSelecting = true;
+                    });
+                  },
+                ),
+              ],
       ),
       backgroundColor: Colors.grey[200], // Altere para a cor desejada aqui
       body: _results.isEmpty
@@ -51,6 +131,8 @@ class _ResultsScreenState extends State<ResultsScreen> {
               itemCount: _results.length,
               itemBuilder: (context, index) {
                 final result = _results[index];
+                final isSelected = _selectedResults.contains(result);
+
                 return Card(
                   margin:
                       const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
@@ -67,30 +149,53 @@ class _ResultsScreenState extends State<ResultsScreen> {
                       '${_formatDate(result['date'])} - Resultado: ${result['score']}',
                       style: const TextStyle(fontSize: 14),
                     ),
-                    trailing: IconButton(
-                      icon: Icon(Icons.share),
-                      onPressed: () {
-                        // Implementar ação de compartilhar
-                      },
-                    ),
-                    onTap: () async {
-                      // Carregar as respostas selecionadas para o quiz específico
-                      List<String> selectedAnswers =
-                          await SharedPreferencesHelper.loadSelectedAnswers(
-                              result['quiz']);
-
-                      // Navegar para ResultDetailScreen ao clicar no resultado
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => ResultDetailScreen(
-                            quizName: result['quiz'],
-                            score: result['score'],
-                            date: _formatDate(result['date']),
-                            selectedAnswers: selectedAnswers,
+                    trailing: _isSelecting
+                        ? Checkbox(
+                            value: isSelected,
+                            onChanged: (bool? value) {
+                              setState(() {
+                                if (value != null && value) {
+                                  _selectedResults.add(result);
+                                } else {
+                                  _selectedResults.remove(result);
+                                }
+                              });
+                            },
+                          )
+                        : IconButton(
+                            icon: Icon(Icons.share),
+                            onPressed: () {
+                              // Implementar ação de compartilhar
+                            },
                           ),
-                        ),
-                      );
+                    onTap: () async {
+                      if (_isSelecting) {
+                        setState(() {
+                          if (isSelected) {
+                            _selectedResults.remove(result);
+                          } else {
+                            _selectedResults.add(result);
+                          }
+                        });
+                      } else {
+                        // Carregar as respostas selecionadas para o quiz específico
+                        List<String> selectedAnswers =
+                            await SharedPreferencesHelper.loadSelectedAnswers(
+                                result['quiz']);
+
+                        // Navegar para ResultDetailScreen ao clicar no resultado
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ResultDetailScreen(
+                              quizName: result['quiz'],
+                              score: result['score'],
+                              date: _formatDate(result['date']),
+                              selectedAnswers: selectedAnswers,
+                            ),
+                          ),
+                        );
+                      }
                     },
                   ),
                 );
