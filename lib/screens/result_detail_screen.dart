@@ -39,7 +39,9 @@ class _ResultDetailScreenState extends State<ResultDetailScreen> {
 
     var db = DbConnect();
     try {
-      List<Question> questions = await db.fetchNewQuestions(widget.quizName);
+      // Chamar fetchNewQuestions com shuffleQuestions false para evitar embaralhamento
+      List<Question> questions =
+          await db.fetchNewQuestions(widget.quizName, shuffleQuestions: false);
       setState(() {
         _questions = questions;
         loading = false;
@@ -79,8 +81,7 @@ class _ResultDetailScreenState extends State<ResultDetailScreen> {
       appBar: AppBar(
         title: Text('Detalhes do Resultado'),
       ),
-      backgroundColor:
-          Color.fromARGB(255, 0, 62, 119), // Altere para a cor desejada aqui
+      backgroundColor: Color.fromARGB(255, 0, 62, 119),
       body: loading
           ? const Center(
               child: CircularProgressIndicator(),

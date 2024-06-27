@@ -4,7 +4,8 @@ import 'question_model.dart';
 import 'dart:developer' as developer;
 
 class DbConnect {
-  Future<List<Question>> fetchNewQuestions(String jsonPath) async {
+  Future<List<Question>> fetchNewQuestions(String jsonPath,
+      {bool shuffleQuestions = true}) async {
     try {
       // Carregar o arquivo JSON como string
       String jsonString = await rootBundle.loadString(jsonPath);
@@ -26,8 +27,10 @@ class DbConnect {
           }
         }).toList();
 
-        // Embaralhar as perguntas
-        allQuestions.shuffle();
+        // Embaralhar as perguntas se shuffleQuestions for verdadeiro
+        if (shuffleQuestions) {
+          allQuestions.shuffle();
+        }
 
         // Selecionar um número específico de perguntas
         List<Question> selectedQuestions = allQuestions.take(3).toList();
