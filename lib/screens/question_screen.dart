@@ -143,12 +143,11 @@ class _HomeScreenState extends State<HomeScreen> {
   // Salvar o resultado do quiz e navegar para InitialScreen
   void _saveResultAndNavigate() async {
     try {
-      // Salvar o resultado do quiz
-      await SharedPreferencesHelper.saveResult(widget.jsonPath, score);
+      String filtered = criarStringResultScreen(widget.jsonPath);
 
-      // Salvar as respostas selecionadas
-      await SharedPreferencesHelper.saveSelectedAnswers(
-          widget.jsonPath, _selectedAnswers);
+      // Salvar o resultado do quiz junto com a prova completa
+      await SharedPreferencesHelper.saveResult(
+          filtered, score, _questions, _selectedAnswers);
 
       // Navegar para a tela inicial ou outra ação após salvar os resultados
       Navigator.pushReplacement(
@@ -161,6 +160,14 @@ class _HomeScreenState extends State<HomeScreen> {
       print('Failed to save result: $e');
       _showErrorDialog('Erro', 'Não foi possível salvar o resultado.');
     }
+  }
+
+  String criarStringResultScreen(String jsonPath) {
+    String filtered = jsonPath.split('/').last;
+    filtered = filtered.split('.').first;
+    filtered = filtered.replaceAll('_', ' ');
+    filtered = filtered.replaceRange(0, 1, filtered[0].toUpperCase());
+    return filtered;
   }
 
   @override

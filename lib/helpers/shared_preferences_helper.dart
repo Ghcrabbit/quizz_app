@@ -1,12 +1,14 @@
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
+import 'package:app_cms_ghc/models/question_model.dart';
 
 class SharedPreferencesHelper {
   static const String _keyResults = 'results';
   static const String _keySelectedAnswers = 'selected_answers';
 
   // Salvar resultado do quiz
-  static Future<void> saveResult(String quizName, int score) async {
+  static Future<void> saveResult(String quizName, int score,
+      List<Question> questions, List<String> selectedAnswers) async {
     try {
       final prefs = await SharedPreferences.getInstance();
       final results = prefs.getStringList(_keyResults) ?? [];
@@ -15,6 +17,8 @@ class SharedPreferencesHelper {
         'quiz': quizName,
         'score': score,
         'date': DateTime.now().toIso8601String(),
+        'questions': questions.map((q) => q.toJson()).toList(),
+        'selectedAnswers': selectedAnswers,
       };
 
       results.add(json.encode(newResult));
@@ -84,6 +88,19 @@ class SharedPreferencesHelper {
     } catch (e) {
       print('Failed to remove result: $e');
       throw Exception('Failed to remove result: $e');
+    }
+  }
+
+  // Atualizar os resultados no SharedPreferences
+  static Future<void> updateResults(List<Map<String, dynamic>> results) async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final encodedResults =
+          results.map((result) => json.encode(result)).toList();
+      await prefs.setStringList(_keyResults, encodedResults);
+    } catch (e) {
+      print('Failed to update results: $e');
+      throw Exception('Failed to update results: $e');
     }
   }
 

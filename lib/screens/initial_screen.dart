@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './home_screen.dart';
+import 'question_screen.dart';
 import './results_screen.dart'; // Verifique o caminho correto se necessário
 
 class InitialScreen extends StatelessWidget {

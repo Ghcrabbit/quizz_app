@@ -1,7 +1,7 @@
 import 'dart:developer' as developer;
 
 class Question {
-  final int id; // Mantendo 'id' como int
+  final int id;
   final String question;
   final String subject;
   final Map<String, String> options;
@@ -49,16 +49,29 @@ class Question {
 
       // Retornando a instância de Question
       return Question(
-        id: int.parse(json['ID'].toString()), // Convertendo 'ID' para int
+        id: int.parse(json['ID'].toString()),
         question: toStringValue(json['PERGUNTA']),
         subject: toStringValue(json['MATÉRIA']),
         options: options,
-        correctOption: options[correctOptionKey]!, // Obtendo a opção correta
+        correctOption: options[correctOptionKey]!,
       );
     } catch (e) {
       developer.log('Erro ao converter JSON para Question: $e');
       throw Exception('Erro ao converter JSON para Question: $e');
     }
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'ID': id,
+      'PERGUNTA': question,
+      'MATÉRIA': subject,
+      'A': options['A'],
+      'B': options['B'],
+      'C': options['C'],
+      'D': options['D'],
+      'RESP': options.keys.firstWhere((key) => options[key] == correctOption),
+    };
   }
 
   @override

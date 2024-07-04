@@ -30,7 +30,7 @@ class DbConnect {
         allQuestions.shuffle();
 
         // Selecionar um número específico de perguntas
-        List<Question> selectedQuestions = allQuestions.take(3).toList();
+        List<Question> selectedQuestions = allQuestions.take(20).toList();
 
         return selectedQuestions;
       } else {

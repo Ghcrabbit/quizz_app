@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../helpers/shared_preferences_helper.dart';
 import 'result_detail_screen.dart';
 import 'package:intl/intl.dart';
+import 'package:app_cms_ghc/models/question_model.dart';
 
 class ResultsScreen extends StatefulWidget {
   const ResultsScreen({Key? key}) : super(key: key);
@@ -55,13 +56,20 @@ class _ResultsScreenState extends State<ResultsScreen> {
             ),
             TextButton(
               child: Text('Confirmar'),
-              onPressed: () {
+              onPressed: () async {
                 setState(() {
                   _results.removeWhere(
                       (result) => _selectedResults.contains(result));
+                });
+
+                // Atualizar o SharedPreferences com a nova lista de resultados
+                await SharedPreferencesHelper.updateResults(_results);
+
+                setState(() {
                   _selectedResults.clear();
                   _isSelecting = false;
                 });
+
                 Navigator.of(context).pop();
               },
             ),
@@ -178,10 +186,10 @@ class _ResultsScreenState extends State<ResultsScreen> {
                           }
                         });
                       } else {
-                        // Carregar as respostas selecionadas para o quiz específico
-                        List<String> selectedAnswers =
-                            await SharedPreferencesHelper.loadSelectedAnswers(
-                                result['quiz']);
+                        // Converter perguntas de volta do JSON
+                        List<Question> questions = (result['questions'] as List)
+                            .map((q) => Question.fromJson(q))
+                            .toList();
 
                         // Navegar para ResultDetailScreen ao clicar no resultado
                         Navigator.push(
@@ -191,7 +199,9 @@ class _ResultsScreenState extends State<ResultsScreen> {
                               quizName: result['quiz'],
                               score: result['score'],
                               date: _formatDate(result['date']),
-                              selectedAnswers: selectedAnswers,
+                              questions: questions,
+                              selectedAnswers:
+                                  List<String>.from(result['selectedAnswers']),
                             ),
                           ),
                         );

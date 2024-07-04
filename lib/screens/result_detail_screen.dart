@@ -8,6 +8,7 @@ class ResultDetailScreen extends StatefulWidget {
   final String quizName;
   final int score;
   final String date;
+  final List<Question> questions; // Lista de perguntas
   final List<String> selectedAnswers;
 
   const ResultDetailScreen({
@@ -15,6 +16,7 @@ class ResultDetailScreen extends StatefulWidget {
     required this.quizName,
     required this.score,
     required this.date,
+    required this.questions,
     required this.selectedAnswers,
   }) : super(key: key);
 
@@ -23,156 +25,107 @@ class ResultDetailScreen extends StatefulWidget {
 }
 
 class _ResultDetailScreenState extends State<ResultDetailScreen> {
-  List<Question> _questions = [];
-  bool loading = true;
-
-  @override
-  void initState() {
-    super.initState();
-    loadQuestions();
-  }
-
-  void loadQuestions() async {
-    setState(() {
-      loading = true;
-    });
-
-    var db = DbConnect();
-    try {
-      List<Question> questions = await db.fetchNewQuestions(widget.quizName);
-      setState(() {
-        _questions = questions;
-        loading = false;
-      });
-    } catch (error) {
-      print('Erro ao carregar perguntas: $error');
-      setState(() {
-        loading = false;
-      });
-      _showErrorDialog('Erro ao carregar perguntas',
-          'Por favor, verifique sua conexão e tente novamente.');
-    }
-  }
-
-  // Mostrar diálogo de erro
-  void _showErrorDialog(String title, String content) {
-    showDialog(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        title: Text(title),
-        content: Text(content),
-        actions: [
-          TextButton(
-            onPressed: () {
-              Navigator.of(ctx).pop();
-            },
-            child: const Text('OK'),
-          ),
-        ],
-      ),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Detalhes do Resultado'),
       ),
-      backgroundColor:
-          Color.fromARGB(255, 0, 62, 119), // Altere para a cor desejada aqui
-      body: loading
-          ? const Center(
-              child: CircularProgressIndicator(),
-            )
-          : _questions.isEmpty
-              ? const Center(
-                  child: Text('Nenhuma pergunta disponível.'),
-                )
-              : SingleChildScrollView(
-                  child: Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(16.0),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              'Quiz: ${widget.quizName}',
-                              style: TextStyle(
-                                  fontSize: 24, fontWeight: FontWeight.bold),
-                            ),
-                            SizedBox(height: 16),
-                            Text(
-                              'Score: ${widget.score}',
-                              style: TextStyle(fontSize: 20),
-                            ),
-                            SizedBox(height: 16),
-                            Text(
-                              'Data: ${widget.date}',
-                              style: TextStyle(fontSize: 20),
-                            ),
-                          ],
-                        ),
-                      ),
-                      const Divider(color: neutral),
-                      const SizedBox(height: 25.0),
-                      ...List.generate(_questions.length, (index) {
-                        return Column(
-                          children: [
-                            QuestionWidget(
-                              indexAction: index,
-                              questions: _questions[index].question,
-                              totalQuestions: _questions.length,
-                            ),
-                            const Divider(color: neutral),
-                            LayoutBuilder(
-                              builder: (context, constraints) {
-                                double maxWidth = constraints.maxWidth;
-                                return Column(
-                                  children: [
-                                    for (int i = 0;
-                                        i < _questions[index].options.length;
-                                        i++)
-                                      Container(
-                                        decoration: BoxDecoration(
-                                          color:
-                                              (widget.selectedAnswers[index] ==
-                                                      _questions[index]
-                                                          .options
-                                                          .keys
-                                                          .toList()[i])
-                                                  ? (_questions[index]
-                                                              .correctOption ==
-                                                          _questions[index]
-                                                              .options
-                                                              .values
-                                                              .toList()[i]
-                                                      ? correct
-                                                      : incorrect)
-                                                  : neutral,
-                                          borderRadius:
-                                              BorderRadius.circular(15),
-                                        ),
-                                        width: maxWidth,
-                                        padding: const EdgeInsets.all(16),
-                                        margin: const EdgeInsets.symmetric(
-                                            vertical: 8),
-                                        child: Text(
-                                          '${_questions[index].options.keys.toList()[i]}: ${_questions[index].options.values.toList()[i]}',
-                                          style: const TextStyle(fontSize: 16),
-                                        ),
-                                      ),
-                                  ],
-                                );
-                              },
-                            ),
-                          ],
-                        );
-                      }),
-                    ],
+      backgroundColor: const Color.fromARGB(255, 0, 62, 119),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Quiz: ${widget.quizName}',
+                    style: const TextStyle(
+                        fontSize: 24, fontWeight: FontWeight.bold),
                   ),
-                ),
+                  const SizedBox(height: 16),
+                  Text(
+                    'Score: ${widget.score}',
+                    style: const TextStyle(fontSize: 20),
+                  ),
+                  const SizedBox(height: 16),
+                  Text(
+                    'Data: ${widget.date}',
+                    style: const TextStyle(fontSize: 20),
+                  ),
+                ],
+              ),
+            ),
+            const Divider(color: neutral),
+            const SizedBox(height: 25.0),
+            ...List.generate(widget.questions.length, (index) {
+              return Column(
+                children: [
+                  QuestionWidget(
+                    indexAction: index,
+                    questions: widget.questions[index].question,
+                    totalQuestions: widget.questions.length,
+                  ),
+                  const Divider(color: neutral),
+                  LayoutBuilder(
+                    builder: (context, constraints) {
+                      double maxWidth = constraints.maxWidth;
+                      return Column(
+                        children: List.generate(
+                            widget.questions[index].options.length, (i) {
+                          String optionKey =
+                              widget.questions[index].options.keys.toList()[i];
+                          String optionValue = widget
+                              .questions[index].options.values
+                              .toList()[i];
+
+                          Color backgroundColor;
+                          if (widget.selectedAnswers[index] == optionKey) {
+                            // O usuário selecionou esta opção
+                            if (optionValue ==
+                                widget.questions[index].correctOption) {
+                              backgroundColor =
+                                  correct; // Resposta correta selecionada
+                            } else {
+                              backgroundColor =
+                                  incorrect; // Resposta incorreta selecionada
+                            }
+                          } else if (optionValue ==
+                              widget.questions[index].correctOption) {
+                            // Esta opção é a correta, mas não foi selecionada pelo usuário
+                            backgroundColor = correct.withOpacity(
+                                0.5); // Destaque a resposta correta não selecionada
+                          } else {
+                            // Opção neutra
+                            backgroundColor = neutral;
+                          }
+
+                          // Exiba a opção com a cor de fundo apropriada
+                          return Container(
+                            decoration: BoxDecoration(
+                              color: backgroundColor,
+                              borderRadius: BorderRadius.circular(15),
+                            ),
+                            width: maxWidth,
+                            padding: const EdgeInsets.all(16),
+                            margin: const EdgeInsets.symmetric(vertical: 8),
+                            child: Text(
+                              '$optionKey: $optionValue',
+                              style: const TextStyle(fontSize: 16),
+                            ),
+                          );
+                        }),
+                      );
+                    },
+                  ),
+                ],
+              );
+            }),
+          ],
+        ),
+      ),
     );
   }
 }
