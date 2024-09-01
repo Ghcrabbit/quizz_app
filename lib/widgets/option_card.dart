@@ -1,30 +1,32 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import '../constants.dart';
 
 class OptionCard extends StatelessWidget {
   const OptionCard({
-    super.key,
+    Key? key,
     required this.option,
     required this.color,
-  });
-  final String option;
+  }) : super(key: key);
 
+  final String option;
   final Color color;
 
   @override
   Widget build(BuildContext context) {
+    Color corTexto = color.red != color.green ? neutral : Colors.black;
+
     return Card(
-        color: color,
-        child: ListTile(
-          title: Text(
-            option,
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 22.0,
-              color: color.red != color.green ? neutral : Colors.black,
-            ),
+      color: color,
+      child: ListTile(
+        title: Text(
+          option,
+          textAlign: TextAlign.center,
+          style: TextStyle(
+            fontSize: 15.0,
+            color: corTexto,
           ),
-        ));
+        ),
+      ),
+    );
   }
 }

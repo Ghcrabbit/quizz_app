@@ -8,12 +8,24 @@ class ResultBox extends StatelessWidget {
     required this.questionLength,
     required this.onPressed,
   }) : super(key: key);
+
   final int result;
   final int questionLength;
   final VoidCallback onPressed;
 
   @override
   Widget build(BuildContext context) {
+    String message;
+    Color backgroundColor;
+
+    if (result >= 14) {
+      message = 'Parabéns!';
+      backgroundColor = correct;
+    } else {
+      message = 'Tente de novo';
+      backgroundColor = incorrect;
+    }
+
     return AlertDialog(
       backgroundColor: background,
       content: Padding(
@@ -26,33 +38,21 @@ class ResultBox extends StatelessWidget {
               'Score',
               style: TextStyle(color: neutral, fontSize: 22.0),
             ),
-            const SizedBox(
-              height: 20.0,
-            ),
+            const SizedBox(height: 20.0),
             CircleAvatar(
               child: Text(
                 '$result/$questionLength',
                 style: TextStyle(fontSize: 30.0),
               ),
               radius: 70.0,
-              backgroundColor: result == questionLength / 2
-                  ? Colors.yellow
-                  : result < questionLength / 2
-                      ? incorrect
-                      : correct,
+              backgroundColor: backgroundColor,
             ),
             const SizedBox(height: 20.0),
             Text(
-              result == questionLength / 2
-                  ? 'Quase lá'
-                  : result < questionLength / 2
-                      ? 'Tente de novo'
-                      : 'Parabéns',
+              message,
               style: TextStyle(color: neutral),
             ),
-            const SizedBox(
-              height: 25.0,
-            ),
+            const SizedBox(height: 25.0),
             GestureDetector(
               onTap: onPressed,
               child: const Text(
