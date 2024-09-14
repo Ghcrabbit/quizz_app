@@ -1,3 +1,21 @@
+// Arquivo build.gradle no nível do projeto
+
+buildscript {
+    ext.kotlin_version = '1.8.22' // Certifique-se de que a versão do Kotlin esteja atualizada
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.android.tools.build:gradle:8.0.2'
+        classpath 'com.google.gms:google-services:4.3.15'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.4'
+    }
+}
+
 allprojects {
     repositories {
         google()
@@ -8,8 +26,6 @@ allprojects {
 rootProject.buildDir = '../build'
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
-}
-subprojects {
     project.evaluationDependsOn(':app')
 }
 
