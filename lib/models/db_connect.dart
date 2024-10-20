@@ -6,17 +6,17 @@ import 'dart:developer' as developer;
 class DbConnect {
   Future<List<Question>> fetchNewQuestions(String jsonPath) async {
     try {
-      // Carregar o arquivo JSON como string
+
       String jsonString = await rootBundle.loadString(jsonPath);
 
-      // Decodificar o JSON em um mapa
+
       final Map<String, dynamic> data = json.decode(jsonString);
 
-      // Verificar se o campo "Question" é uma lista
+
       if (data['Question'] is List) {
         final List<dynamic> questionsJson = data['Question'];
 
-        // Converter a lista de JSONs em uma lista de objetos Question
+
         List<Question> allQuestions = questionsJson.map((jsonItem) {
           if (jsonItem is Map<String, dynamic>) {
             return Question.fromJson(jsonItem);
@@ -26,10 +26,10 @@ class DbConnect {
           }
         }).toList();
 
-        // Embaralhar as perguntas
+
         allQuestions.shuffle();
 
-        // Selecionar um número específico de perguntas
+
         List<Question> selectedQuestions = allQuestions.take(20).toList();
 
         return selectedQuestions;
@@ -42,5 +42,7 @@ class DbConnect {
           error: e);
       throw Exception('Erro ao carregar novas perguntas do arquivo assets: $e');
     }
+
+
   }
 }

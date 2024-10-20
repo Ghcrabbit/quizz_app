@@ -7,8 +7,8 @@ import '../widgets/question_widget.dart';
 import '../widgets/next_button.dart';
 import '../helpers/shared_preferences_helper.dart';
 import '../models/db_connect.dart';
-import './initial_screen.dart'; // Importe a tela inicial
-import './results_screen.dart'; // Importe a tela de resultados
+import './initial_screen.dart';
+import './results_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   final String jsonPath;
@@ -26,9 +26,9 @@ class _HomeScreenState extends State<HomeScreen> {
   bool isPressed = false;
   bool isAlreadySelected = false;
   bool loading = true;
-  int selectedOptionIndex = -1; // Para rastrear a opção selecionada
+  int selectedOptionIndex = -1;
   List<String> _selectedAnswers =
-      []; // Lista para salvar as respostas selecionadas
+      [];
 
   @override
   void initState() {
@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
     loadQuestions();
   }
 
-  // Carregar perguntas do JSON
+
   void loadQuestions() async {
     setState(() {
       loading = true;
@@ -58,7 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
         loading = false;
         selectedOptionIndex = -1;
         _selectedAnswers =
-            List.filled(questions.length, ''); // Inicializa com strings vazias
+            List.filled(questions.length, '');
       });
     } catch (error) {
       print('Erro ao carregar perguntas: $error');
@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-  // Mostrar diálogo de erro
+
   void _showErrorDialog(String title, String content) {
     showDialog(
       context: context,
@@ -89,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // Navegar para a próxima pergunta ou mostrar os resultados
+
   void nextQuestion() {
     if (index == _questions.length - 1) {
       _saveResultAndNavigate();
@@ -108,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-  // Mostrar mensagem para selecionar uma resposta
+
   void _showSelectAnswerMessage() {
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
@@ -119,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // Verificar e atualizar a resposta
+
   void checkAnswerAndUpdate(bool isCorrect, int optionIndex) {
     if (isAlreadySelected) {
       return;
@@ -129,7 +129,7 @@ class _HomeScreenState extends State<HomeScreen> {
       score++;
     }
 
-    // Salvar a resposta selecionada
+
     _selectedAnswers[index] =
         _questions[index].options.keys.toList()[optionIndex];
 
@@ -140,16 +140,16 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
-  // Salvar o resultado do quiz e navegar para InitialScreen
+
   void _saveResultAndNavigate() async {
     try {
       String filtered = criarStringResultScreen(widget.jsonPath);
 
-      // Salvar o resultado do quiz junto com a prova completa
+
       await SharedPreferencesHelper.saveResult(
           filtered, score, _questions, _selectedAnswers);
 
-      // Navegar para a tela inicial ou outra ação após salvar os resultados
+
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
@@ -175,7 +175,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: background,
       appBar: AppBar(
-        title: const Text('Quiz App'),
+        title: const Text('ANAC FÁCIL'),
         backgroundColor: background,
         shadowColor: Colors.transparent,
         actions: [
@@ -189,7 +189,7 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(
             icon: Icon(Icons.history),
             onPressed: () {
-              // Navegar para a ResultsScreen ao clicar no ícone de histórico
+
               Navigator.push(
                 context,
                 MaterialPageRoute(
@@ -261,7 +261,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                       borderRadius: BorderRadius.circular(15),
                                     ),
                                     width:
-                                        maxWidth, // Define a largura máxima disponível
+                                        maxWidth,
                                     padding: const EdgeInsets.all(16),
                                     margin:
                                         const EdgeInsets.symmetric(vertical: 8),
@@ -283,7 +283,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: NextButton(
           nextQuestion: isPressed
               ? nextQuestion
-              : () {}, // Função vazia se não pressionado
+              : () {},
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,

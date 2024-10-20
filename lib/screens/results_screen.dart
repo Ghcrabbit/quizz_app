@@ -22,10 +22,9 @@ class _ResultsScreenState extends State<ResultsScreen> {
     _loadResults();
   }
 
-  void _loadResults() async {
+  Future<void> _loadResults() async {
     try {
-      List<Map<String, dynamic>> results =
-          await SharedPreferencesHelper.loadResults();
+      final results = await SharedPreferencesHelper.loadResults();
       setState(() {
         _results = results.reversed.toList();
       });
@@ -39,39 +38,32 @@ class _ResultsScreenState extends State<ResultsScreen> {
     return DateFormat('dd/MM/yyyy - HH:mm').format(date);
   }
 
+  // Excluir resultados selecionados
   void _deleteSelectedResults() {
     showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Confirmar exclusão'),
-          content:
-              Text('Tem certeza que deseja excluir os testes selecionados?'),
-          actions: <Widget>[
+          title: const Text('Confirmar exclusão'),
+          content: const Text('Tem certeza que deseja excluir os testes selecionados?'),
+          actions: [
             TextButton(
-              child: Text('Cancelar'),
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
+              onPressed: () => Navigator.of(context).pop(),
+              child: const Text('Cancelar'),
             ),
             TextButton(
-              child: Text('Confirmar'),
               onPressed: () async {
                 setState(() {
-                  _results.removeWhere(
-                      (result) => _selectedResults.contains(result));
+                  _results.removeWhere((result) => _selectedResults.contains(result));
                 });
-
-                // Atualizar o SharedPreferences com a nova lista de resultados
                 await SharedPreferencesHelper.updateResults(_results);
-
                 setState(() {
                   _selectedResults.clear();
                   _isSelecting = false;
                 });
-
                 Navigator.of(context).pop();
               },
+              child: const Text('Confirmar'),
             ),
           ],
         );
@@ -79,13 +71,39 @@ class _ResultsScreenState extends State<ResultsScreen> {
     );
   }
 
+  // Excluir todos os resultados
+  void _deleteAllResults() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('Excluir tudo'),
+          content: const Text('Tem certeza que deseja excluir todos os testes?'),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: const Text('Cancelar'),
+            ),
+            TextButton(
+              onPressed: () async {
+                setState(() {
+                  _results.clear();
+                });
+                await SharedPreferencesHelper.updateResults(_results);
+                Navigator.of(context).pop();
+              },
+              child: const Text('Confirmar'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+
   void _selectAllResults(bool select) {
     setState(() {
-      if (select) {
-        _selectedResults.addAll(_results);
-      } else {
-        _selectedResults.clear();
-      }
+      select ? _selectedResults.addAll(_results) : _selectedResults.clear();
     });
   }
 
@@ -93,124 +111,118 @@ class _ResultsScreenState extends State<ResultsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:
-            Text(_isSelecting ? 'Selecionar Testes' : 'Resultados Anteriores'),
+        title: Text(_isSelecting ? 'Selecionar Testes' : 'Resultados Anteriores'),
         actions: _isSelecting
             ? [
-                IconButton(
-                  icon: Icon(Icons.delete),
-                  onPressed: () {
-                    _deleteSelectedResults();
-                  },
-                ),
-                IconButton(
-                  icon: Icon(Icons.cancel),
-                  onPressed: () {
-                    setState(() {
-                      _selectedResults.clear();
-                      _isSelecting = false;
-                    });
-                  },
-                ),
-                IconButton(
-                  icon: Icon(Icons.select_all),
-                  onPressed: () {
-                    _selectAllResults(true);
-                  },
-                ),
-              ]
+          IconButton(
+            icon: const Icon(Icons.delete),
+            onPressed: _selectedResults.isEmpty ? null : _deleteSelectedResults,
+          ),
+          IconButton(
+            icon: const Icon(Icons.select_all),
+            onPressed: () {
+              if (_selectedResults.length == _results.length) {
+                _selectAllResults(false);
+              } else {
+                _selectAllResults(true);
+              }
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.cancel),
+            onPressed: () {
+              setState(() {
+                _isSelecting = false;
+                _selectedResults.clear();
+              });
+            },
+          ),
+        ]
             : [
-                IconButton(
-                  icon: Icon(Icons.delete_forever),
-                  onPressed: () {
-                    setState(() {
-                      _isSelecting = true;
-                    });
-                  },
-                ),
-              ],
+          IconButton(
+            icon: const Icon(Icons.delete_forever),
+            onPressed: _results.isEmpty ? null : _deleteAllResults,
+          ),
+          IconButton(
+            icon: const Icon(Icons.delete),
+            onPressed: _results.isEmpty
+                ? null
+                : () {
+              setState(() {
+                _isSelecting = true;
+              });
+            },
+          ),
+        ],
       ),
-      backgroundColor: Colors.grey[200], // Altere para a cor desejada aqui
+      backgroundColor: Colors.grey[200],
       body: _results.isEmpty
-          ? Center(
-              child: Text('Nenhum resultado disponível.'),
-            )
+          ? const Center(child: Text('Nenhum resultado disponível.'))
           : ListView.builder(
-              itemCount: _results.length,
-              itemBuilder: (context, index) {
-                final result = _results[index];
-                final isSelected = _selectedResults.contains(result);
+        itemCount: _results.length,
+        itemBuilder: (context, index) {
+          final result = _results[index];
+          final isSelected = _selectedResults.contains(result);
 
-                return Card(
-                  margin:
-                      const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
-                  child: ListTile(
-                    leading: Icon(
-                      Icons.quiz,
-                      color: Theme.of(context).primaryColor,
-                    ),
-                    title: Text(
-                      result['quiz'],
-                      style: const TextStyle(fontWeight: FontWeight.bold),
-                    ),
-                    subtitle: Text(
-                      '${_formatDate(result['date'])} - Resultado: ${result['score']}',
-                      style: const TextStyle(fontSize: 14),
-                    ),
-                    trailing: _isSelecting
-                        ? Checkbox(
-                            value: isSelected,
-                            onChanged: (bool? value) {
-                              setState(() {
-                                if (value != null && value) {
-                                  _selectedResults.add(result);
-                                } else {
-                                  _selectedResults.remove(result);
-                                }
-                              });
-                            },
-                          )
-                        : IconButton(
-                            icon: Icon(Icons.share),
-                            onPressed: () {
-                              // Implementar ação de compartilhar
-                            },
-                          ),
-                    onTap: () async {
-                      if (_isSelecting) {
-                        setState(() {
-                          if (isSelected) {
-                            _selectedResults.remove(result);
-                          } else {
-                            _selectedResults.add(result);
-                          }
-                        });
-                      } else {
-                        // Converter perguntas de volta do JSON
-                        List<Question> questions = (result['questions'] as List)
-                            .map((q) => Question.fromJson(q))
-                            .toList();
+          return Card(
+            color: result['score'] >= 14 ? Colors.green[200] : Colors.red[200],
+            margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+            child: ListTile(
+              leading: _isSelecting
+                  ? Checkbox(
+                value: isSelected,
+                onChanged: (bool? value) {
+                  setState(() {
+                    value ?? false
+                        ? _selectedResults.add(result)
+                        : _selectedResults.remove(result);
+                  });
+                },
+              )
+                  : null,
+              title: Align(
+                alignment: Alignment.center,
+                child: Text(
+                  result['quiz'],
+                  style: const TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+              subtitle: Center(
+                child: Text(
+                  '${_formatDate(result['date'])} - Acertos: ${result['score']}',
+                  style: const TextStyle(fontSize: 14),
+                ),
+              ),
+              onTap: () async {
+                if (_isSelecting) {
+                  setState(() {
+                    isSelected
+                        ? _selectedResults.remove(result)
+                        : _selectedResults.add(result);
+                  });
+                } else {
+                  final questions = (result['questions'] as List)
+                      .map((q) => Question.fromJson(q))
+                      .toList();
 
-                        // Navegar para ResultDetailScreen ao clicar no resultado
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => ResultDetailScreen(
-                              quizName: result['quiz'],
-                              score: result['score'],
-                              date: _formatDate(result['date']),
-                              questions: questions,
-                              selectedAnswers:
-                                  List<String>.from(result['selectedAnswers']),
-                            ),
-                          ),
-                        );
-                      }
-                    },
-                  ),
-                );
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => ResultDetailScreen(
+                        quizName: result['quiz'],
+                        score: result['score'],
+                        date: _formatDate(result['date']),
+                        questions: questions,
+                        selectedAnswers: List<String>.from(result['selectedAnswers']),
+                      ),
+                    ),
+                  );
+                }
               },
             ),
+          );
+        },
+      ),
     );
   }
 }
