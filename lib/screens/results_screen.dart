@@ -38,7 +38,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
     return DateFormat('dd/MM/yyyy - HH:mm').format(date);
   }
 
-  // Excluir resultados selecionados
+
   void _deleteSelectedResults() {
     showDialog(
       context: context,
@@ -71,7 +71,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
     );
   }
 
-  // Excluir todos os resultados
+
   void _deleteAllResults() {
     showDialog(
       context: context,
@@ -165,7 +165,9 @@ class _ResultsScreenState extends State<ResultsScreen> {
           final isSelected = _selectedResults.contains(result);
 
           return Card(
-            color: result['score'] >= 14 ? Colors.green[200] : Colors.red[200],
+            color: result.containsKey('color')
+                ? Color(result['color'])
+                : (result['score'] >= 14 ? Colors.green[200] : Colors.red[200]),
             margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
             child: ListTile(
               leading: _isSelecting
