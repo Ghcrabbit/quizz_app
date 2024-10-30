@@ -16,7 +16,7 @@ class NextButton extends StatelessWidget {
         ),
         padding: const EdgeInsets.symmetric(vertical: 10.0),
         child: const Text(
-          'Next Question',
+          'Próxima',
           textAlign: TextAlign.center,
         ),
       ),

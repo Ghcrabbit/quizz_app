@@ -15,7 +15,7 @@ class Question {
     required this.correctOption,
   });
 
-  // Função auxiliar para converter qualquer valor para String
+
   static String toStringValue(dynamic value) {
     if (value == null) {
       return '';
@@ -30,7 +30,7 @@ class Question {
 
   factory Question.fromJson(Map<String, dynamic> json) {
     try {
-      // Extraindo as opções
+
       Map<String, String> options = {
         'A': toStringValue(json['A']),
         'B': toStringValue(json['B']),
@@ -38,16 +38,16 @@ class Question {
         'D': toStringValue(json['D']),
       };
 
-      // Extraindo a resposta correta (RESP)
+
       String correctOptionKey = toStringValue(json['RESP']).toUpperCase();
 
-      // Verificando se a resposta correta está entre as chaves das opções
+
       if (!options.containsKey(correctOptionKey)) {
         throw Exception(
             "A resposta correta não está entre as opções fornecidas.");
       }
 
-      // Retornando a instância de Question
+
       return Question(
         id: int.parse(json['ID'].toString()),
         question: toStringValue(json['PERGUNTA']),

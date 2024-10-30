@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 import 'package:app_cms_ghc/models/question_model.dart';
@@ -6,12 +7,14 @@ class SharedPreferencesHelper {
   static const String _keyResults = 'results';
   static const String _keySelectedAnswers = 'selected_answers';
 
-  // Salvar resultado do quiz
-  static Future<void> saveResult(String quizName, int score,
-      List<Question> questions, List<String> selectedAnswers) async {
+  static Future<void> saveResult(
+      String quizName, int score, List<Question> questions, List<String> selectedAnswers) async {
     try {
       final prefs = await SharedPreferences.getInstance();
       final results = prefs.getStringList(_keyResults) ?? [];
+
+
+      final color = score >= 14 ? Colors.green[200]?.value : Colors.red[200]?.value;
 
       final newResult = {
         'quiz': quizName,
@@ -19,6 +22,7 @@ class SharedPreferencesHelper {
         'date': DateTime.now().toIso8601String(),
         'questions': questions.map((q) => q.toJson()).toList(),
         'selectedAnswers': selectedAnswers,
+        'color': color,
       };
 
       results.add(json.encode(newResult));
@@ -30,7 +34,7 @@ class SharedPreferencesHelper {
     }
   }
 
-  // Carregar todos os resultados do quiz
+
   static Future<List<Map<String, dynamic>>> loadResults() async {
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -62,7 +66,7 @@ class SharedPreferencesHelper {
     }
   }
 
-  // Limpar todos os resultados do quiz
+
   static Future<void> clearResults() async {
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -73,7 +77,7 @@ class SharedPreferencesHelper {
     }
   }
 
-  // Remover um resultado específico do quiz
+
   static Future<void> removeResult(String quizName) async {
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -91,7 +95,7 @@ class SharedPreferencesHelper {
     }
   }
 
-  // Atualizar os resultados no SharedPreferences
+
   static Future<void> updateResults(List<Map<String, dynamic>> results) async {
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -104,18 +108,18 @@ class SharedPreferencesHelper {
     }
   }
 
-  // Salvar as respostas selecionadas para um quiz específico
+
   static Future<void> saveSelectedAnswers(
       String quizName, List<String> selectedAnswers) async {
     try {
       final prefs = await SharedPreferences.getInstance();
       final allSelectedAnswers = prefs.getString(_keySelectedAnswers);
 
-      // Decodificar o JSON existente ou criar um novo Map se não houver dados salvos
+
       Map<String, dynamic> selectedAnswersMap =
           allSelectedAnswers != null ? json.decode(allSelectedAnswers) : {};
 
-      // Atualizar ou adicionar as respostas selecionadas para o quiz atual
+
       selectedAnswersMap[quizName] = selectedAnswers;
 
       await prefs.setString(
@@ -126,7 +130,7 @@ class SharedPreferencesHelper {
     }
   }
 
-  // Carregar as respostas selecionadas para um quiz específico
+
   static Future<List<String>> loadSelectedAnswers(String quizName) async {
     try {
       final prefs = await SharedPreferences.getInstance();
