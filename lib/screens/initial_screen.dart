@@ -55,7 +55,17 @@ class InitialScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Escolha o bloco'),
+        centerTitle: true,
+        title: const PreferredSize(
+          preferredSize: Size.fromHeight(120.0), // Altura do AppBar com padding
+          child: Padding(
+            padding: EdgeInsets.only(top: 40.0), // Ajusta a distância do título para baixo
+            child: Text(
+              'Escolha o bloco',
+              style: TextStyle(fontSize: 20.0), // Estilize o texto se necessário
+            ),
+          ),
+        ),
       ),
       body: Center(
         child: Padding(
