@@ -5,10 +5,11 @@ import './results_screen.dart'; // Verifique o caminho correto se necessário
 class InitialScreen extends StatelessWidget {
   const InitialScreen({Key? key}) : super(key: key);
 
-  static const String bloco1Path = 'assets/data/bloco_1.json';
-  static const String bloco2Path = 'assets/data/bloco_2.json';
-  static const String bloco3Path = 'assets/data/bloco_3.json';
-  static const String bloco4Path = 'assets/data/bloco_4.json';
+  static const String bloco1Path = 'assets/data/conhecimentos tecnicos.json';
+  static const String bloco2Path = 'assets/data/meteorologia.json';
+  static const String bloco3Path = 'assets/data/navegacao.json';
+  static const String bloco4Path = 'assets/data/regulamentos.json';
+  static const String bloco5Path = 'assets/data/teoria de voo.json';
 
   void _navigateToHomeScreen(BuildContext context, String jsonPath) {
     Navigator.push(
@@ -76,23 +77,28 @@ class InitialScreen extends StatelessWidget {
             children: [
               _buildButton(
                 context,
-                'Bloco 1 - Emergência e Segurança de voo',
+                'Conhecimentos Técnicos',
                     () => _navigateToHomeScreen(context, bloco1Path),
               ),
               _buildButton(
                 context,
-                'Bloco 2 - Regulamentação',
+                'Meteorologia',
                     () => _navigateToHomeScreen(context, bloco2Path),
               ),
               _buildButton(
                 context,
-                'Bloco 3 - Primeiros Socorros',
+                'Navegação',
                     () => _navigateToHomeScreen(context, bloco3Path),
               ),
               _buildButton(
                 context,
-                'Bloco 4 - Conhecimentos gerais da aeronave',
+                'Regulamentos de Voo',
                     () => _navigateToHomeScreen(context, bloco4Path),
+              ),
+              _buildButton(
+                context,
+                'Teoria de Voo',
+                    () => _navigateToHomeScreen(context, bloco5Path),
               ),
               _buildButton(
                 context,

@@ -145,22 +145,83 @@ class _HomeScreenState extends State<HomeScreen> {
     try {
       String filtered = criarStringResultScreen(widget.jsonPath);
 
-
       await SharedPreferencesHelper.saveResult(
           filtered, score, _questions, _selectedAnswers);
 
-
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-          builder: (context) => InitialScreen(),
-        ),
-      );
+      // Mostrar popup de aprovação/reprovação
+      _showResultPopup();
     } catch (e) {
       print('Failed to save result: $e');
       _showErrorDialog('Erro', 'Não foi possível salvar o resultado.');
     }
   }
+
+  void _showResultPopup() {
+    bool isApproved = score >= 14; // Aprovado se acertou 14 ou mais
+    String message = isApproved
+        ? 'Parabéns! Você foi APROVADO no teste com $score pontos.'
+        : 'Você foi REPROVADO no teste com $score pontos.';
+
+    // Escolha da cor com base no resultado
+    Color backgroundColor = isApproved ? Colors.green : Colors.red;
+
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: backgroundColor, // Define a cor de fundo
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(16.0), // Bordas arredondadas
+        ),
+        title: Center( // Alinha o título ao centro
+          child: Text(
+            isApproved ? 'Aprovado!' : 'Reprovado!',
+            style: const TextStyle(
+              color: Colors.white, // Texto branco para contraste
+              fontSize: 22.0,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              message,
+              style: const TextStyle(
+                color: Colors.white, // Texto branco para contraste
+                fontSize: 18.0,
+              ),
+              textAlign: TextAlign.center, // Alinha o texto ao centro
+            ),
+          ],
+        ),
+        actions: [
+          Center(
+            child: TextButton(
+              onPressed: () {
+                // Navegar para a tela inicial após fechar o popup
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => InitialScreen(),
+                  ),
+                );
+              },
+              child: const Text(
+                'OK',
+                style: TextStyle(
+                  color: Colors.white, // Texto branco para contraste
+                  fontSize: 16.0,
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
 
   String criarStringResultScreen(String jsonPath) {
     String filtered = jsonPath.split('/').last;

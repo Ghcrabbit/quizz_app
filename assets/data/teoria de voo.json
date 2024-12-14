@@ -1,0 +1,3792 @@
+{"Question":[
+  {
+    "ID": 546,
+    "PERGUNTA": "AUMENTANDO A ALTITUDE, A ACFT TEM MAIOR\nVELOCIDADE DE PLANEIO E:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "maior ângulo de planeio",
+    "B": "mesmo ângulo de planeio",
+    "C": "mesma razão de descida",
+    "D": "nenhuma das anteriores",
+    "RESP": "B"
+  },
+  {
+    "ID": 587,
+    "PERGUNTA": "SUSTENTAÇÃO É A COMPONENTE DA RESULTANTE\nAERODINÂMICA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "perpendicular ao vento\nrelativo",
+    "B": "paralelo ao vento relativo",
+    "C": "transversal ao vento relativo",
+    "D": "obliqua ao vento relativo",
+    "RESP": "A"
+  },
+  {
+    "ID": 703,
+    "PERGUNTA": "DENTRE OS PROCEDIMENTOS ABAIXO, IDENTIFIQUE AQUELE QUE O PILOTO DEVERÁ OBRIGATORIAMENTE EXECUTAR A FIM DE SAIR DE UM PARAFUSO NORMAL\nPARA ESQUERDA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "manter o manche colocado atrás",
+    "B": "puxar progressivamente o manche",
+    "C": "pressionar levemente o pedal do lado contrário ao da rotação",
+    "D": "pressionar a fundo o pedal responsável pela rotação do movimento atual",
+    "RESP": "B"
+  },
+  {
+    "ID": 568,
+    "PERGUNTA": "A VELOCIDADE DE ESTOL AUMENTA COM O AUMENTO\nDOS SEGUINTES FATORES:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "peso, área da asa e densidade",
+    "B": "peso e carga alar",
+    "C": "peso, densidade e altitude",
+    "D": "área da asa e carga alar",
+    "RESP": "B"
+  },
+  {
+    "ID": 639,
+    "PERGUNTA": "QUANDO A CORDA DE UM PERFIL ASSIMÉTRICO CONFUNDIR-SE COM A DIREÇÃO DO VENTO RELATIVO,\nTEREMOS UM ÂNGULO DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "sustentação nula",
+    "B": "perda",
+    "C": "ataque positivo",
+    "D": "ataque nulo",
+    "RESP": "D"
+  },
+  {
+    "ID": 479,
+    "PERGUNTA": "NA SUA GRANDE MAIORIA AS ASAS DOS AVIÕES SÃO\nFEITAS COM UM PERFIL DO TIPO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "simétrico",
+    "B": "assimétrico",
+    "C": "regular",
+    "D": "irregular",
+    "RESP": "B"
+  },
+  {
+    "ID": 583,
+    "PERGUNTA": "A MENOR VELOCIDADE COM A QUAL O PILOTO CONSEGUE MANTER-SE EM VELOCIDADE CONSTANTE,\nCHAMA-SE VELOCIDADE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "mínima",
+    "B": "de estol",
+    "C": "de perda",
+    "D": "de cruzeiro",
+    "RESP": "A"
+  },
+  {
+    "ID": 646,
+    "PERGUNTA": "A SUSTENTAÇÃO SÓ SERÁ POSITIVO COM ÂNGULO DE\nATAQUE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "positivo",
+    "B": "positivo ou nulo",
+    "C": "negativo",
+    "D": "positivo, negativo ou nulo",
+    "RESP": "B"
+  },
+  {
+    "ID": 463,
+    "PERGUNTA": "QUANDO O AVIÃO GLISSA, A ASA MAIS BAIXA TEM,\nEM RELAÇÃO À ASA MAIS ALTA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "menor ângulo de ataque",
+    "B": "maior sustentação",
+    "C": "menor sustentação",
+    "D": "ângulo de ataque semelhante",
+    "RESP": "B"
+  },
+  {
+    "ID": 462,
+    "PERGUNTA": "NO ÂNGULO CRÍTICO O AVIÃO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "estará isolado",
+    "B": "tem sustentação mínima",
+    "C": "tem sustentação negativa",
+    "D": "tem sustentação máxima",
+    "RESP": "D"
+  },
+  {
+    "ID": 420,
+    "PERGUNTA": "DENSIDADE OU MASSA ESPECÍFICA É O/A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "peso do corpo",
+    "B": "quantidade de matéria existente em um corpo",
+    "C": "relação entre a quantidade de matéria e o volume ocupado",
+    "D": "peso por unidade de volume",
+    "RESP": "C"
+  },
+  {
+    "ID": 415,
+    "PERGUNTA": "A POTÊNCIA NECESSÁRIA PARA DESLOCAR UMA AERONAVE, EM VOO NIVELADO, DIMINUI COM O\nAUMENTO DO(A):",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "peso",
+    "B": "altitude",
+    "C": "densidade",
+    "D": "carga alar",
+    "RESP": "C"
+  },
+  {
+    "ID": 748,
+    "PERGUNTA": "OS SLATS SÃO DISPOSITIVOS HIPERSUSTENTADORES QUE, AO SEREM ACIONADOS, PERMITEM:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "diminuição do Cl",
+    "B": "diminuição no ângulo crítico",
+    "C": "elevação nos ângulos de ataque",
+    "D": "aumento no turbilhamento sobre o aerofólio",
+    "RESP": "C"
+  },
+  {
+    "ID": 572,
+    "PERGUNTA": "QUANDO A AERONAVE EXECUTA UM VOO DE DORSO,\nDIZ-SE QUE O CL É:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "nulo",
+    "B": "crítico",
+    "C": "negativo",
+    "D": "positivo",
+    "RESP": "C"
+  },
+  {
+    "ID": 469,
+    "PERGUNTA": "A PRESSÃO ATMOSFÉRICA PADRÃO, AO NÍVEL DO\nMAR, EM MILÍMETROS DE MERCÚRIO VALE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": 67,
+    "B": 670,
+    "C": 76,
+    "D": 760,
+    "RESP": "D"
+  },
+  {
+    "ID": 484,
+    "PERGUNTA": "A COMPONENTE DE RESULTANTE AERODINÂMICA, PERPENDICULAR AO VENTO RELATIVO, CHAMAMOS\nDE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "peso",
+    "B": "tração",
+    "C": "resistência ao avanço",
+    "D": "sustentação",
+    "RESP": "D"
+  },
+  {
+    "ID": 746,
+    "PERGUNTA": "QUANDO O MANCHE É ACIONADO PARA A ESQUERDA, O AVIÃO EXECUTARÁ O MOVIMENTO DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "picagem",
+    "B": "tangagem",
+    "C": "cabragem",
+    "D": "rolamento",
+    "RESP": "D"
+  },
+  {
+    "ID": 378,
+    "PERGUNTA": "A VELOCIDADE DE ESTOL AERODINÂMICA SERÁ TANTO\nMENOR QUANTO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "maior for o peso",
+    "B": "maior for a densidade",
+    "C": "menor for a área da asa",
+    "D": "menor for o valor da Cl",
+    "RESP": "B"
+  },
+  {
+    "ID": 679,
+    "PERGUNTA": "UM AVIÃO ESTOLA, EM VOO RETO HORIZONTAL, COM UMA VELOCIDADE DE 80 KT. COM O MESMO PESO E NA MESMA ALTITUDE, SE EFETUAR UMA CURVA, A\nVELOCIDADE DE ESTOL:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "deverá ser maior",
+    "B": "deverá ser menor",
+    "C": "será a mesma da Vs",
+    "D": "permanecerá em 80 KT",
+    "RESP": "A"
+  },
+  {
+    "ID": 551,
+    "PERGUNTA": "AS MELHORES CONDIÇÕES DE POUSO SÃO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "baixa altitude",
+    "B": "baixa temperatura",
+    "C": "aclive",
+    "D": "todas as anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 634,
+    "PERGUNTA": "O ÂNGULO FORMADO ENTRE A CORDA DA SEÇÃO\nMÉDIA DA PÁ DE HÉLICE E O PLANO DE ROTAÇÃO É DENOMINADO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "ângulo de ataque",
+    "B": "passo de hélice",
+    "C": "ângulo de ataque de pá de hélice",
+    "D": "ângulo de incidência",
+    "RESP": "B"
+  },
+  {
+    "ID": 643,
+    "PERGUNTA": "O COEFICIENTE DE SUSTENTAÇÃO (CL) É UM NÚMERO QUE DEPENDE DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "ângulo de ataque e espessura do aerofólio",
+    "B": "ângulo de ataque e curvatura do aerofólio",
+    "C": "formato e espessura do aerofólio",
+    "D": "ângulo de ataque, espessura e curvatura do aerofólio",
+    "RESP": "D"
+  },
+  {
+    "ID": 664,
+    "PERGUNTA": "O ÂNGULO DE INCIDÊNCIA É O ÂNGULO FORMADO PELA CORDA DO PERFIL DA ASA E A/O:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "corda média",
+    "B": "vento relativo",
+    "C": "vento de través",
+    "D": "eixo longitudinal da ACFT",
+    "RESP": "D"
+  },
+  {
+    "ID": 704,
+    "PERGUNTA": "EM UMA AERONAVE CONVENCIONAL, AS SUPERFÍCIES PRIMÁRIAS UTILIZADAS PARA O COMANDO DOS MOVIMENTOS DE BANCAGEM CHAMA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "ailerons",
+    "B": "profundores",
+    "C": "lemes de direção",
+    "D": "lemes de profundidade",
+    "RESP": "A"
+  },
+  {
+    "ID": 522,
+    "PERGUNTA": "A VELOCIDADE MÁXIMA DE UMA AERONAVE A\nPISTÃO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "não varia com o peso",
+    "B": "aumenta com a altitude",
+    "C": "diminui com a altitude",
+    "D": "varia somente com o peso",
+    "RESP": "C"
+  },
+  {
+    "ID": 576,
+    "PERGUNTA": "DURANTE UM VOO PLANADO, O VENTO DE CAUDA FARÁ COM QUE, RESPECTIVAMENTE, A DISTÂNCIA DE\nPLANEIO E O ÂNGULO DE PLANEIO",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aumentem ambos",
+    "B": "diminue e aumente",
+    "C": "aumente e diminue",
+    "D": "diminuem ambos",
+    "RESP": "C"
+  },
+  {
+    "ID": 425,
+    "PERGUNTA": "ASSINALAR A AFIRMATIVA INCORRETA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "duas forcas de mesma intensidade e direção podem\nse anular",
+    "B": "uma forca pode ser representada por um vetor",
+    "C": "o peso de um corpo é a força de atração da Terra sobre ele",
+    "D": "o peso de um corpo é menor nos pólos do que no Equador",
+    "RESP": "D"
+  },
+  {
+    "ID": 526,
+    "PERGUNTA": "A MENOR VELOCIDADE COM QUE O AVIÃO CONSEGUE\nMANTER O VOO RETO E HORIZONTAL É A VELOCIDADE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "mínima",
+    "B": "de estol",
+    "C": "de descida",
+    "D": "crítica",
+    "RESP": "B"
+  },
+  {
+    "ID": 726,
+    "PERGUNTA": "PARA QUE UMA ACTF POSSA MANTER O VOO EM CURVA, SEM VARIAR A ALTITUDE DE VOO, É\nNECESSÁRIO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "que a sustentação diminua",
+    "B": "manter a mesma potência do voo reto e nivelado",
+    "C": "manter a mesma sustentação do voo reto e nivelado",
+    "D": "que a sustentação seja maior que o peso da aeronave",
+    "RESP": "D"
+  },
+  {
+    "ID": 757,
+    "PERGUNTA": "O EFEITO DE QUILHA EXERCE INFLUÊNCIA SOBRE AS\nESTABILIDADES:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "lateral e vertical",
+    "B": "lateral e direcional",
+    "C": "longitudinal e lateral",
+    "D": "longitudinal e direcional",
+    "RESP": "B"
+  },
+  {
+    "ID": 380,
+    "PERGUNTA": "O MOVIMENTO REALIZADO EM TORNO DO EIXO\nVERTICAL É CHAMADO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "guinada",
+    "B": "tangagem",
+    "C": "cabragem",
+    "D": "rolamento",
+    "RESP": "A"
+  },
+  {
+    "ID": 488,
+    "PERGUNTA": "DÁ-SE O NOME DE ALONGAMENTO DE UMA ASA À RELAÇÃO EXISTENTE ENTRE A ENVERGADURA E A/O:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "linha de curvatura média da asa",
+    "B": "corda da asa",
+    "C": "extradorso da asa",
+    "D": "intradorso da asa",
+    "RESP": "B"
+  },
+  {
+    "ID": 766,
+    "PERGUNTA": "DOIS AVIÕES IGUAIS, COM A MESMA VELOCIDADE, FARÃO A MESMA CURVA. O MAIS PESADO, EM RELAÇÃO AO MAIS LEVE, DEVERÁ TER O ÂNGULO DE\nINCLINAÇÃO LATERAL:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "maior",
+    "B": "igual",
+    "C": "inicialmente menor",
+    "D": "inicialmente maior",
+    "RESP": "B"
+  },
+  {
+    "ID": 663,
+    "PERGUNTA": "A RAZÃO EXISTENTE ENTRE A ENVERGADURA E A CORDA MÉDIA GEOMÉTRICA DE UMA ASA CHAMA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "diedro",
+    "B": "alongamento",
+    "C": "área de asa",
+    "D": "comprimento da asa",
+    "RESP": "B"
+  },
+  {
+    "ID": 406,
+    "PERGUNTA": "HAVENDO UMA INCLINAÇÃO EXAGERADA DAS ASAS, O AVIÃO TENDERÁ A ESCORREGAR PARA DENTRO DA CURVA, PERDENDO ALTITUDE. TAL MOVIMENTO É\nCHAMADO DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "glissada",
+    "B": "derrapagem",
+    "C": "estol de curva",
+    "D": "estol de velocidade",
+    "RESP": "A"
+  },
+  {
+    "ID": 721,
+    "PERGUNTA": "AO INICIAR UM PARAFUSO, A AERONAVE\nNORMALMENTE ESTARÁ COM VELOCIDADE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "máxima",
+    "B": "de perda",
+    "C": "de descida",
+    "D": "de cruzeiro",
+    "RESP": "B"
+  },
+  {
+    "ID": 550,
+    "PERGUNTA": "O CHOQUE DE NARIZ DA ACFT COM O SOLO CHAMA-\nSE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "cavalo de pau",
+    "B": "pilonagem",
+    "C": "derrapagem",
+    "D": "glissagem",
+    "RESP": "B"
+  },
+  {
+    "ID": 574,
+    "PERGUNTA": "COMO EFEITO DE UM AUMENTO NA ÁREA DA ASA\nTEM SE UM/UMA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "menor resistência no avanço",
+    "B": "maior ângulo de subida",
+    "C": "maior velocidade de cruzeiro",
+    "D": "maior velocidade de estol",
+    "RESP": "B"
+  },
+  {
+    "ID": 2838,
+    "PERGUNTA": "A FORÇA OU REAÇÃO QUE TENDE A FREAR UM CORPO\nQUE SE DESLOCA NO AR, É A/O:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "arrasto",
+    "B": "tração",
+    "C": "peso",
+    "D": "torque",
+    "RESP": "A"
+  },
+  {
+    "ID": 466,
+    "PERGUNTA": "AS FENDAS DE BORDO DE ATAQUE QUE FUNCIONAM COMO DISPOSITIVOS HIPERSUSTENTADORES, SÃO CONHECIDAS COMO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "wing fences",
+    "B": "flight spoilers",
+    "C": "slots",
+    "D": "spoilers",
+    "RESP": "C"
+  },
+  {
+    "ID": 593,
+    "PERGUNTA": "QUANDO UM CORPO AFASTADO DE SUA POSIÇÃO\nTENDE A ELA VOLTAR, DIZ-SE QUE O MESMO POSSUI EQUILÍBRIO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "instável",
+    "B": "estável",
+    "C": "indiferente",
+    "D": "neutro",
+    "RESP": "B"
+  },
+  {
+    "ID": 765,
+    "PERGUNTA": "EM UM MERGULHO VERTICAL, A VELOCIDADE FINAL\nDEPENDE DO(A):",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "peso",
+    "B": "Cl máximo",
+    "C": "área da asa",
+    "D": "estrutura do avião",
+    "RESP": "A"
+  },
+  {
+    "ID": 379,
+    "PERGUNTA": "A TENDÊNCIA DE ENTRAR EM PARAFUSO CHATO E\nMAIS ACENTUADA NUM AVIÃO COM:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "o nariz pesado",
+    "B": "a cauda pesada",
+    "C": "trem de pouso triciclo",
+    "D": "trem de pouso convencional",
+    "RESP": "B"
+  },
+  {
+    "ID": 549,
+    "PERGUNTA": "O POUSO DE PISTA EM RELAÇÃO AO POUSO DE TRÊS PONTOS:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "geralmente pode ser realizado com mais suavidade",
+    "B": "geralmente é realizado com menos suavidade",
+    "C": "só pode ser realizado em ACFT com trem triciclo",
+    "D": "só pode ser realizado em ACFT com trem de pouso\nconvencional",
+    "RESP": "A"
+  },
+  {
+    "ID": 681,
+    "PERGUNTA": "QUANDO UM DOS PEDAIS DO LEME DE DIREÇÃO É ACIONADO PARA FAZER UMA CURVA, SEM ANTES INCLINAR AS ASAS DO AVIÃO, ESTA CARACTERIZADO UM ERRO DE PILOTAGEM CHAMADO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "cabrada",
+    "B": "glissada",
+    "C": "coordenada",
+    "D": "derrapagem",
+    "RESP": "D"
+  },
+  {
+    "ID": 561,
+    "PERGUNTA": "AS ASAS E AS SUPERFÍCIES DE COMANDO DE UM\nAVIÃO SÃO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "estabilizadores",
+    "B": "aerofólios",
+    "C": "comandos",
+    "D": "perturbadores de voo",
+    "RESP": "B"
+  },
+  {
+    "ID": 502,
+    "PERGUNTA": "QUANDO O VALOR DE CL É ZERO, SIGNIFICA QUE O\nÂNGULO DE ATAQUE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "ainda satisfatório",
+    "B": "semelhante ao estol",
+    "C": "um ângulo de sustentação nula",
+    "D": "de alta velocidade",
+    "RESP": "C"
+  },
+  {
+    "ID": 457,
+    "PERGUNTA": "EM VOO PLANADO, DOIS AVIÕES IGUAIS, VOANDO À MESMA ALTITUDE, COM PESOS DIFERENTES. O MAIS\nPESADO TERÁ:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "menor ângulo de planeio",
+    "B": "mesmo ângulo de planeio",
+    "C": "maior ângulo de planeio",
+    "D": "menor ângulo de descida",
+    "RESP": "B"
+  },
+  {
+    "ID": 633,
+    "PERGUNTA": "A VELOCIDADE NA QUAL O PESO, A ALTITUDE, A ÁREA DA ASA E O COEFICIENTE DE SUSTENTAÇÃO VARIAM DIRETAMENTE CHAMA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "velocidade mínima",
+    "B": "velocidade de máximo alcance",
+    "C": "velocidade máxima",
+    "D": "velocidade de máxima autonomia",
+    "RESP": "C"
+  },
+  {
+    "ID": 687,
+    "PERGUNTA": "CASO O CG DE UMA AERONAVE ESTEJA\nDEMASIADAMENTE PARA TRÁS, VERIFICA-SE QUE O(A):",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "consumo de combustível aumenta",
+    "B": "manche torna-se mais leve ao cabrar",
+    "C": "avião torna-se mais difícil de ser manobrado",
+    "D": "estabilidade longitudinal se mantém constante",
+    "RESP": "B"
+  },
+  {
+    "ID": 504,
+    "PERGUNTA": "NUMA AERONAVE AS PARTES QUE POSSUEM PEQUENA RESISTÊNCIA AO AVANÇO SÃO CHAMADAS:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aerofólios",
+    "B": "superfícies aerodinâmicas",
+    "C": "fuselagem",
+    "D": "superfícies de comando",
+    "RESP": "B"
+  },
+  {
+    "ID": 580,
+    "PERGUNTA": "O TUBO DE PITOT SERVE PARA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "reduzir a pressão interna de\ncertos instrumentos",
+    "B": "medir velocidade da aeronave",
+    "C": "tomada de pressão para o\naltímetro e o velocímetro",
+    "D": "todas as anteriores",
+    "RESP": "C"
+  },
+  {
+    "ID": 759,
+    "PERGUNTA": "OS PEDAIS SERVEM PARA COMANDAR OS:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "freios e os profundores",
+    "B": "ailerons e os profundores",
+    "C": "freios e o leme de direção",
+    "D": "ailerons e o leme de direção",
+    "RESP": "C"
+  },
+  {
+    "ID": 422,
+    "PERGUNTA": "ASSINALAR A AFIRMATIVA INCORRETA. PODEMOS\nDIZER QUE UM FLUIDO SOB PRESSÃO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "tem sua densidade aumentada",
+    "B": "tem o peso aumentado",
+    "C": "tem o volume diminuído",
+    "D": "é capaz de produzir trabalho",
+    "RESP": "B"
+  },
+  {
+    "ID": 628,
+    "PERGUNTA": "A POTÊNCIA EFETIVA TRANSFORMADA EM TRAÇÃO PELA AÇÃO DAS HÉLICES, É DENOMINADA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "potência disponível",
+    "B": "potência útil",
+    "C": "potência de tração",
+    "D": "qualquer das anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 620,
+    "PERGUNTA": "QUAL DAS VELOCIDADES ABAIXO DEPENDE DA POTÊNCIA OU TROCA DO MOTOR:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "velocidade de estol",
+    "B": "velocidade de máxima\nautonomia",
+    "C": "velocidade máxima",
+    "D": "todas as acima",
+    "RESP": "C"
+  },
+  {
+    "ID": 563,
+    "PERGUNTA": "O MAIOR RISCO DO CAVALO-DE-PAU, APÓS UM POUSO DE PISTA, É UMA CARACTERÍSTICA DOS AVIÕES\nCOM TREM DE POUSO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "triciclo, em função do CG estar atrás do trem principal",
+    "B": "triciclo, em função do CG estar à frente do trem principal",
+    "C": "convencional, em função do CG estar atrás do trem\nprincipal",
+    "D": "convencional, em função do CG estar à frente do trem\nprincipal",
+    "RESP": "C"
+  },
+  {
+    "ID": 451,
+    "PERGUNTA": "QUANTO MAIOR O ALONGAMENTO DE UMA ASA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "maior a sustentação e maior o\narrasto",
+    "B": "menor a sustentação e maior o\narrasto",
+    "C": "menor sustentação e menor o\narrasto",
+    "D": "maior sustentação e menor o\narrasto",
+    "RESP": "D"
+  },
+  {
+    "ID": 540,
+    "PERGUNTA": "NO CASO DE FALHA NO MOTOR, NUM MONOMOTOR,\nDEVE-SE DESCER COM:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "o menor ângulo possível",
+    "B": "velocidade de estol",
+    "C": "menor velocidade possível",
+    "D": "velocidade de cruzeiro",
+    "RESP": "A"
+  },
+  {
+    "ID": 700,
+    "PERGUNTA": "A VELOCIDADE DE ESTOL DE UMA AVIÃO SERÁ TANTO\nMAIOR QUANTO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "maior for o Cl máximo",
+    "B": "menor for a temperatura",
+    "C": "menor for a carga unitária",
+    "D": "maior for o peso da aeronave",
+    "RESP": "D"
+  },
+  {
+    "ID": 648,
+    "PERGUNTA": "UM PILOTO NA TENTATIVA DE MELHORAR O PLANEIO DE SUA AERONAVE UTILIZA UM ÂNGULO DE ATAQUE MENOR. NESTA SITUAÇÃO O/A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "ângulo de planeio será menor",
+    "B": "distância de planeio será menor",
+    "C": "velocidade de planeio será menor",
+    "D": "avião ficará mais tempo planando",
+    "RESP": "B"
+  },
+  {
+    "ID": 421,
+    "PERGUNTA": "UMA AERONAVE RECEBE VENTO DE FRENTE DE 25 KM/H. CONSIDERANDO SUA VELOCIDADE DE 270 KM/H, A VELOCIDADE COM RELAÇÃO AO SOLO SERÁ:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "295 Km/h",
+    "B": "220 Km/h",
+    "C": "320 Km/h",
+    "D": "nenhuma das citadas",
+    "RESP": "D"
+  },
+  {
+    "ID": 732,
+    "PERGUNTA": "PARA QUE UM AVIÃO SEJA ESTATICAMENTE ESTÁVEL,É NECESSÁRIO QUE CG, EM RELAÇÃO AO CP, ESTEJA LOCALIZADO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "atrás",
+    "B": "a frente",
+    "C": "ao lado direito",
+    "D": "do lado esquerdo",
+    "RESP": "B"
+  },
+  {
+    "ID": 477,
+    "PERGUNTA": "QUANDO O AR PASSA POR UMA ASA DE UMA AERONAVE, APARECEM DUAS FORÇAS\nDENOMINADAS:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "inércia e gravidade",
+    "B": "força de inércia e resistência ao avanço",
+    "C": "gravidade e inércia",
+    "D": "sustentação e resistência ao avanço",
+    "RESP": "D"
+  },
+  {
+    "ID": 719,
+    "PERGUNTA": "AUMENTANDO-SE A INCLINAÇÃO DE UMA AERONAVE\nDURANTE UMA CURVA O/A:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "fator de carga diminuirá",
+    "B": "força centrípeta será maior",
+    "C": "velocidade de estol diminuirá",
+    "D": "sustentação deverá ser maior\npara igualar ao peso",
+    "RESP": "D"
+  },
+  {
+    "ID": 619,
+    "PERGUNTA": "O CI TORNA-SE IGUAL A ZERO QUANDO O ÂNGULO DE\nATAQUE É IGUAL AO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "ângulo de estol",
+    "B": "ângulo de sustentação nulo",
+    "C": "ângulo de ataque nulo",
+    "D": "ângulo crítico",
+    "RESP": "B"
+  },
+  {
+    "ID": 395,
+    "PERGUNTA": "À MEDIDA EM QUE UM AVIÃO SOBE, COM O OBJETIVO DE ATINGIR O TETO ABSOLUTO A RAZÃO DE SUBIDA\nMÁXIMA;",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "diminui rapidamente",
+    "B": "aumenta rapidamente",
+    "C": "diminui gradativamente",
+    "D": "aumenta gradativamente",
+    "RESP": "C"
+  },
+  {
+    "ID": 566,
+    "PERGUNTA": "O FATOR DE CARGA É DEFINIDO COMO SENDO A\nRAZÃO ENTRE O/A:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "sustentação e o peso",
+    "B": "peso e a sustentação",
+    "C": "área da asa e o peso",
+    "D": "peso do avião e a área da asa",
+    "RESP": "A"
+  },
+  {
+    "ID": 453,
+    "PERGUNTA": "QUANTO MAIOR FOR O ÂNGULO DE ATAQUE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "menor será o Cl até o ângulo crítico",
+    "B": "menor será o Cd em função do turbilhonamento",
+    "C": "maior será o Cl até o ângulo crítico",
+    "D": "Cl e Cd não variam em função do ângulo de ataque",
+    "RESP": "C"
+  },
+  {
+    "ID": 567,
+    "PERGUNTA": "NUM VOO PLANADO O FLAP PERMITE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "ângulos de planeio maiores",
+    "B": "Ângulos de planeio menores",
+    "C": "percorrer distâncias maiores",
+    "D": "aumentar a velocidade de\nestol",
+    "RESP": "A"
+  },
+  {
+    "ID": 569,
+    "PERGUNTA": "DADAS DUAS HÉLICES SIMILARES, A DE MENOR PASSO TERÁ UM MELHOR DESEMPENHO EM REGIME DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "subidas e voos de cruzeiro",
+    "B": "decolagens e subida",
+    "C": "decolagens e voos de cruzeiro",
+    "D": "voos de cruzeiro",
+    "RESP": "B"
+  },
+  {
+    "ID": 753,
+    "PERGUNTA": "NO POUSO DA PISTA DE UMA ACFT CONVENCIONAL TER-SE-Á A SEGUINTE SITUAÇÃO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "a ACFT entrará em estol",
+    "B": "\"não\" haverá risco de cavalo de pau",
+    "C": "o pouso será, normalmente, mais suave",
+    "D": "a ACFT tocará ao solo com as\ntrês rodas, quase ao mesmo tempo",
+    "RESP": "C"
+  },
+  {
+    "ID": 736,
+    "PERGUNTA": "QUANDO UM CORPO, AFASTADO DE SUA POSIÇÃO DE EQUILÍBRIO, TENDE A VOLTAR E NELA PERMANECER, SEM OSCILAÇÕES, INDICA QUE POSSUI ESTABILIDADE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "instável aperiódica",
+    "B": "estática aperiódica",
+    "C": "dinâmica e aperiódica",
+    "D": "indiferente a aperiódica",
+    "RESP": "B"
+  },
+  {
+    "ID": 564,
+    "PERGUNTA": "AO SE ENTRAR EM ÁREA DE FORTE TURBULÊNCIA, VOANDO A VELOCIDADES INDICADAS MUITO BAIXAS, PRÓXIMAS AO ESTOL, PODERÁ OCORRER UM(A):",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aumento gradativo da sustentação",
+    "B": "rápido aumento da velocidade indicada",
+    "C": "violenta vibração da ACFT, sem o perigo de estol",
+    "D": "entrada descontrolada em estol, por aumento súbito do ângulo de ataque",
+    "RESP": "D"
+  },
+  {
+    "ID": 606,
+    "PERGUNTA": "DURANTE UM VOO PLANADO, O PESO DE UMA\nAERONAVE NÃO AFETA O/A:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "razão de descida",
+    "B": "ângulo de planeio",
+    "C": "velocidade vertical de descida",
+    "D": "velocidade de planeio",
+    "RESP": "B"
+  },
+  {
+    "ID": 426,
+    "PERGUNTA": "O PESO É SEMPRE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "perpendicular ao vento\nrelativo",
+    "B": "horizontal",
+    "C": "paralelo ao vento relativo",
+    "D": "vertical",
+    "RESP": "D"
+  },
+  {
+    "ID": 706,
+    "PERGUNTA": "EM UM AVIÃO, O PONTO DE APLICAÇÃO DO PESO É\nCHAMADO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "tração",
+    "B": "pressão",
+    "C": "gravidade",
+    "D": "resultante",
+    "RESP": "C"
+  },
+  {
+    "ID": 763,
+    "PERGUNTA": "A TROCA DO MOTOR DE UM AVIÃO, POR OUTRO DE\nMAIOR POTÊNCIA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "aumentará o teto absoluto",
+    "B": "diminuirá a velocidade máxima",
+    "C": "aumentará a velocidade de\nestol",
+    "D": "diminuirá a razão máxima de\nsubida",
+    "RESP": "A"
+  },
+  {
+    "ID": 723,
+    "PERGUNTA": "EM UMA OPERAÇÃO DE DECOLAGEM, INICIALMENTE\nSERÁ OBSERVADO QUE O(A)",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "potência será mínima",
+    "B": "aceleração será menor",
+    "C": "recuo da hélice será máximo",
+    "D": "atrito com o solo será maior",
+    "RESP": "C"
+  },
+  {
+    "ID": 585,
+    "PERGUNTA": "PARA SE CONHECER O ÂNGULO DE ATAQUE É\nNECESSÁRIO QUE SE LEVE EM CONSIDERAÇÃO A DIREÇÃO DO VENTO RELATIVO E O/A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "eixo longitudinal",
+    "B": "corda do aerofólio",
+    "C": "linha do horizonte",
+    "D": "eixo transversal",
+    "RESP": "B"
+  },
+  {
+    "ID": 384,
+    "PERGUNTA": "O AUMENTO DE PESO DE UM AVIÃO ACARRETARIA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "aumento da razão da subida",
+    "B": "aumento da velocidade\nmáxima",
+    "C": "diminuição do ângulo de\nsubida",
+    "D": "diminuição da velocidade",
+    "RESP": "C"
+  },
+  {
+    "ID": 408,
+    "PERGUNTA": "O DIEDRO POSITIVO É O ÂNGULO FORMADO PELO\nEIXO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "lateral e o plano das asas",
+    "B": "lateral e o bordo de ataque",
+    "C": "longitudinal e o plano das asas",
+    "D": "longitudinal e o bordo de\nataque",
+    "RESP": "A"
+  },
+  {
+    "ID": 760,
+    "PERGUNTA": "OS SLOTS MÓVEIS SÃO DISPOSITIVOS HIPERSUSTENTADORES QUE, AO SEREM ACIONADOS,\nTEM COMO FINALIDADE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "diminuir o ângulo crítico do aerofólio",
+    "B": "\"não\" permitir voos com ângulos de ataque maiores",
+    "C": "aumentar o Cl máximo, sem alterar a curvatura da asa",
+    "D": "\"não\" prejudicar a visibilidade do piloto, durante o pouso",
+    "RESP": "C"
+  },
+  {
+    "ID": 711,
+    "PERGUNTA": "A HÉLICE DE PASSO AJUSTÁVEL TEM SEMPRE BOM\nRENDIMENTO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "em qualquer situação",
+    "B": "numa determinada RPM",
+    "C": "na condição para qual foi\najustada",
+    "D": "quando os ajustes ocorrerem\ndurante o voo",
+    "RESP": "C"
+  },
+  {
+    "ID": 401,
+    "PERGUNTA": "EM UM MONOMOTOR, NO CASO DE FALHA NO\nMOTOR, INICIALMENTE É MELHOR DESCER COM:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "maior velocidade",
+    "B": "menor velocidade",
+    "C": "menor ângulo de descida",
+    "D": "maior ângulo de descida",
+    "RESP": "C"
+  },
+  {
+    "ID": 417,
+    "PERGUNTA": "O TIPO DE FLAP QUE PERMITE O VOO COM A MENOR VELOCIDADE DE ESTOL POSSÍVEL, É O FLAP:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "comum",
+    "B": "fowler",
+    "C": "ventral",
+    "D": "de mergulho",
+    "RESP": "B"
+  },
+  {
+    "ID": 468,
+    "PERGUNTA": "QUANTO MAIOR FOR O PESO DE UM AVIÃO, MAIOR\nSERÁ:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "a velocidade máxima",
+    "B": "a velocidade de estol",
+    "C": "a razão de subida",
+    "D": "a atração",
+    "RESP": "B"
+  },
+  {
+    "ID": 647,
+    "PERGUNTA": "O VALOR \"CL MÁXIMO\" CORRESPONDE AO ÂNGULO\nDE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "ataque nulo",
+    "B": "ataque de sustentação nula",
+    "C": "estol",
+    "D": "ataque para alta velocidade",
+    "RESP": "C"
+  },
+  {
+    "ID": 670,
+    "PERGUNTA": "EM UM PERFIL ASSIMÉTRICO, O ÂNGULO DE ATAQUE\nDE SUSTENTAÇÃO NULA, É:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "nulo",
+    "B": "negativo",
+    "C": "positivo",
+    "D": "variável",
+    "RESP": "B"
+  },
+  {
+    "ID": 388,
+    "PERGUNTA": "UTILIZANDO-SE UM FLAP DURANTE UM VOO\nPLANADO O/A:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "ângulo de planeio diminuirá",
+    "B": "avião ficará mais tempo\nplanando",
+    "C": "distância percorrida será maior",
+    "D": "distância percorrida será igual",
+    "RESP": "B"
+  },
+  {
+    "ID": 523,
+    "PERGUNTA": "ASSINALE A AFIRMATIVA CERTA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "a densidade do ar é maior nos dias quentes e úmidos",
+    "B": "um aumento da temperatura do ar implica em um aumento de sustentação",
+    "C": "em voo normal o ângulo de ataque diminui quando a velocidade aumenta",
+    "D": "alongamento de uma asa é a relação ente corda e a envergadura da mesma",
+    "RESP": "C"
+  },
+  {
+    "ID": 735,
+    "PERGUNTA": "AO INICIAR UM PARAFUSO, O PILOTO REDUZ O MOTOR DA AERONAVE PARA MARCHA LENTA E ERGUE GRADUALMENTE O NARIZ, APÓS ESTE\nPROCEDIMENTO, HAVERÁ:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "perda da velocidade de estol da ACFT",
+    "B": "aumento da velocidade de estol da ACFT",
+    "C": "perda de velocidade e a ACFT entrada na condição de pré- estol",
+    "D": "aumento de velocidade e a ACFT entrará na condição de pré-estol",
+    "RESP": "C"
+  },
+  {
+    "ID": 712,
+    "PERGUNTA": "UMA AERONAVE TEM TRÊS EIXOS, EM TORNO DOS QUAIS EXECUTA SEUS MOVIMENTOS. O PONTO DE CRUZAMENTO DESSES EIXOS É O CENTRO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "de pressão",
+    "B": "de gravidade",
+    "C": "dos movimentos",
+    "D": "aerodinâmico",
+    "RESP": "B"
+  },
+  {
+    "ID": 609,
+    "PERGUNTA": "SE NUMA CURVA HOUVER INCLINAÇÃO DEMASIADA DAS ASAS, A AERONAVE TENDERÁ A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "glissar",
+    "B": "fazer curva no sentido contrário",
+    "C": "derrapar",
+    "D": "ganhar altura",
+    "RESP": "A"
+  },
+  {
+    "ID": 737,
+    "PERGUNTA": "O ÂNGULO DE DIEDRO É FORMADO PELO EIXO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "lateral e o plano das asas",
+    "B": "lateral e o bordo de ataque",
+    "C": "longitudinal e o plano das asas",
+    "D": "longitudinal e o bordo de\nataque",
+    "RESP": "A"
+  },
+  {
+    "ID": 645,
+    "PERGUNTA": "UMA ÁREA PLANA EQUIVALENTE SERÁ REPRESENTADA\nPELA LETRA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "A",
+    "B": "S",
+    "C": "P",
+    "D": "CD",
+    "RESP": "A"
+  },
+  {
+    "ID": 498,
+    "PERGUNTA": "A PARTE  DA ASA QUE SOFRE AUMENTO DE PRESSÃO, OCASIONADO PELO ESCOAMENTO DO AR É:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "extradorso",
+    "B": "dorso",
+    "C": "intradorso",
+    "D": "camba",
+    "RESP": "C"
+  },
+  {
+    "ID": 507,
+    "PERGUNTA": "O ARRASTO É SEMPRE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "paralelo ao vento relativo",
+    "B": "horizontal",
+    "C": "perpendicular ao vento\nrelativo",
+    "D": "vertical",
+    "RESP": "A"
+  },
+  {
+    "ID": 455,
+    "PERGUNTA": "A FORÇA QUE DIFICULTA A TRAJETÓRIA DE QUALQUER\nCORPO, DENOMINA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "arrasto",
+    "B": "arrasto parasita",
+    "C": "resistência ao avanço",
+    "D": "arrasto introduzido",
+    "RESP": "C"
+  },
+  {
+    "ID": 689,
+    "PERGUNTA": "A POTÊNCIA NECESSÁRIA PARA DESLOCAR UMA\nAERONAVE, AUMENTA COM A REDUÇÃO DO (A):",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "altitude",
+    "B": "densidade",
+    "C": "carga alar",
+    "D": "estabilidade lateral",
+    "RESP": "B"
+  },
+  {
+    "ID": 708,
+    "PERGUNTA": "VALORES DO CL NEGATIVOS RELACIONAM-SE COM ÂNGULO DE ATAQUE PRÓPRIOS PARA VOOS:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "de dorso",
+    "B": "em alta velocidade",
+    "C": "em velocidade média",
+    "D": "em cabradas violentas",
+    "RESP": "A"
+  },
+  {
+    "ID": 590,
+    "PERGUNTA": "CONSIDERANDO-SE A FORMA DE UMA AVIÃO, A MAIS AERODINÂMICA POSSÍVEL, SE ALTERNARMOS O ÂNGULO DE ATAQUE EM 6 GRAUS PARA CIMA, A\nRESISTÊNCIA PARASITA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "não se altera",
+    "B": "aumenta",
+    "C": "diminui",
+    "D": "impossível determinar",
+    "RESP": "A"
+  },
+  {
+    "ID": 529,
+    "PERGUNTA": "O FLAP É UM DISPOSITIVO HIPERSUSTENTADOR:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "com características de freio aerodinâmico",
+    "B": "que está localizado próximo ao bordo de ataque",
+    "C": "que reduz a sustentação",
+    "D": "que diminui resistência ao avanço",
+    "RESP": "A"
+  },
+  {
+    "ID": 592,
+    "PERGUNTA": "A LINHA IMAGINÁRIA QUE VAI DO NARIZ ATÉ A CAUDA\nDO AVIÃO É CHAMADA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "corda",
+    "B": "eixo longitudinal",
+    "C": "eixo transversal",
+    "D": "eixo de arfagem",
+    "RESP": "B"
+  },
+  {
+    "ID": 656,
+    "PERGUNTA": "DENTRO DA VARIAÇÃO POSSÍVEL O ÂNGULO DE\nATAQUE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "o arrasto parasita não se altera",
+    "B": "o arrasto total não se altera",
+    "C": "o arrasto induzido não se\naltera",
+    "D": "todas as alternativas estão\ncorretas",
+    "RESP": "A"
+  },
+  {
+    "ID": 584,
+    "PERGUNTA": "A TENDÊNCIA QUE UM CORPO EM EQUILÍBRIO TEM DE MANTER-SE EM REPOUSO OU EM MOVIMENTO RETILÍNEO E UNIFORME CHAMA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "força de sustentação",
+    "B": "energia",
+    "C": "força de movimento",
+    "D": "inércia",
+    "RESP": "D"
+  },
+  {
+    "ID": 623,
+    "PERGUNTA": "UMA AERONAVE PODE MANTER VOO RETO\nHORIZONTAL COM VELOCIDADE INFERIOR À DE ESTOL, DESDE QUE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "tenha potência suficiente",
+    "B": "possua potência efetiva suficiente",
+    "C": "a velocidade mínima seja inferior a de estol",
+    "D": "NDA",
+    "RESP": "D"
+  },
+  {
+    "ID": 510,
+    "PERGUNTA": "QUANTO MAIOR O ALONGAMENTO DE UMA ASA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "maior a sustentação e menor o\narrasto",
+    "B": "menor a sustentação e maior o\narrasto",
+    "C": "menor a sustentação e menor\no arrasto",
+    "D": "maior a sustentação e maior o\narrasto",
+    "RESP": "A"
+  },
+  {
+    "ID": 450,
+    "PERGUNTA": "A VELOCIDADE NECESSÁRIA PARA MANTER UM VOO\nRETO E HORIZONTAL VARIA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "diretamente com a raiz\nquadrada do peso",
+    "B": "inversamente com a altitude",
+    "C": "diretamente com a raiz\nquadrada do Cl",
+    "D": "inversamente com a carga alar",
+    "RESP": "A"
+  },
+  {
+    "ID": 476,
+    "PERGUNTA": "A SUPERFÍCIE DE COMANDO QUE NÃO TEM NENHUMA INFLUÊNCIA NA RECUPERAÇÃO DE UM PARAFUSO É O:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aileron",
+    "B": "leme de direção",
+    "C": "profundor",
+    "D": "compensador",
+    "RESP": "A"
+  },
+  {
+    "ID": 514,
+    "PERGUNTA": "QUANDO SE ACIONA O MANCHE PARA A ESQUERDA, O AVIÃO DEVERÁ GIRAR EM VOLTA DO EIXO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "lateral",
+    "B": "vertical",
+    "C": "longitudinal",
+    "D": "inclinado",
+    "RESP": "C"
+  },
+  {
+    "ID": 553,
+    "PERGUNTA": "NUMA CABRADA, O FATOR DE CARGA SERÁ:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "igual a um",
+    "B": "superior a um",
+    "C": "inferior a um",
+    "D": "zero",
+    "RESP": "B"
+  },
+  {
+    "ID": 627,
+    "PERGUNTA": "POTÊNCIA DISPONÍVEL É A MESMA COISA QUE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "potência útil",
+    "B": "potência necessária",
+    "C": "potência de tração",
+    "D": "\"a\" e \"c\" estão corretas",
+    "RESP": "D"
+  },
+  {
+    "ID": 734,
+    "PERGUNTA": "O PESO MÁXIMO DE DECOLAGEM, QUANDO LIMITADO PELAS CONDIÇÕES DA RWY, TAIS COMO COMPRIMENTO, RESISTÊNCIA DO PISO E OUTROS, É\nTAMBÉM CONHECIDO COMO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "PAD",
+    "B": "PMD",
+    "C": "PAED",
+    "D": "PMED",
+    "RESP": "B"
+  },
+  {
+    "ID": 537,
+    "PERGUNTA": "O FATOR DE CARGA PRODUZIDO NO INÍCIO DE UMA\nPICADA PODE SER:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "positivo",
+    "B": "nulo",
+    "C": "negativo",
+    "D": "qualquer das acima",
+    "RESP": "D"
+  },
+  {
+    "ID": 446,
+    "PERGUNTA": "O DISCO PERPENDICULAR AO VENTO RELATIVO, CUJA ÁREA PROVOCA UMA RESISTÊNCIA AO AVANÇO EQUIVALENTE AO ARRASTO PARASITA DA AERONAVE,\nÉ DENOMINADO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "área de fuselagem",
+    "B": "perfil de um aerofólico",
+    "C": "spiner",
+    "D": "área plana equivalente",
+    "RESP": "D"
+  },
+  {
+    "ID": 410,
+    "PERGUNTA": "O PILOTO NOTA QUE APÓS SOFRER UM DESVIO VERTICAL DE SUA TRAJETÓRIA, DEVIDO A UMA RAJADA, A ACFT VOLTA À SUA CONDIÇÃO DE VOO INICIAL, COM OSCILAÇÕES DECRESCENTES. PORTANTO, A REFERIDA ACFT POSSUI EQUILÍBRIO DO TIPO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "dinamicamente estável",
+    "B": "dinamicamente instável",
+    "C": "estaticamente instável",
+    "D": "estaticamente indiferente",
+    "RESP": "A"
+  },
+  {
+    "ID": 428,
+    "PERGUNTA": "AO GRAU DE VARIAÇÃO DA VELOCIDADE DE UM CORPO QUE CAI EM QUEDA LIVRE NO ESPAÇO, DAMOS\nO NOME DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "velocidade de queda livre",
+    "B": "aceleração uniforme",
+    "C": "aceleração da gravidade",
+    "D": "velocidade angular",
+    "RESP": "C"
+  },
+  {
+    "ID": 621,
+    "PERGUNTA": "O MOVIMENTO QUE A PÁ DA HÉLICE DESCREVE,\nPERPENDICULAR AO EIXO DA HÉLICE, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "movimento de translação",
+    "B": "movimento de pá de hélice",
+    "C": "movimento efetivo",
+    "D": "movimento de rotação",
+    "RESP": "D"
+  },
+  {
+    "ID": 528,
+    "PERGUNTA": "EM MAIORES ALTITUDES O RAIO LIMITE DE UMA\nCURVA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "permanece o mesmo",
+    "B": "diminui",
+    "C": "torna-se zero",
+    "D": "aumenta",
+    "RESP": "D"
+  },
+  {
+    "ID": 493,
+    "PERGUNTA": "O ESTOL OCORRE QUANDO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "não existe aumento de pressão no intradorso da asa",
+    "B": "quando a pressão no intradorso torna-se igual a do extradorso",
+    "C": "devido a um turbilhonamento no extradorso, a depressão neste ponto reduz-se rapidamente",
+    "D": "quando a velocidade do vento relativo cai a zero",
+    "RESP": "C"
+  },
+  {
+    "ID": 542,
+    "PERGUNTA": "VELOCIDADE LIMITE É A VELOCIDADE MÁXIMA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "para qual a ACFT foi construída",
+    "B": "em um voo de mergulho",
+    "C": "em um voo horizontal e\npotência máxima",
+    "D": "permitida sem a perda de\ncontrole da aeronave",
+    "RESP": "A"
+  },
+  {
+    "ID": 577,
+    "PERGUNTA": "A VELOCIDADE DE MAIOR RAZÃO DE SUBIDA EM\nRELAÇÃO À DE MAIOR ÂNGULO DE SUBIDA É:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "igual",
+    "B": "maior",
+    "C": "menor",
+    "D": "impossível determinar",
+    "RESP": "B"
+  },
+  {
+    "ID": 430,
+    "PERGUNTA": "A PRESSÃO EXERCIDA SOBRE UM CORPO PODE SER\nMEDIDA EM QUILOGRAMA POR:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "centímetro quadrado",
+    "B": "massa quadrada",
+    "C": "centímetro cúbico",
+    "D": "segundo quadrado",
+    "RESP": "A"
+  },
+  {
+    "ID": 558,
+    "PERGUNTA": "O PARAFUSO ACIDENTAL PODERÁ OCORRER PELA INFLUÊNCIA DE UM DOS SEGUINTES FATORES:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "torque do motor",
+    "B": "asas com incidência iguais",
+    "C": "curvas com pouca inclinação",
+    "D": "uso de ailerons após o estol",
+    "RESP": "A"
+  },
+  {
+    "ID": 503,
+    "PERGUNTA": "AS CONDIÇÕES QUE PROPICIAM UMA MELHOR\nDECOLAGEM SÃO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "alta pressão/alta temperatura",
+    "B": "baixa pressão/vento de cauda",
+    "C": "alta pressão/vento de proa",
+    "D": "baixa pressão/vento de proa",
+    "RESP": "C"
+  },
+  {
+    "ID": 495,
+    "PERGUNTA": "ALONGAMENTO DE UMA ASA É RELAÇÃO ENTRE A:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "CMA e a envergadura",
+    "B": "CMA e a CMG",
+    "C": "CMG e a envergadura",
+    "D": "envergadura e CMG",
+    "RESP": "D"
+  },
+  {
+    "ID": 588,
+    "PERGUNTA": "QUANDO O VALOR DE CL É ZERO, SIGNIFICA QUE O\nÂNGULO DE ATAQUE É:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "semelhante ao se estol",
+    "B": "ainda satisfatório",
+    "C": "um ângulo de sustentação nula",
+    "D": "de alta velocidade",
+    "RESP": "C"
+  },
+  {
+    "ID": 536,
+    "PERGUNTA": "O FATOR DE CARGA PRODUZIDO NUMA CABRADA\nPODE SER:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "positivo",
+    "B": "rajadas de vento",
+    "C": "nulo",
+    "D": "qualquer das acima",
+    "RESP": "A"
+  },
+  {
+    "ID": 692,
+    "PERGUNTA": "O CAVALO DE PAU É UMA MANOBRA PROVOCADA OU ACIDENTAL, CARACTERÍSTICA DA AERONAVE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "de asa delta",
+    "B": "de asa baixa",
+    "C": "com trem de pouso triciclo",
+    "D": "com trem de pouso convencional",
+    "RESP": "D"
+  },
+  {
+    "ID": 513,
+    "PERGUNTA": "NO FLAP \"FOWLER\" O BORDO DE FUGA DESLOCA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "para trás e para baixo",
+    "B": "verticalmente para baixo",
+    "C": "horizontalmente para trás",
+    "D": "paralelamente ao bordo de\nataque",
+    "RESP": "A"
+  },
+  {
+    "ID": 541,
+    "PERGUNTA": "DENTRE OUTROS FATORES, A VELOCIDADE FINAL\nDEPENDE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "da estrutura da aeronave",
+    "B": "das normas do fabricante",
+    "C": "do peso da aeronave",
+    "D": "todas as anteriores",
+    "RESP": "C"
+  },
+  {
+    "ID": 481,
+    "PERGUNTA": "ASSINALE A ALTERNATIVA ERRADA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "a construção do aerofólio é baseada no tubo de Venturi",
+    "B": "a superfície aerodinâmica oferece o mínimo de resistência ao avanço possível",
+    "C": "aerofólio é uma superfície aerodinâmica que oferece o mínimo de resistência ao\navanço possível",
+    "D": "no voo horizontal a tração é igual ao arrasto, sempre que a velocidade for constante",
+    "RESP": "C"
+  },
+  {
+    "ID": 402,
+    "PERGUNTA": "UMA AERONAVE EM VOO PLANADO CONSEGUE\nATINGIR A MÁXIMA DISTÂNCIA, COM VENTO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "nulo",
+    "B": "de proa",
+    "C": "de cauda",
+    "D": "de través",
+    "RESP": "C"
+  },
+  {
+    "ID": 638,
+    "PERGUNTA": "A CONSTRUÇÃO DE UMA AEROFÓLIO É BASEADA\nNA(O):",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "asa dos pássaros",
+    "B": "Tubo de Venturi",
+    "C": "meia circunferência",
+    "D": "forma de um corpo fuselado",
+    "RESP": "B"
+  },
+  {
+    "ID": 545,
+    "PERGUNTA": "EM VOO PLANADO, UMA ACFT CONSEGUE ATINGIR\nMÁXIMA DISTÂNCIA COM VENTO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "de proa",
+    "B": "de través",
+    "C": "de cauda",
+    "D": "nulo",
+    "RESP": "C"
+  },
+  {
+    "ID": 570,
+    "PERGUNTA": "DIEDRO É O ÂNGULO FORMADO ENTRE O EIXO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "longitudinal e o bordo de\nataque das asas",
+    "B": "lateral e o plano das asa",
+    "C": "longitudinal e plano das asas",
+    "D": "lateral e o bordo de ataque das\nasas",
+    "RESP": "B"
+  },
+  {
+    "ID": 653,
+    "PERGUNTA": "DUAS ACFT IGUAIS COM PESOS DIFERENTES INICIAM UM VOO PLANADO, COM MESMO ÂNGULO DE PLANEIO. A MAIS PESADA TERÁ, EM RELAÇÃO A OUTRA, DISTÂNCIA E VELOCIDADE DE PLANEIO,\nRESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "igual/menor",
+    "B": "maior/igual",
+    "C": "igual/maior",
+    "D": "menor/igual",
+    "RESP": "C"
+  },
+  {
+    "ID": 509,
+    "PERGUNTA": "A RESISTÊNCIA AO AVANÇO CAUSADO PELO TURBILHONAMENTO DE PONTA DE ASA, CHAMA-SE\nRESISTÊNCIA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "induzida",
+    "B": "parasita",
+    "C": "total",
+    "D": "do perfil",
+    "RESP": "A"
+  },
+  {
+    "ID": 464,
+    "PERGUNTA": "O PONTO DE APLICAÇÃO DE RESULTANTE\nAERODINÂMICA DO AEROFÓIO É O:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "centro de pressão",
+    "B": "centro de compressão",
+    "C": "centro de gravidade",
+    "D": "conjugado de força",
+    "RESP": "A"
+  },
+  {
+    "ID": 500,
+    "PERGUNTA": "PARA MEDIR A RESISTÊNCIA PARASITA DE UM AVIÃO USA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "determinar sua área frontal e seu coeficiente de resistência ao avanço",
+    "B": "comparar sua resistência ao avanço com a de um disco plano, perpendicular ao\ndeslocamento",
+    "C": "comparar sua resistência ao avanço com a de uma superfície aerodinâmica",
+    "D": "nenhuma das afirmativas anteriores está correta",
+    "RESP": "B"
+  },
+  {
+    "ID": 666,
+    "PERGUNTA": "NOS PERFIS SIMÉTRICOS, COM UM AUMENTO DO\nÂNGULO DE ATAQUE O CP:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "alonga-se para trás",
+    "B": "desloca-se para a frente",
+    "C": "desliza para a fuselagem",
+    "D": "continua no mesmo lugar",
+    "RESP": "D"
+  },
+  {
+    "ID": 474,
+    "PERGUNTA": "A SUPERFÍCIE DE COMANDO QUE TEM A MAIOR\nAMPLITUDE DE MOVIMENTOS É A/O:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "aileron",
+    "B": "compensador",
+    "C": "profundor",
+    "D": "leme de direção",
+    "RESP": "D"
+  },
+  {
+    "ID": 441,
+    "PERGUNTA": "NUM VOO DE DORSO, PODEMOS AFIRMAR QUE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "L menor que 0",
+    "B": "L maior que 0",
+    "C": "Cl igual a 0",
+    "D": "Cl maior que 0",
+    "RESP": "A"
+  },
+  {
+    "ID": 741,
+    "PERGUNTA": "QUANDO SE DIZ QUE O CG É 21 POR CENTO DA CMA, ISSO DEFINE A LOCALIZAÇÃO DO CG A 21 POR CENTO\nDO/DA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "coordenada média do avião",
+    "B": "comprimento máximo do avião",
+    "C": "corda média aerodinâmica da asa",
+    "D": "distância calculada média da asa",
+    "RESP": "C"
+  },
+  {
+    "ID": 438,
+    "PERGUNTA": "O ÂNGULO FORMADO ENTRE A CORDA E A\nTRAJETÓRIA, CHAMA-SE ÂNGULO DE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "incidência",
+    "B": "ataque",
+    "C": "planeio",
+    "D": "subida",
+    "RESP": "B"
+  },
+  {
+    "ID": 429,
+    "PERGUNTA": "A FORÇA POR UNIDADE DE ÁREA DENOMINA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "vetor",
+    "B": "potência",
+    "C": "peso",
+    "D": "pressão",
+    "RESP": "D"
+  },
+  {
+    "ID": 381,
+    "PERGUNTA": "QUANDO ACIONA-SE O MANCHE PARA A ESQUERDA, O AVIÃO DEVERÁ GIRAR EM TORNO DO EIXO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "lateral",
+    "B": "vertical",
+    "C": "inclinado",
+    "D": "longitudinal",
+    "RESP": "D"
+  },
+  {
+    "ID": 532,
+    "PERGUNTA": "O PONTO DE APLICAÇÃO DA RESULTANTE\nAERODINÂMICA NO AEROFÓLIO É O:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "centro de pressão (CP)",
+    "B": "centro de compressão (CP)",
+    "C": "centro de gravidade (CG)",
+    "D": "conjugação de força (CF)",
+    "RESP": "A"
+  },
+  {
+    "ID": 447,
+    "PERGUNTA": "A CORDA QUE SERVE DE APOIO PARA A RESULTANTE DAS SUSTENTAÇÕES E QUE CONTÉM O CP, DENOMINA-\nSE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "corda média geométrica",
+    "B": "corda média aerodinâmica",
+    "C": "corda",
+    "D": "NDA",
+    "RESP": "B"
+  },
+  {
+    "ID": 744,
+    "PERGUNTA": "DE UMA MANEIRA GERAL, PODE-SE DIZER QUE UMA HÉLICE COM PEQUENA TORÇÃO SERIA BOA PARA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "decolagens e subidas",
+    "B": "voos de cruzeiros, em altas velocidade",
+    "C": "subidas e voos de cruzeiro, em alta velocidade",
+    "D": "decolagens e voos de cruzeiro, em alta velocidade",
+    "RESP": "A"
+  },
+  {
+    "ID": 557,
+    "PERGUNTA": "PARA QUE UM AVIÃO SEJA ESTATICAMENTE ESTÁVEL, É NECESSÁRIO QUE O CG, EM RELAÇÃO AO CP, ESTEJA\nLOCALIZADO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "atrás",
+    "B": "à frente",
+    "C": "no lado direito",
+    "D": "no lado esquerdo",
+    "RESP": "B"
+  },
+  {
+    "ID": 756,
+    "PERGUNTA": "A ESTABILIDADE LATERAL EM UM AVIÃO PODE SER\nOBTIDA POR INTERMÉDIO DO ÂNGULO DE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "diedro",
+    "B": "ataque",
+    "C": "trajetória",
+    "D": "incidência",
+    "RESP": "A"
+  },
+  {
+    "ID": 386,
+    "PERGUNTA": "O VENTO DE CAUDA, DURANTE UM VOO PLANADO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "diminui a razão de descida",
+    "B": "aumenta o ângulo de planeio",
+    "C": "diminui a distância de planeio",
+    "D": "aumenta a distância de planeio",
+    "RESP": "D"
+  },
+  {
+    "ID": 632,
+    "PERGUNTA": "A VELOCIDADE COM A QUAL SE PODE VOAR A MAIOR DISTÂNCIA POSSÍVEL É A VELOCIDADE DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "máxima autonomia",
+    "B": "cruzeiro",
+    "C": "regime econômico",
+    "D": "máximo alcance",
+    "RESP": "D"
+  },
+  {
+    "ID": 686,
+    "PERGUNTA": "O PONTO DE APLICAÇÃO DA RESULTANTE DO PESO DE\nUM AVIÃO É O(A):",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "CP",
+    "B": "CG",
+    "C": "CMA",
+    "D": "STA",
+    "RESP": "B"
+  },
+  {
+    "ID": 440,
+    "PERGUNTA": "A RETA PERPENDICULAR À CORDA, QUE LIGA ESTA À LINHA DE CURVATURA MÉDIA, NO PONTO DE MAIOR DISTÂNCIA ENTRE AS DUAS, É DENOMINADA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "linha de curvatura média",
+    "B": "corda",
+    "C": "flecha",
+    "D": "ponto de espessura",
+    "RESP": "C"
+  },
+  {
+    "ID": 599,
+    "PERGUNTA": "O MOVIMENTO REALIZADO EM TORNO DO EIXO\nVERTICAL É CHAMADO DE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "guinada",
+    "B": "tangagem",
+    "C": "cabragem",
+    "D": "rolamento",
+    "RESP": "A"
+  },
+  {
+    "ID": 684,
+    "PERGUNTA": "O PARAFUSO ACIDENTAL PODE OCORRER, PELA\nINFLUENCIA DE UM DOS SEGUINTES FATORES:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "torque do motor",
+    "B": "asa com incidência iguais",
+    "C": "curvas com pouca inclinação",
+    "D": "uso de ailerons após o estol",
+    "RESP": "A"
+  },
+  {
+    "ID": 625,
+    "PERGUNTA": "NO TETO ABSOLUTO A ACFT AINDA CONSEGUE\nMANTER UMA RAZÃO DE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "100 ft/min",
+    "B": "0,51ft/min",
+    "C": "100m//min",
+    "D": "NDA",
+    "RESP": "D"
+  },
+  {
+    "ID": 491,
+    "PERGUNTA": "O DESLOCAMENTO DO AR EM TORNO DE UMA ASA\nPRODUZ UMA FORÇA QUE EMPURRA A ASA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "para cima",
+    "B": "para trás",
+    "C": "para trás e para cima",
+    "D": "para cima e para frente",
+    "RESP": "C"
+  },
+  {
+    "ID": 416,
+    "PERGUNTA": "PARTINDO-SE DA POSIÇÃO NEUTRA, AO SE COMANDAR O MANCHE PARA A DIREITA, O AVIÃO\nDEVERÁ GIRAR EM TORNO DO EIXO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "lateral",
+    "B": "vertical",
+    "C": "transversal",
+    "D": "longitudinal",
+    "RESP": "D"
+  },
+  {
+    "ID": 525,
+    "PERGUNTA": "EM VOO HORIZONTAL PARA AUMENTARMOS A\nVELOCIDADE DO AVIÃO NECESSITAMOS:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "diminuir o ângulo de ataque",
+    "B": "diminuir o ângulo do perfil",
+    "C": "atingir o ângulo crítico",
+    "D": "aumentar o ângulo de ataque",
+    "RESP": "A"
+  },
+  {
+    "ID": 751,
+    "PERGUNTA": "EM UM MERGULHO OU PLANEIO VERTICAL, A SUSTENTAÇÃO E A TRAJETÓRIA DA ACFT, RESPECTIVAMENTE, ESTARÃO NA SEGUINTE\nCONDIÇÃO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "nula/vertical",
+    "B": "positiva/vertical",
+    "C": "negativa/horizontal",
+    "D": "semi-positiva/horizontal",
+    "RESP": "A"
+  },
+  {
+    "ID": 470,
+    "PERGUNTA": "A HÉLICE DE PASSO FIXO TERÁ BOM RENDIMENTO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "somente em baixas RPM",
+    "B": "em qualquer situação de voo",
+    "C": "somente nas condições para as\nquais for construída",
+    "D": "somente em altas RPM",
+    "RESP": "C"
+  },
+  {
+    "ID": 460,
+    "PERGUNTA": "O TEOREMA BERNOULLI FORNECEU BASE PARA A\nCONSTRUÇÃO DO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "altímetro",
+    "B": "velocímetro",
+    "C": "Tubo de Venturi",
+    "D": "Tubo de Pitot",
+    "RESP": "C"
+  },
+  {
+    "ID": 626,
+    "PERGUNTA": "A POTÊNCIA NECESSÁRIA PARA DESLOCAR UMA ACFT\nAUMENTA COM A REDUÇÃO DE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "carga alar",
+    "B": "altitude",
+    "C": "peso",
+    "D": "densidade",
+    "RESP": "D"
+  },
+  {
+    "ID": 573,
+    "PERGUNTA": "AO SE TENTAR FAZER UMA CURVA EM VOO HORIZONTAL, SE HOUVER APLICAÇÃO EXCESSIVA DE PEDAL NO MESMO SENTIDO DA CURVA, A AERONAVE\nTENDERÁ A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "baixar asa contrária",
+    "B": "glissar",
+    "C": "fazer curva em sentido contrário",
+    "D": "derrapar",
+    "RESP": "D"
+  },
+  {
+    "ID": 614,
+    "PERGUNTA": "A HÉLICE DE PASSO FIXO TEM BOM RENDIMENTO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "em qualquer situação de voo",
+    "B": "somente nas condições para a\nqual for ajustada",
+    "C": "somente nas condições para a\nqual foi projetada",
+    "D": "NDA",
+    "RESP": "C"
+  },
+  {
+    "ID": 452,
+    "PERGUNTA": "PARA SE DETERMINAR A VELOCIDADE NECESSÁRIA PARA MANTER UM VOO RETO E HORIZONTAL, TEMOS DE PARTIR DO PRINCÍPIO QUE L=W, ONDE:  OBS: \"(/2\" SIGNIFICA DENSIDADE DIVIDIDA POR 2.",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "Cl. (/2.S.V=W",
+    "B": "C. (/2.S.V=W",
+    "C": "Cl. (/2.S.V²=W",
+    "D": "Cd. (/2.S.V²=W",
+    "RESP": "C"
+  },
+  {
+    "ID": 547,
+    "PERGUNTA": "DUAS ACFT IGUAIS, COM PESOS DIFERENTES, INICIAM UM VOO PLANADO. A MAIS PESADA ESTÁ MAIS ALTA. PERCORRERÁ MAIOR DISTÂNCIA ATÉ O SOLO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "a mais pesada",
+    "B": "a mais leve",
+    "C": "as distâncias serão as mesmas",
+    "D": "NDA",
+    "RESP": "A"
+  },
+  {
+    "ID": 543,
+    "PERGUNTA": "NUM VOO PLANADO, O PESO DA ACFT NÃO AFETA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "a distância e o ângulo de\nplaneio",
+    "B": "a razão de descida",
+    "C": "a velocidade de planeio",
+    "D": "todas as acima",
+    "RESP": "A"
+  },
+  {
+    "ID": 767,
+    "PERGUNTA": "NO POUSO DE TRÊS PONTOS, COM UMA ACFT DE\nTREM DE POUSO CONVENCIONAL, TER-SE-Á A SEGUINTE SITUAÇÃO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aproximação com motor em marcha acelerada",
+    "B": "sobre a RWY, sem tocá-la, o\nângulo de ataque irá diminuindo",
+    "C": "a ACFT tocará a RWY,\ninicialmente, com o trem principal",
+    "D": "pouco antes de tocar a RWY, a ACTF atingirá o ângulo crítico",
+    "RESP": "D"
+  },
+  {
+    "ID": 396,
+    "PERGUNTA": "A VELOCIDADE NA QUAL O AVIÃO SOBE COM MAIOR\nÂNGULO DE SUBIDA DENOMINA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "maior razão de subida",
+    "B": "maior ângulo de subida",
+    "C": "máxima razão de subida",
+    "D": "máximo ângulo de subida",
+    "RESP": "D"
+  },
+  {
+    "ID": 740,
+    "PERGUNTA": "PARA QUE UM AVIÃO SEJA ESTÁVEL LATERAL E DIRECIONALMENTE É NECESSÁRIO QUE AS ÁREAS ACIMA E ATRÁS DO CG SEJAM, RESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "maior do que a de baixo/menor do que a da frente",
+    "B": "maior do que a de baixo/maior do que a da frente",
+    "C": "menor do que a de baixo/maior do que a da frente",
+    "D": "menor do que a de baixo/menor do que a da frente",
+    "RESP": "B"
+  },
+  {
+    "ID": 454,
+    "PERGUNTA": "PARA SE MANTER A VELOCIDADE DE UM AVIÃO\nCONSTANTE, É NECESSÁRIO QUE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "D menor que T",
+    "B": "T maior que D",
+    "C": "T menor que D",
+    "D": "D igual a T",
+    "RESP": "D"
+  },
+  {
+    "ID": 579,
+    "PERGUNTA": "UMA HÉLICE DE RPM CONSTANTE CONSEGUE MANTER TAL CARACTERÍSTICA ATRAVÉS DA VARIAÇÃO DO\n(DA/DAS):",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "binária do motor",
+    "B": "incidência das pás",
+    "C": "perfil das pás",
+    "D": "rendimento aerodinâmico",
+    "RESP": "B"
+  },
+  {
+    "ID": 448,
+    "PERGUNTA": "UMA DIMINUIÇÃO DO ÂNGULO DE ATAQUE PROVOCA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "diminuição do Cd",
+    "B": "um aumento no Cd",
+    "C": "maior turbilhonamento do\nextradorso",
+    "D": "NDA",
+    "RESP": "A"
+  },
+  {
+    "ID": 677,
+    "PERGUNTA": "EM UM VOO PLANADO, O FLAP, AO SER ACIONADO,\nPERMITIRÁ:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "ângulos de planeio menores",
+    "B": "que se percorra distâncias\nmaiores",
+    "C": "que a velocidade de planeio\nseja menor",
+    "D": "ao avião, planar por tempo\nindeterminado",
+    "RESP": "C"
+  },
+  {
+    "ID": 745,
+    "PERGUNTA": "O MOVIMENTO REALIZADO EM TORNO DO EIXO\nVERTICAL É CHAMADO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "guinada",
+    "B": "rolagem",
+    "C": "tangagem",
+    "D": "cabragem",
+    "RESP": "A"
+  },
+  {
+    "ID": 390,
+    "PERGUNTA": "AS PARTES DO AVIÃO QUE PRODUZEM PEQUENA RESISTÊNCIA AO AVANÇO E NENHUMA FORÇA ÚTIL AO\nVOO SÃO DENOMINADAS:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aerofólios",
+    "B": "envergaduras",
+    "C": "estabilizadores",
+    "D": "superfícies aerodinâmicas",
+    "RESP": "D"
+  },
+  {
+    "ID": 615,
+    "PERGUNTA": "A VELOCIDADE MÍNIMA É A MENOR VELOCIDADE COM\nA QUAL SE CONSEGUE MANTER O VOO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "horizontal",
+    "B": "horizontal sob controle",
+    "C": "na RPM mínima do motor",
+    "D": "horizontal à velocidade\nconstante",
+    "RESP": "D"
+  },
+  {
+    "ID": 713,
+    "PERGUNTA": "QUANDO SE LEVA O COMANDO DOS AILERONS PARA A ESQUERDA O/OS:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "movimento de arfagem é iniciado",
+    "B": "compensadores são levados para posição neutra",
+    "C": "aileron esquerdo é baixado e o direito levantado",
+    "D": "aileron direito é baixado e o esquerdo levantado",
+    "RESP": "D"
+  },
+  {
+    "ID": 644,
+    "PERGUNTA": "AO ARRASTO PROVOCADO NAS PONTAS DA ASA\nDAMOS O NOME DE ARRASTO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "parasita",
+    "B": "induzido",
+    "C": "aerodinâmico",
+    "D": "normal",
+    "RESP": "B"
+  },
+  {
+    "ID": 617,
+    "PERGUNTA": "A POTÊNCIA NECESSÁRIA PARA DESLOCAR UMA\nAERONAVE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "varia com a velocidade de voo",
+    "B": "aumenta com o aumento da\nvelocidade da aeronave",
+    "C": "não depende da velocidade",
+    "D": "NDA",
+    "RESP": "A"
+  },
+  {
+    "ID": 412,
+    "PERGUNTA": "AO PILOTAR O SEU AVIÃO, EM VOO ASCENDENTE APÓS A DECOLAGEM,  O PILOTO OBSERVA QUE AO\nLONGO DO TEMPO, A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "pressão diminui",
+    "B": "gravidade aumenta",
+    "C": "temperatura do ar permanece constante",
+    "D": "temperatura do ar sobe gradativamente",
+    "RESP": "A"
+  },
+  {
+    "ID": 492,
+    "PERGUNTA": "OS FATORES QUE INFLUEM NA SUSTENTAÇÃO DE UM AEROFÓLIO",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "peso, ângulo de ataque, densidade do ar",
+    "B": "peso, área, velocidade, ângulo de ataque, densidade",
+    "C": "forma, área, velocidade,\nângulo de ataque, densidade do ar",
+    "D": "área velocidade, ângulo de ataque",
+    "RESP": "C"
+  },
+  {
+    "ID": 497,
+    "PERGUNTA": "O ÂNGULO CORRESPONDENTE AO COEFICIENTE MÁXIMO DE SUSTENTAÇÃO É CHAMADO DE ÂNGULO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "critico",
+    "B": "de incidência",
+    "C": "diedro",
+    "D": "de enflechamento",
+    "RESP": "A"
+  },
+  {
+    "ID": 668,
+    "PERGUNTA": "O ÂNGULO FORMADO ENTRE O EIXO LONGITUDINAL DA ACTF E O PLANO QUE CONTÉM A CORDA DA ASA, DENOMINA-SE ÂNGULO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "diedro",
+    "B": "de ataque",
+    "C": "de incidência",
+    "D": "de enflexamento",
+    "RESP": "C"
+  },
+  {
+    "ID": 728,
+    "PERGUNTA": "UM AVIÃO REALIZA UMA CURVA NIVELADA, COM INCLINAÇÃO DAS ASAS IGUAL A 60 GRAUS. NESTAS CONDIÇÕES, O FATOR DE CARGA SOBRE A ACTF SERÁ:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "maior que 1G",
+    "B": "menor que 1G",
+    "C": "igual a zero G",
+    "D": "menor que zero G",
+    "RESP": "A"
+  },
+  {
+    "ID": 394,
+    "PERGUNTA": "OS SLOTS TEM COMO CARACTERÍSTICA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "diminui a área da asa",
+    "B": "diminui o ângulo crítico",
+    "C": "altera a curvatura do perfil",
+    "D": "altera o coeficiente de\nsustentação",
+    "RESP": "D"
+  },
+  {
+    "ID": 701,
+    "PERGUNTA": "PARA SE MANTER UM VOO HORIZONTAL, QUANTO\nMAIOR FOR ALTITUDE DO VOO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "menor será a potência nominal",
+    "B": "maior será a potência\ndisponível",
+    "C": "menor será a potência\nnecessária",
+    "D": "maior será a potência\nnecessária",
+    "RESP": "D"
+  },
+  {
+    "ID": 660,
+    "PERGUNTA": "A MEDIDA EM QUE UM AVIÃO SOBE, DENTRO DA\nCAMADA DE AR ATMOSFÉRICO A:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "pressão diminui",
+    "B": "gravidade aumenta",
+    "C": "temperatura não se altera",
+    "D": "temperatura sobe\ngradativamente",
+    "RESP": "A"
+  },
+  {
+    "ID": 707,
+    "PERGUNTA": "UMA SUPERFÍCIE AERODINÂMICA PRODUZ SEMPRE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "pouca força útil ao voo",
+    "B": "muita força útil ao voo",
+    "C": "grande resistência ao avanço",
+    "D": "pequena resistência ao avanço",
+    "RESP": "D"
+  },
+  {
+    "ID": 581,
+    "PERGUNTA": "UM AVIÃO AO EFETUAR UMA CURVA TEM A\nVELOCIDADE DE ESTOL:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "menor do que em voo nivelado",
+    "B": "igual de subida",
+    "C": "maior do que em voo nivelado",
+    "D": "igual à de voo nivelado",
+    "RESP": "C"
+  },
+  {
+    "ID": 403,
+    "PERGUNTA": "A SITUAÇÃO IDEAL PARA UMA DECOLAGEM É\nCONSEGUIDA COM VENTO DE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "proa/baixa temperatura/alta\npressão",
+    "B": "proa/alta temperatura/baixa\npressão",
+    "C": "cauda/baixa temperatura/alta\npressão",
+    "D": "cauda/alta temperatura/baixa\npressão",
+    "RESP": "A"
+  },
+  {
+    "ID": 427,
+    "PERGUNTA": "UM AUTOMÓVEL TRAFEGA A 80 KM/H. SE O VENTO SOPRA NO SENTIDO CONTRÁRIO COM 20 KM/H, A VELOCIDADE DO AUTOMÓVEL EM RELAÇÃO AO AR\nSERÁ DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "60 Km/h",
+    "B": "80 Km/h",
+    "C": "100 Km/h",
+    "D": "nenhuma das citadas",
+    "RESP": "C"
+  },
+  {
+    "ID": 637,
+    "PERGUNTA": "NO ÂNGULO CRÍTICO O CL É:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "máximo e o CD é mínimo",
+    "B": "mínimo e o CD é mínimo",
+    "C": "máximo e o CD é máximo",
+    "D": "mínimo e o CD é máximo",
+    "RESP": "C"
+  },
+  {
+    "ID": 691,
+    "PERGUNTA": "O RECUO DA HÉLICE É TRAZIDO COMO SENDO A\nDIFERENÇA ENTRE O(A):",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "passo real e o passo efetivo",
+    "B": "passo teórico e o passo efetivo",
+    "C": "potência útil e potência\nnominal",
+    "D": "potência efetiva e a potência\nnominal",
+    "RESP": "B"
+  },
+  {
+    "ID": 506,
+    "PERGUNTA": "O \"ZERO ABSOLUTO\" CORRESPONDE A:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "-460°F",
+    "B": "273°C",
+    "C": "460°F",
+    "D": "-275°K",
+    "RESP": "A"
+  },
+  {
+    "ID": 499,
+    "PERGUNTA": "ASSINALE A AFIRMATIVA ERRADA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "a resultante aerodinâmica é, na realidade, a força que aparece em uma asa que se desloca no ar",
+    "B": "a resultante aerodinâmica é decomposta em sustentação e arrasto, duas forças perpendiculares entre si",
+    "C": "a sustentação é a componente vertical da resultante aerodinâmica",
+    "D": "arrasto é a componente paralela ao vento relativo da resultante aerodinâmica",
+    "RESP": "C"
+  },
+  {
+    "ID": 630,
+    "PERGUNTA": "PARA POUSAR COM BAIXA VELOCIDADE É NECESSÁRIO REDUZIR A VELOCIDADE DE ESTOL. ISTO PODE SER CONSEGUIDO COM O AUMENTO DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "Cl da asa",
+    "B": "área da asa",
+    "C": "ângulo crítico",
+    "D": "todas acima",
+    "RESP": "D"
+  },
+  {
+    "ID": 716,
+    "PERGUNTA": "UMA AERONAVE ESTARÁ NO SEU TETO PRÁTICO QUANDO AINDA CONSEGUIR MANTER UMA RAZÃO DE\nSUBIDA DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "50 ft/min",
+    "B": "100 ft/min",
+    "C": "150 ft/min",
+    "D": "200 ft/min",
+    "RESP": "B"
+  },
+  {
+    "ID": 518,
+    "PERGUNTA": "DUAS AERONAVES IGUAIS COM PESOS DIFERENTES, INICIAM UM VOO PLANADO COM MESMO ÂNGULO DE PLANEIO. A MAIS PESADA, ESTANDO MAIS BAIXA, TERÁ UMA DISTÂNCIA DE PLANEIO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "inalterada",
+    "B": "maior",
+    "C": "menor",
+    "D": "igual",
+    "RESP": "C"
+  },
+  {
+    "ID": 489,
+    "PERGUNTA": "QUANDO A SUSTENTAÇÃO É MAIOR DO QUE O PESO,\nO AVIÃO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "desce",
+    "B": "sobe",
+    "C": "não sofre qualquer movimento",
+    "D": "inclina-se lateralmente",
+    "RESP": "B"
+  },
+  {
+    "ID": 582,
+    "PERGUNTA": "COM MAIOR ÁREA DE ASA TEM-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "um aumento da velocidade\nmáxima",
+    "B": "menor ângulo de subida",
+    "C": "maior potência necessária",
+    "D": "uma redução da velocidade de\nestol",
+    "RESP": "D"
+  },
+  {
+    "ID": 385,
+    "PERGUNTA": "A ALTITUDE MÁXIMA QUE UMA AERONAVE\nCONSEGUE ALCANÇAR CHAMA-SE TETO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "prático",
+    "B": "absoluto",
+    "C": "de serviço",
+    "D": "operacional",
+    "RESP": "B"
+  },
+  {
+    "ID": 548,
+    "PERGUNTA": "OS DISPOSITIVOS QUE PERMITEM AS ACFT SE APROXIMAREM COM MAIORES ÂNGULOS DE PLANEIO\nE MENORES VELOCIDADES, SÃO OS:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "flaps",
+    "B": "slats",
+    "C": "slots",
+    "D": "todos os anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 562,
+    "PERGUNTA": "AO INICIAR UM PARAFUSO, O PILOTO REDUZ O MOTOR DA AERONAVE PARA A MARCHA LENTA E ERGUE GRADUALMENTE O NARIZ. APÓS ESSE\nPROCEDIMENTO HAVERÁ:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "perda de velocidade e estol da aeronave",
+    "B": "aumento da velocidade de estol da aeronave",
+    "C": "perda de velocidade e a aeronave entrará na condição de pré-estol",
+    "D": "aumento da velocidade e a aeronave entrará na condição de pré-estol",
+    "RESP": "C"
+  },
+  {
+    "ID": 424,
+    "PERGUNTA": "DE ACORDO COM A LEI DOS GASES, A DENSIDADE É:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "diretamente proporcional à temperatura",
+    "B": "diretamente proporcional à pressão e à temperatura",
+    "C": "diretamente proporcional à pressão e inversamente proporcional á temperatura",
+    "D": "inversamente proporcional à pressão e à temperatura",
+    "RESP": "C"
+  },
+  {
+    "ID": 629,
+    "PERGUNTA": "ASSINALAR A ALTERNATIVA ERRADA: EM UM VOO HORIZONTAL:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "é possível variar a velocidade sem mudar o ângulo de ataque",
+    "B": "acima do ângulo crítico é preciso variar grandemente a potência para mínimas variações de velocidade",
+    "C": "a potência útil fornecida pelo grupo moto-propulsor varia com a velocidade da aeronave",
+    "D": "a velocidade mínima é maior que a velocidade de estol",
+    "RESP": "A"
+  },
+  {
+    "ID": 391,
+    "PERGUNTA": "A RESULTANTE AERODINÂMICA DE UM AEROFÓLIO É APLICADA EM UM PONTO NA CORDA, DENOMINADO\nCENTRO DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "força",
+    "B": "pressão",
+    "C": "gravidade",
+    "D": "compressão",
+    "RESP": "B"
+  },
+  {
+    "ID": 657,
+    "PERGUNTA": "A SUSTENTAÇÃO DEPENDE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "do ângulo de ataque, formato do perfil, pressão do ar atmosférico e área da asa",
+    "B": "da área da asa, densidade do ar, velocidade do deslocamento, ângulo de\nataque e formato do perfil",
+    "C": "da velocidade do vento, peso da aeronave, ângulo de ataque e formato do perfil",
+    "D": "todas as acima",
+    "RESP": "B"
+  },
+  {
+    "ID": 530,
+    "PERGUNTA": "A FORÇA DE SUSTENTAÇÃO DEVE-SE A/AO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "diferença de pressão existente entre o extradorso e o intradorso da asa",
+    "B": "impacto do ar contra a asa",
+    "C": "diferença entre pressão estática e pressão dinâmica em torno da asa",
+    "D": "movimento do ar em torno da asa, que torna o avião mais leve que o ar",
+    "RESP": "A"
+  },
+  {
+    "ID": 494,
+    "PERGUNTA": "A FORÇA DE SUSTENTAÇÃO DEPENDE SOMENTE DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "ângulo de ataque, densidade do ar e velocidade de deslocamento",
+    "B": "coeficiente de sustentação, área da asa e velocidade de deslocamento",
+    "C": "ângulo de ataque, formato do aerofólio, área da asa, densidade do ar e velocidade de deslocamento",
+    "D": "coeficiente de sustentação, densidade do ar, área da asa, pressão temperatura e velocidade desloc.",
+    "RESP": "C"
+  },
+  {
+    "ID": 694,
+    "PERGUNTA": "NO VOO HORIZONTAL EM CURVA, A FORÇA DE\nSUSTENTAÇÃO DEVERÁ SER:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "igual ao peso do avião",
+    "B": "maior que o peso do avião",
+    "C": "menor que o peso do avião",
+    "D": "igual ao peso do avião\ndiminuindo-se a potência",
+    "RESP": "B"
+  },
+  {
+    "ID": 393,
+    "PERGUNTA": "PARTINDO DA POSIÇÃO NEUTRA, O MANCHE AO SER MOVIDO PARA A ESQUERDA, FARÁ COM QUE O AVIÃO\nGIRE EM TORNO DO EIXO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "lateral",
+    "B": "vertical",
+    "C": "inclinado",
+    "D": "longitudinal",
+    "RESP": "D"
+  },
+  {
+    "ID": 439,
+    "PERGUNTA": "A MENOR VELOCIDADE NA QUAL SE CONSEGUE VOAR\nRETO E  HORIZONTAL É A VELOCIDADE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "de cruzeiro",
+    "B": "máxima",
+    "C": "mínima",
+    "D": "de estol",
+    "RESP": "C"
+  },
+  {
+    "ID": 575,
+    "PERGUNTA": "QUANTO MAIOR A ALTITUDE DE VOO, PARA SE\nMANTER UM VOO HORIZONTAL:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "maior a potência necessária",
+    "B": "menor é a resistência ao\navanço",
+    "C": "menor a potência necessária",
+    "D": "a potência necessária será a\nmesma",
+    "RESP": "A"
+  },
+  {
+    "ID": 612,
+    "PERGUNTA": "PARAFUSO É UM TIPO DE MANOBRA QUE PODE SER:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "somente normal",
+    "B": "somente comandada",
+    "C": "normal ou comandada",
+    "D": "comandada ou acidental",
+    "RESP": "D"
+  },
+  {
+    "ID": 400,
+    "PERGUNTA": "PODE-SE AFIRMAR QUE UMA AERONAVE EM VOO, NO\nSEU TETO ABSOLUTO, TERÁ UMA R/S:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "nula",
+    "B": "de 500 ft/min",
+    "C": "de 100 ft/min",
+    "D": "de 150 f/min",
+    "RESP": "A"
+  },
+  {
+    "ID": 652,
+    "PERGUNTA": "A TROCA DE UM MOTOR POR OUTRO DE MAIOR\nPOTÊNCIA EFETIVA, SEM VARIAÇÃO DO PESO TOTAL OU ARRASTO TOTAL, AUMENTA O(A):",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "teto absoluto",
+    "B": "velocidade de estol",
+    "C": "potência necessária",
+    "D": "velocidade de menor razão de descida",
+    "RESP": "A"
+  },
+  {
+    "ID": 725,
+    "PERGUNTA": "AO SE ENTRAR EM ÁREA DE FORTE TURBULÊNCIA, VOANDO A VELOCIDADES INDICADAS MUITO BAIXAS, PRÓXIMAS AO ESTOL, PODERÁ OCORRER UM/UMA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "brusco aumento da sustentação",
+    "B": "rápido aumento da velocidade indicada",
+    "C": "violenta vibração da ACTF, sem o perigo de estol",
+    "D": "descontrolada entrada em estol por aumento súbito do ângulo de ataque",
+    "RESP": "D"
+  },
+  {
+    "ID": 409,
+    "PERGUNTA": "OS LIMITES DO CG DE UM AVIÃO SÃO, NORMALMENTE EXPRESSOS EM PORCENTAGEM DA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "CGA",
+    "B": "CMA",
+    "C": "CMG",
+    "D": "CAM",
+    "RESP": "B"
+  },
+  {
+    "ID": 673,
+    "PERGUNTA": "O FLAP É UM DISPOSITIVO HIPERSUSTENTADOR QUE\nAUMENTA O CL E:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "diminui um pouco o ângulo\ncrítico do perfil",
+    "B": "diminui a curvatura do perfil",
+    "C": "mantém inalterado o\narqueamento do aerofólio",
+    "D": "mantém inalterado o ângulo\ncrítico do aerofólio",
+    "RESP": "A"
+  },
+  {
+    "ID": 602,
+    "PERGUNTA": "O AUMENTO DO PESO DE UMA AVIÃO ACARRETARÁ:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "aumento da razão de subida",
+    "B": "diminuição da velocidade de\nestol",
+    "C": "diminuição do ângulo de\nsubida",
+    "D": "aumento da velocidade\nmáxima",
+    "RESP": "C"
+  },
+  {
+    "ID": 762,
+    "PERGUNTA": "EM UM VOO ASCENDENTE, O MAIOR ÂNGULO DE SUBIDA É OBTIDO, DENTRE OUTROS, ATRAVÉS DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "alto peso",
+    "B": "alta altitude",
+    "C": "grande área de asa",
+    "D": "baixa potência disponível",
+    "RESP": "C"
+  },
+  {
+    "ID": 486,
+    "PERGUNTA": "O COEFICIENTE DE SUSTENTAÇÃO TEM O SEU VALOR\nMÁXIMO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "quando a velocidade é máxima",
+    "B": "no ângulo critico",
+    "C": "em ângulo acima do crítico",
+    "D": "no estol",
+    "RESP": "B"
+  },
+  {
+    "ID": 731,
+    "PERGUNTA": "UM AVIÃO ENTRA EM ESTOL ASSIMÉTRICO, QUANDO SE ENCONTRA SOB A INFLUÊNCIA DE UM DOS\nSEGUINTES FATORES:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "curvas de pouca inclinação",
+    "B": "asas com incidências iguais",
+    "C": "derrapagem criada pelo piloto",
+    "D": "uso de ailerons, próximo ao estol",
+    "RESP": "D"
+  },
+  {
+    "ID": 676,
+    "PERGUNTA": "O REGIME DE CRUZEIRO QUE PERMITE VOAR A MAIOR DISTÂNCIA POSSÍVEL, COM DADA QUANTIDADE DE COMBUSTÍVEL, DENOMINA-SE VELOCIDADE DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "cruzeiro",
+    "B": "voo nivelado",
+    "C": "máximo alcance",
+    "D": "máxima autonomia",
+    "RESP": "C"
+  },
+  {
+    "ID": 613,
+    "PERGUNTA": "QUANDO UM AVIÃO APRESENTA POUCA ESTABILIDADE DIRECIONAL, PODE-SE AFIRMAR QUE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "geram-se grandes esforços",
+    "B": "geram-se riscos estruturais",
+    "C": "a pilotagem torna-se incômoda",
+    "D": "a pilotagem se torna impossível",
+    "RESP": "C"
+  },
+  {
+    "ID": 467,
+    "PERGUNTA": "NA ATMOSFERA PADRÃO (ISA) A TEMPERATURA AO\nNÍVEL DO MAR É, EM GRAUS CELSIUS, DE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "08 graus",
+    "B": "15 graus",
+    "C": "10 graus",
+    "D": "20 graus",
+    "RESP": "B"
+  },
+  {
+    "ID": 434,
+    "PERGUNTA": "A VARIAÇÃO DE VELOCIDADE, NA UNIDADE DE TEMPO,\nDAMOS O NOME DE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "aceleração",
+    "B": "sustentação",
+    "C": "resultante",
+    "D": "resistência",
+    "RESP": "A"
+  },
+  {
+    "ID": 594,
+    "PERGUNTA": "O PONTO DE APLICAÇÃO DO PESO É CHAMADO DE\nCENTRO DE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "tração",
+    "B": "gravidade",
+    "C": "pressão",
+    "D": "sustentação",
+    "RESP": "B"
+  },
+  {
+    "ID": 739,
+    "PERGUNTA": "DOIS AVIÕES IGUAIS VOAM NO MESMO NÍVEL, COM O MESMO PESO E VELOCIDADE, SENDO QUE O PRIMEIRO DELES ESTÁ COM O CG À FRENTE DO LIMITE DIANTEIRO E O SEGUNDO TEM O CG NO LIMITE TRASEIRO. EM RELAÇÃO AO PRIMEIRO AVIÃO, PODE-\nSE AFIRMAR QUE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "terá menor arrasto",
+    "B": "consumirá mais combustível",
+    "C": "a facilidade para manobras será maior",
+    "D": "ficará menos estável longitudinalmente",
+    "RESP": "B"
+  },
+  {
+    "ID": 724,
+    "PERGUNTA": "DAS ALTERNATIVAS ABAIXO, O TIPO DE PISO DE PISTA EM QUE A CORRIDA DE DECOLAGEM SERÁ MAIOR É O\nDE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "grama",
+    "B": "saibro",
+    "C": "asfalto",
+    "D": "concreto",
+    "RESP": "A"
+  },
+  {
+    "ID": 478,
+    "PERGUNTA": "ENVERGADURA É A DISTÂNCIA ENTRE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "uma ponta à outra asa",
+    "B": "a ponta e a raiz da asa",
+    "C": "o nariz e a cauda da aeronave",
+    "D": "o bordo de ataque e o de fuga",
+    "RESP": "A"
+  },
+  {
+    "ID": 515,
+    "PERGUNTA": "EM UM PERFIL SIMÉTRICO, AUMENTANDO-SE O\nÂNGULO DE ATAQUE, O CP:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "avança mais para trás",
+    "B": "desloca-se para o lado",
+    "C": "permanece no mesmo lugar",
+    "D": "avança mais para frente",
+    "RESP": "C"
+  },
+  {
+    "ID": 432,
+    "PERGUNTA": "PESO DE UM CORPO É:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "igual à força de atração da\nTerra sobre ele",
+    "B": "proporcional à massa",
+    "C": "sempre constante num\ndeterminado local",
+    "D": "todas as acima",
+    "RESP": "D"
+  },
+  {
+    "ID": 635,
+    "PERGUNTA": "O ALTÍMETRO NOS FORNECE ALTITUDE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "pressão",
+    "B": "densidade",
+    "C": "verdadeira",
+    "D": "calibrada",
+    "RESP": "A"
+  },
+  {
+    "ID": 591,
+    "PERGUNTA": "A DISTÂNCIA A SER PERCORRIDA EM VOO PLANADO\nVARIA COM A/O:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "inclinação",
+    "B": "altura",
+    "C": "peso",
+    "D": "velocidade",
+    "RESP": "B"
+  },
+  {
+    "ID": 405,
+    "PERGUNTA": "O RAIO LIMITE QUE UMA AERONAVE EXECUTA,\nDURANTE UMA CURVA, DEPENDE DA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "potência efetiva e da altitude",
+    "B": "altitude e da potência\ndisponível",
+    "C": "potência efetiva e da potência\nnominal",
+    "D": "potência nominal e da\npotência disponível",
+    "RESP": "B"
+  },
+  {
+    "ID": 560,
+    "PERGUNTA": "O VENTO EM RELAÇÃO AO DESLOCAMENTO DA\nAERONAVE, POSSUI:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "mesmo sentido",
+    "B": "velocidade inferior",
+    "C": "mesma direção",
+    "D": "velocidade superior",
+    "RESP": "C"
+  },
+  {
+    "ID": 596,
+    "PERGUNTA": "A MEDIDA QUE UM AVIÃO SOBE DENTRO DA CAMADA\nATMOSFÉRICA A:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "pressão diminui",
+    "B": "temperatura  não se altera",
+    "C": "gravidade aumenta",
+    "D": "temperatura sobe\ngradativamente",
+    "RESP": "A"
+  },
+  {
+    "ID": 505,
+    "PERGUNTA": "A LINHA QUE VAI DO NARIZ À CAUDA DA AERONAVE\nCHAMA-SE EIXO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "lateral",
+    "B": "vertical",
+    "C": "direcional",
+    "D": "longitudinal",
+    "RESP": "D"
+  },
+  {
+    "ID": 436,
+    "PERGUNTA": "UM CORPO MERGULHADO EM UM FLUIDO SOFRE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "pressão maior na parte superior devido ao peso do\nfluido deslocado",
+    "B": "pressão maior na parte inferior, devido ao peso do\nfluido deslocado",
+    "C": "pressões iguais em todos os sentidos",
+    "D": "nenhuma das acima",
+    "RESP": "B"
+  },
+  {
+    "ID": 754,
+    "PERGUNTA": "QUANDO SE PRESSIONA UM DOS PEDAIS DO LEME DE DIREÇÃO SEM ANTES INCLINAR AS ASAS, TEM-SE\nUM(A):",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "glissada",
+    "B": "derrapagem",
+    "C": "perda de altitude",
+    "D": "aumento na força centrípeta",
+    "RESP": "B"
+  },
+  {
+    "ID": 442,
+    "PERGUNTA": "AS FENDAS QUE, EM GRANDES ÂNGULOS DE ATAQUE, PERMITEM A PASSAGEM DO AR MAIS ENERGIZADO DINAMICAMENTE,DO INTRADORSO PARA O EXTRADORSO, POSSIBILITANDO MAIORES ÂNGULOS DE ATAQUE SÃO DENOMINADOS:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "flaps",
+    "B": "slats",
+    "C": "slots",
+    "D": "frise",
+    "RESP": "C"
+  },
+  {
+    "ID": 675,
+    "PERGUNTA": "A DISTÂNCIA, EM VOO PLANADO,QUE SERÁ ATINGIDA POR UM AVIÃO VAZIO, EM RELAÇÃO AO MESMO AVIÃO PESADO, PARTINDO DE UMA MESMA ALTURA E COM O MESMO ÂNGULO DE PLANEIO, SERÁ:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "menor",
+    "B": "maior",
+    "C": "igual",
+    "D": "variável",
+    "RESP": "C"
+  },
+  {
+    "ID": 685,
+    "PERGUNTA": "A ESFERA É EXEMPLO DE UM CORPO EM EQUILÍBRIO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "estável",
+    "B": "aparente",
+    "C": "instável",
+    "D": "indiferente",
+    "RESP": "D"
+  },
+  {
+    "ID": 445,
+    "PERGUNTA": "PARA SE DIMINUIR O EFEITO DE ARRASTO INDUZIDO, UTILIZA-SE ARTIFÍCIOS, TAIS COMO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aumentar o alongamento",
+    "B": "tanques nas pontas das asas",
+    "C": "alteração do perfil da ponta da asa, o que dificulta a subida do ar para o extradorso",
+    "D": "todas as acima",
+    "RESP": "D"
+  },
+  {
+    "ID": 747,
+    "PERGUNTA": "A PRINCIPAL FUNÇÃO DO FLAP É:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "aumentar a sustentação",
+    "B": "aumentar o ângulo crítico",
+    "C": "diminuir o ângulo de ataque",
+    "D": "diminuir a resistência ao\navanço",
+    "RESP": "A"
+  },
+  {
+    "ID": 705,
+    "PERGUNTA": "NO BORDO DE FUGA DE UMA ASA, O FLAP FOWLER\nDESLOCA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "para trás",
+    "B": "paralelamente",
+    "C": "assimetricamente",
+    "D": "para trás e para baixo",
+    "RESP": "D"
+  },
+  {
+    "ID": 512,
+    "PERGUNTA": "A RAZÃO DE SUBIDA DE UMA AERONAVE DIMINUI\nCOM:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "diminuição do peso",
+    "B": "aumento da altitude",
+    "C": "aumento da velocidade",
+    "D": "diminuição da área da asa",
+    "RESP": "B"
+  },
+  {
+    "ID": 710,
+    "PERGUNTA": "DADAS DUAS HÉLICES SIMILARES, A DE MENOR PASSO\nSERÁ INEFICIENTE NAS:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "subidas",
+    "B": "decolagens",
+    "C": "altas velocidades, em voos de\ncruzeiro",
+    "D": "condições para as quais foi\nconstruída",
+    "RESP": "C"
+  },
+  {
+    "ID": 598,
+    "PERGUNTA": "DE UMA MANEIRA GERAL PODE-SE DIZER QUE UMA HÉLICE COM PEQUENA TORÇÃO SERIA BOA PARA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "voos cruzeiro em alta velocidade",
+    "B": "decolagens e subidas",
+    "C": "subidas e voos de cruzeiro em alta velocidade",
+    "D": "decolagens e voos de cruzeiro em alta velocidade",
+    "RESP": "B"
+  },
+  {
+    "ID": 662,
+    "PERGUNTA": "O NOME TÉCNICO DA PARTE SUPERIOR DE UM\nAEROFÓLIO É:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "corda",
+    "B": "ventre",
+    "C": "intradorso",
+    "D": "extradorso",
+    "RESP": "D"
+  },
+  {
+    "ID": 690,
+    "PERGUNTA": "A RAZÃO EXISTENTE ENTRE A ENVERGADURA E A\nCORDA DE UMA ASA, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "diedro",
+    "B": "alongamento",
+    "C": "comprimento da asa",
+    "D": "estabilidade de ataque",
+    "RESP": "B"
+  },
+  {
+    "ID": 607,
+    "PERGUNTA": "DURANTE A DECOLAGEM, UMA AERONAVE COM TREM DE POUSO CONVENCIONAL, DEVE ERGUER A\nCAUDA, AFIM DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "atrasar a saída do solo",
+    "B": "percorrer um comprimento de RWY maior",
+    "C": "aumentar o ângulo de ataque e o arrasto",
+    "D": "reduzir o ângulo de ataque e o arrasto",
+    "RESP": "D"
+  },
+  {
+    "ID": 733,
+    "PERGUNTA": "O ENFLECHAMENTO PRODUZ ESTABILIDADE DOS\nTIPOS:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "lateral e direcional",
+    "B": "vertical e direcional",
+    "C": "longitudinal e lateral",
+    "D": "longitudinal e vertical",
+    "RESP": "A"
+  },
+  {
+    "ID": 483,
+    "PERGUNTA": "UMA CHAPA PLANA PERPENDICULAR À DIREÇÃO DE ESCOAMENTO POSSUI MAIOR RESISTÊNCIA AO AVANÇO QUE UMA FORMA AERODINÂMICA, DE\nMESMA ÁREA FRONTAL DEVIDO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "ao impacto do ar ser maior",
+    "B": "devido ao escoamento tornar- se mais turbulento na parte traseira, formando uma sucção",
+    "C": "devido ao afilamento da parte anterior que corta melhor o ar",
+    "D": "a afirmativa está errada, pois a superfície aerodinâmica tem maior resistência ao avanço",
+    "RESP": "B"
+  },
+  {
+    "ID": 383,
+    "PERGUNTA": "NO FLAP FOWLER, O BORDO DE FUGA DESLOCA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "para trás e para baixo",
+    "B": "verticalmente para baixo",
+    "C": "horizontalmente para trás",
+    "D": "paralelamente ao bordo de\nfuga",
+    "RESP": "A"
+  },
+  {
+    "ID": 761,
+    "PERGUNTA": "DURANTE UMA PICADA VIOLENTA, O FATOR DE CARGA\nPODERÁ:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "ficar negativo",
+    "B": "ser igual a um",
+    "C": "ser superior a um",
+    "D": "ficar acima de zero",
+    "RESP": "A"
+  },
+  {
+    "ID": 665,
+    "PERGUNTA": "O AUMENTO GRADATIVO DO ÂNGULO DE ATAQUE FAZ COM QUE A SUSTENTAÇÃO E A RESISTÊNCIA AO AVANÇO SEJAM - RESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aumentada/aumentada",
+    "B": "aumentada/diminuída",
+    "C": "diminuída/aumentada",
+    "D": "diminuída/diminuída",
+    "RESP": "A"
+  },
+  {
+    "ID": 559,
+    "PERGUNTA": "OS FATORES QUE MAIS INFLUEM NA DENSIDADE DO\nAR SÃO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "pressão, temperatura e\numidade",
+    "B": "umidade, água e oxigênio",
+    "C": "quantidade de oxigênio e\ntensão",
+    "D": "água, pressão e oxigênio",
+    "RESP": "A"
+  },
+  {
+    "ID": 604,
+    "PERGUNTA": "A ALTITUDE MÁXIMA QUE UMA AERONAVE\nCONSEGUE ALCANÇAR, CHAMA-SE TETO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "prático",
+    "B": "absoluto",
+    "C": "de serviço",
+    "D": "operacional",
+    "RESP": "B"
+  },
+  {
+    "ID": 695,
+    "PERGUNTA": "EM UMA AERONAVE O FATOR CARGA PODE SER\nPROVOCADO PELOS/PELAS:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "curvas",
+    "B": "subidas",
+    "C": "mergulhos",
+    "D": "ventos calmos",
+    "RESP": "A"
+  },
+  {
+    "ID": 618,
+    "PERGUNTA": "O PESO ATUAL DE DECOLAGEM É CALCULADO PELO SOMA ENTRE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "PMZC e o combustível mínimo requerido para o voo",
+    "B": "PAZC e o combustível mínimo requerido para o voo",
+    "C": "PAZC e o combustível a ser consumido até o destino",
+    "D": "PMZC e o combustível a ser consumido até o destino",
+    "RESP": "B"
+  },
+  {
+    "ID": 534,
+    "PERGUNTA": "VOANDO EM ÁREA TURBULENTA, EVITAM-SE FATORES\nDE CARGA ELEVADOS:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "reduzindo a velocidade",
+    "B": "reduzindo a potência",
+    "C": "aumentando a velocidade",
+    "D": "NDA",
+    "RESP": "A"
+  },
+  {
+    "ID": 2801,
+    "PERGUNTA": "A O SE APLICAR UMA FORÇA PARALELA AO EIXO DE ROTAÇÃO EM UMA MASSA GIRATÓRIA, A REAÇÃO IRÁ APARECER NUM PONTO 90 GRAUS APÓS O PONTO DE APLICAÇÃO. ESTA PROPRIEDADE CARACTERIZA O/A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "efeito de Coriólis",
+    "B": "rigidez giroscópica",
+    "C": "processão giroscópica",
+    "D": "efeito translacional",
+    "RESP": "C"
+  },
+  {
+    "ID": 565,
+    "PERGUNTA": "O MOVIMENTO DE GUINADA ADVERSA PODERÁ SER EVITADA, ADOTANDO-SE O PROCEDIMENTO DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "instalar o avião um leme tipo frise",
+    "B": "instalar no avião um leme tipo diferencial",
+    "C": "comandar o leme de direção para o mesmo lado da guinada",
+    "D": "comandar o leme de direção para o lado oposto ao da\nguinada",
+    "RESP": "D"
+  },
+  {
+    "ID": 555,
+    "PERGUNTA": "O SIGNIFICADO DE PAZC (PESO ATUAL ZERO COMBUSTÍVEL) É A SOMA DO PESO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "atual de pouso com o combustível para DEP",
+    "B": "básico operacional com a carga paga atual",
+    "C": "básico operacional com o combustível até o destino",
+    "D": "atual de pouso com o combustível para DEP e o peso\nbásico operacional",
+    "RESP": "B"
+  },
+  {
+    "ID": 764,
+    "PERGUNTA": "DUAS AERONAVES IGUAIS COM PESOS DIFERENTES INICIAM UM VOO PLANADO, COM MESMO ÂNGULO DE PLANEIO. A MAIS PESADA, ESTANDO MAIS BAIXA, TERÁ UMA DISTÂNCIA DE PLANEIO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "menor",
+    "B": "maior",
+    "C": "igual",
+    "D": "inalterada, em função do peso",
+    "RESP": "A"
+  },
+  {
+    "ID": 622,
+    "PERGUNTA": "O PONTO MAIS ELEVADO DA CURVA DE POTÊNCIA ÚTIL INDICA A VELOCIDADE PARA A QUAL:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "o avião foi projetado",
+    "B": "velocidade máxima e mínima",
+    "C": "velocidade mínima e máxima",
+    "D": "para a qual a hélice foi projetada",
+    "RESP": "D"
+  },
+  {
+    "ID": 404,
+    "PERGUNTA": "DURANTE UMA CORRIDA DE DECOLAGEM, COM O AUMENTO DA VELOCIDADE, O VALOR DA FORÇA DE\nATRITO DOS PNEUS COM O SOLO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aumenta",
+    "B": "diminui",
+    "C": "é variável",
+    "D": "constante",
+    "RESP": "B"
+  },
+  {
+    "ID": 472,
+    "PERGUNTA": "O AVIÃO AO DERRAPAR É ATINGIDO DE LADO PELO VENTO RELATIVO. NA SUA RECUPERAÇÃO ENTRAM:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "enflechamento e efeito da quilha",
+    "B": "diedro e enflechamento",
+    "C": "efeito de quilha e diedro",
+    "D": "todas as anteriores",
+    "RESP": "A"
+  },
+  {
+    "ID": 414,
+    "PERGUNTA": "EM UM PERFIL ASSIMÉTRICO, AUMENTANDO-SE O\nÂNGULO DE ATAQUE, A RESULTANTE AERODINÂMICA SERÁ:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "menor",
+    "B": "maior",
+    "C": "a mesma",
+    "D": "negativa",
+    "RESP": "B"
+  },
+  {
+    "ID": 533,
+    "PERGUNTA": "O MOVIMENTO DE LEVANTAR OU ABAIXAR AS ASAS EM TORNO DO EIXO LONGITUDINAL CHAMA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "arfagem ou tangagem",
+    "B": "guinada",
+    "C": "rolamento ou bancagem",
+    "D": "giro longitudinal",
+    "RESP": "C"
+  },
+  {
+    "ID": 669,
+    "PERGUNTA": "EM UM TUBO DE VENTURI, O PONTO DE MAIOR VELOCIDADE DO FLUXO DE AR, SERÁ ONDE HOUVER:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "maior alargamento",
+    "B": "menor desaceleração",
+    "C": "maior pressão dinâmica",
+    "D": "menor pressão disponível",
+    "RESP": "C"
+  },
+  {
+    "ID": 461,
+    "PERGUNTA": "QUANDO A DENSIDADE DO AR DIMINUI E A VI\nPERMANECE INALTERADA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "o arrasto não será alterado",
+    "B": "o arrasto aumentará",
+    "C": "a atração alentara",
+    "D": "o arrasto diminuirá",
+    "RESP": "A"
+  },
+  {
+    "ID": 487,
+    "PERGUNTA": "A FORÇA DE SUSTENTAÇÃO É SEMPRE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "perpendicular ao vento\nrelativo",
+    "B": "horizontal",
+    "C": "paralela ao vento relativo",
+    "D": "vertical",
+    "RESP": "A"
+  },
+  {
+    "ID": 709,
+    "PERGUNTA": "A RESISTÊNCIA OU ARRASTO PARASITA É PROVOCADO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "pela fuselagem",
+    "B": "pelo perfil da asa",
+    "C": "por turbilhamento na ponta da\nasa",
+    "D": "por todas as partes que não\nproduzem sustentação",
+    "RESP": "D"
+  },
+  {
+    "ID": 659,
+    "PERGUNTA": "A RESULTANTE AERODINÂMICA É APLICADA EM UM\nPONTO DA CORDA, DENOMINADO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "conjugado de força",
+    "B": "gravidade aumenta",
+    "C": "temperatura não se altera",
+    "D": "centro de pressão",
+    "RESP": "D"
+  },
+  {
+    "ID": 578,
+    "PERGUNTA": "O CL DEPENDE DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "curvatura de perfil e tração",
+    "B": "ângulo de ataque e formato de aerofólio",
+    "C": "ângulo de ataque e velocidade de deslocamento",
+    "D": "velocidade de deslocamento e curvatura do perfil",
+    "RESP": "B"
+  },
+  {
+    "ID": 654,
+    "PERGUNTA": "EM UM MERGULHO VERTICAL, A VELOCIDADE FINAL\nSERÁ ATINGIDA, QUANDO HOUVER:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "cessado a aceleração",
+    "B": "ruptura do cone de Mach",
+    "C": "aumento brusco de velocidade",
+    "D": "trepidação na aeronave, no\nMach crítico",
+    "RESP": "A"
+  },
+  {
+    "ID": 520,
+    "PERGUNTA": "A SUPERFÍCIE AERODINÂMICA QUE PRODUZ REAÇÕES\nÚTEIS AO VOO, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "perfil",
+    "B": "spiner",
+    "C": "envergadura",
+    "D": "aerofólio",
+    "RESP": "D"
+  },
+  {
+    "ID": 501,
+    "PERGUNTA": "O CENTRO DE PRESSÃO É O PONTO DE APLICAÇÃO DA SUSTENTAÇÃO E DEVERÁ FICAR SEMPRE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "atrás do CG",
+    "B": "na frente do CG",
+    "C": "coincidente com o CG",
+    "D": "no centro da tração",
+    "RESP": "A"
+  },
+  {
+    "ID": 423,
+    "PERGUNTA": "GRANDEZA VETORIAL É:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "a definição de potência",
+    "B": "o trabalho multiplicado pelo tempo",
+    "C": "toda grandeza que tem intensidade,direção e sentido",
+    "D": "o produto da força pela distância",
+    "RESP": "C"
+  },
+  {
+    "ID": 471,
+    "PERGUNTA": "A RELAÇÃO EXISTENTE ENTRE A ENVERGADURA E A\nCORDA MÉDIA DE UMA ASA, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "área",
+    "B": "alongamento",
+    "C": "resistência",
+    "D": "sustentação",
+    "RESP": "B"
+  },
+  {
+    "ID": 742,
+    "PERGUNTA": "A MEDIDA QUE UM AVIÃO SOBE, AO ENTRAR NA\nCAMADA DE AR ATMOSFÉRICO, A:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "pressão diminui",
+    "B": "gravidade aumenta",
+    "C": "temperatura fica inalterada",
+    "D": "temperatura sobe\ngradativamente",
+    "RESP": "A"
+  },
+  {
+    "ID": 696,
+    "PERGUNTA": "A ESTABILIDADE LATERAL DO AVIÃO PODE SER OBTIDA\nPOR INTERMÉDIO DO ÂNGULO DE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "diedro",
+    "B": "ataque",
+    "C": "trajetória",
+    "D": "incidência",
+    "RESP": "A"
+  },
+  {
+    "ID": 678,
+    "PERGUNTA": "DURANTE A DECOLAGEM, UMA AERONAVE COM TREM DE POUSO CONVENCIONAL DEVERÁ, ERGUER A\nCAUDA, A FIM DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "atrasar a saída do solo",
+    "B": "percorrer um comprimento de RWY maior",
+    "C": "reduzir o ângulo de ataque e o arrasto",
+    "D": "deixar o solo, antes de atingir a velocidade de estol",
+    "RESP": "C"
+  },
+  {
+    "ID": 603,
+    "PERGUNTA": "DURANTE UM VOO PLANADO, HAVENDO UM\nAUMENTO DO ÂNGULO DE ATAQUE, TER-SE-Á A SEGUINTE SITUAÇÃO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "o ângulo planeio será menor",
+    "B": "a velocidade de planeio será menor",
+    "C": "a distância percorrida será maior",
+    "D": "o avião ficará menos tempo planando",
+    "RESP": "B"
+  },
+  {
+    "ID": 641,
+    "PERGUNTA": "EM UM ÂNGULO DE ATAQUE NULO, NUM PERFIL ASSIMÉTRICO, TEREMOS:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "sustentação positiva",
+    "B": "sustentação nula",
+    "C": "arrasto negativo",
+    "D": "sustentação negativa",
+    "RESP": "A"
+  },
+  {
+    "ID": 655,
+    "PERGUNTA": "O ÂNGULO DE ATAQUE É FORMADO ENTRE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "o eixo longitudinal e o vento\nrelativo",
+    "B": "a corda do aerofólio e a\ntrajetória da aeronave",
+    "C": "a corda do aerofólio e o vento\nrelativo",
+    "D": "\"b\" e \"c\" são corretas",
+    "RESP": "D"
+  },
+  {
+    "ID": 715,
+    "PERGUNTA": "A MEDIDA EM QUE UMA AERONAVE FOR SUBINDO, A POTÊNCIA DISPONÍVEL E A POTÊNCIA NECESSÁRIA IRÃO, RESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "diminuir/diminuir",
+    "B": "aumentar/aumentar",
+    "C": "diminuir/aumentar",
+    "D": "aumentar/diminuir",
+    "RESP": "C"
+  },
+  {
+    "ID": 519,
+    "PERGUNTA": "A TROCA DE UM MOTOR POR OUTRO DE MAIOR POTÊNCIA EFETIVA, SEM VARIAÇÃO DO PESO TOTAL OU DO ARRASTO, CAUSARÁ AUMENTO DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "velocidade de menor razão de descida",
+    "B": "teto absoluto",
+    "C": "potência necessária",
+    "D": "velocidade de estol",
+    "RESP": "B"
+  },
+  {
+    "ID": 658,
+    "PERGUNTA": "DÁ-SE O NOME DE ALONGAMENTO À RELAÇÃO ENTRE\nA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "envergadura e a CMG",
+    "B": "envergadura e a CMA",
+    "C": "CMG e o quadro de\nenvergadura",
+    "D": "CMA e a envergadura",
+    "RESP": "A"
+  },
+  {
+    "ID": 597,
+    "PERGUNTA": "O NOME TÉCNICO DA PARTE SUPERIOR DE UM\nAEROFÓLIO É:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "corda",
+    "B": "ventre",
+    "C": "intradorso",
+    "D": "extradorso",
+    "RESP": "D"
+  },
+  {
+    "ID": 516,
+    "PERGUNTA": "EM UMA RWY, QUANTO MAIOR FOR A\nTEMPERATURA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "menor a tração",
+    "B": "menor a velocidade de estol",
+    "C": "maior o atrito dos pneus",
+    "D": "maior a corrida de decolagem",
+    "RESP": "D"
+  },
+  {
+    "ID": 649,
+    "PERGUNTA": "UMA AERONAVE DESLOCANDO DO CAMPO DE MARTE COM VENTO DE PROA DE 10 KT E COM 3/4 DA RWY. SE FIZESSE OUTRA DECOLAGEM NAS MESMAS CONDIÇÕES, PORÉM COM VENTO DE CAUDA, A\nDISTÂNCIA DE DECOLAGEM SERIA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "maior",
+    "B": "menor",
+    "C": "a mesma",
+    "D": "a critério do piloto",
+    "RESP": "A"
+  },
+  {
+    "ID": 688,
+    "PERGUNTA": "O VENTO APARENTE QUE SOPRA SOBRE UM CORPO EM MOVIMENTO NA ATMOSFERA, GERALMENTE NA MESMA DIREÇÃO E SENTIDO CONTRÁRIO AO SEU MOVIMENTO, DENOMINA-SE VENTO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "paralelo",
+    "B": "relativo",
+    "C": "magnético",
+    "D": "contrário",
+    "RESP": "B"
+  },
+  {
+    "ID": 722,
+    "PERGUNTA": "DOS FATORES ABAIXO, AQUELES QUE INFLUENCIAM\nNA ESTABILIDADE LATERAL SÃO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "flaps e ailerons",
+    "B": "diedro enflechamento",
+    "C": "flaps e efeito de quilha",
+    "D": "ailerons efeito de quilha",
+    "RESP": "B"
+  },
+  {
+    "ID": 610,
+    "PERGUNTA": "DOIS AVIÕES VOAM COM A MESMA VELOCIDADE E FARÃO CURVAS COM O MESMO RAIO. EM RELAÇÃO AO MAIS LEVE, O AVIÃO MAIS PESADO TERÁ QUE\nEFETUAR UMA INCLINAÇÃO LATERAL:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "menor, com mais potência",
+    "B": "igual, com mais potência",
+    "C": "menor, com menos potência",
+    "D": "igual, com menos potência",
+    "RESP": "B"
+  },
+  {
+    "ID": 511,
+    "PERGUNTA": "O VENTO RELATIVO É AQUELE QUE ATUA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "paralelo e contra a fuselagem",
+    "B": "paralelo e a favor do\ndeslocamento",
+    "C": "de cima para baixo",
+    "D": "paralelo e contra a trajetória\nda aeronave",
+    "RESP": "D"
+  },
+  {
+    "ID": 674,
+    "PERGUNTA": "DENTRE AS CONDIÇÕES ABAIXO, INDIQUE A QUE\nPOSSIBILITA UMA MAIOR RAZÃO DE SUBIDA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "excesso de peso",
+    "B": "altitude elevada",
+    "C": "grande área de asa",
+    "D": "alta potência disponível",
+    "RESP": "D"
+  },
+  {
+    "ID": 449,
+    "PERGUNTA": "O ALONGAMENTO É A RELAÇÃO ENTRE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "envergadura e corda média aerodinâmica",
+    "B": "envergadura ao quadrado e a área da asa'",
+    "C": "corda média aerodinâmica e a envergadura",
+    "D": "envergadura ao quadrado e a corda média aerodinâmica",
+    "RESP": "B"
+  },
+  {
+    "ID": 640,
+    "PERGUNTA": "A ÚNICA FORÇA QUE AGE NUMA AERONAVE EM VOO,\nEM PARTICULAR NAS ASAS, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "sustentação",
+    "B": "arrasto",
+    "C": "resultante aerodinâmica",
+    "D": "tração",
+    "RESP": "C"
+  },
+  {
+    "ID": 672,
+    "PERGUNTA": "PARTINDO DE UMA POSIÇÃO NEUTRA, AO ACIONAR-SE O MANCHE PARA A ESQUERDA OU PARA A DIREITA, O AVIÃO VAI GIRAR EM TORNO DO EIXO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "lateral",
+    "B": "vertical",
+    "C": "inclinado",
+    "D": "longitudinal",
+    "RESP": "D"
+  },
+  {
+    "ID": 437,
+    "PERGUNTA": "PARA SE OBTER A MASSA DE UM CORPO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "subtrai-se o peso do corpo da aceleração da gravidade",
+    "B": "multiplica-se o peso do corpo pela aceleração da gravidade",
+    "C": "soma-se o peso do corpo à aceleração da gravidade",
+    "D": "divide-se o peso do corpo pela aceleração da gravidade",
+    "RESP": "D"
+  },
+  {
+    "ID": 699,
+    "PERGUNTA": "A DENSIDADE DO AR, EM RELAÇÃO A PRESSÃO E A TEMPERATURA ATMOSFÉRICA, RESPECTIVAMENTE,\nVARIA DE MANEIRA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "diretamente proporcional",
+    "B": "inversamente proporcional",
+    "C": "inversa e diretamente proporcional",
+    "D": "direta e inversamente proporcional",
+    "RESP": "D"
+  },
+  {
+    "ID": 600,
+    "PERGUNTA": "NO FLAP \"FOWLER\", O BORDO DE FUGA DESLOCA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "para trás e para baixo",
+    "B": "verticalmente para baixo",
+    "C": "horizontalmente para trás",
+    "D": "paralelamente ao bordo de\nfuga",
+    "RESP": "A"
+  },
+  {
+    "ID": 508,
+    "PERGUNTA": "ALONGAMENTO É A RELAÇÃO ENTRE A:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "corda de uma asa e a sua\nenvergadura",
+    "B": "linha de curvatura média da\nasa e a envergadura",
+    "C": "envergadura e a corda média\ngeométrica",
+    "D": "área da asa e o quadrado da\nenvergadura",
+    "RESP": "C"
+  },
+  {
+    "ID": 752,
+    "PERGUNTA": "OS AVIÕES COM TREM DE POUSO CONVENCIONAL, LOGO APÓS INICIAREM A CORRIDA PARA DECOLAGEM, DEVERÃO ERGUER A CAUDA A FIM DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aumentarem o arrasto",
+    "B": "acentuarem o ângulo de ataque",
+    "C": "percorrerem um comprimento de pista menor",
+    "D": "deixarem o solo, logo após atingirem a velocidade de estol",
+    "RESP": "C"
+  },
+  {
+    "ID": 382,
+    "PERGUNTA": "A SUPERFÍCIE PRIMÁRIA DE COMANDO RESPONSÁVEL PELOS MOVIMENTOS DE GUINADA É O:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aileron",
+    "B": "profundor",
+    "C": "leme de direção",
+    "D": "leme de profundidade",
+    "RESP": "C"
+  },
+  {
+    "ID": 475,
+    "PERGUNTA": "DURANTE UMA DECOLAGEM, A MEDIDA QUE A\nVELOCIDADE AUMENTA, O ATRITO COM O SOLO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "aumenta",
+    "B": "diminui",
+    "C": "permanece constante",
+    "D": "impossível determinar",
+    "RESP": "B"
+  },
+  {
+    "ID": 671,
+    "PERGUNTA": "UMA HÉLICE QUE MOSTRA-SE POUCO EFICIENTE, CAUSANDO DIFICULDADE NA DECOLAGEM E SUBIDA\nDE UM AVIÃO, É A DO TIPO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "sem torção",
+    "B": "muito torcida",
+    "C": "passo controlável",
+    "D": "ineficiente para voos de cruzeiro",
+    "RESP": "B"
+  },
+  {
+    "ID": 389,
+    "PERGUNTA": "SE NUMA CURVA HOUVER INCLINAÇÃO DEMASIADA DAS ASAS, A AERONAVE TENDERÁ A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "glissar",
+    "B": "derrapar",
+    "C": "ganhar altura",
+    "D": "fazer curva em sentido contrário",
+    "RESP": "A"
+  },
+  {
+    "ID": 714,
+    "PERGUNTA": "O FATOR DE CARGA É DEFINIDO COMO SENDO A\nRAZÃO ENTRE O/A:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "sustentação e o peso",
+    "B": "peso e a sustentação",
+    "C": "carga alar e a sustentação",
+    "D": "sustentação e carga alar",
+    "RESP": "A"
+  },
+  {
+    "ID": 586,
+    "PERGUNTA": "A PARTE DA ASA QUE SOFRE AUMENTO DE PRESSÃO OCASIONADO PELO ESCOAMENTO DO AR É O/A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "extradorso",
+    "B": "dorso",
+    "C": "intradorso",
+    "D": "cambra",
+    "RESP": "C"
+  },
+  {
+    "ID": 535,
+    "PERGUNTA": "OS FATORES DE CARGA ELEVADOS PODEM SER\nPRODUZIDOS ATRAVÉS:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "cabrada",
+    "B": "rajadas de vento",
+    "C": "voos em curva",
+    "D": "todas as anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 611,
+    "PERGUNTA": "UMA AERONAVE EM VOO NIVELADO SOFRE UM\nFATOR DE CARGA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "igual a 1",
+    "B": "maior que 1",
+    "C": "menor que 1",
+    "D": "igual a zero",
+    "RESP": "A"
+  },
+  {
+    "ID": 932,
+    "PERGUNTA": "DURANTE UM VOO PLANADO E NA TENTATIVA DE MELHORAR O PLANEIO, O PILOTO EMPREGA UM ÂNGULO DE ATAQUE MENOR. NESTE CASO TEM-SE\nUM(A):",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aumento do ângulo de planeio",
+    "B": "aumento da distância do planeio",
+    "C": "diminuição na razão da descida",
+    "D": "diminuição na velocidade de planeio",
+    "RESP": "A"
+  },
+  {
+    "ID": 589,
+    "PERGUNTA": "PARA SE MANTER UM VOO HORIZONTAL É\nNECESSÁRIO AUMENTAR A VELOCIDADE SEMPRE QUE DIMINUI O/A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "peso",
+    "B": "área da asa",
+    "C": "carga alar",
+    "D": "altitude",
+    "RESP": "B"
+  },
+  {
+    "ID": 554,
+    "PERGUNTA": "DURANTE A PESAGEM DE UM AVIÃO, A POSIÇÃO DO\nCG É EXPRESSA EM PERCENTAGEM DO(A):",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "CMG",
+    "B": "alongamento",
+    "C": "COM",
+    "D": "CMA",
+    "RESP": "D"
+  },
+  {
+    "ID": 738,
+    "PERGUNTA": "A DIFERENÇA ENTRE O PESO ZERO COMBUSTÍVEL E O PESO BÁSICO OPERACIONAL DENOMINA-SE CARGA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "útil",
+    "B": "paga",
+    "C": "alar",
+    "D": "estrutural",
+    "RESP": "B"
+  },
+  {
+    "ID": 419,
+    "PERGUNTA": "ASSINALE A ALTERNATIVA ERRADA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "o peso de um corpo é menor no Equador do que nos pólos",
+    "B": "a densidade de um fluido varia",
+    "C": "a massa de um fluido é variável, o peso é invariável",
+    "D": "o volume ocupado por um fluido é variável",
+    "RESP": "C"
+  },
+  {
+    "ID": 418,
+    "PERGUNTA": "EM UM RECIPIENTE DOTADO DE UM ÊMBOLO MÓVEL, É INTRODUZIDO UM GÁS, QUE OCUPA DETERMINADO VOLUME. SE ESTE FOR REDUZIDO À METADE, SEM HAVER VARIAÇÃO DE TEMPERATURA,A PRESSÃO DO\nGÁS:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "duplicará",
+    "B": "triplicará",
+    "C": "ficará inalterada",
+    "D": "quadruplicará",
+    "RESP": "A"
+  },
+  {
+    "ID": 595,
+    "PERGUNTA": "A RELAÇÃO ENTRE OS ESFORÇOS QUE O AVIÃO SUPORTA EM MANOBRAS E O ESFORÇO QUE O MESMO SUPORTARIA EM VOO HORIZONTAL, CHAMA-\nSE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "fator carga",
+    "B": "carga útil",
+    "C": "carga de ruptura",
+    "D": "alongamento",
+    "RESP": "A"
+  },
+  {
+    "ID": 392,
+    "PERGUNTA": "A POTÊNCIA EFETIVA DE UM MOTOR É A POTÊNCIA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "total do motor",
+    "B": "do eixo de manivelas",
+    "C": "medida no eixo das hélices",
+    "D": "de tração desenvolvida pela\nhélice sobre o avião",
+    "RESP": "C"
+  },
+  {
+    "ID": 758,
+    "PERGUNTA": "O PESO DO AVIÃO PARA O VOO, FALTANDO APENAS ABASTECER E CARREGAR DENOMINA-SE PESO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "básico operacional",
+    "B": "atual de decolagem",
+    "C": "atual zero combustível",
+    "D": "básico zero combustível",
+    "RESP": "A"
+  },
+  {
+    "ID": 458,
+    "PERGUNTA": "O AVIÃO COM EQUILÍBRIO INDIFERENTE É UM AVIÃO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "com estabilidade estática",
+    "B": "perigoso",
+    "C": "com estabilidade dinâmica",
+    "D": "confiável",
+    "RESP": "B"
+  },
+  {
+    "ID": 702,
+    "PERGUNTA": "UMA HÉLICE DE PASSO FIXO TEM SEMPRE BOM\nRENDIMENTO EM:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "qualquer RPM",
+    "B": "uma determinada RPM",
+    "C": "qualquer velocidade",
+    "D": "todas as situações de voo",
+    "RESP": "B"
+  },
+  {
+    "ID": 539,
+    "PERGUNTA": "O ÂNGULO DE PLANEIO É O ÂNGULO FORMADO ENTRE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "o eixo longitudinal e a linha do horizonte",
+    "B": "a linha da corda e a direção do vento relativo",
+    "C": "a trajetória da ACFT em planeio e a linha do horizonte",
+    "D": "NDA",
+    "RESP": "C"
+  },
+  {
+    "ID": 730,
+    "PERGUNTA": "DURANTE UM VOO PLANADO, HAVENDO UM AUMENTO DO ÂNGULO DE ATAQUE, TER-SE-Á A\nSEGUINTE SITUAÇÃO, O/A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "ângulo de planeio será menor",
+    "B": "velocidade de planeio será maior",
+    "C": "distância percorrida será menor",
+    "D": "tempo de planeio ficará inalterado",
+    "RESP": "C"
+  },
+  {
+    "ID": 755,
+    "PERGUNTA": "DENTRE OS PROCEDIMENTOS ABAIXO, IDENTIFIQUE AQUELE QUE O PILOTO DEVERÁ, OBRIGATORIAMENTE, EXECUTAR, A FIM DE SAIR DE UM PARAFUSO NORMAL\nPARA A ESQUERDA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "manter o manche colado atrás",
+    "B": "puxar progressivamente o manche",
+    "C": "pressionar a fundo o pedal do lado contrário ao da rotação",
+    "D": "pressionar levemente o pedal responsável pela rotação do movimento atual",
+    "RESP": "C"
+  },
+  {
+    "ID": 433,
+    "PERGUNTA": "INÉRCIA É A TENDÊNCIA QUE OS CORPOS TEM DE\nPERMANECER EM SEU ESTADO DE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "movimento",
+    "B": "repouso",
+    "C": "movimentação",
+    "D": "repouso ou de movimento",
+    "RESP": "D"
+  },
+  {
+    "ID": 485,
+    "PERGUNTA": "SE DIMINUIRMOS O PESO DE UMA AERONAVE, A\nVELOCIDADE DE ESTOL:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "aumenta",
+    "B": "diminui",
+    "C": "permanece inalterada",
+    "D": "diminui somente nas curvas",
+    "RESP": "B"
+  },
+  {
+    "ID": 480,
+    "PERGUNTA": "AO PONTO DE CRUZAMENTO DOS TRÊS EIXOS\nIMAGINÁRIOS DE UMA AERONAVE DAMOS O NOME DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "centro de gravidade (CG)",
+    "B": "centro de pressão (CP)",
+    "C": "centro aerodinâmico (CA)",
+    "D": "ponto médio aerodinâmico (PMA)",
+    "RESP": "A"
+  },
+  {
+    "ID": 624,
+    "PERGUNTA": "COM O AUMENTO DA ALTITUDE, A VELOCIDADE\nMÁXIMA IRÁ:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "aumentar",
+    "B": "diminuir",
+    "C": "permanecer constante",
+    "D": "NDA",
+    "RESP": "B"
+  },
+  {
+    "ID": 720,
+    "PERGUNTA": "UMA AERONAVE EM VOO HORIZONTAL AO SOFRER UMA RAJADA DE VENTO ASCENDENTE TERÁ UM/UMA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "diminuição do fator de carga",
+    "B": "elevação lenta do fator de carga",
+    "C": "aumento repentino do ângulo de ataque",
+    "D": "diminuição repentina do ângulo de ataque",
+    "RESP": "C"
+  },
+  {
+    "ID": 698,
+    "PERGUNTA": "O PESO DO AVIÃO PRONTO PARA O VOO, FALTANDO APENAS ABASTECER E CARREGAR DENOMINA-SE PESO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "básico operacional",
+    "B": "atual de decolagem",
+    "C": "atual zero combustível",
+    "D": "básico zero combustível",
+    "RESP": "A"
+  },
+  {
+    "ID": 750,
+    "PERGUNTA": "DURANTE A DECOLAGEM, UMA AERONAVE COM TREM DE POUSO CONVENCIONAL DEVERÁ ERGUER A\nCAUDA, A FIM DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "atrasar a saída do solo",
+    "B": "percorrer um comprimento de RWY maior",
+    "C": "aumentar o ângulo de ataque e o arrasto",
+    "D": "reduzir o ângulo de ataque e o arrasto",
+    "RESP": "D"
+  },
+  {
+    "ID": 631,
+    "PERGUNTA": "O PASSO DE UMA HÉLICE É O/A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "ângulo de tração das pás",
+    "B": "distância que ela percorre em cada volta",
+    "C": "distância teórica que deveria percorrer em cada volta",
+    "D": "diferença entre a distância e a real percorrida em cada volta",
+    "RESP": "C"
+  },
+  {
+    "ID": 650,
+    "PERGUNTA": "DAS CONDIÇÕES ABAIXO, AS MAIS FAVORÁVEIS PARA\nO POUSO SÃO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "ar úmido e RWY em aclive",
+    "B": "RWY em declive e vento de\ncauda",
+    "C": "AD ao nível do mar e vento de\nproa",
+    "D": "AD ao nível do mar e alta\ntemperatura",
+    "RESP": "C"
+  },
+  {
+    "ID": 397,
+    "PERGUNTA": "UMA AERONAVE EM VOO RETO HORIZONTAL QUANDO ATINGE ÂNGULO DE ATAQUE CRÍTICO FICA\nNA SEGUINTE SITUAÇÃO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "estolada",
+    "B": "com Cl mínimo",
+    "C": "prestes a estolar",
+    "D": "com velocidade máxima",
+    "RESP": "C"
+  },
+  {
+    "ID": 531,
+    "PERGUNTA": "NA ATMOSFERA PADRÃO, A TEMPERATURA AO NÍVEL\nDO MAR É DE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "08 graus centígrados",
+    "B": "15 graus centígrados",
+    "C": "10 graus centígrados",
+    "D": "20 graus centígrados",
+    "RESP": "B"
+  },
+  {
+    "ID": 608,
+    "PERGUNTA": "UMA AERONAVE DECOLANDO DE UM AERÓDROMO AO NÍVEL DO MAR, UTILIZA UM DETERMINADO COMPRIMENTO DE RWY. SE POR ACASO HOUVER UM AUMENTO DE TEMPERATURA O/A:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "IAS de decolagem diminui",
+    "B": "TAS decolagem diminui",
+    "C": "ângulo de subida aumenta",
+    "D": "corrida de decolagem aumenta",
+    "RESP": "D"
+  },
+  {
+    "ID": 693,
+    "PERGUNTA": "DURANTE UMA CURVA NO PLANO HORIZONTAL A\nFORÇA CENTRÍPETA ATUARÁ NA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "vertical e para cima",
+    "B": "vertical e para baixo",
+    "C": "horizontal e para fora da curva",
+    "D": "horizontal e para dentro da\ncurva",
+    "RESP": "D"
+  },
+  {
+    "ID": 444,
+    "PERGUNTA": "O TIPO DE FLAP QUE QUANDO ATUADO AUMENTA A ÁREA DA ASA E O CL, É DENOMINADO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "simples",
+    "B": "ventral",
+    "C": "fowler",
+    "D": "diferencial",
+    "RESP": "C"
+  },
+  {
+    "ID": 749,
+    "PERGUNTA": "DURANTE UM VOO PLANADO, O PESO DE UMA\nAERONAVE \"NÃO\" AFETA O/A:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "razão de descida",
+    "B": "ângulo de planeio",
+    "C": "velocidade de planeio",
+    "D": "velocidade vertical de descida",
+    "RESP": "B"
+  },
+  {
+    "ID": 743,
+    "PERGUNTA": "O NOME TÉCNICO DA PARTE SUPERIOR DE UM\nAEROFÓLIO É:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "corda",
+    "B": "ventre",
+    "C": "intradorso",
+    "D": "extradorso",
+    "RESP": "D"
+  },
+  {
+    "ID": 465,
+    "PERGUNTA": "O MOVIMENTO DE LEVANTAR OU ABAIXAR AS ASAS EM TORNO DO EIXO LONGITUDINAL DENOMINA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "arfagem",
+    "B": "guinada",
+    "C": "rolamento",
+    "D": "tangagem",
+    "RESP": "C"
+  },
+  {
+    "ID": 527,
+    "PERGUNTA": "A FORÇA CENTRÍFUGA ATUA EM UMA CURVA PARA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "dentro",
+    "B": "fora",
+    "C": "baixo",
+    "D": "cima",
+    "RESP": "B"
+  },
+  {
+    "ID": 431,
+    "PERGUNTA": "A RESISTÊNCIA QUE OS CORPOS OFERECEM À\nMODIFICAÇÃO DO SEU ESTADO DE REPOUSO OU DE MOVIMENTO, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "inércia",
+    "B": "sustentação",
+    "C": "força de inércia",
+    "D": "resistência ao avanço",
+    "RESP": "A"
+  },
+  {
+    "ID": 456,
+    "PERGUNTA": "CONSIDERANDO-SE A FORME DE UM AVIÃO, A MAIS AERODINÂMICA POSSÍVEL, SE ALTERNARMOS O ÂNGULO DE ATAQUE EM 5 GRAUS PARA CIMA, A\nRESISTÊNCIA PARASITA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aumenta",
+    "B": "diminui",
+    "C": "não se altera",
+    "D": "impossível determinar",
+    "RESP": "C"
+  },
+  {
+    "ID": 521,
+    "PERGUNTA": "A QUANTIDADE DE MATÉRIA PRIMA CONTIDA POR UMA UNIDADE DE VOLUME, É DENOMINADA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "massa",
+    "B": "densidade",
+    "C": "potência",
+    "D": "pressão",
+    "RESP": "B"
+  },
+  {
+    "ID": 387,
+    "PERGUNTA": "A DISTÂNCIA DE VOO PLANADO DEPENDE,\nUNICAMENTE, DA/DO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "altura e do peso",
+    "B": "altura e do ângulo de planeio",
+    "C": "peso da ACFT e do ângulo de\nataque",
+    "D": "ângulo de planeio e do ângulo\nde ataque",
+    "RESP": "B"
+  },
+  {
+    "ID": 667,
+    "PERGUNTA": "A RESISTÊNCIA AO AVANÇO, DEVIDO AO\nTURBILHONAMENTO NA PONTA DA ASA, CHAMA-SE RESISTÊNCIA:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "parasita",
+    "B": "do perfil",
+    "C": "ao avanço induzida",
+    "D": "de atrito induzida",
+    "RESP": "C"
+  },
+  {
+    "ID": 697,
+    "PERGUNTA": "O EFEITO DE QUILHA EXERCE INFLUÊNCIA SOBRE AS\nESTABILIDADES;",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "lateral vertical",
+    "B": "lateral e direcional",
+    "C": "longitudinal e lateral",
+    "D": "longitudinal e direcional",
+    "RESP": "B"
+  },
+  {
+    "ID": 661,
+    "PERGUNTA": "EM UM LOCAL DE MAIOR DENSIDADE ATMOSFÉRICA\nOBTÉM-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "menor potência",
+    "B": "menor sustentação",
+    "C": "maior potência e menor\nsustentação",
+    "D": "maior sustentação e maior\npotência",
+    "RESP": "D"
+  },
+  {
+    "ID": 680,
+    "PERGUNTA": "O RAIO LIMITE DE UMA CURVA, EXECUTA POR UMA\nAERONAVE, DEPENDERÁ DA POTÊNCIA:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "teórica",
+    "B": "nominal",
+    "C": "indicada",
+    "D": "disponível",
+    "RESP": "D"
+  },
+  {
+    "ID": 407,
+    "PERGUNTA": "DURANTE UMA CABRADA, O FATOR DE CARGA SERÁ:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "negativo",
+    "B": "maior que 1",
+    "C": "menor que 1",
+    "D": "igual a zero",
+    "RESP": "B"
+  },
+  {
+    "ID": 399,
+    "PERGUNTA": "AS CARGAS DINÂMICAS QUE SÃO, GERALMENTE, FRACAS E NÃO AFETAM A ESTRUTURA DO AVIÃO, SÃO\nCHAMADAS DE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "úteis",
+    "B": "leves",
+    "C": "verticais",
+    "D": "horizontais",
+    "RESP": "D"
+  },
+  {
+    "ID": 642,
+    "PERGUNTA": "A COMPONENTE DA RA PERPENDICULAR À DIREÇÃO\nDO VENTO RELATIVO, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "resultante aerodinâmica",
+    "B": "arrasto",
+    "C": "sustentação",
+    "D": "força perpendicular",
+    "RESP": "C"
+  },
+  {
+    "ID": 605,
+    "PERGUNTA": "O VENTO DE CAUDA, DURANTE UM VOO PLANADO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "diminui a razão de descida",
+    "B": "aumenta o ângulo de planeio",
+    "C": "diminui a distância de planeio",
+    "D": "aumenta a distância de planeio",
+    "RESP": "D"
+  },
+  {
+    "ID": 556,
+    "PERGUNTA": "UM AVIÃO AO AFASTAR-SE DA CONDIÇÃO DE EQUILÍBRIO LONGITUDINAL, TENTA VOLTAR À POSIÇÃO INICIAL BRUSCAMENTE, O QUE AUMENTA AS OSCILAÇÕES CADA VEZ MAIS. NESTE CASO O\nEQUILÍBRIO SERÁ DO TIPO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "dinamicamente estável",
+    "B": "dinamicamente instável",
+    "C": "estaticamente instável",
+    "D": "estaticamente indiferente",
+    "RESP": "B"
+  },
+  {
+    "ID": 727,
+    "PERGUNTA": "O FATOR DE CARGA VERTICAL É DEFINIDO COMO\nSENDO A RAZÃO ENTRE O(A)",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "peso e a carga útil",
+    "B": "sustentação e o peso",
+    "C": "sustentação e o arrasto",
+    "D": "carga útil e a área da asa",
+    "RESP": "B"
+  },
+  {
+    "ID": 459,
+    "PERGUNTA": "O MOVIMENTO DA GUINADA É FEITO EM TORNO DO\nEIXO:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "lateral",
+    "B": "transversal",
+    "C": "longitudinal",
+    "D": "vertical",
+    "RESP": "D"
+  },
+  {
+    "ID": 411,
+    "PERGUNTA": "QUANDO UMA AERONAVE ENCONTRA-SE COM O NARIZ PESADO (CG MUITO À FRENTE), TEM-SE:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "leveza nos comandos",
+    "B": "dificuldade em manter a cauda baixa",
+    "C": "diminuição no consumo de combustível",
+    "D": "redução na capacidade de estabilidade longitudinal do\navião",
+    "RESP": "B"
+  },
+  {
+    "ID": 544,
+    "PERGUNTA": "O VENTO DE PROA TEM A  INFLUÊNCIA NO VOO PLANADO:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "aumenta a razão de descida, mantendo o ângulo de descida",
+    "B": "diminui a razão de descida,\naumentando o ângulo de descida",
+    "C": "diminui o ângulo de descida e, também a razão de descida",
+    "D": "aumenta o ângulo de descida, sem alterar a razão de descida",
+    "RESP": "D"
+  },
+  {
+    "ID": 517,
+    "PERGUNTA": "EM UM MERGULHO VERTICAL A VELOCIDADE FINAL\nDEPENDE DO(A):",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "peso",
+    "B": "CL máximo",
+    "C": "estrutura do avião",
+    "D": "área da asa",
+    "RESP": "A"
+  },
+  {
+    "ID": 490,
+    "PERGUNTA": "O COEFICIENTE DE RESISTÊNCIA AO AVANÇO (CD) É PARA CORRIGIR:",
+    "MATÉRIA": "PP Avião - TEORIA DE VOO",
+    "A": "efeitos de viscosidade do ar",
+    "B": "efeitos de turbilhonamento do ar ao passar pelo corpo",
+    "C": "efeitos de atrito do ar, devido à aspereza do corpo",
+    "D": "nenhuma das alternativas acima",
+    "RESP": "A"
+  },
+  {
+    "ID": 435,
+    "PERGUNTA": "PRESSÃO DA ATMOSFÉRICA É:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "uma pressão estática",
+    "B": "uma pressão dinâmica",
+    "C": "um tipo especial de pressão",
+    "D": "nenhuma das citadas",
+    "RESP": "A"
+  },
+  {
+    "ID": 571,
+    "PERGUNTA": "O EFEITO DE FUSELAGEM INFLUENCIA,\nPRINCIPALMENTE, A ESTABILIDADE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "lateral",
+    "B": "vertical",
+    "C": "direcional",
+    "D": "longitudinal",
+    "RESP": "A"
+  },
+  {
+    "ID": 682,
+    "PERGUNTA": "DURANTE UMA CABRADA, O FATOR CARGA SERÁ:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "negativo",
+    "B": "maior que 1",
+    "C": "menor que 1",
+    "D": "igual a zero",
+    "RESP": "B"
+  },
+  {
+    "ID": 443,
+    "PERGUNTA": "A FÓRMULA DO ARRASTO PARASITA É:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "Cd=D.(/2.S.V²",
+    "B": "Cl=L.(/2.S.V²",
+    "C": "Dp=1,28.(/2.ªV²",
+    "D": "Dp=1,28.(/2. AV",
+    "RESP": "C"
+  },
+  {
+    "ID": 616,
+    "PERGUNTA": "A VELOCIDADE DE ESTOL AUMENTA COM O AUMENTO\nDOS SEGUINTES FATORES:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "peso e área da asa",
+    "B": "área da asa e densidade",
+    "C": "peso, área da asa, densidade e\naltitude",
+    "D": "peso e altitude",
+    "RESP": "D"
+  },
+  {
+    "ID": 636,
+    "PERGUNTA": "NUM PERFIL SIMÉTRICO, SE AUMENTARMOS O\nÂNGULO DE ATAQUE:",
+    "MATÉRIA": "PP Avião - TEORIA\nDE VOO",
+    "A": "o CP desloca-se para frente",
+    "B": "cria-se uma RA para cima e\npara trás",
+    "C": "cria-se uma depressão no\nintradorso",
+    "D": "todas alternativas são corretas",
+    "RESP": "C"
+  }
+]}

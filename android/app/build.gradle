@@ -34,12 +34,12 @@ if (localPropertiesFile.exists()) {
 
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
 if (flutterVersionCode == null) {
-    flutterVersionCode = '3' // Incrementar para um novo código de versão
+    flutterVersionCode = '1' // Incrementar para um novo código de versão
 }
 
 def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
-    flutterVersionName = '3.0' // Atualizar para o nome da nova versão
+    flutterVersionName = '1.0' // Atualizar para o nome da nova versão
 }
 
 android {
@@ -64,14 +64,14 @@ android {
         applicationId "com.app_cms_ghc" // Atualizado para o novo nome do pacote
         minSdkVersion flutter.minSdkVersion
         targetSdkVersion flutter.targetSdkVersion
-        versionCode = 5
-        versionName = 4.1
+        versionCode = 4
+        versionName = 1.3
     }
     signingConfigs {
         release {
-            storeFile file("C:/Users/Gabriel/Documents/GitHub/quizz_app/android/my-key.jks")
+            storeFile file("C:/Users/Gabriel/Documents/GitHub/ppaapp/app_ppa.keystore")
             storePassword "takaki91"
-            keyAlias "meu-alias"
+            keyAlias "meuapp"
             keyPassword "takaki91"
         }
     }
