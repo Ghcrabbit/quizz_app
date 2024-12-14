@@ -1,14 +1,52 @@
 import 'package:flutter/material.dart';
-import 'initial_screen.dart'; // Certifique-se de que o caminho está correto
+import 'test_type_screen.dart';
+import './results_screen.dart'; // Verifique o caminho correto se necessário
 
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
 
-  void _navigateToInitialScreen(BuildContext context) {
+  void _navigateToTypeTestPilotoPrivado(BuildContext context) {
+    final Map<String, String> pilotoPrivadoBlocks = {
+      'Conhecimentos Técnicos': 'assets/data/conhecimentos tecnicos.json',
+      'Meteorologia': 'assets/data/meteorologia.json',
+      'Navegação': 'assets/data/navegacao.json',
+      'Regulamentos de Voo': 'assets/data/regulamentos.json',
+      'Teoria de Voo': 'assets/data/teoria de voo.json',
+    };
+
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => const InitialScreen(),
+        builder: (context) => TestTypeScreen(
+          title: 'Piloto Privado Avião',
+          blocks: pilotoPrivadoBlocks,
+        ),
+      ),
+    );
+  }
+
+  void _navigateToInitialScreenCMS(BuildContext context) {
+    final Map<String, String> cmsBlocks = {
+      'Regulamentos de Voo': 'assets/data/regulamentos.json',
+      'Teoria de Voo': 'assets/data/teoria de voo.json',
+    };
+
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => TestTypeScreen(
+          title: 'Comissário de Voo',
+          blocks: cmsBlocks,
+        ),
+      ),
+    );
+  }
+
+  void _navigateToResultsScreen(BuildContext context) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => ResultsScreen(),
       ),
     );
   }
@@ -54,21 +92,17 @@ class MainScreen extends StatelessWidget {
               _buildButton(
                 context,
                 'Piloto Privado Avião',
-                    () => _navigateToInitialScreen(context),
+                    () => _navigateToTypeTestPilotoPrivado(context),
               ),
               _buildButton(
                 context,
-                'Em breve',
-                    () {
-                  // Ação a ser definida no futuro
-                },
+                'Comissário de Voo',
+                    () => _navigateToInitialScreenCMS(context),
               ),
               _buildButton(
                 context,
-                'Em breve',
-                    () {
-                  // Ação a ser definida no futuro
-                },
+                'Ver Resultados Anteriores',
+                    () => _navigateToResultsScreen(context),
               ),
             ],
           ),

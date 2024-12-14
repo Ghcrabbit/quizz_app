@@ -7,19 +7,19 @@ import '../widgets/question_widget.dart';
 import '../widgets/next_button.dart';
 import '../helpers/shared_preferences_helper.dart';
 import '../models/db_connect.dart';
-import './initial_screen.dart';
+import './test_type_screen.dart';
 import './results_screen.dart';
 
-class HomeScreen extends StatefulWidget {
+class QuestionScreen extends StatefulWidget {
   final String jsonPath;
 
-  const HomeScreen({Key? key, required this.jsonPath}) : super(key: key);
+  const QuestionScreen({Key? key, required this.jsonPath}) : super(key: key);
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<QuestionScreen> createState() => _QuestionScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _QuestionScreenState extends State<QuestionScreen> {
   List<Question> _questions = [];
   int index = 0;
   int score = 0;
@@ -200,13 +200,9 @@ class _HomeScreenState extends State<HomeScreen> {
           Center(
             child: TextButton(
               onPressed: () {
-                // Navegar para a tela inicial após fechar o popup
-                Navigator.pushReplacement(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => InitialScreen(),
-                  ),
-                );
+                // Fechar o popup e voltar para a tela anterior
+                Navigator.of(ctx).pop(); // Fecha o popup
+                Navigator.of(context).pop(); // Retorna para a tela anterior (InitialScreen)
               },
               child: const Text(
                 'OK',
