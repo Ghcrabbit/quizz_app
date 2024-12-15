@@ -143,7 +143,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
 
   void _saveResultAndNavigate() async {
     try {
-      String filtered = criarStringResultScreen(widget.jsonPath);
+      String filtered = resultScreenName(widget.jsonPath);
 
       await SharedPreferencesHelper.saveResult(
           filtered, score, _questions, _selectedAnswers);
@@ -219,7 +219,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
   }
 
 
-  String criarStringResultScreen(String jsonPath) {
+  String resultScreenName(String jsonPath) {
     String filtered = jsonPath.split('/').last;
     filtered = filtered.split('.').first;
     filtered = filtered.replaceAll('_', ' ');
@@ -242,18 +242,6 @@ class _QuestionScreenState extends State<QuestionScreen> {
               'Score: $score',
               style: const TextStyle(fontSize: 18.0),
             ),
-          ),
-          IconButton(
-            icon: Icon(Icons.history),
-            onPressed: () {
-
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => ResultsScreen(),
-                ),
-              );
-            },
           ),
         ],
       ),

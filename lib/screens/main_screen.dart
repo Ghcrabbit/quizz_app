@@ -2,56 +2,20 @@ import 'package:flutter/material.dart';
 import 'test_type_screen.dart';
 import './results_screen.dart'; // Verifique o caminho correto se necessário
 
-class MainScreen extends StatelessWidget {
-  const MainScreen({Key? key}) : super(key: key);
+// Constantes para melhorar a manutenção
+const String pilotoPrivadoTitle = 'Piloto Privado Avião';
+const String comissarioDeVooTitle = 'Comissário de Voo';
+const String resultadosTitle = 'Ver Resultados Anteriores';
 
-  void _navigateToTypeTestPilotoPrivado(BuildContext context) {
-    final Map<String, String> pilotoPrivadoBlocks = {
-      'Conhecimentos Técnicos': 'assets/data/conhecimentos tecnicos.json',
-      'Meteorologia': 'assets/data/meteorologia.json',
-      'Navegação': 'assets/data/navegacao.json',
-      'Regulamentos de Voo': 'assets/data/regulamentos.json',
-      'Teoria de Voo': 'assets/data/teoria de voo.json',
-    };
+// Widget de botão personalizado
+class CustomButton extends StatelessWidget {
+  final String text;
+  final VoidCallback onPressed;
 
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => TestTypeScreen(
-          title: 'Piloto Privado Avião',
-          blocks: pilotoPrivadoBlocks,
-        ),
-      ),
-    );
-  }
+  const CustomButton({required this.text, required this.onPressed});
 
-  void _navigateToInitialScreenCMS(BuildContext context) {
-    final Map<String, String> cmsBlocks = {
-      'Regulamentos de Voo': 'assets/data/regulamentos.json',
-      'Teoria de Voo': 'assets/data/teoria de voo.json',
-    };
-
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => TestTypeScreen(
-          title: 'Comissário de Voo',
-          blocks: cmsBlocks,
-        ),
-      ),
-    );
-  }
-
-  void _navigateToResultsScreen(BuildContext context) {
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => ResultsScreen(),
-      ),
-    );
-  }
-
-  Widget _buildButton(BuildContext context, String text, VoidCallback onPressed) {
+  @override
+  Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: SizedBox(
@@ -69,6 +33,69 @@ class MainScreen extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+}
+
+class MainScreen extends StatelessWidget {
+  const MainScreen({Key? key}) : super(key: key);
+
+  // Navegação para a tela de TestTypeScreen para Piloto Privado
+  void _navigateToTypeTestPilotoPrivado(BuildContext context) {
+    final Map<String, String> pilotoPrivadoBlocks = {
+      'Conhecimentos Técnicos': 'assets/data/conhecimentos tecnicos.json',
+      'Meteorologia': 'assets/data/meteorologia.json',
+      'Navegação': 'assets/data/navegacao.json',
+      'Regulamentos de Voo': 'assets/data/regulamentos.json',
+      'Teoria de Voo': 'assets/data/teoria de voo.json',
+    };
+
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => TestTypeScreen(
+          title: pilotoPrivadoTitle,
+          course: pilotoPrivadoBlocks,
+        ),
+      ),
+    );
+  }
+
+  // Navegação para a tela de TestTypeScreen para Comissário de Voo
+  void _navigateToInitialScreenCMS(BuildContext context) {
+    final Map<String, String> cmsBlocks = {
+      'Emergência e Segurança': 'assets/data/Emergência e Segurança.json',
+      'Regulamentação da Profissão': 'assets/data/Regulamentação da Profissão.json',
+      'Primeiros Socorros': 'assets/data/Primeiros Socorros.json',
+      'Conhecimento Gerais': 'assets/data/Conhecimento Gerais.json',
+    };
+
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => TestTypeScreen(
+          title: comissarioDeVooTitle,
+          course: cmsBlocks,
+        ),
+      ),
+    );
+  }
+
+  // Navegação para a tela de resultados
+  void _navigateToResultsScreen(BuildContext context) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => ResultsScreen(),
+      ),
+    );
+  }
+
+  // Construção do botão customizado
+  Widget _buildButton(BuildContext context, String text, VoidCallback onPressed) {
+    return CustomButton(
+      text: text,
+      onPressed: onPressed,
     );
   }
 
@@ -91,17 +118,17 @@ class MainScreen extends StatelessWidget {
             children: [
               _buildButton(
                 context,
-                'Piloto Privado Avião',
+                pilotoPrivadoTitle,
                     () => _navigateToTypeTestPilotoPrivado(context),
               ),
               _buildButton(
                 context,
-                'Comissário de Voo',
+                comissarioDeVooTitle,
                     () => _navigateToInitialScreenCMS(context),
               ),
               _buildButton(
                 context,
-                'Ver Resultados Anteriores',
+                resultadosTitle,
                     () => _navigateToResultsScreen(context),
               ),
             ],

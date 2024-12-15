@@ -48,6 +48,10 @@ flutter:
     - assets/data/navegacao.json
     - assets/data/regulamentos.json
     - assets/data/teoria de voo.json
+    - assets/data/Conhecimento Gerais.json
+    - assets/data/Emergência e Segurança.json
+    - assets/data/Primeiros Socorros.json
+    - assets/data/Regulamentação da Profissão.json
 
 flutter_launcher_icons:
   android: "launcher_icon"

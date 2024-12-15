@@ -4,12 +4,12 @@ import './results_screen.dart'; // Verifique o caminho correto se necessário
 
 class TestTypeScreen extends StatelessWidget {
   final String title;
-  final Map<String, String> blocks;
+  final Map<String, String> course;
 
   const TestTypeScreen({
     Key? key,
     required this.title,
-    required this.blocks,
+    required this.course,
   }) : super(key: key);
 
   void _navigateToQuestionScreen(BuildContext context, String jsonPath) {
@@ -69,7 +69,7 @@ class TestTypeScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              for (var entry in blocks.entries)
+              for (var entry in course.entries)
                 _buildButton(
                   context,
                   entry.key,
