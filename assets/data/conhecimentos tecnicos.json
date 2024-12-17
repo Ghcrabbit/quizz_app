@@ -1,0 +1,3522 @@
+{"Question":[
+  {
+    "ID": 2064,
+    "PERGUNTA": "A POTÊNCIA É O TRABALHO REALIZADO NUM INTERVALO DE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "tempo",
+    "B": "espaço",
+    "C": "temperatura",
+    "D": "velocidade",
+    "RESP": "A"
+  },
+  {
+    "ID": 2093,
+    "PERGUNTA": "NO SISTEMA DE IGNIÇÃO, COM RPM JÁ RESTABELECIDA, A GERAÇÃO DE ELETRICIDADE É\nOBTIDA POR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "dínamo",
+    "B": "bateria",
+    "C": "magneto",
+    "D": "distribuidor",
+    "RESP": "C"
+  },
+  {
+    "ID": 2048,
+    "PERGUNTA": "O INSTRUMENTO CUJO MOSTRADOR É GRADUADO EM PSI, TEM COMO FINALIDADE MEDIR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "pressões relativas",
+    "B": "temperaturas",
+    "C": "pressões absolutas",
+    "D": "velocidades",
+    "RESP": "A"
+  },
+  {
+    "ID": 2019,
+    "PERGUNTA": "O MELHOR TIPO DE VELA DE IGNIÇÃO QUE DEVE SER USADA NUM MOTOR AERONÁUTICO A PISTÃO É A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "quente",
+    "B": "fria",
+    "C": "normal",
+    "D": "indicada pelo fabricante",
+    "RESP": "D"
+  },
+  {
+    "ID": 1746,
+    "PERGUNTA": "O TIPO DE MANCAL EMPREGADO NA JUNÇÃO DA BIELA COM O EIXO DE MANIVELAS, DENOMINAM-SE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "moente",
+    "B": "casquilhos",
+    "C": "pino de eixo",
+    "D": "bucha",
+    "RESP": "B"
+  },
+  {
+    "ID": 1923,
+    "PERGUNTA": "O SISTEMA RESPONSÁVEL PELA ADMISSÃO, FILTRAGEM E EVENTUAL AQUECIMENTO DO AR É\nDENOMINADO SISTEMA DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "superalimentação",
+    "B": "formação de mistura",
+    "C": "indução",
+    "D": "alimentação",
+    "RESP": "C"
+  },
+  {
+    "ID": 1924,
+    "PERGUNTA": "A VÁLVULA DE AR QUENTE É NECESSÁRIA QUANDO HOUVER POSSIBILIDADE DE FORMAÇÃO DE GELO NO CARBURADOR. NAS DECOLAGENS ELA DEVERÁ ESTAR, NECESSARIAMENTE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "aberta",
+    "B": "fechada",
+    "C": "numa posição intermediária",
+    "D": "mandando ar fluente para o interior do motor",
+    "RESP": "B"
+  },
+  {
+    "ID": 2022,
+    "PERGUNTA": "O DIÓXIDO DE CARBONO É RECOMENDADO PARA A EXTINÇÃO DE INCÊNDIOS CLASSE \"C\", POIS\nESSENCIALMENTE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "é espumoso",
+    "B": "não é corrosivo",
+    "C": "atua por abafamento",
+    "D": "não conduz eletricidade",
+    "RESP": "D"
+  },
+  {
+    "ID": 1904,
+    "PERGUNTA": "EM UM SISTEMA HIDRÁULICO, A FORÇA RESULTANTE É\nOBTIDA ATRAVÉS DO PRODUTO DA FORÇA APLICADA PELO (A):",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "área do atuador secundário",
+    "B": "rendimento mecânico",
+    "C": "deslocamento do atuador",
+    "D": "resistência hidráulica",
+    "RESP": "B"
+  },
+  {
+    "ID": 2009,
+    "PERGUNTA": "A ALTA TENSÃO PARA O CENTELHAMENTO DAS VELAS NA PARTIDA DO MOTOR É CONSEGUIDA ATRAVÉS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "dos distribuidores",
+    "B": "dos condensadores auxiliares",
+    "C": "das unidade de partida",
+    "D": "de fontes sobressalentes",
+    "RESP": "C"
+  },
+  {
+    "ID": 1799,
+    "PERGUNTA": "O AVANÇO DA IGNIÇÃO VISA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "uma combustão integral da mistura combustível",
+    "B": "um melhor aproveitamento da força expansiva dos gases",
+    "C": "uma melhor limpeza interna dos cilindros",
+    "D": "as alternativas \"a\" e \"b\" são corretas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1806,
+    "PERGUNTA": "UM MOTOR CONVENCIONAL A DOIS TEMPOS, EM COMPARAÇÃO COM O DE QUATRO TEMPOS:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "gira com menor velocidade de rotação",
+    "B": "trabalha exposto a temperatura elevada",
+    "C": "executa um ciclo com menos fases",
+    "D": "torna-se mais eficiente com\nacréscimo de altitude, por ser mais leve",
+    "RESP": "B"
+  },
+  {
+    "ID": 1890,
+    "PERGUNTA": "UM MOTOR QUANDO ALIMENTADA COM MISTURA RICA, APRESENTARÁ NO FINAL DE UMA COMBUSTÃO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "remanescente de comburente",
+    "B": "remanescente de oxigênio",
+    "C": "remanescente de combustível",
+    "D": "alta temperatura dos gases da queima",
+    "RESP": "C"
+  },
+  {
+    "ID": 2062,
+    "PERGUNTA": "A TRANSFORMAÇÃO ISOTÉRMICA É BASEADA NA LEI DE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "Charles",
+    "B": "Boyle-Mariotti",
+    "C": "Gay-Lussac",
+    "D": "Bernoulli",
+    "RESP": "B"
+  },
+  {
+    "ID": 1988,
+    "PERGUNTA": "EM UM DÍNAMO A CORRENTE ALTERNADA DO INDUZIDO É TORNADA CONTINUA NO (A):",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "escova",
+    "B": "coletor ou comutador",
+    "C": "bobina de campo",
+    "D": "retificador",
+    "RESP": "B"
+  },
+  {
+    "ID": 2134,
+    "PERGUNTA": "O INDICADOR DE CURVA FUNCIONA PELO PRINCIPIO DA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "precessão giroscópica",
+    "B": "rigidez giroscópica",
+    "C": "indução eletromagnética",
+    "D": "pressão estática",
+    "RESP": "A"
+  },
+  {
+    "ID": 1837,
+    "PERGUNTA": "DURANTE O FUNCIONAMENTO DE UM MOTOR TURBOFAN, AS PÁS DE VENTOINHA PRODUZEM:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "até 90% da tração",
+    "B": "no máximo 60% da força propulsiva",
+    "C": "de 30% a 75% da força propulsiva",
+    "D": "zero de tração. Toda a tração é produzida no bocal propulsor",
+    "RESP": "C"
+  },
+  {
+    "ID": 1800,
+    "PERGUNTA": "A MODIFICAÇÃO NO PONTO DE IGNIÇÃO (AVANÇO DE\nIGNIÇÃO) É VARIÁVEL E DEVERÁ SER SEMPRE AUMENTADA TODA VEZ QUE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "a RPM do motor é aumentada",
+    "B": "a velocidade do motor é reduzida",
+    "C": "for efetuada revisão geral do motor",
+    "D": "o chefe da manutenção determinar",
+    "RESP": "A"
+  },
+  {
+    "ID": 1915,
+    "PERGUNTA": "O COMPONENTE DO SISTEMA DE LUBRIFICAÇÃO QUE TEM POR FINALIDADE EFETUAR UM DESVIO DO FLUXO DE ÓLEO PARA O RADIADOR, OU EVITAR QUE O ÓLEO CIRCULE ATRAVÉS DO MESMO QUANDO A TEMPERATURA ESTIVER ALÉM OU AQUÉM, RESPECTIVAMENTE, DO ESPECIFICADO, COMPROMETENDO SUA VISCOSIDADE, É:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "válvula termostática",
+    "B": "sensor de temperatura do indicador de cabine",
+    "C": "válvula reguladora de pressão",
+    "D": "by-pass do filtro",
+    "RESP": "A"
+  },
+  {
+    "ID": 1792,
+    "PERGUNTA": "NOS CURSOS ASCENDENTES DO PISTÃO, NUM MOTOR A QUATRO TEMPOS, PODEM OCORRER AS SEGUINTES\nFASES:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "admissão e escapamento",
+    "B": "compressão e expansão",
+    "C": "compressão e escapamento",
+    "D": "ignição e motor",
+    "RESP": "C"
+  },
+  {
+    "ID": 1910,
+    "PERGUNTA": "APÓS PASSAR PELO RADIADOR, A TEMPERATURA E A\nVISCOSIDADE DO ÓLEO LUBRIFICANTE, RESPECTIVAMENTE, IRÃO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "diminuir - diminuir",
+    "B": "diminuir - aumentar",
+    "C": "aumentar - aumentar",
+    "D": "aumentar - diminuir",
+    "RESP": "B"
+  },
+  {
+    "ID": 1870,
+    "PERGUNTA": "O CONTROLE DA QUANTIDADE DE GASOLINA QUE O\nCARBURADOR MISTURA AO AR ADMITIDO É FEITO NO/NA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "garganta do tubo de Venturi",
+    "B": "borboleta",
+    "C": "tubo de admissão",
+    "D": "orifício calibrador (gigleur)",
+    "RESP": "D"
+  },
+  {
+    "ID": 1931,
+    "PERGUNTA": "UMA MAIOR MASSA DE MISTURA NO INTERIOR DE UM CILINDRO, OCASIONADA POR UM SISTEMA DE SUPERALIMENTAÇÃO, PERMITIRÁ QUE O MOTOR DESENVOLVA MAIOR POTÊNCIA, EM VIRTUDE DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "aumento da taxa de compressão",
+    "B": "aumento da pressão da mistura",
+    "C": "diminuição da cilindrada",
+    "D": "melhor queima da mistura combustível",
+    "RESP": "B"
+  },
+  {
+    "ID": 2090,
+    "PERGUNTA": "NUMA INSPEÇÃO DIMENSIONAL, UTILIZA-SE",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "magnaflux, se a peça for imantável",
+    "B": "líquido penetrante, se a peça não for imantável",
+    "C": "instrumentos de medição à peça a ser examinada",
+    "D": "todas as anteriores",
+    "RESP": "A"
+  },
+  {
+    "ID": 1970,
+    "PERGUNTA": "O TIPO DE COMBUSTÃO ANORMAL QUE É CAUSADA\nPOR PONTOS INCANDESCENTES NA CÂMARA DE COMBUSTÍVEL É A:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "explosão",
+    "B": "detonação",
+    "C": "pré-ignição",
+    "D": "pré-combustão",
+    "RESP": "C"
+  },
+  {
+    "ID": 2051,
+    "PERGUNTA": "O FUNCIONAMENTO DO TACÔMETRO MECÂNICO SE BASEIA NA/NO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "força centrífuga",
+    "B": "magnetismo",
+    "C": "cápsula aneróide",
+    "D": "tubo de Bourbon",
+    "RESP": "A"
+  },
+  {
+    "ID": 1861,
+    "PERGUNTA": "UM COMBUSTÍVEL COM ALTA VOLATILIDADE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "dificulta a formação da mistura",
+    "B": "superaquece o motor",
+    "C": "facilita a partida do motor",
+    "D": "causa detonação",
+    "RESP": "C"
+  },
+  {
+    "ID": 1871,
+    "PERGUNTA": "O NÚMERO DE OCTANAS DE UMA GASOLINA, MEDE O SEU:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "poder calorífico",
+    "B": "poder anti-detonante",
+    "C": "ponto de vaporização",
+    "D": "ponto de congelamento",
+    "RESP": "B"
+  },
+  {
+    "ID": 1706,
+    "PERGUNTA": "A ESTRUTURA DOS ESTABILIZADORES E SUPERFÍCIES DE CONTROLE SÃO EM PARTE SEMELHANTES À:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "fuselagem",
+    "B": "asa",
+    "C": "superfície dorsal",
+    "D": "longarinas",
+    "RESP": "B"
+  },
+  {
+    "ID": 1794,
+    "PERGUNTA": "NO PRIMEIRO TEMPO DO MOTOR A QUATRO TEMPOS, QUAL SERÁ A DISPOSIÇÃO DAS VÁLVULAS DE ADMISSÃO E ESCAPAMENTO, RESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "fechada e fechada",
+    "B": "aberta e fechada",
+    "C": "aberta e aberta",
+    "D": "fechada e aberta",
+    "RESP": "B"
+  },
+  {
+    "ID": 1723,
+    "PERGUNTA": "O MOVIMENTO DAS SUPERFÍCIES DE COMANDO, NOS AVIÕES DE PEQUENO PORTE, É FEITO ATRAVÉS DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "cabos de aços flexíveis",
+    "B": "alavancas e hastes",
+    "C": "tubos de torção e polias",
+    "D": "todas as anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 1782,
+    "PERGUNTA": "O MECANISMO RESPONSÁVEL PELA ABERTURA DAS\nVÁLVULAS DE ADMISSÃO E ESCAPAMENTO NO TEMPO CERTO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "é o próprio pistão",
+    "B": "é o sistema de comando de válvulas",
+    "C": "é o eixo de manivelas",
+    "D": "são as molas helicoidais",
+    "RESP": "B"
+  },
+  {
+    "ID": 1757,
+    "PERGUNTA": "NOS MOTORES AERONÁUTICOS DUAS GRANDEZAS SÃO DE GRANDE IMPORTÂNCIA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "tração e potência",
+    "B": "tração e peso",
+    "C": "aerodinâmica e potência",
+    "D": "massa e potência",
+    "RESP": "D"
+  },
+  {
+    "ID": 1939,
+    "PERGUNTA": "O NORMAL-HEPTANO, CONVENCIONALMENTE, TEM ÍNDICE DE OCTANA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": 100,
+    "B": "maior que 100",
+    "C": "zero",
+    "D": "que depende do teor de chumbo",
+    "RESP": "C"
+  },
+  {
+    "ID": 2036,
+    "PERGUNTA": "OS EXTINTORES MAIS INDICADOS PARA INCÊNDIOS DAS CLASSES A, C E D SÃO, RESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "H2O, p6 químico - pó seco",
+    "B": "espuma - pó seco - CO2",
+    "C": "H2O - CO2 - pó seco",
+    "D": "CO2 - pó seco - H2O",
+    "RESP": "A"
+  },
+  {
+    "ID": 1811,
+    "PERGUNTA": "SE HOUVER DIMINUIÇÃO NO VOLUME DA CÂMARA DE COMBUSTÃO A/O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "cilindrada diminuirá",
+    "B": "taxa de compressão aumentará",
+    "C": "volume total do cilindro não será alterado",
+    "D": "cilindrada aumentará",
+    "RESP": "B"
+  },
+  {
+    "ID": 1762,
+    "PERGUNTA": "QUANDO O VOLUME INTERNO DE UM CILINDRO ESTIVER REDUZIDO AO VOLUME DA CÂMARA DE\nCOMBUSTÃO O PISTÃO ESTARÁ:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "no ponto morto alto(PMA)",
+    "B": "na metade do curso",
+    "C": "no ponto morto baixo(PMB)",
+    "D": "subindo ou descendo",
+    "RESP": "A"
+  },
+  {
+    "ID": 2063,
+    "PERGUNTA": "UM COPO DE CHOPE GELADO APRESENTA NA SUPERFÍCIE EXTERNA GOTÍCULAS DE ÁGUA, DEVIDO A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "água contida no chope",
+    "B": "porosidade do copo",
+    "C": "condensação da umidade atmosférica",
+    "D": "vaporização da água",
+    "RESP": "C"
+  },
+  {
+    "ID": 1848,
+    "PERGUNTA": "A COLOCAÇÃO DE UMA VÁLVULA DE DERIVAÇÃO, NO\nFILTRO DE ÓLEO DOS MOTORES AERONÁUTICOS A PISTÃO,TEM COMO OBJETIVO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "não danificar a tubulação, caso o filtro fique entupido",
+    "B": "não danificar o filtro, caso o mesmo fique entupido",
+    "C": "garantir a circulação do óleo\nno motor, mesmo que o filtro fique entupido",
+    "D": "evitar os casos de falta de óleo no tanque",
+    "RESP": "C"
+  },
+  {
+    "ID": 1808,
+    "PERGUNTA": "O VOLUME INTERNO DE UM CILINDRO, CONSIDERADO ENTRE OS DOIS PONTOS MORTOS É DENOMINADO(A):",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "taxa de compressão",
+    "B": "curso",
+    "C": "tempo",
+    "D": "cilindrada",
+    "RESP": "D"
+  },
+  {
+    "ID": 1946,
+    "PERGUNTA": "A UNIDADE DO SISTEMA DE COMBUSTÍVEL QUE DOSA A MASSA DE AR/COMBUSTÍVEL NUM MOTOR A\nPISTÃO É O/A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "turbo-alimentador",
+    "B": "carburador",
+    "C": "bomba de combustível",
+    "D": "tubo de admissão",
+    "RESP": "B"
+  },
+  {
+    "ID": 1719,
+    "PERGUNTA": "QUANDO SOBRE UM CORPO APARECEM OS ESFORÇOS DE TRAÇÃO E COMPRESSÃO, DIZEMOS QUE O MESMO ESTA SOFRENDO UM ESFORÇO DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "torção",
+    "B": "cisalhamento",
+    "C": "flexão",
+    "D": "compressão",
+    "RESP": "C"
+  },
+  {
+    "ID": 1745,
+    "PERGUNTA": "AS VÁLVULAS DE ESCAPAMENTO GERALMENTE PORTAM EM SEU INTERIOR UM PERFIL OCO QUE É\nPREENCHIDO COM:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "sódio",
+    "B": "ar atmosférico",
+    "C": "bicarbonato",
+    "D": "sulfato de alumínio",
+    "RESP": "A"
+  },
+  {
+    "ID": 1730,
+    "PERGUNTA": "A AÇÃO DE CABRAR OU PICAR (NARIZ PARA CIMA OU NARIZ PARA BAIXO)COM AERONAVE EM VOO, DAMOS\nO NOME DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "guinada",
+    "B": "glissagem",
+    "C": "cabragem-picagem",
+    "D": "arfagem",
+    "RESP": "D"
+  },
+  {
+    "ID": 2084,
+    "PERGUNTA": "AS JANELAS DE INSPEÇÃO SÃO ESTRUTURAIS, OU SEJA, FAZEM PARTE DA ESTRUTURA DO TIPO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "tubular",
+    "B": "monocoque",
+    "C": "cantilever",
+    "D": "semi-monocoque",
+    "RESP": "B"
+  },
+  {
+    "ID": 1857,
+    "PERGUNTA": "NOS MOTORES NÃO SUPERALIMENTADOS, A PRESSÃO\nDE ADMISSÃO COM RELAÇÃO À PRESSÃO ATMOSFÉRICA É:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "maior",
+    "B": "igual",
+    "C": "menor",
+    "D": "maior na fase de aquecimento",
+    "RESP": "C"
+  },
+  {
+    "ID": 1964,
+    "PERGUNTA": "AS FONTES DE ENERGIA ELÉTRICA MAIS UTILIZADAS EM AERONAVES DE PEQUENO PORTE SÃO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "bobina e condensadores",
+    "B": "baterias e geradores",
+    "C": "motores elétricos",
+    "D": "GPU a APU",
+    "RESP": "B"
+  },
+  {
+    "ID": 1817,
+    "PERGUNTA": "SE A TAXA DE COMPRESSÃO FOR DIMINUÍDA, OCORRE NO MOTOR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "diminuição da potência",
+    "B": "aumento da potência",
+    "C": "pré-ignição",
+    "D": "detonação",
+    "RESP": "A"
+  },
+  {
+    "ID": 2054,
+    "PERGUNTA": "SE HOUVER UMA OBSTRUÇÃO NA TOMADA DE PRESSÃO DINÂMICA DO TUBO DE PITOT, DEIXARÁ (ÃO) DE DAR INDICAÇÃO CORRETA O(S) INSTRUMENTO(S):",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "altímetro, velocímetro e climb",
+    "B": "horizonte artificial e giro direcional",
+    "C": "velocímetro",
+    "D": "taquímetro e indicador de fluxo",
+    "RESP": "C"
+  },
+  {
+    "ID": 1790,
+    "PERGUNTA": "PODEMOS DIZER QUE A POTÊNCIA É A RAZÃO ENTRE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "o trabalho e o tempo",
+    "B": "a força e o tempo",
+    "C": "a velocidade e o tempo",
+    "D": "o trabalho e a força",
+    "RESP": "A"
+  },
+  {
+    "ID": 1867,
+    "PERGUNTA": "PARA O REABASTECIMENTO DE COMBUSTÍVEL RECOMENDA-SE O EMPREGO DE UM FILTRO CUJO O\nELEMENTO FILTRANTE É DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "pelica",
+    "B": "camurça",
+    "C": "tela fina de malha",
+    "D": "tecido aglomerado",
+    "RESP": "B"
+  },
+  {
+    "ID": 1950,
+    "PERGUNTA": "O SISTEMA DE ARREFECIMENTO DO MOTOR TEM POR FUNÇÃO RETIRAR CALOR DO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "radiador",
+    "B": "cilindro",
+    "C": "defletor",
+    "D": "carburador",
+    "RESP": "B"
+  },
+  {
+    "ID": 1797,
+    "PERGUNTA": "CONSIDERANDO OS TEMPOS DE UM MOTOR E SEUS RESPECTIVOS NÚMEROS CORRESPONDENTES - 1/EXPLOSÃO; 2/ADMISSÃO; 3/ESCAPAMENTO;\n4/COMPRESSÃO; A SEQÜÊNCIA NORMAL DE FUNCIONAMENTO SERÁ:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "4-3-2-1",
+    "B": "1-2-3-4",
+    "C": "2-4-1-3",
+    "D": "2-4-3-1",
+    "RESP": "C"
+  },
+  {
+    "ID": 1901,
+    "PERGUNTA": "O DISPOSITIVO ESPECIAL DO CARBURADOR DESIGNADO DE ECONOMIZADOR, QUANDO EM\nFUNCIONAMENTO PROPICIA UMA MISTURA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "pobre, em marcha lenta",
+    "B": "mais rica, nas decolagens",
+    "C": "pobre, na fase de cruzeiro",
+    "D": "rica na fase de cruzeiro",
+    "RESP": "B"
+  },
+  {
+    "ID": 1940,
+    "PERGUNTA": "O INJETOR DE PARTIDA (PRIMER) TEM COMO FINALIDADE INJETAR UMA PEQUENA QUANTIDADE DE COMBUSTÍVEL DIRETAMENTE NO CIRCUITO DE ALIMENTAÇÃO PARA FACILITAR A PARTIDA DO MOTOR, EM ALGUMAS AERONAVES, SENDO ESTA INJEÇÃO EFETUADA DIRETAMENTE NO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "tubo ou coletor de admissão",
+    "B": "interior do cilindro",
+    "C": "carburador",
+    "D": "filtro do sistema",
+    "RESP": "A"
+  },
+  {
+    "ID": 1996,
+    "PERGUNTA": "O DISPOSITIVO QUE TEM A MESMA PROPRIEDADE DE UM IMÃ NATURAL E QUE PODE SER LIGADO E\nDESLIGADO, RECEBE O NOME DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "disjuntor térmico",
+    "B": "fusível eletrodinâmico",
+    "C": "eletroímã",
+    "D": "imã permanente",
+    "RESP": "C"
+  },
+  {
+    "ID": 2085,
+    "PERGUNTA": "AS ÁREAS COM REBITES NÃO NECESSITAM DE\nINSPEÇÃO MAIS CUIDADOSA E FREQÜENTE NAS FUSELAGENS DO TIPO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "tubular",
+    "B": "monocoque",
+    "C": "cantilever",
+    "D": "semi-monocoque",
+    "RESP": "D"
+  },
+  {
+    "ID": 2069,
+    "PERGUNTA": "TENDO-SE UMA FORÇA ATUANTE DE 100 N SOBRE UMA ÁREA DE 20 METROS QUADRADOS, OBTÉM-SE A\nPRESSÃO DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "0.2 N/m2",
+    "B": "0.5 N/m2",
+    "C": "5.0 N/m2",
+    "D": "200 N/m2",
+    "RESP": "C"
+  },
+  {
+    "ID": 1780,
+    "PERGUNTA": "O CONSUMO ESPECÍFICO DE UM MOTOR É AQUELE QUE INDICA A QUANTIDADE DE COMBUSTÍVEL CONSUMIDO POR HORA DE FUNCIONAMENTO,\nCONSIDERANDO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "a potência desenvolvida pelo mesmo",
+    "B": "a formação da mistura pelo injetor de partida",
+    "C": "a temperatura dos gases de escapamentos",
+    "D": "a relação potência x massa",
+    "RESP": "A"
+  },
+  {
+    "ID": 1851,
+    "PERGUNTA": "UM ÓLEO LUBRIFICANTE DE BOA QUALIDADE, POSSUI:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "alto ponto de fulgor",
+    "B": "alto ponto de congelamento",
+    "C": "uma alta viscosidade",
+    "D": "facilidade na oxidação",
+    "RESP": "A"
+  },
+  {
+    "ID": 1852,
+    "PERGUNTA": "O SISTEMA DE LUBRIFICAÇÃO TEM COMO FINALIDADE PRINCIPAL:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "reduzir ao máximo o atrito entre as peças",
+    "B": "eliminar o atrito entre as peças",
+    "C": "efetuar a refrigeração do motor",
+    "D": "proteger o motor contra a corrosão",
+    "RESP": "A"
+  },
+  {
+    "ID": 2008,
+    "PERGUNTA": "A VELA DE IGNIÇÃO QUE POSSUI UMA GRANDE ÁREA DE CONTATO ENTRE O ISOLADOR E O CORPO É\nDENOMINADA VELA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "quente",
+    "B": "fria",
+    "C": "morna",
+    "D": "normal",
+    "RESP": "B"
+  },
+  {
+    "ID": 2065,
+    "PERGUNTA": "UM CORPO EFETUA UM DESLOCAMENTO SOB O EFEITO DE UMA FORÇA. O MESMO ESTÁ REALIZANDO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "trabalho",
+    "B": "aceleração",
+    "C": "potência",
+    "D": "velocidade",
+    "RESP": "A"
+  },
+  {
+    "ID": 2014,
+    "PERGUNTA": "NO SISTEMA DE IGNIÇÃO DE ALTA TENSÃO, A CORRENTE DE ALTA TENSÃO EXISTE ENTRE A/O:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "magneto e a vela",
+    "B": "bobina transformadora e a vela",
+    "C": "distribuidor e o magneto",
+    "D": "distribuidor e a bobina transformadora",
+    "RESP": "A"
+  },
+  {
+    "ID": 1707,
+    "PERGUNTA": "OS AILERONS SÃO SUPERFÍCIES PRIMÁRIAS DE CONTROLE, UTILIZADAS NOS AVIÕES, LOCALIZADAS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "no bordo de fuga das asas, do meio para a ponta",
+    "B": "na superfície das asas",
+    "C": "no bordo de fuga das asas, junção com a fuselagem",
+    "D": "no bordo de fuga da empenagem, superfície\nhorizontal",
+    "RESP": "A"
+  },
+  {
+    "ID": 2082,
+    "PERGUNTA": "NOS AVIÕES POR SER CARACTERÍSTICA, OS FABRICANTES PREFEREM CONSTRUIR UMA FUSELAGEM QUE CONSIGA MELHOR RELAÇÃO ENTRE\nA/O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "peso x velocidade",
+    "B": "sustentação x arrasto",
+    "C": "sustentação x velocidade",
+    "D": "sustentação x carga transportável",
+    "RESP": "D"
+  },
+  {
+    "ID": 2006,
+    "PERGUNTA": "A BLINDAGEM UTILIZADA NOS FIOS DAS VELAS DE UM SISTEMA DE IGNIÇÃO DE ALTA VOLTAGEM, ALÉM DE ISOLAR E PROTEGER OS FIOS SERVE TAMBÉM, PARA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "evitar as interferências das radiações emitidas pelos fios nos equipamentos eletrônicos\nde bordo",
+    "B": "torna o fio mais resistente, evitando uma eventual ruptura",
+    "C": "transmitir parcialmente às velas, a corrente gerada do magneto",
+    "D": "proteger os fios do calor irradiado pelos cilindros do motor",
+    "RESP": "A"
+  },
+  {
+    "ID": 1913,
+    "PERGUNTA": "A VÁLVULA REGULADORA DE PRESSÃO NO SISTEMA DE LUBRIFICAÇÃO, ALIVIA O EXCESSO DE PRESSÃO DO SISTEMA ATRAVÉS DO SISTEMA DE UMA LINHA DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "ligação com a atmosfera",
+    "B": "retorno para o reservatório",
+    "C": "ligação direta com o motor",
+    "D": "desvio pela válvula by-pass",
+    "RESP": "B"
+  },
+  {
+    "ID": 2004,
+    "PERGUNTA": "A ORDEM DE FOGO OU ORDEM DE IGNIÇÃO PARA OS CILINDROS É DETERMINADA PELO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "distribuidor",
+    "B": "condensador",
+    "C": "magneto",
+    "D": "platinado",
+    "RESP": "A"
+  },
+  {
+    "ID": 1822,
+    "PERGUNTA": "UMA HÉLICE CAPAZ DE MODIFICAR O ÂNGULO DA PÁ, AUTOMATICAMENTE, É DO TIPO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "passo variável",
+    "B": "passo ajustável",
+    "C": "passo bandeira",
+    "D": "velocidade variável",
+    "RESP": "A"
+  },
+  {
+    "ID": 1921,
+    "PERGUNTA": "AS QUALIDADES ANTI-CORROSIVAS, DETERGENTES E ANTI-OXIDANTES DOS ÓLEOS LUBRIFICANTES SÃO\nMELHORAS ATRAVÉS DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "da colocação de aditivos",
+    "B": "de reiteradas destilações",
+    "C": "do uso de óleos mais viscosos",
+    "D": "do uso de óleos compostos",
+    "RESP": "A"
+  },
+  {
+    "ID": 1862,
+    "PERGUNTA": "NUM MOTOR A PISTÃO SUPERALIMENTADO A PRESSÃO DE ADMISSÃO, DURANTE O FUNCIONAMENTO, EM RELAÇÃO À PRESSÃO\nATMOSFÉRICA LOCAL SERÁ",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "menor",
+    "B": "igual",
+    "C": "às vezes menor, outras igual",
+    "D": "maior",
+    "RESP": "D"
+  },
+  {
+    "ID": 1802,
+    "PERGUNTA": "NUM MOTOR A PISTÃO, FUNCIONANDO SEGUNDO O CICLO REAL, O CRUZAMENTO DE VÁLVULAS\nOCASIONA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "maior limpeza dos cilindros",
+    "B": "menor admissão de mistura",
+    "C": "pior escapamento dos gases queimados",
+    "D": "uma queima mais completa da mistura",
+    "RESP": "A"
+  },
+  {
+    "ID": 1893,
+    "PERGUNTA": "QUANDO HÁ EXCESSO DE GASOLINA, FORNECIDA PELO CARBURADOR, CAUSANDO A PARADA DO MOTOR, DIZ-\nSE QUE HOUVE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "afundamento",
+    "B": "empobrecimento",
+    "C": "afogamento",
+    "D": "entupimento",
+    "RESP": "C"
+  },
+  {
+    "ID": 1983,
+    "PERGUNTA": "O AMPERÍMETRO É UM INSTRUMENTO QUE TEM POR FINALIDADE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "acusar a existência de uma resistência elétrica",
+    "B": "medir a corrente elétrica",
+    "C": "medir a potência de um circuito",
+    "D": "medir a carga de um circuito",
+    "RESP": "B"
+  },
+  {
+    "ID": 1712,
+    "PERGUNTA": "NOS AVIÕES, OS COMPENSADORES SÃO SUPERFÍCIES SECUNDÁRIAS DE CONTROLE LOCALIZADAS:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "no bordo de fuga das asas e empenagem",
+    "B": "no bordo de ataque da superfície primária",
+    "C": "no bordo de fuga da superfície primária",
+    "D": "na cabina de voo ao alcance do piloto",
+    "RESP": "C"
+  },
+  {
+    "ID": 1963,
+    "PERGUNTA": "A COMBUSTÃO INICIADA ANTES DO FIM DA\nCOMPRESSÃO, POR ALGUM OUTRO MEIO INDEPENDENTE  DA CENTELHA, CHAMA-SE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "pré-ignição",
+    "B": "combustão normal",
+    "C": "detonação",
+    "D": "dupla-ignição",
+    "RESP": "A"
+  },
+  {
+    "ID": 2059,
+    "PERGUNTA": "O SISTEMA GIROSCÓPICO DE UMA AERONAVE PODE DISPOR DE ATÉ:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "um eixo",
+    "B": "dois eixos",
+    "C": "três eixos",
+    "D": "quatro eixos",
+    "RESP": "C"
+  },
+  {
+    "ID": 1989,
+    "PERGUNTA": "A CORRENTE FORNECIDA PELO ALTERNADOR COM SAÍDA RETIFICADA É DO TIPO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "relativa",
+    "B": "contínua (DC ou CC)",
+    "C": "alternada (AC ou CA)",
+    "D": "primeiro alternada e depois contínua",
+    "RESP": "B"
+  },
+  {
+    "ID": 1968,
+    "PERGUNTA": "O AUMENTO DA TEMPERATURA DO MOTOR CAUSA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "enriquecimento da mistura",
+    "B": "queda da potência",
+    "C": "aumento do consumo específico",
+    "D": "diminuição da viscosidade do óleo lubrificante",
+    "RESP": "D"
+  },
+  {
+    "ID": 2043,
+    "PERGUNTA": "O TERMO - ELEMENTO LIGADO NA CABEÇA DO MOTOR INDICA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "pressão",
+    "B": "densidade",
+    "C": "temperatura",
+    "D": "compressão",
+    "RESP": "C"
+  },
+  {
+    "ID": 1821,
+    "PERGUNTA": "AS PÁS DE UMA HÉLICE PODEM SER METÁLICAS OU DE MADEIRA. AS HÉLICES COM PÁS DE MADEIRA PODEM SER UTILIZADAS EM MOTORES AERONÁUTICOS COM\nPOTÊNCIA DE ATÉ:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "100HP",
+    "B": "150HP",
+    "C": "300HP",
+    "D": "1000HP",
+    "RESP": "C"
+  },
+  {
+    "ID": 1951,
+    "PERGUNTA": "A TEMPERATURA CAUSADA DA DETONAÇÃO, EM UM MOTOR A PISTÃO, PODE SER ATINGIDA POR:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "altas taxas de compressão",
+    "B": "calor acumulado nos cilindros",
+    "C": "uso de misturas muito pobres",
+    "D": "todas as anteriores são corretas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1944,
+    "PERGUNTA": "A FINALIDADE DA VÁLVULA DE AR QUENTE É PREVENIR A FORMAÇÃO OU ELIMINAR O GELO NUM CARBURADOR. QUANDO A MESMA É ABERTA O MOTOR PERDE POTÊNCIA. ISTO OCORRE PORQUE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "o aquecimento do ar de admissão diminui sua densidade, diminuindo a potência do motor",
+    "B": "para aquecer o ar de admissão mistura-se o mesmo com os gases do escapamento, os quais não queimarão novamente, diminuindo a potência do motor",
+    "C": "o ar admissão ao ser aquecido, tende a empobrecer a mistura,\no que causa perda de potência",
+    "D": "qualquer das razões anteriores pode ocorrer",
+    "RESP": "A"
+  },
+  {
+    "ID": 2026,
+    "PERGUNTA": "A INSPEÇÃO QUE VISA DETECTAR ALGUMA RACHADURA OU FALHA NO MATERIAL DE UMA PEÇA É\nDENOMINADA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "visual",
+    "B": "dimensional",
+    "C": "qualitativa",
+    "D": "corretiva",
+    "RESP": "C"
+  },
+  {
+    "ID": 1885,
+    "PERGUNTA": "PARA QUEIMAR TOTALMENTE 0,5K DE GASOLINA SÃO NECESSÁRIOS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "5,0 kg de ar",
+    "B": "5 kg de oxigênio",
+    "C": "7,5 kg de ar",
+    "D": "7,5 kg de oxigênio",
+    "RESP": "C"
+  },
+  {
+    "ID": 2039,
+    "PERGUNTA": "A REAÇÃO QUÍMICA QUE PRODUZ CALOR E PODE OU NÃO PRODUZIR CHAMA É DENOMINADA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "combustão",
+    "B": "ignição",
+    "C": "expansão térmica",
+    "D": "volatilização",
+    "RESP": "A"
+  },
+  {
+    "ID": 1795,
+    "PERGUNTA": "EM UM CICLO REAL AS VÁLVULAS DE ADMISSÃO E ESCAPAMENTO SÃO REGULADAS PARA FECHAREM:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "nos pontos mortos",
+    "B": "antes dos pontos mortos",
+    "C": "avançados",
+    "D": "atrasadas",
+    "RESP": "D"
+  },
+  {
+    "ID": 2046,
+    "PERGUNTA": "O TERMÔMETRO INDICADO PARA MEDIR A TEMPERATURA DA CABEÇA DO CILINDRO É O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "par termoelétrico",
+    "B": "elétrico",
+    "C": "pressão do vapor",
+    "D": "de resistência",
+    "RESP": "A"
+  },
+  {
+    "ID": 1754,
+    "PERGUNTA": "A DURABILIDADE DE UM MOTOR A PISTÃO AERONÁUTICO É ESTABELECIDA PELO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "ANAC",
+    "B": "fabricante do motor",
+    "C": "fabricante da aeronave",
+    "D": "proprietário da aeronave",
+    "RESP": "B"
+  },
+  {
+    "ID": 1917,
+    "PERGUNTA": "OS MOTORES A PISTÃO QUE UTILIZAM O PRÓPRIO CÁRTER COMO DEPÓSITO DE ÓLEO LUBRIFICANTE SÃO CLASSIFICADOS COMO MOTORES A CÁRTER:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "seco",
+    "B": "molhado",
+    "C": "úmido",
+    "D": "rígido",
+    "RESP": "B"
+  },
+  {
+    "ID": 1930,
+    "PERGUNTA": "NUM MOTOR SUPERALIMENTADO, O EIXO DO COMPRESSOR (VENTOINHA) GIRA, EM RELAÇÃO AO\nEIXO DE MANIVELAS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "a uma rotação maior",
+    "B": "a uma rotação menor",
+    "C": "à mesma rotação",
+    "D": "ora mais rápida, ora mais lenta",
+    "RESP": "A"
+  },
+  {
+    "ID": 1914,
+    "PERGUNTA": "UM ÓLEO LUBRIFICANTE PARA MOTORES A PISTÃO DEVE APRESENTAR, RESPECTIVAMENTE, VISCOSIDADE, PONTO DE FULGOR E PONTO DE CONGELAMENTO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "alta - alto - baixo",
+    "B": "adequada ao motor - alto - baixo",
+    "C": "baixa - baixa - alta",
+    "D": "adequada ao motor - baixo - alto",
+    "RESP": "B"
+  },
+  {
+    "ID": 2002,
+    "PERGUNTA": "O AVANÇO DE IGNIÇÃO É PROCESSADO COM A FINALIDADE DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "compensar a inércia da combustão da mistura",
+    "B": "compensar a inércia da ignição nas velas frias",
+    "C": "adiantar o funcionamento no terceiro tempo",
+    "D": "antecipar a abertura da válvula de escapamento",
+    "RESP": "A"
+  },
+  {
+    "ID": 2033,
+    "PERGUNTA": "AS INSPEÇÕES PERIÓDICAS A QUE UMA AERONAVE\nDEVE SER SUBMETIDA, SÃO CONTROLADAS TENDO POR BASE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "os quilômetros voados",
+    "B": "a velocidade desenvolvida",
+    "C": "o número de partidas",
+    "D": "as horas voadas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1896,
+    "PERGUNTA": "O NÍVEL DO COMBUSTÍVEL NA CUBA DO CARBURADOR\nÉ MANTIDO CONSTANTE ATRAVÉS DA ATUAÇÃO DO (A):",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "gigleur do pulverizador",
+    "B": "borboleta do carburador",
+    "C": "bóia e do estilete",
+    "D": "economiza dor",
+    "RESP": "C"
+  },
+  {
+    "ID": 1881,
+    "PERGUNTA": "O SISTEMA DE FORMAÇÃO DE MISTURA, CUJA A MISTURA É PROCESSADA NO TUBO DE ADMISSÃO, SEM O AUXILIO DE UM CARBURADOR, RECEBE O\nNOME:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "injeção direta",
+    "B": "injeção indireta",
+    "C": "injeção mista",
+    "D": "injetor de partida",
+    "RESP": "B"
+  },
+  {
+    "ID": 1957,
+    "PERGUNTA": "PARA MANTER CONSTANTE A VOLTAGEM DE UM GERADOR, QUALQUER QUE SEJA A ROTAÇÃO DO MOTOR, OU A CARGA EXIGIDA PELO SISTEMA\nELÉTRICO DA AERONAVE, SÃO UTILIZADOS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "relés de sobre voltagem",
+    "B": "disjuntores ou fusíveis",
+    "C": "reguladores de voltagem ou tensão",
+    "D": "solenóides ou relés",
+    "RESP": "C"
+  },
+  {
+    "ID": 1798,
+    "PERGUNTA": "NUM MOTOR A QUATRO TEMPOS, FUNCIONANDO SEGUNDO O CICLO REAL, A VÁLVULA DE ADMISSÃO ABRE QUANDO O PISTÃO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "estiver no PMA, no final do 4ºtempo",
+    "B": "atingir o PMA, no inicio do 1ºtempo",
+    "C": "estiver um pouco antes do PMA, no final do 4ºtempo",
+    "D": "já tiver passado pelo PMB, no final do 4ºtempo",
+    "RESP": "C"
+  },
+  {
+    "ID": 1971,
+    "PERGUNTA": "QUANDO, ATRAVÉS DA MANETE, ENRIQUECEMOS A MISTURA A/O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "temperatura no motor diminuirá",
+    "B": "temperatura no motor aumentará",
+    "C": "consumo específico diminuirá",
+    "D": "octanagem do combustível aumentará",
+    "RESP": "A"
+  },
+  {
+    "ID": 1974,
+    "PERGUNTA": "NO SISTEMA DE ARREFECIMENTO O FLUXO DE AR QUE\nPASSA PELO MOTOR, PODE SER CONTROLADO ATRAVÉS DOS:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "defletores",
+    "B": "alhetas",
+    "C": "flaps de capota",
+    "D": "válvulas",
+    "RESP": "C"
+  },
+  {
+    "ID": 1941,
+    "PERGUNTA": "A MISTURA AR/COMBUSTÍVEL, NOS CARBURADORES, É FORMADO NO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "difusor da ventoinha",
+    "B": "Venturi",
+    "C": "conjunto de borboletas",
+    "D": "tubo de admissão",
+    "RESP": "B"
+  },
+  {
+    "ID": 1860,
+    "PERGUNTA": "PARA QUE SEJA AUMENTADA A OCTANAGEM DE UM COMBUSTÍVEL QUE POSSUI UM ÍNDICE DE OCTANA IGUAL A 100, É ADICIONADO NESSE COMBUSTÍVEL:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "chumbo tetra-etila",
+    "B": "etileno-glicol",
+    "C": "iso-octano",
+    "D": "normal-heptano",
+    "RESP": "A"
+  },
+  {
+    "ID": 1906,
+    "PERGUNTA": "UM EXEMPLO CLÁSSICO DE SISTEMA HIDRÁULICO, EM AVIÕES DE PEQUENO PORTE, É O QUE ACIONA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "os freios",
+    "B": "a bequilha ou trem do nariz durante os taxiamentos",
+    "C": "as superfícies de controle principais",
+    "D": "os slats e slots",
+    "RESP": "A"
+  },
+  {
+    "ID": 1783,
+    "PERGUNTA": "OS PRINCIPAIS COMPONENTES DE UM FREIO A DISCO SÃO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "tambor, sapatas e molas",
+    "B": "discos, pastilhas e pinças ou pistões",
+    "C": "pedais, tubos e fluidos hidráulicos",
+    "D": "as alternativas A e B estão corretas",
+    "RESP": "B"
+  },
+  {
+    "ID": 1727,
+    "PERGUNTA": "CONSIDERA-SE COMO A PRINCIPAL FUNÇÃO DA EMPENAGEM EM UMA AERONAVE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "permitir a manobrabilidade da aeronave",
+    "B": "aumentar a estabilidade da aeronave quando em voo",
+    "C": "dar estabilidade longitudinal à aeronave",
+    "D": "balancear a aeronave em voo",
+    "RESP": "B"
+  },
+  {
+    "ID": 2000,
+    "PERGUNTA": "UMA VELA QUE, EM RELAÇÃO A OUTRA, TEM FACILIDADE DE ELIMINAR O CALOR, É CLASSIFICADO\nCOMO VELA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "fria",
+    "B": "normal",
+    "C": "quente",
+    "D": "morna",
+    "RESP": "A"
+  },
+  {
+    "ID": 1943,
+    "PERGUNTA": "A PRINCIPAL FUNÇÃO DO FILTRO DE GASOLINA DO SISTEMA DE COMBUSTÍVEL É:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "reter, na medida do possível, a água que existir na gasolina",
+    "B": "limpar a gasolina entregue ao carburador, retendo fiapos,\nciscos, etc",
+    "C": "as alternativas \"a\" e \"b\" são corretas",
+    "D": "manter o fluxo de gasolina ao motor, livre de qualquer\noscilação de pressão",
+    "RESP": "B"
+  },
+  {
+    "ID": 2089,
+    "PERGUNTA": "NA MONTAGEM DE UMA ESTRUTURA DO TIPO TUBULAR SÃO UTILIZADOS TUBOS DE AÇO CROMO- MOLIBDÊNIO SOLDADOS ENTRE SI PARA DAR FORMATO AERODINÂMICO. A SOLDAGEM É FEITA\nATRAVÉS DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "gabarito próprio",
+    "B": "pré-moldagem",
+    "C": "processo aleatório",
+    "D": "processo de usinagem",
+    "RESP": "A"
+  },
+  {
+    "ID": 2044,
+    "PERGUNTA": "PARA O SEU FUNCIONAMENTO, O VELOCÍMETRO NECESSITA DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "uma linha de sucção",
+    "B": "pressão estática",
+    "C": "pressão dinâmica e estática",
+    "D": "energia elétrica",
+    "RESP": "C"
+  },
+  {
+    "ID": 2021,
+    "PERGUNTA": "O MAGNETO É UM (A):",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "motor elétrico",
+    "B": "gerador de campo móvel",
+    "C": "fonte química de energia",
+    "D": "transformador",
+    "RESP": "B"
+  },
+  {
+    "ID": 1713,
+    "PERGUNTA": "OS AVIÕES QUE NÃO POSSUEM MOBILIDADE DE TREM PARA O TAXIAMENTO, EXECUTAM CURVAS NO SOLO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "freando o trem principal para o lado que desejar ir",
+    "B": "através dos pedais comandando o leme de\ndireção",
+    "C": "comandando os ailerons junto com a deriva",
+    "D": "tais aviões não excutam taxiamento em curva",
+    "RESP": "A"
+  },
+  {
+    "ID": 1912,
+    "PERGUNTA": "GERALMENTE, NOS MOTORES A PISTÃO\nAERONÁUTICO, O SISTEMA DE LUBRIFICAÇÃO USADO É DO TIPO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "pressão",
+    "B": "misto",
+    "C": "salpique",
+    "D": "gravidade",
+    "RESP": "B"
+  },
+  {
+    "ID": 1948,
+    "PERGUNTA": "NA FASE OPERACIONAL DA ACELERAÇÃO RÁPIDA, ENTRA EM AÇÃO NO CARBURADOR UM DISPOSITIVO\nESPECIAL CONHECIDO COMO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "bomba de aceleração rápida",
+    "B": "válvula economizadora",
+    "C": "primer (injetor de partida)",
+    "D": "orifício calibrador de máxima",
+    "RESP": "A"
+  },
+  {
+    "ID": 2011,
+    "PERGUNTA": "A FINALIDADE DOS PLATINADOS, EXISTENTES EM UM MAGNETO, É INTERROMPER O:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "circuito primário da bobina",
+    "B": "centelhamento nas velas",
+    "C": "circuito primário do condesador",
+    "D": "circuito primário e secundário da bobina",
+    "RESP": "A"
+  },
+  {
+    "ID": 2050,
+    "PERGUNTA": "A FINALIDADE DO SISTEMA DE SUCÇÃO (BOMBA DE VÁCUO) É FORNECER AR PARA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "refrigerar a tubulação do termômetro de óleo",
+    "B": "refrigerar a cabine de comando",
+    "C": "os instrumentos que operam com pressão estática",
+    "D": "funcionamento dos instrumentos giroscópicos",
+    "RESP": "D"
+  },
+  {
+    "ID": 2049,
+    "PERGUNTA": "NO INTERIOR DA CÁPSULA ANERÓIDE É:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "colocado óleo",
+    "B": "colocado ar",
+    "C": "feito vácuo parcial",
+    "D": "colocado líquido especial",
+    "RESP": "C"
+  },
+  {
+    "ID": 1859,
+    "PERGUNTA": "A QUANTIDADE DE CALOR QUE UMA DETERMINADA QUANTIDADE DE COMBUSTÍVEL PODE LIBERAR QUANDO POR OCASIÃO DA SUA QUEIMA, RECEBE O\nNOME DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "poder calorífico",
+    "B": "poder expansivo",
+    "C": "calor específico",
+    "D": "expansão calorífica",
+    "RESP": "A"
+  },
+  {
+    "ID": 1995,
+    "PERGUNTA": "UM TRANSFORMADOR DE VOLTAGEM OU TENSÃO NÃO FUNCIONARÁ SE A CORRENTE QUE CIRCULAR POR\nELE FOR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "contínua",
+    "B": "alternada",
+    "C": "pulsativa",
+    "D": "alternada e pulsativa",
+    "RESP": "A"
+  },
+  {
+    "ID": 1994,
+    "PERGUNTA": "O FENÔMENO FÍSICO QUE PERMITE A OBTENÇÃO DA ELETRICIDADE ATRAVÉS DO MAGNETISMO OU VICE-\nVERSA É DENOMINADO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "retificação",
+    "B": "conversão",
+    "C": "indução eletromagnética",
+    "D": "magnetismo",
+    "RESP": "C"
+  },
+  {
+    "ID": 1900,
+    "PERGUNTA": "A FORMAÇÃO DE GELO NO CARBURADOR INTERFERE NO FUNCIONAMENTO DO MOTOR CAUSANDO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "aumento de RPM",
+    "B": "aumento de temperatura na cabeça do cilindro",
+    "C": "diminuição de RPM e/ou de pressão de admissão",
+    "D": "queda brusca de pressão do sistema de combustível",
+    "RESP": "C"
+  },
+  {
+    "ID": 1801,
+    "PERGUNTA": "NO CICLO REAL DE UM MOTOR A PISTÃO, QUANDO HOUVER UM AVANÇO NA ABERTURA DA VÁLVULA DE ADMISSÃO E UM ATRASO NO FECHAMENTO DA VÁLVULA DE ESCAPAMENTO, OCORRERÁ:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "uma perda de potência no motor",
+    "B": "uma pane no sistema de comando de válvulas",
+    "C": "o cruzamento de válvulas",
+    "D": "uma modificação nos tempos do motor",
+    "RESP": "C"
+  },
+  {
+    "ID": 1949,
+    "PERGUNTA": "NAS DECOLAGENS O PILOTO DEVERÁ ESTAR ATENTO PARA A MANETE DE MISTURA DE ACELERAÇÃO (POTÊNCIA), VÁLVULA DE AR QUENTE E BOMBA AUXILIAR DE COMBUSTÍVEL, AS QUAIS DEVERÃO ESTAR, RESPECTIVAMENTE, NAS POSIÇÕES:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "pobre - máxima - aberta - desligada",
+    "B": "adequada - de subida - fechada\n- desligada",
+    "C": "rica - máxima - fechada - ligada",
+    "D": "rica - mínima - aberta - ligada",
+    "RESP": "C"
+  },
+  {
+    "ID": 2087,
+    "PERGUNTA": "NAS ESTRUTURAS TUBULARES, PARA EVITAR A CORROSÃO E FACILITAR A IDENTIFICAÇÃO DE EVENTUAIS RACHADURAS, SÃO UTILIZADOS NO\nINTERIOR DOS TUBOS PRODUTOS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "detergentes e corantes",
+    "B": "corrosivo e corantes",
+    "C": "anti-corrosivos e corantes",
+    "D": "anti-abrasivos e corantes",
+    "RESP": "C"
+  },
+  {
+    "ID": 1854,
+    "PERGUNTA": "OS ORIFÍCIOS QUE EXISTEM NA CANALETA DOS PISTÕES SERVEM PARA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "lubrificar melhor a parede do cilindro",
+    "B": "diminuir o peso dos pistões",
+    "C": "manter equilibrada as pressões internas",
+    "D": "permitir o retorno do óleo lubrificante",
+    "RESP": "D"
+  },
+  {
+    "ID": 1856,
+    "PERGUNTA": "A TOMADA DE PRESSÃO DO SISTEMA DE\nLUBRIFICAÇÃO POR PRESSÃO É RETIRADA GERALMENTE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "logo após o óleo ter circulado no motor",
+    "B": "no meio do circuito do motor",
+    "C": "antes de passa pela bomba de óleo",
+    "D": "depois de passar pela bomba de óleo",
+    "RESP": "D"
+  },
+  {
+    "ID": 1962,
+    "PERGUNTA": "A COMBUSTÃO QUE ACONTECE ANTES DO PREVISTO, DEVIDO EXISTÊNCIA DE UM FOCO AQUECIDO E ACUMULADO NA CÂMARA DE COMBUSTÃO, OU NA CABEÇA DO PISTÃO, OU ATÉ MESMO A VELA DE IGNIÇÃO NO ESTADO DE SUPERAQUECIMENTO,\nRECEBE O NOME DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "detonação",
+    "B": "pré-ignição",
+    "C": "ignição detonante",
+    "D": "pré-detonação",
+    "RESP": "B"
+  },
+  {
+    "ID": 1716,
+    "PERGUNTA": "OS COMPENSADORES SÃO PEQUENAS SUPERFÍCIES INSTALADAS NA SUPERFÍCIE DE CONTROLE PRINCIPAIS DOS AVIÕES E SERVEM PARA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "permitir um adequado balanceamento do avião",
+    "B": "compensar tendências do avião no solo",
+    "C": "compensar tendências apresentadas pelo avião em voo",
+    "D": "todas as anteriores",
+    "RESP": "C"
+  },
+  {
+    "ID": 1952,
+    "PERGUNTA": "UM MOTOR A PISTÃO PODERÁ TER REDUZIDA A TEMPERATURA DOS CILINDROS, COM O USO DE\nMISTURAS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "pobres",
+    "B": "muito pobres",
+    "C": "ricas",
+    "D": "com pouca gasolina",
+    "RESP": "C"
+  },
+  {
+    "ID": 1992,
+    "PERGUNTA": "O INSTRUMENTO CONSTITUÍDO DE UM TUBO RECURVADO DE VIDRO, CONTENDO EM SEU INTERIOR UMA ESFERA DE ÁGATA OU AÇO, DENOMINA-SE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "indicador de curva",
+    "B": "inclinômetro",
+    "C": "liquidômetro",
+    "D": "sextante",
+    "RESP": "B"
+  },
+  {
+    "ID": 1966,
+    "PERGUNTA": "AS ALHETAS NOS CILINDROS SÃO CARACTERÍSTICAS NOS MOTORES RESFRIADOS A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "líquido",
+    "B": "ar",
+    "C": "líquido ou ar",
+    "D": "combustível e óleo",
+    "RESP": "B"
+  },
+  {
+    "ID": 1936,
+    "PERGUNTA": "CONSIDERANDO UMA MISTURA DE AR - GASOLINA DE 15:1, PODEMOS AFIRMAR QUE PARA QUEIMAR, TOTALMENTE, 1 LITRO DE GASOLINA IREMOS\nNECESSITAR DE :",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "15 litros de ar",
+    "B": "15 kg de ar",
+    "C": "15 kg oxigênio (comburente)",
+    "D": "nenhum dos anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 1720,
+    "PERGUNTA": "UM COPO DE CHOPE GELADO APRESENTA NA SUPERFÍCIE EXTERNA GOTÍCULAS DE ÁGUA DEVIDO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "água do chope",
+    "B": "porosidade do copo",
+    "C": "condensação da umidade atmosférica",
+    "D": "vaporização de água",
+    "RESP": "C"
+  },
+  {
+    "ID": 1827,
+    "PERGUNTA": "EM UMA HÉLICE DE PASSO VARIÁVEL, A VELOCIDADE DE ROTAÇÃO (RPM) É MANTIDA CONSTANTE ATRAVÉS\nDO (A):",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "cubo de hélice",
+    "B": "governador da hélice",
+    "C": "manete de potência",
+    "D": "manete da hélice",
+    "RESP": "B"
+  },
+  {
+    "ID": 1828,
+    "PERGUNTA": "NUM POUSO QUANDO A HÉLICE FOR COMANDADA PARA PASSO REVERSO O/A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "motor inverte o sentido de rotação",
+    "B": "o ângulo das pás se tornam negativos",
+    "C": "hélice inverte o sentido de rotação",
+    "D": "a tração da hélice anula-se",
+    "RESP": "B"
+  },
+  {
+    "ID": 1708,
+    "PERGUNTA": "O PERFIL AERODINÂMICO DA ASA DE UM AVIÃO É DADO PELAS(OS):",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "suportes",
+    "B": "montantes",
+    "C": "carenagens",
+    "D": "nervuras",
+    "RESP": "D"
+  },
+  {
+    "ID": 1807,
+    "PERGUNTA": "SÃO CONSIDERADAS DESVANTAGENS DO MOTOR A DOIS TEMPOS EM RELAÇÃO AO DE QUATRO TEMPOS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "alta leveza, baixa eficiência térmica, consumo horário e específicos altos",
+    "B": "lubrificação deficiente, contaminação da mistura admitida pelos gases queimados, resfriamentos mais",
+    "C": "menor potência, maior consumo, maior vida útil",
+    "D": "menor segurança de funcionamento, menor durabilidade, menor potência",
+    "RESP": "B"
+  },
+  {
+    "ID": 1729,
+    "PERGUNTA": "A SUPERFÍCIE INFERIOR DE UMA ASA, OU DE UM PÁ DE ROTOR, ONDE DURANTE O VOO A PRESSÃO ESTÁTICAS É MAIOR, RECEBE O NOME DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "intradorso, cambra inferior ou ventre",
+    "B": "extradorso,cambra superior ou dorso",
+    "C": "bordo de ataque",
+    "D": "bordo de fuga ou cambra",
+    "RESP": "A"
+  },
+  {
+    "ID": 2024,
+    "PERGUNTA": "RACHADURAS EM PEÇAS DE AÇO, SÃO VERIFICADAS COM:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "raio laser",
+    "B": "magnaflux",
+    "C": "raio ultravioleta",
+    "D": "raio infravermelho",
+    "RESP": "B"
+  },
+  {
+    "ID": 1892,
+    "PERGUNTA": "SE UMA AERONAVE QUE VINHA POUSANDO FOR OBRIGADO A ARREMETER, ENTRA EM AÇÃO NO CARBURADOR UM DISPOSITIVO ESPECIAL CHAMADO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "gigleur (orifício calibrador)",
+    "B": "bomba de fluxo máximo",
+    "C": "bomba de aceleração rápida",
+    "D": "corretor altimétrico de potência",
+    "RESP": "C"
+  },
+  {
+    "ID": 1826,
+    "PERGUNTA": "EM UMA PÁ DE HÉLICE A PARTE CURVA DO PERFIL RECEBE O NOME DE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "face",
+    "B": "dorso",
+    "C": "cubo",
+    "D": "raiz",
+    "RESP": "B"
+  },
+  {
+    "ID": 1818,
+    "PERGUNTA": "NUM MOTOR CUJA TAXA DE COMPRESSÃO É DE 5:1, QUAL SERÁ A PRESSÃO NO FIM DA COMPRESSÃO, SE NO FIM DA ADMISSÃO A PRESSÃO DA CARGA COMBUSTÍVEL ERA 30 POLEGADAS DE MERCÚRIO\n(POL.HG):",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "6 polegadas de mercúrio (pol.HG)",
+    "B": "30 polegadas de mercúrio (pol.HG)",
+    "C": "150 polegadas de mercúrio (pol.HG)",
+    "D": "300 polegadas de mercúrio (pol.HG)",
+    "RESP": "C"
+  },
+  {
+    "ID": 1687,
+    "PERGUNTA": "O FREIOS UTILIZADOS NA MAIORIA DAS AERONAVES SÃO NORMALMENTE DO TIPO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "a tambor e a disco",
+    "B": "hidrovácuo",
+    "C": "servo freio",
+    "D": "mecânico",
+    "RESP": "A"
+  },
+  {
+    "ID": 1887,
+    "PERGUNTA": "NA FASE OPERACIONAL DE MARCHA LENTA, O MOTOR É ALIMENTADO COM:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "deficiência de mistura",
+    "B": "mistura pobre",
+    "C": "mistura alternada",
+    "D": "mistura rica",
+    "RESP": "D"
+  },
+  {
+    "ID": 2023,
+    "PERGUNTA": "NUMA INSPEÇÃO QUALITATIVA, O TESTE NÃO\nDESTRUTIVO EMPREGADO PARA MATERIAIS FERROSOS, RECEBE O NOME DE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "zyglo",
+    "B": "magnaflux",
+    "C": "líquido penetrante",
+    "D": "partículas imantadas",
+    "RESP": "B"
+  },
+  {
+    "ID": 2078,
+    "PERGUNTA": "\"PSI\" É A DESIGNAÇÃO DE UMA UNIDADE DE MEDIDA DA GRANDEZA FÍSICA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "pressão",
+    "B": "temperatura",
+    "C": "força",
+    "D": "trabalho",
+    "RESP": "A"
+  },
+  {
+    "ID": 1776,
+    "PERGUNTA": "OS ANÉIS DE SEGMENTO SÃO, EM RELAÇÃO À CAMISA DO CILINDRO, FEITOS DE LIGA METÁLICA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "mais dura",
+    "B": "de mesma dureza",
+    "C": "mais mole",
+    "D": "contendo alumínio",
+    "RESP": "C"
+  },
+  {
+    "ID": 1758,
+    "PERGUNTA": "OS ANÉIS DE SEGMENTO DO TIPO COMPRESSÃO TEM A FUNÇÃO DE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "controlar a folga dos pistões",
+    "B": "garantir a compreensão dos cilindros",
+    "C": "prender as bielas",
+    "D": "centrar os pistões nos cilindros",
+    "RESP": "B"
+  },
+  {
+    "ID": 1819,
+    "PERGUNTA": "O PRINCIPAL FATOR LIMITANTE DA TAXA DE COMPRESSÃO DOS MOTORES A PISTÃO É A/O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "resistência do cilindro",
+    "B": "a resistência do pistão",
+    "C": "poder anti-detonante do combustível",
+    "D": "a leveza do motor",
+    "RESP": "C"
+  },
+  {
+    "ID": 1788,
+    "PERGUNTA": "QUANDO O VOLUME DE UM GÁS DIMINUI, PELA LEI DE BOYLE E MARIOTTE A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "pressão diminui",
+    "B": "temperatura diminui",
+    "C": "pressão aumenta",
+    "D": "temperatura aumenta",
+    "RESP": "C"
+  },
+  {
+    "ID": 2061,
+    "PERGUNTA": "AS BÚSSOLAS UTILIZADAS NAS AERONAVES TEM EM SEU INTERIOR UM LÍQUIDO ESPECIAL QUE SERVA\nPARA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "diminuir as oscilações da agulha",
+    "B": "evitar a corrosão",
+    "C": "isolar magneticamente a bússola",
+    "D": "não permitir perdas de magnetismo",
+    "RESP": "A"
+  },
+  {
+    "ID": 1984,
+    "PERGUNTA": "O PROCESSO DE TRANSFORMAÇÃO DA CORRENTE ALTERNADA EM CORRENTE CONTÍNUA É CHAMADA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "retificação",
+    "B": "variação",
+    "C": "conversão",
+    "D": "continuidade",
+    "RESP": "A"
+  },
+  {
+    "ID": 2028,
+    "PERGUNTA": "A INSPEÇÃO NA AERONAVE OU EM SEUS COMPONENTES FEITA A OLHO NU OU COM O AUXILIO DE LENTES OU LUPAS, RECEBE O NOME DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "dimensional",
+    "B": "qualitativa",
+    "C": "corretiva",
+    "D": "visual",
+    "RESP": "D"
+  },
+  {
+    "ID": 1902,
+    "PERGUNTA": "NA FASE OPERACIONAL DE MARCHA LENTA, O AJUSTE DA MISTURA DEVE SER EFETUADO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "por mecânico, com a aeronave no solo",
+    "B": "pelo piloto através da manete de mistura",
+    "C": "sempre, antes da decolagem",
+    "D": "\"b\" e \"c\" estão corretas",
+    "RESP": "A"
+  },
+  {
+    "ID": 2097,
+    "PERGUNTA": "O TUBO DE BOURDON É UTILIZADO NOS MANÔMETROS QUE TRABALHAM COM PRESSÃO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "estática",
+    "B": "relativa",
+    "C": "absoluta",
+    "D": "diferencial",
+    "RESP": "B"
+  },
+  {
+    "ID": 1967,
+    "PERGUNTA": "O COMPONENTE DO MOTOR QUE MAIS SOFRE COM A DETONAÇÃO E PRÉ-IGNIÇÃO É A/O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "cilindro",
+    "B": "biela",
+    "C": "eixo de manivelas",
+    "D": "pistão",
+    "RESP": "D"
+  },
+  {
+    "ID": 1721,
+    "PERGUNTA": "QUANDO UMA OU MAIS FORÇAS ATUAM SOBRE UM CORPO TENDENDO A AUMENTAR SUAS DIMENSÕES DIZ-SE QUE ELE ESTA SUJEITO A UM ESFORÇO DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "torção",
+    "B": "compressão",
+    "C": "distensão",
+    "D": "tração",
+    "RESP": "D"
+  },
+  {
+    "ID": 1715,
+    "PERGUNTA": "A SANGRIA NOS FREIOS DE UMA AERONAVE TEM POR FINALIDADE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "remover o ar do sistema",
+    "B": "drenar o fluido hidráulico",
+    "C": "equalizar a pressão do sistema",
+    "D": "determinar a ajustagem da sapata do freio",
+    "RESP": "A"
+  },
+  {
+    "ID": 1743,
+    "PERGUNTA": "COM UM AVIÃO, SE APÓS UMA APROXIMAÇÃO PARA POUSO COM FLAPS DISTENDIDOS, HOUVER A NECESSIDADE DE UMA ARREMETIDA SEM O TOQUE,\nOS FLAPS DEVERÃO SER:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "imediatamente recolhidos",
+    "B": "distendidos ao máximo durante a arremetida",
+    "C": "mantidos na mesma posição durante a arremetida",
+    "D": "parcialmente recolhidos antes da arremetida",
+    "RESP": "C"
+  },
+  {
+    "ID": 2057,
+    "PERGUNTA": "O INSTRUMENTO USADO PARA INDICAR AS ROTAÇÕES DO EIXO DE MANIVELAS É DENOMINADO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "contagiros",
+    "B": "tacômetro",
+    "C": "taquímetro",
+    "D": "todos os anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 1960,
+    "PERGUNTA": "O SUPERAQUECIMENTO DE UM MOTOR PODERÁ PRODUZIR:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "detonação e pré-ignição",
+    "B": "lubrificação deficiente",
+    "C": "falha das peças",
+    "D": "todas as anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 1686,
+    "PERGUNTA": "A TRIMAGEM (COMPENSAÇÃO) DE UM AVIÃO COM\n\"NARIZ PESADO\" É FEITA DEFLETINDO-SE O COMPENSADOR DO PROFUNDOR PARA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "cima",
+    "B": "a posição neutra",
+    "C": "baixo",
+    "D": "a direita ou esquerda",
+    "RESP": "A"
+  },
+  {
+    "ID": 2018,
+    "PERGUNTA": "QUANDO A CHAVE DE IGNIÇÃO ESTIVER NA POSIÇÃO \"OFF\" (DESLIGADA), O MOTOR NÃO FUNCIONARÁ\nPORQUE A/O(S):",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "bobina secundária estará aberta",
+    "B": "platinado estará em curto",
+    "C": "bateria estará desligada",
+    "D": "velas estarão desligadas",
+    "RESP": "B"
+  },
+  {
+    "ID": 1991,
+    "PERGUNTA": "O MAGNETISMO SE CARACTERIZA PELA PROPRIEDADE QUE CERTOS CORPOS TEM DE ATRAIR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "metais em geral",
+    "B": "materiais ferrosos",
+    "C": "materiais metálicos",
+    "D": "materiais que contenham alumínio",
+    "RESP": "B"
+  },
+  {
+    "ID": 1784,
+    "PERGUNTA": "A QUALIDADE DE UM MOTOR AERONÁUTICO QUE SE REFERE ÀS HORAS DE OPERAÇÃO ENTRE DUAS REVISÕES CONSECUTIVAS É DENOMINADA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "durabilidade",
+    "B": "rusticidade",
+    "C": "facilidade de manutenção",
+    "D": "compacidade",
+    "RESP": "B"
+  },
+  {
+    "ID": 1709,
+    "PERGUNTA": "ABERTURA COM CARENAGENS DE FÁCIL REMOÇÃO, DESTINADAS A VERIFICAÇÃO DO INTERIOR DE ASAS E FUSELAGENS, RECEBEM O NOME DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "janelas",
+    "B": "orifícios de inspeção",
+    "C": "janelas de inspeção",
+    "D": "observadoras",
+    "RESP": "C"
+  },
+  {
+    "ID": 1875,
+    "PERGUNTA": "A BOMBA PRINCIPAL DO SISTEMA DO COMBUSTÍVEL É ACIONADA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "através dos gases da queima",
+    "B": "pela atuação de um motor elétrico",
+    "C": "por sucção contínua",
+    "D": "através da energia mecânica do eixo de manivelas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1874,
+    "PERGUNTA": "VOLATILIDADE É A CAPACIDADE QUE TEM O COMBUSTÍVEL DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "fluir facilmente do reservatório",
+    "B": "emitir vapores",
+    "C": "suportar sua própria auto- inflamação",
+    "D": "liberar calor durante a combustão",
+    "RESP": "B"
+  },
+  {
+    "ID": 2075,
+    "PERGUNTA": "ASSINALE A AFIRMATIVA INCORRETA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "pressão é força por unidade de área",
+    "B": "peso de um corpo é a\nquantidade de matéria do qual ele é formado",
+    "C": "potência é igual ao produto da força da velocidade",
+    "D": "energia é a capacidade de produzir trabalho",
+    "RESP": "B"
+  },
+  {
+    "ID": 1750,
+    "PERGUNTA": "A CABEÇA DO CILINDRO DOS MOTORES A PISTÃO AERONÁUTICO É GERALMENTE FEITA DE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "liga especial de tungstênio",
+    "B": "liga de ferro",
+    "C": "quaisquer metais resistentes",
+    "D": "liga de alumínio",
+    "RESP": "D"
+  },
+  {
+    "ID": 1771,
+    "PERGUNTA": "QUANDO O PISTÃO ESTIVER DESCREVENDO UM CURSO DESCENDENTE, NO INTERIOR DO CILINDRO\nHAVERÁ:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "aumento de pressão",
+    "B": "aumento de temperatura",
+    "C": "aumento de volume",
+    "D": "diminuição de massa",
+    "RESP": "C"
+  },
+  {
+    "ID": 1763,
+    "PERGUNTA": "A MÁQUINA QUE TRANSFORMA UM DETERMINADO TIPO DE ENERGIA EM ENERGIA MECÂNICA É\nCONHECIDA COMO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "gerador",
+    "B": "rotor",
+    "C": "compressor",
+    "D": "motor",
+    "RESP": "D"
+  },
+  {
+    "ID": 2092,
+    "PERGUNTA": "COM UMA DIMINUIÇÃO DA ALTITUDE DE VOO, A MISTURA COMBUSTÍVEL TENDE A SER MAIS:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "rica",
+    "B": "pobre",
+    "C": "volátil",
+    "D": "equalizada",
+    "RESP": "B"
+  },
+  {
+    "ID": 1907,
+    "PERGUNTA": "NO SISTEMA HIDRÁULICO FORÇAS E MOVIMENTOS SÃO TRANSMITIDOS POR UM FLUÍDO O QUE RESULTA NAS SEGUINTES VANTAGENS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "ampliação de forças com rendimentos elevados",
+    "B": "leveza e simplicidade de controle",
+    "C": "simplicidade de instalação e confiabilidade",
+    "D": "todas as anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 1920,
+    "PERGUNTA": "SÃO FUNÇÕES DE UM ÓLEO LUBRIFICANTE NUM MOTOR A PISTÃO EQUIPADO COM HÉLICE DE PASSO VARIÁVEL:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "evitar o desgaste das peças internas; aumentar a durabilidade do motor e resfriá- lo",
+    "B": "redução do atrito interno; resfriamento de algumas peças internas; transmissão de pressão e ser anticorrosivo",
+    "C": "diminuição do atrito; diminuição da temperatura interna do motor; limpeza das peças, evitando a carbonização e ser anti-espumante",
+    "D": "todas a anteriores",
+    "RESP": "B"
+  },
+  {
+    "ID": 1726,
+    "PERGUNTA": "A ESTRUTURA DE FUSELAGEM QUE SUPORTA OS ESFORÇOS ESTRUTURAIS GRAÇAS A CAVERNAS,\nREFORÇADORES E REVESTIMENTO, É A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "monocoque",
+    "B": "semi-cantilever",
+    "C": "cantilever",
+    "D": "semi-monocoque",
+    "RESP": "D"
+  },
+  {
+    "ID": 1761,
+    "PERGUNTA": "O CÁRTER DE UM MOTOR AERONÁUTICA À PISTÃO É CARACTERIZADO POR SER DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "liga metálica (boa condutora de calor)",
+    "B": "ferro fundido",
+    "C": "ligas de alumínio",
+    "D": "ligas leves de ferro",
+    "RESP": "C"
+  },
+  {
+    "ID": 2077,
+    "PERGUNTA": "A PRESSÃO APLICADA A UM PONTO DE UM FLUIDO ENCERRADO NUM RECIPIENTE TRANSMITE-SE IGUALMENTE A TODAS AS PARTES DESSE FLUIDO. ESTE ENUNCIADO SE REFERE À LEI DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "Arquimedes",
+    "B": "Pascal",
+    "C": "Charles",
+    "D": "Gay-Lussac",
+    "RESP": "B"
+  },
+  {
+    "ID": 2013,
+    "PERGUNTA": "NA PARTIDA DO MOTOR, PARA FORNECER ENERGIA PARA A IGNIÇÃO, INDEPENDENTE DO MAGNETO, SÃO\nUTILIZADAS(OS):",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "condensadores",
+    "B": "geradores",
+    "C": "motores elétricos",
+    "D": "unidades de partida",
+    "RESP": "D"
+  },
+  {
+    "ID": 1918,
+    "PERGUNTA": "SE O ATRITO INTERNO DE UM MOTOR AUMENTAR, A POTÊNCIA ÚTIL DO MOTOR TENDE A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "aumentar",
+    "B": "diminuir",
+    "C": "não se alterar",
+    "D": "anular-se",
+    "RESP": "B"
+  },
+  {
+    "ID": 2047,
+    "PERGUNTA": "OS INSTRUMENTOS QUE FUNCIONAM PELO PRINCIPIO GIROSCÓPICO SÃO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "inclinômetro, altímetro e horizonte artificial",
+    "B": "indicador de curva, horizonte artificial e giro direcional",
+    "C": "climb, horizonte artificial e bússola giro - magnética",
+    "D": "altímetro, velocímetro e climb",
+    "RESP": "B"
+  },
+  {
+    "ID": 1876,
+    "PERGUNTA": "A DRENAGEM DOS TANQUES E FILTRO DE GASOLINA DEVERÁ SER FEITA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "antes de cada voo",
+    "B": "após cada abastecimento",
+    "C": "no início de cada dia",
+    "D": "nas revisões parciais do sistema",
+    "RESP": "A"
+  },
+  {
+    "ID": 1897,
+    "PERGUNTA": "O COMPRESSOR DE UM SISTEMA DE SUPERALIMENTAÇÃO COMPRIME O AR PELO\nPROCESSO DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "redução da temperatura",
+    "B": "aumento do volume",
+    "C": "redução do volume",
+    "D": "aumento da temperatura",
+    "RESP": "C"
+  },
+  {
+    "ID": 1927,
+    "PERGUNTA": "OS COMPRESSORES DO SISTEMA DE SUPERALIMENTAÇÃO SÃO DO TIPO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "centrifugo",
+    "B": "centrípeta",
+    "C": "axial",
+    "D": "rotativos",
+    "RESP": "A"
+  },
+  {
+    "ID": 1737,
+    "PERGUNTA": "A RESISTÊNCIA QUE O ÓLEO OFERECE AO ESCOAMENTO, RECEBE O NOME DE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "viscosidade",
+    "B": "oleosidade",
+    "C": "ponto de congelamento",
+    "D": "ponto de fulgor",
+    "RESP": "A"
+  },
+  {
+    "ID": 1903,
+    "PERGUNTA": "A TEMPERATURA EXCESSIVA DA CABEÇA DO CILINDRO DE UM MOTOR A PISTÃO PODE SER CONTROLADA, EM VOO, POR MEIO DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "empobrecimento da mistura, aumento de potência e aumento da altitude de voo",
+    "B": "mistura mais rica, \"COWL FLAPS\" abertos, menor potência do motor e altitude e voo da aeronave (voar mais\nbaixo)",
+    "C": "maior velocidade da aeronave, maior potência no motor e defletores abertos",
+    "D": "óleo lubrificante mais frio, maior pressão da gasolina, altitude de cabrar a aeronave e CWL FLAPS fechados",
+    "RESP": "B"
+  },
+  {
+    "ID": 1975,
+    "PERGUNTA": "AS MÁQUINAS CAPAZES DE TRANSFORMAR ENERGIA MECÂNICA EM  ENERGIA ELÉTRICA SÃO CHAMADAS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "transformadores",
+    "B": "contadores",
+    "C": "reguladores",
+    "D": "geradores",
+    "RESP": "D"
+  },
+  {
+    "ID": 2074,
+    "PERGUNTA": "QUANDO O VOLUME DE UM GÁS DIMINUI, PELA LEI DE BOYLE MARIOTTI A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "pressão diminui",
+    "B": "temperatura diminui",
+    "C": "pressão aumenta",
+    "D": "temperatura aumenta",
+    "RESP": "C"
+  },
+  {
+    "ID": 2032,
+    "PERGUNTA": "AS ANORMALIDADES ENCONTRADAS DURANTE UMA INSPEÇÃO DE PRÉ-VOO DEVERÃO SER:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "comunicadas ao mecânico responsável",
+    "B": "anotadas no livro de bordo",
+    "C": "relacionadas para posteriores providências corretivas",
+    "D": "sanadas pelo próprio piloto",
+    "RESP": "A"
+  },
+  {
+    "ID": 1849,
+    "PERGUNTA": "O DISPOSITIVO QUE TEM COMO FINALIDADE RETER AS IMPUREZAS QUE O ÓLEO POSSA CONTER, É O/A:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "válvula reguladora",
+    "B": "válvula By-Pass",
+    "C": "válvula unidirecional",
+    "D": "filtro de óleo",
+    "RESP": "D"
+  },
+  {
+    "ID": 2041,
+    "PERGUNTA": "A SAÍDA DO SISTEMA DE EXTINÇÃO DE FOGO DAS AERONAVES ESTÁ LOCALIZADA NA/NO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "cabine de comando",
+    "B": "cabine de passageiros",
+    "C": "compartimento do motor",
+    "D": "no tanque de combustível",
+    "RESP": "C"
+  },
+  {
+    "ID": 1973,
+    "PERGUNTA": "O SISTEMA DE ARREFECIMENTO DE UM MOTOR, TEM POR FINALIDADE PRINCIPAL RETIRAR O EXCESSO DE\nCALOR CONCENTRADO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "na válvula de escapamento",
+    "B": "nas velas de ignição",
+    "C": "no tubo de admissão",
+    "D": "nos cilindros",
+    "RESP": "D"
+  },
+  {
+    "ID": 1744,
+    "PERGUNTA": "PARA COMPENSAR O CONJUGADO DE REVIRAMENTO NOS MONOMOTORES, COSTUMA-SE UTILIZAR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "o estabilizador vertical decalado",
+    "B": "maior ângulo de incidência em uma das asas",
+    "C": "compensador fixo na deriva",
+    "D": "todos os procedimentos anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 1898,
+    "PERGUNTA": "O SISTEMA DE SUPERALIMENTAÇÃO TEM A FINALIDADE DE FAZER COM QUE O AR CAPTADO PELO SISTEMA DE INDUÇÃO SEJA ENVIADO AOS CILINDROS\nCOM UMA PRESSÃO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "constante com a da atmosfera",
+    "B": "acima da pressão atmosférica ambiente",
+    "C": "abaixo da pressão atmosférica ambiente",
+    "D": "máxima que o compressor poderá fornecer",
+    "RESP": "B"
+  },
+  {
+    "ID": 1958,
+    "PERGUNTA": "DUAS BATERIAS CONECTADAS EM SÉRIE, OFERECEM:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "acréscimo de voltagem ou tensão",
+    "B": "acréscimo de voltagem ou corrente elétrica",
+    "C": "acréscimo de consumo",
+    "D": "maior segurança para o sistema",
+    "RESP": "A"
+  },
+  {
+    "ID": 1772,
+    "PERGUNTA": "EXTERNAMENTE É POSSÍVEL IDENTIFICAR-SE O LADO DO TUBO DE ADMISSÃO DE UM CILINDRO, DOS MOTORES AERONÁUTICOS REFRIGERADOS A AR, POR\nCAUSA DA/DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "coloração especial",
+    "B": "ausência de aletas de refrigeração",
+    "C": "presença de defletores",
+    "D": "quantidade de anéis de segmento",
+    "RESP": "B"
+  },
+  {
+    "ID": 1816,
+    "PERGUNTA": "A DIVISÃO DA PRESSÃO DA MISTURA COMBUSTÍVEL NO FIM DA COMPRESSÃO PELA PRESSÃO NO INÍCIO DA MESMA, DÁ-SE O NOME DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "potência indicada",
+    "B": "taxa de compressão",
+    "C": "cilindrada",
+    "D": "câmara de combustão",
+    "RESP": "B"
+  },
+  {
+    "ID": 2045,
+    "PERGUNTA": "A BOMBA DE VÁCUO (OU TUBO DE VENTURI PARA PRODUZIR VÁCUO PARCIAL), NECESSÁRIA PARA O FUNCIONAMENTO DOS SEGUINTES INSTRUMENTOS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "altímetro - horizonte artificial e climb",
+    "B": "indicador de inclinação - giro direcional - variômetro",
+    "C": "giro direcional - horizonte artificial e indicador de curva",
+    "D": "velocímetro - climb",
+    "RESP": "C"
+  },
+  {
+    "ID": 1775,
+    "PERGUNTA": "A CABEÇA DO CILINDRO É GERALMENTE ATARRAXADA AO CORPO ATRAVÉS DE ROSCA, POR UM PROCESSO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "diferencial",
+    "B": "com alto torque",
+    "C": "de parafuso e porca autofrenante",
+    "D": "antagônico-térmico",
+    "RESP": "D"
+  },
+  {
+    "ID": 1805,
+    "PERGUNTA": "AS MODIFICAÇÕES NA ABERTURA E FECHAMENTO DAS VÁLVULAS DE ADMISSÃO E ESCAPAMENTO FORAM:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "avanço na abertura e atraso no fechamento",
+    "B": "atraso na abertura e avanço no fechamento",
+    "C": "atraso no fechamento e atraso na abertura",
+    "D": "avanço no fechamento e avanço na abertura",
+    "RESP": "A"
+  },
+  {
+    "ID": 1812,
+    "PERGUNTA": "A POTÊNCIA EFETIVA É AQUELA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "disponível no eixo da hélice (do motor)",
+    "B": "desenvolvida pelos gases em expansão",
+    "C": "perdida por atrito",
+    "D": "recomendada pelo fabricante",
+    "RESP": "A"
+  },
+  {
+    "ID": 1725,
+    "PERGUNTA": "O COMPONENTE ESTRUTURAL DA ASA DE UM AVIÃO QUE TEM A FINALIDADE DE SUPORTAR OS PRINCIPAIS ESFORÇOS DE FLEXÃO QUE A MESMA ESTARÁ SUJEITA,\nA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "nervuras",
+    "B": "tirantes",
+    "C": "montantes",
+    "D": "longarinas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1768,
+    "PERGUNTA": "UMA REVISÃO GERAL NO MOTOR, NORMALMENTE, DETERMINA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "completa desmontagem do motor",
+    "B": "somente substituição dos acessórios externos",
+    "C": "revisão dos sistemas de gasolina, óleo e ignição",
+    "D": "desmontagem de todas unidades fora do cárter",
+    "RESP": "A"
+  },
+  {
+    "ID": 2073,
+    "PERGUNTA": "A UNIDADE FUNDAMENTAL DE MEDIDA DA FREQÜÊNCIA ELÉTRICA É O/A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "Farad",
+    "B": "Ciclo",
+    "C": "Hertz",
+    "D": "RPM",
+    "RESP": "C"
+  },
+  {
+    "ID": 1717,
+    "PERGUNTA": "QUANTO AO ACIONAMENTO, OS FREIOS DAS AERONAVES SÃO CLASSIFICADOS EM:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "mecânicos e manuais",
+    "B": "hidráulicos e elétricos",
+    "C": "mecânicos, hidráulicos e pneumáticos",
+    "D": "automáticos, semi- automáticos e manuais",
+    "RESP": "C"
+  },
+  {
+    "ID": 1884,
+    "PERGUNTA": "NAS AERONAVES QUE DISPÕE DE MANETE DE MISTURA O PILOTO, NOS POUSOS E DECOLAGENS, DEVE SELECIONÁ-LA PARA A POSIÇÃO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "fechada",
+    "B": "mistura rica",
+    "C": "mistura pobre",
+    "D": "intermediária, dependendo das condições do avião",
+    "RESP": "B"
+  },
+  {
+    "ID": 2081,
+    "PERGUNTA": "EM AVIAÇÃO, TODA FUSELAGEM DEVE TER O MÁXIMO DE AERODINÂMICA, PARA QUE SE OBTENHA UM\nMELHOR RELAÇÃO ENTRE A/O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "peso x velocidade",
+    "B": "sustentação x arrasto",
+    "C": "sustentação x velocidade",
+    "D": "sustentação x peso",
+    "RESP": "C"
+  },
+  {
+    "ID": 1919,
+    "PERGUNTA": "OS ÓLEOS MAIS UTILIZADOS NA LUBRIFICAÇÃO DE MOTORES A PISTÃO AERONÁUTICOS SÃO DE ORIGEM:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "animal",
+    "B": "vegetal",
+    "C": "mineral",
+    "D": "sintética",
+    "RESP": "D"
+  },
+  {
+    "ID": 1899,
+    "PERGUNTA": "NUM CARBURADOR DE CUBA DE NÍVEL CONSTANTE, A POSIÇÃO DA BORBOLETA CONTROLA O/A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "pressão do combustível na cuba",
+    "B": "volume de mistura fornecido ao motor",
+    "C": "massa de ar que toma parte na mistura",
+    "D": "quantidade de gasolina que passará pelo gigleur em função da densidade do ar",
+    "RESP": "C"
+  },
+  {
+    "ID": 2099,
+    "PERGUNTA": "EM UM DETERMINADO INSTRUMENTO, A FAIXA AMARELA INDICA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "condição de anormalidade",
+    "B": "condição de normalidade",
+    "C": "limites excedidos",
+    "D": "fase de alerta ou transitória",
+    "RESP": "D"
+  },
+  {
+    "ID": 2079,
+    "PERGUNTA": "OS CORPOS FLUIDOS SÃO AQUELES QUE SE ENCONTRAM NOS ESTADOS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "sólido e líquido",
+    "B": "líquido e semi-sólido",
+    "C": "vapor e gasoso",
+    "D": "líquido e gasoso",
+    "RESP": "D"
+  },
+  {
+    "ID": 1781,
+    "PERGUNTA": "NOS MOTORES AERONÁUTICOS A PISTÃO, NORMALMENTE, A LEVEZA, DURABILIDADE, CONSUMO ESPECÍFICOS, CONSUMO HORÁRIO E\nEFICIÊNCIA TÉRMICA SÃO, RESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "baixa-alta-baixo-baixa-baixa",
+    "B": "alta-alta-alta-baixo-baixa",
+    "C": "baixa-baixa-baixa-alta-baixa",
+    "D": "alta-baixa-alta-baixa-alta",
+    "RESP": "A"
+  },
+  {
+    "ID": 1767,
+    "PERGUNTA": "NUM MOTOR CONVENCIONAL, QUANDO OCORRER O CONJUNTO DE FASES, OCORRERÁ:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "um tempo",
+    "B": "um curso",
+    "C": "um ciclo",
+    "D": "a cilindrada",
+    "RESP": "C"
+  },
+  {
+    "ID": 2031,
+    "PERGUNTA": "UMA INSPEÇÃO PRÉ-VOO DEVE SER REALIZADA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "a cada 25 horas",
+    "B": "de acordo com as especificações do proprietário",
+    "C": "antes de cada voo",
+    "D": "uma vez ao dia",
+    "RESP": "C"
+  },
+  {
+    "ID": 1863,
+    "PERGUNTA": "QUANDO ACIONAMOS O AQUECEDOR DE AR DO\nSISTEMA DA INDUÇÃO NO SENTIDO DE AQUECER O AR CAPTADO DA ATMOSFERA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "o motor desenvolverá maior potência",
+    "B": "poderá haver formação de gelo no carburador",
+    "C": "potência não altera, devido a compensação de altitude",
+    "D": "a potência do motor diminuirá",
+    "RESP": "D"
+  },
+  {
+    "ID": 1866,
+    "PERGUNTA": "O COMPRESSOR DO SISTEMA DE SUPERALIMENTAÇÃO ACIONADO POR ENGRENAGENS APROVEITA A/O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "energia cinética dos gases de escapamento",
+    "B": "energia mecânica do eixo de manivelas",
+    "C": "movimento de rotação da turbina",
+    "D": "depressão ocasionada no interior do cilindro",
+    "RESP": "B"
+  },
+  {
+    "ID": 1865,
+    "PERGUNTA": "NOS SISTEMAS DE SUPERALIMENTAÇÃO O COMPRESSOR MAIS UTILIZADO, POR SER COMPACTO,\nÉ DO TIPO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "a pistão",
+    "B": "axial",
+    "C": "centrífugo",
+    "D": "axial-centrífugo",
+    "RESP": "C"
+  },
+  {
+    "ID": 1734,
+    "PERGUNTA": "OS ESFORÇOS AERODINÂMICOS QUE ATUAM NAS FUSELAGENS DAS AERONAVES SÃO SUPORTADAS:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "pela estrutura",
+    "B": "pelo revestimento",
+    "C": "pela estrutura e revestimento",
+    "D": "pelas longarinas",
+    "RESP": "C"
+  },
+  {
+    "ID": 1714,
+    "PERGUNTA": "OS AMORTECEDORES DOS TRENS DE POUSO É PRATICAMENTE USADOS EM TODAS AS AERONAVES MODERNAS (HIDRÁULICOS E PNEUMÁTICOS), TEM:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "grande tendência ao retorno",
+    "B": "pouca tendência ao retorno",
+    "C": "borracha amortecendo o impacto",
+    "D": "lâminas de aço amortecendo o impacto",
+    "RESP": "B"
+  },
+  {
+    "ID": 1877,
+    "PERGUNTA": "O INJETOR DE PARTIDA (PRIMER) TEM COMO FINALIDADE FORNECER GASOLINA AO MOTOR INDEPENDENTE DA UNIDADE FORMADORA DE\nMISTURA, PARA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "auxiliar e facilitar a partida do motor",
+    "B": "permitir o funcionamento do motor em emergências",
+    "C": "substituir o carburador nos pousos e decolagens",
+    "D": "evitar formações de bolhas de ar na tubulação",
+    "RESP": "A"
+  },
+  {
+    "ID": 1748,
+    "PERGUNTA": "AFIM DE DAR FORMATO AERODINÂMICO A ASA, AS NERVURAS SERVEM, TAMBÉM,PARA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "transmitir os esforços do revestimento para a longarina",
+    "B": "absorver os esforços de compresso entre as longarinas",
+    "C": "servir como apoio para o revestimento",
+    "D": "todas as anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 1711,
+    "PERGUNTA": "A FORMA AERODINÂMICA DE UMA FUSELAGEM MONOCOQUE É DADA POR:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "longarinas",
+    "B": "nervuras",
+    "C": "estais",
+    "D": "cavernas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1766,
+    "PERGUNTA": "AS VÁLVULAS SÃO IMPEDIDAS DE CAÍREM DENTRO DOS CILINDROS, DEVIDO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "força de gravidade",
+    "B": "sistemas de comando de válvulas",
+    "C": "molas,discos e frenos",
+    "D": "sedes e guias de válvulas",
+    "RESP": "C"
+  },
+  {
+    "ID": 2086,
+    "PERGUNTA": "EM UM MOTOR CONVENCIONAL NO TEMPO DE COMPRESSÃO, AS DUAS VÁLVULAS DEVERÃO ESTAR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "no PMA",
+    "B": "no PMB",
+    "C": "abertas",
+    "D": "fechadas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1980,
+    "PERGUNTA": "OS ALTERNADORES, DÍNAMOS, MAGNETOS, TRANSFORMADORES E MOTORES ELÉTRICOS\nFUNCIONAM PELO PRINCIPIO DO (A):",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "magnetismo",
+    "B": "eletricidade",
+    "C": "indução eletromagnética",
+    "D": "força da gravidade",
+    "RESP": "C"
+  },
+  {
+    "ID": 1769,
+    "PERGUNTA": "NOS MOTORES AERONÁUTICOS, A CÂMARA DE COMBUSTÃO TEM, GERALMENTE, O FORMA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "esférica",
+    "B": "cônica",
+    "C": "plana",
+    "D": "semi-esférica",
+    "RESP": "D"
+  },
+  {
+    "ID": 1755,
+    "PERGUNTA": "A PEÇA DE UM MOTOR A PISTÃO QUE TRANSMITE O MOVIMENTO RETILÍNEO ALTERNATIVO DO ÊMBOLO PARA O EIXO DE MANIVELAS É A/A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "pistão",
+    "B": "biela",
+    "C": "mancais",
+    "D": "conjunto de válvulas",
+    "RESP": "B"
+  },
+  {
+    "ID": 1820,
+    "PERGUNTA": "A DIVISÃO ENTRE A POTÊNCIA ÚTIL E A POTÊNCIA EFETIVA PERMITE CONHECER:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "o rendimento da hélice",
+    "B": "a potência de atrito",
+    "C": "a eficiência térmica do motor",
+    "D": "a potência nominal",
+    "RESP": "A"
+  },
+  {
+    "ID": 1858,
+    "PERGUNTA": "A FINALIDADE DOS FLUÍDOS HIDRÁULICOS É:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "lubrificar o sistema",
+    "B": "lubrificar e transmitir força",
+    "C": "lubrificar e conservar",
+    "D": "lubrificar e refrigerar as umidades do sistema",
+    "RESP": "B"
+  },
+  {
+    "ID": 2001,
+    "PERGUNTA": "A ORDEM DE FOGO OU ORDEM DE IGNIÇÃO DE UM MOTOR A PISTÃO REPRESENTA A/O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "mistura explosiva nos cilindros",
+    "B": "ciclo completo de funcionamento",
+    "C": "ordem de combustão nos cilindros",
+    "D": "tempo de escapamento do motor",
+    "RESP": "C"
+  },
+  {
+    "ID": 1749,
+    "PERGUNTA": "APÓS A QUEIMA, OS GASES SÃO EXPULSOS DO INTERIOR DO CILINDRO, ATRAVÉS:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "da biela",
+    "B": "de bombas",
+    "C": "do pistão",
+    "D": "de sucção",
+    "RESP": "C"
+  },
+  {
+    "ID": 1929,
+    "PERGUNTA": "APÓS A PARADA DE UM MOTOR SUPERALIMENTADO O MANÔMETRO DE ADMISSÃO INDICARÁ:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "RPM zero",
+    "B": "a pressão atmosférica local",
+    "C": "a pressão atmosférica padrão",
+    "D": "pressão zero",
+    "RESP": "B"
+  },
+  {
+    "ID": 1961,
+    "PERGUNTA": "SOBRE O CILINDRO, EM ALGUNS MOTORES, PODE SER ENCONTRADA UMA CHAPA, METÁLICA CONHECIDA COMO DEFLETOR, CUJA A FINALIDADE É:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "controlar o fluxo de ar no cilindro",
+    "B": "direcionar o fluxo de ar no motor",
+    "C": "controlar o fluxo de ar no motor",
+    "D": "direcionar o fluxo de ar no cilindro",
+    "RESP": "D"
+  },
+  {
+    "ID": 1883,
+    "PERGUNTA": "A FORMAÇÃO DA MISTURA AR-GASOLINA VAPORIZADA É CONHECIDA POR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "carburação",
+    "B": "ignição",
+    "C": "inflamação",
+    "D": "explosão",
+    "RESP": "A"
+  },
+  {
+    "ID": 1850,
+    "PERGUNTA": "SE UMA INSPEÇÃO DE PRÉ-VOO O PILOTO CONSTATAR, QUE O NÍVEL DO ÓLEO ESTÁ ABAIXO DO\nRECOMENDADO DEVERÁ:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "mandar trocar o óleo",
+    "B": "completar o nível",
+    "C": "solicitar uma revisão no motor",
+    "D": "apenas informar o mecânico",
+    "RESP": "B"
+  },
+  {
+    "ID": 2056,
+    "PERGUNTA": "OS MANÔMETROS DE PRESSÃO RELATIVA UTILIZAM COMO ELEMENTO SENSÍVEL ÀS VARIAÇÕES DE\nPRESSÃO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "tubo de Bourdon",
+    "B": "cápsula aneróide",
+    "C": "diafragma",
+    "D": "contrapesos",
+    "RESP": "A"
+  },
+  {
+    "ID": 1998,
+    "PERGUNTA": "A FONTE DE ENERGIA ELÉTRICA DO SISTEMA DE IGNIÇÃO DE UM MOTOR AERONÁUTICO É O/A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "bateria",
+    "B": "gerador",
+    "C": "bateria, quando o motor estiver parado e o gerador\nquando em funcionamento",
+    "D": "magneto",
+    "RESP": "D"
+  },
+  {
+    "ID": 1803,
+    "PERGUNTA": "NO PRIMEIRO TEMPO DE UM MOTOR A DOIS TEMPOS, O PISTÃO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "desloca-se do PMA para o PMB",
+    "B": "desloca-se do PMB para o PMA",
+    "C": "estará recebendo o impacto dos gases da queima",
+    "D": "promoverá o tempo do motor",
+    "RESP": "B"
+  },
+  {
+    "ID": 1764,
+    "PERGUNTA": "O PISTÃO É UMA PEÇA IMPORTANTE DE UM MOTOR RECÍPROCO. NORMALMENTE É CONFECCIONADA EM LIGA DE ALUMÍNIO E, EM ALGUNS CASOS DE FERRO FUNDIDO. ESTA PEÇA SERVE PARA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "permitir a combustão da mistura combustível",
+    "B": "aspirar e comprimir a mistura; transmitir a força expansiva ao eixo de manivelas e expulsar os gases",
+    "C": "abrir e fechar as válvulas de admissão e escapamento no momento certo; admitir a mistura e expulsar",
+    "D": "todas as anteriores",
+    "RESP": "B"
+  },
+  {
+    "ID": 2015,
+    "PERGUNTA": "O AVANÇO DE IGNIÇÃO DE UM MOTOR A PISTÃO É 8 GRAUS EM MARCHA LENTA (1000 RPM). QUANDO ESSE MOTOR FOR ACELERADO A 3000 RPM, O\nAVANÇO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "diminui",
+    "B": "se mantém constante",
+    "C": "aumenta",
+    "D": "será 24 graus",
+    "RESP": "C"
+  },
+  {
+    "ID": 2017,
+    "PERGUNTA": "A IGNIÇÃO NAS VELAS OCORRE QUANDO A/O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "bateria estiver ligada",
+    "B": "condensador estiver carregado",
+    "C": "platinado for comandado para abrir",
+    "D": "a chave master estiver ligada",
+    "RESP": "C"
+  },
+  {
+    "ID": 1969,
+    "PERGUNTA": "A DETONAÇÃO NUM MOTOR A PISTÃO PODERÁ OCORRER COM:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "uso de combustível com índice de octana menor que o\nrecomendado",
+    "B": "misturas excessivamente pobres",
+    "C": "altas temperaturas no cilindro",
+    "D": "quaisquer das situações anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 1824,
+    "PERGUNTA": "O CONJUNTO REDUTOR DA HÉLICE TEM POR FUNÇÃO REDUZIR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "as rotações da hélice",
+    "B": "a razão da rotação entre hélice e o eixo de manivela",
+    "C": "as rotações do eixo de manivelas para a hélice",
+    "D": "as rotações da hélice para o eixo de manivelas",
+    "RESP": "C"
+  },
+  {
+    "ID": 1934,
+    "PERGUNTA": "A CAPACIDADE QUE A GASOLINA POSSUI DE SUPORTAR PRESSÕES E TEMPERATURAS ELEVADAS SEM SE INFLAMAR ESPONTANEAMENTE, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "poder detonante",
+    "B": "poder anti-detonante",
+    "C": "número de heptanas",
+    "D": "detonação",
+    "RESP": "B"
+  },
+  {
+    "ID": 1955,
+    "PERGUNTA": "NO SISTEMA DE IGNIÇÃO DE BAIXA TENSÃO, A VOLTAGEM GERADA PELO MAGNETO É:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "baixa",
+    "B": "alta",
+    "C": "depende das velas",
+    "D": "neste sistema não existe magneto",
+    "RESP": "D"
+  },
+  {
+    "ID": 1853,
+    "PERGUNTA": "QUANTO MAIOR FOR A TEMPERATURA DE UM ÓLEO LUBRIFICANTE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "maior será sua viscosidade",
+    "B": "maior será sua resistência ao avanço",
+    "C": "menor será sua viscosidade",
+    "D": "menor será seu poder anti- detonante",
+    "RESP": "C"
+  },
+  {
+    "ID": 2003,
+    "PERGUNTA": "A ORDEM DE FOGO DE UM MOTOR REPRESENTA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "mistura explosiva",
+    "B": "um ciclo completo",
+    "C": "a ordem de combustão nos cilindros",
+    "D": "a ordem numérica dos cilindros",
+    "RESP": "C"
+  },
+  {
+    "ID": 2055,
+    "PERGUNTA": "O ALTÍMETRO, VELOCÍMETRO E HORIZONTE ARTIFICIAL SÃO INSTRUMENTOS DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "motor",
+    "B": "avião/helicóptero",
+    "C": "voo",
+    "D": "navegação",
+    "RESP": "C"
+  },
+  {
+    "ID": 1926,
+    "PERGUNTA": "O AQUECEDOR DE AR DO SISTEMA DE INDUÇÃO, EFETUA TROCA TÉRMICA ENTRE O AR CAPTADO DA\nATMOSFERA E O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "ar comprimido pelo compressor de\nsuperalimentação",
+    "B": "óleo quente no radiador",
+    "C": "ar impulsionado pela tração da hélice",
+    "D": "escape dos fases da queima",
+    "RESP": "D"
+  },
+  {
+    "ID": 2040,
+    "PERGUNTA": "OS SISTEMAS DE DETECÇÃO DE FOGO MAIS USADAS NOS MOTORES DAS AERONAVES SÃO DO TIPO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "manual",
+    "B": "elétrico",
+    "C": "hidráulico",
+    "D": "mecânico",
+    "RESP": "B"
+  },
+  {
+    "ID": 1933,
+    "PERGUNTA": "DURANTE A OPERAÇÃO DE UM MOTOR TÉRMICO\nAERONÁUTICO, NÃO SUPERALIMENTADO, EM ALTITUDE, TEREMOS:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "aumento da potência em\nrelação a operação em altitudes crescentes",
+    "B": "aumento da potência por\ncauso do empobrecimento da mistura",
+    "C": "um tendência da potência não sofrer qualquer alteração",
+    "D": "diminuição de potência em\nrelação a operação em altitudes baixas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1804,
+    "PERGUNTA": "NO SEGUNDO TEMPO DE UM MOTOR A DOIS TEMPOS, O PISTÃO (ÊMBOLO) ESTÁ NO SEU CURSO DESCENDENTE E SERÁ CARACTERIZADO POR QUAIS\nFASES:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "compressão e admissão",
+    "B": "ignição e combustão",
+    "C": "A e B estão corretas",
+    "D": "expansão e escapamento",
+    "RESP": "D"
+  },
+  {
+    "ID": 2038,
+    "PERGUNTA": "OS INCÊNDIOS CLASSE \"C\" SÃO OS QUE OCORRERAM EM:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "materiais que deixam cinzas ou brasa",
+    "B": "líquido inflamáveis",
+    "C": "metais (materiais pirofóricos)",
+    "D": "unidades elétricas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1742,
+    "PERGUNTA": "NOS AVIÕES, OS FLAPS E SLATS SÃO DENOMINADOS DISPOSITIVOS HIPERSUSTENTADORES PORQUE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "impedem que a velocidade do avião aumente nas descidas",
+    "B": "permitem que a asa produza, maior sustentação quando são defletidos",
+    "C": "servem como freios aerodinâmicos",
+    "D": "permitem que o avião voe maiores distâncias nos voos planados",
+    "RESP": "B"
+  },
+  {
+    "ID": 2070,
+    "PERGUNTA": "UMA MASSA DE AR AO ESCOAR SUBSONICAMENTE ATRAVÉS DE UM TUBO DE VENTURI, TERÁ NA PARTE\nMAIS ESTREITA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "maior pressão estática",
+    "B": "maior velocidade",
+    "C": "maior densidade",
+    "D": "menor velocidade",
+    "RESP": "B"
+  },
+  {
+    "ID": 1922,
+    "PERGUNTA": "ALGUNS SISTEMAS DE LUBRIFICAÇÃO DISPÕE DE UMA BOMBA DE ÓLEO DE PRESSÃO E OUTRA DE\nRECUPERAÇÃO. ESSAS BOMBAS SÃO DO TIPO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "ambas, engrenagem",
+    "B": "a de pressão engrenagem e a de recuperação diafragma",
+    "C": "ambas, diafragma",
+    "D": "a de pressão diafragma e a de recuperação engrenagem",
+    "RESP": "A"
+  },
+  {
+    "ID": 1872,
+    "PERGUNTA": "O USO PROLONGADO DE GASOLINA COM PODER ANTI- DETONANTE MAIOR QUE O RECOMENDADO PODERÁ CAUSAR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "detonação e conseqüente batida de pinos",
+    "B": "pré-ignição e superaquecimento",
+    "C": "acúmulo de resíduos químicos que aparecem após a combustão, ocasionando, principalmente, falha das velas, corrosão das válvulas e pistão",
+    "D": "excesso de potência e danos internos ao motor",
+    "RESP": "C"
+  },
+  {
+    "ID": 1756,
+    "PERGUNTA": "OS PROCESSOS OCORRIDOS QUANDO POR OCASIÃO DO FUNCIONAMENTO DE UM MOTOR A PISTÃO, SÃO\nCHAMADOS DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "cursos",
+    "B": "funcionais",
+    "C": "ciclos",
+    "D": "fases",
+    "RESP": "D"
+  },
+  {
+    "ID": 1809,
+    "PERGUNTA": "A CAPACIDADE VOLUMÉTRICA DO CILINDRO ENTRE OS PONTOS MORTO ALTO E BAIXO, É DENOMINADA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "cilindrada",
+    "B": "cilindro",
+    "C": "câmara",
+    "D": "volume do cilindro",
+    "RESP": "A"
+  },
+  {
+    "ID": 1770,
+    "PERGUNTA": "QUANDO U PISTÃO SE DESLOCA DE UM PONTO MORTO AO OUTRO PERCORRE UM CAMINHO, NO\nINTERIOR DO CILINDRO, DENOMINADO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "curso",
+    "B": "cilindrada",
+    "C": "meia volta",
+    "D": "tempo",
+    "RESP": "A"
+  },
+  {
+    "ID": 1987,
+    "PERGUNTA": "SE NUM CIRCUITO ELÉTRICO EM SÉRIE, FORMADO POR QUATRO LÂMPADAS, UMA DELAS QUEIMAR, AS\nDEMAIS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "também queimarão",
+    "B": "permanecerão acesas",
+    "C": "vão se apagar",
+    "D": "brilharão com mais intensidade",
+    "RESP": "C"
+  },
+  {
+    "ID": 1909,
+    "PERGUNTA": "NO FILTRO DO SISTEMA DE LUBRIFICAÇÃO, NÓS PODEREMOS ENCONTRAR UMA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "válvula unidirecional",
+    "B": "um manômetro",
+    "C": "válvula by-pass",
+    "D": "válvula redutora",
+    "RESP": "C"
+  },
+  {
+    "ID": 1953,
+    "PERGUNTA": "O FLUXO DE AR QUE RESFRIA O MOTOR É, EM ALGUMAS AERONAVES, CONTROLÁVEL ATRAVÉS DE PEQUENAS JANELA INSTALADAS NAS CAPOTAS, AS\nQUAIS DENOMINAM-SE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "defletores",
+    "B": "aletas",
+    "C": "dissipadores",
+    "D": "flaps de capota",
+    "RESP": "D"
+  },
+  {
+    "ID": 1759,
+    "PERGUNTA": "UM MOTOR AERONÁUTICO A PISTÃO COMPLETARÁ UM CICLO EM SEU FUNCIONAMENTO, QUANDO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "o eixo de manivelas der meia volta",
+    "B": "o eixo de manivelas der uma volta",
+    "C": "forem realizadas as seis fases",
+    "D": "o pistão se deslocar dois cursos",
+    "RESP": "C"
+  },
+  {
+    "ID": 2005,
+    "PERGUNTA": "O ENROLAMENTO SECUNDÁRIO DA BOBINA DE UM MAGNETO FUNCIONA COMO UM:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "alternador",
+    "B": "transformador",
+    "C": "retificador",
+    "D": "distribuidor",
+    "RESP": "B"
+  },
+  {
+    "ID": 6636,
+    "PERGUNTA": "A UTILIZAÇÃO DE ÓLEO LUBRIFICANTE COM BAIXA VISCOSIDADE FACILITA A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "partida em tempo quente",
+    "B": "refrigeração do motor",
+    "C": "partida em tempo frio",
+    "D": "troca de óleo",
+    "RESP": "C"
+  },
+  {
+    "ID": 1882,
+    "PERGUNTA": "TECNICAMENTE DENOMINAMOS DE MISTURA COMBUSTÍVEL COMO SENDO A COMBINAÇÃO DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "volume de ar e volume de combustível",
+    "B": "massa de ar e massa de combustível",
+    "C": "massa de combustível e volume de ar",
+    "D": "\"a\" e \"b\" são corretas",
+    "RESP": "B"
+  },
+  {
+    "ID": 1932,
+    "PERGUNTA": "O ABASTECIMENTO DE UMA AERONAVE, COM\nGASOLINA, PODE SER FEITO ATRAVÉS DE UM FILTRO DE CAMURÇA PARA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "reter a água e impurezas",
+    "B": "tirar o chumbo",
+    "C": "aumentar a octanagem",
+    "D": "evitar incêndio",
+    "RESP": "A"
+  },
+  {
+    "ID": 1959,
+    "PERGUNTA": "A FORMAÇÃO DE GELO NUM CARBURADOR PODERÁ SER NOTADA POR UM PILOTO ATRAVÉS DA/DO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "queda gradual de RPM e perda de pressão de admissão",
+    "B": "queda na pressão do combustível",
+    "C": "aumento da temperatura da cabeça do cilindro e diminuição da pressão do óleo",
+    "D": "verificação de que a temperatura da garganta do Venturi está abaixo de 0ºC",
+    "RESP": "A"
+  },
+  {
+    "ID": 2029,
+    "PERGUNTA": "A LUBRIFICAÇÃO PROGRAMADA FAZ PARTE DA MANUTENÇÃO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "corretiva",
+    "B": "preventiva",
+    "C": "corretiva e preventiva",
+    "D": "geral",
+    "RESP": "B"
+  },
+  {
+    "ID": 1731,
+    "PERGUNTA": "NA CLASSIFICAÇÃO DOS AVIÕES QUANTO A QUANTIDADE DE ASAS, CONSIDERA-SE A ASA DIREITA\nE A ESQUERDA COMO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "duas asas",
+    "B": "um plano de asas",
+    "C": "uma única asa",
+    "D": "dois planos de asas",
+    "RESP": "B"
+  },
+  {
+    "ID": 1752,
+    "PERGUNTA": "A RELAÇÃO ENTRE A POTÊNCIA PRODUZIDA POR UM MOTOR E A POTÊNCIA ADMITA DA SOB FORMA DE\nCALOR E DENOMINADA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "leveza",
+    "B": "compacidade",
+    "C": "eficiência térmica",
+    "D": "potência útil",
+    "RESP": "C"
+  },
+  {
+    "ID": 1986,
+    "PERGUNTA": "OS DÍNAMOS EM QUE A BOBINA DE CAMPO RECEBE UMA CORRENTE ELÉTRICA DO INDUZIDO A FIM DE FORMAR O CAMPO MAGNÉTICO ONDE OS FIOS DO INDUZIDO GIRARÃO, SÃO CHAMADOS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "de campo fixo",
+    "B": "de campo móvel",
+    "C": "auto-excitados",
+    "D": "automáticos",
+    "RESP": "B"
+  },
+  {
+    "ID": 1810,
+    "PERGUNTA": "A POTÊNCIA QUE UMA AERONAVE NECESSITA PARA REALIZAR TODAS AS FASES DE SEU VOO É\nDENOMINADA POTÊNCIA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "disponível",
+    "B": "efetiva",
+    "C": "requerida ou necessária",
+    "D": "máxima ou indicada",
+    "RESP": "C"
+  },
+  {
+    "ID": 1777,
+    "PERGUNTA": "EM UM MOTOR A PISTÃO, UM TEMPO A REALIZADO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "quando o eixo de manivelas completa uma volta",
+    "B": "quando um ciclo a completado",
+    "C": "com os quatros movimentos do pistão",
+    "D": "com um curso do pistão",
+    "RESP": "D"
+  },
+  {
+    "ID": 1979,
+    "PERGUNTA": "O DISPOSITIVO ELÉTRICO QUE TEM COMO FINALIDADE AUMENTAR OU DIMINUIR O VALOR DA VOLTAGEM É\nCHAMADO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "gerador",
+    "B": "alternador",
+    "C": "retificador",
+    "D": "transformador",
+    "RESP": "D"
+  },
+  {
+    "ID": 1908,
+    "PERGUNTA": "NUM SISTEMA HIDRÁULICO, CUJO RENDIMENTO MECÂNICO É IGUAL A 10, A FORÇA APLICADA É 30 KGF E O DESLOCAMENTO DO PISTÃO PRIMÁRIO 20 CM. NESTE CASO A FORÇA RESULTANTE E O DESLOCAMENTO DO CILINDRO ATUADOR SERÃO,\nRESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "3 Kgf e 200 cm",
+    "B": "300 Kgf e 200 cm",
+    "C": "300 Kgf e 2 cm",
+    "D": "3 Kgf e 2 cm",
+    "RESP": "C"
+  },
+  {
+    "ID": 1705,
+    "PERGUNTA": "AS AERONAVES MAIS PESADAS QUE O AR, QUE SE DESLOCAM GRAÇAS A REAÇÕES AERODINÂMICAS, SÃO CLASSIFICADAS GENERICAMENTE COMO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "aeróstatos",
+    "B": "aeródinos",
+    "C": "aviões",
+    "D": "convertíveis",
+    "RESP": "B"
+  },
+  {
+    "ID": 1855,
+    "PERGUNTA": "A PRESSÃO DO ÓLEO NO SISTEMA É MANTIDA DENTRO DOS LIMITES RECOMENDADOS PELO FABRICANTE, NAS OPERAÇÕES NORMAIS, ATRAVÉS DA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "bomba de pressão",
+    "B": "válvula by-pass",
+    "C": "válvula reguladora de pressão",
+    "D": "válvula unidirecional",
+    "RESP": "C"
+  },
+  {
+    "ID": 1947,
+    "PERGUNTA": "NO CARBURADOR O DISPOSITIVO QUE CHAMAMOS ECONOMIZADOR ENTRA EM FUNCIONAMENTO\nCOMANDADO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "diretamente pela borboleta",
+    "B": "através da sucção criada no Venturi",
+    "C": "quando abaixa o nível da gasolina na cuba",
+    "D": "diretamente pelo giglê (orifício calibrador)",
+    "RESP": "A"
+  },
+  {
+    "ID": 1889,
+    "PERGUNTA": "QUANTO MAIS FOR REDUZIDO O COMBURENTE DE UMA MISTURA, MAIS RICA ELA FICARA. SE FIZERMOS COM ESTA MISTURA CHEGUE A UMA RELAÇÃO ENTRE A MASSA DE AR E A MASSA DE COMBUSTÍVEL, EM\nTORNO DE 5,5:1 O\\A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "motor desenvolverá uma potência elevada",
+    "B": "poder calorífico da mistura aumentará",
+    "C": "motor funcionará como detonação",
+    "D": "mistura não queimará, causando afogamento ao motor",
+    "RESP": "D"
+  },
+  {
+    "ID": 2010,
+    "PERGUNTA": "EM UMA AERONAVE QUE TEM BATERIA, SE A MESMA NÃO ESTIVER FUNCIONANDO CORRETAMENTE, APÓS A PARTIDA DO MOTOR, O MESMO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "para",
+    "B": "não sofre nada",
+    "C": "vibra",
+    "D": "aumenta a RPM",
+    "RESP": "B"
+  },
+  {
+    "ID": 1774,
+    "PERGUNTA": "A FORÇA DE EXPANSÃO DOS GASES É TRANSMITIDA PELO PISTÃO AO EIXO DE MANIVELA POR MEIO DE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "pino de pistão",
+    "B": "biela",
+    "C": "eixo de manivelas",
+    "D": "um braço articulado",
+    "RESP": "B"
+  },
+  {
+    "ID": 1728,
+    "PERGUNTA": "OS CABOS OU TIRAS DE AÇO, EMPREGADOS NOS AVIÕES PARA FINS DE AMARRAÇÃO, RECEBEM O\nNOME DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "estais",
+    "B": "cantilever",
+    "C": "suporte",
+    "D": "monocoque",
+    "RESP": "A"
+  },
+  {
+    "ID": 2037,
+    "PERGUNTA": "PARA A INCÊNDIO DA CLASSE \"B\" O AGENTE EXTINTOR MAIS INDICADO É O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "de água (H20)",
+    "B": "de pó químico seco",
+    "C": "de gás carbônico (CO2)",
+    "D": "de espuma",
+    "RESP": "D"
+  },
+  {
+    "ID": 2027,
+    "PERGUNTA": "OS REQUISITOS DE MANUTENÇÃO DOS AVIÕES, OBEDECEM RECOMENDAÇÕES DITADAS PELO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "ANAC",
+    "B": "mecânico ou oficina responsável",
+    "C": "próprio piloto ou explorador da aeronave",
+    "D": "proprietário da aeronave",
+    "RESP": "A"
+  },
+  {
+    "ID": 1796,
+    "PERGUNTA": "AS REFERÊNCIA PARA REGULAGEM DOS AVANÇOS E ATRASOS DAS VÁLVULAS SÃO TIRADAS EM RELAÇÃO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "a trajetória circular descrita\npelo eixo de comando de válvulas",
+    "B": "a trajetória circular descrita\npelo moente do eixo de manivelas",
+    "C": "ao movimento linear do pistão",
+    "D": "no movimento circular do pistão",
+    "RESP": "B"
+  },
+  {
+    "ID": 1847,
+    "PERGUNTA": "A BOMBA DE ÓLEO USADO NO SISTEMA DE LUBRIFICAÇÃO DE UM MOTOR A PISTÃO É DO TIPO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "engrenagem",
+    "B": "pistão",
+    "C": "diafragma",
+    "D": "palheta",
+    "RESP": "A"
+  },
+  {
+    "ID": 1825,
+    "PERGUNTA": "A VANTAGEM DO USO DE HÉLICE DE PASSO VARIÁVEL, EM DETERMINADO AVIÕES É:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "maior velocidade",
+    "B": "menor consumo de combustível",
+    "C": "melhor refrigeração",
+    "D": "melhor rendimento do motor",
+    "RESP": "D"
+  },
+  {
+    "ID": 1977,
+    "PERGUNTA": "O USO DO CIRCUITO DE RETORNO TEM COMO PRINCIPAIS VANTAGENS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "evitar panes por curto circuito e facilitar a manutenção",
+    "B": "simplificar as instalações, economizar fios condutores e reduzir o peso do circuito",
+    "C": "permitir o uso de um número maior de receptores e não sobrecarregar o circuito",
+    "D": "diminuir a resistência elétrica do circuito o que permite o uso de uma fonte menor",
+    "RESP": "B"
+  },
+  {
+    "ID": 1976,
+    "PERGUNTA": "NO DÍNAMO, O COMPONENTE QUE SERVE PARA RETIFICAR A CORRENTE DO INDUZIDO É CHAMADO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "retificador",
+    "B": "anel coletor",
+    "C": "conversor",
+    "D": "comutador",
+    "RESP": "D"
+  },
+  {
+    "ID": 1894,
+    "PERGUNTA": "A CONDIÇÃO DE GELO QUE OCORRE NO INTERIOR DO CARBURADOR, ACONTECE DEVIDO A PULVERIZAÇÃO DO COMBUSTÍVEL QUE, EM CONSEQÜÊNCIA RESFRIA O AR PROVOCANDO A CONDENSAÇÃO E\nCONGELAMENTO DO/DA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "umidade existente do ar",
+    "B": "próprio combustível que está sendo pulverizado",
+    "C": "do ar sobre pressão no tubo de Venturi do carburador",
+    "D": "as alternativas \"a\" e \"b\" estão corretas",
+    "RESP": "A"
+  },
+  {
+    "ID": 2076,
+    "PERGUNTA": "TODO O CORPO MERGULHADO NUM FLUIDO RECEBE UM EMPUXO PARA CIMA IGUAL AO PESO DO FLUIDO DESCOLADO. ESTE ENUNCIADO REFERE-SE AO\nPRINCÍPIO DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "Newton",
+    "B": "Pascal",
+    "C": "Arquimedes",
+    "D": "Venturi",
+    "RESP": "C"
+  },
+  {
+    "ID": 1911,
+    "PERGUNTA": "O ÓLEO QUE PENETRA DENTRO DOS CILINDROS, EM PEQUENA QUANTIDADE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "é recuperado",
+    "B": "sai pelo escapamento",
+    "C": "é queimado",
+    "D": "é prejudicial à combustão",
+    "RESP": "A"
+  },
+  {
+    "ID": 1990,
+    "PERGUNTA": "O PRINCÍPIO DE FUNCIONAMENTO DE UM GERADOR BASEIA-SE NO (A):",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "indução eletromagnética",
+    "B": "magnetismo terrestre",
+    "C": "eletromagnetismo",
+    "D": "energia mecânica",
+    "RESP": "A"
+  },
+  {
+    "ID": 2052,
+    "PERGUNTA": "O MANÔMETRO DE PRESSÃO DE ADMISSÃO PERTENCE AO TIPO PRESSÃO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "absoluta",
+    "B": "induzida",
+    "C": "relativa",
+    "D": "aplicada",
+    "RESP": "A"
+  },
+  {
+    "ID": 1732,
+    "PERGUNTA": "É CONSIDERADO COMO UM PERTURBADOR DE VOO, EM UM AVIÃO, O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "slat",
+    "B": "slot",
+    "C": "flap de bordo de ataque",
+    "D": "spoiler",
+    "RESP": "D"
+  },
+  {
+    "ID": 1753,
+    "PERGUNTA": "SE A POTÊNCIA DE UM MOTOR É 100HP E SEU CONSUMO HORÁRIO 20L/H, O SEU CONSUMO\nESPECÍFICO SERÁ:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "0,2 L/h. HP",
+    "B": "5 L/h. HP",
+    "C": "80 L/HP",
+    "D": "120 HP/L/h",
+    "RESP": "A"
+  },
+  {
+    "ID": 1760,
+    "PERGUNTA": "A PEÇA, QUE CANALIZA A MISTURA COMBUSTÍVEL PARA OS CILINDROS É DENOMINADA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "tubo de admissão",
+    "B": "carburador",
+    "C": "bocal de admissão",
+    "D": "pistão",
+    "RESP": "A"
+  },
+  {
+    "ID": 1823,
+    "PERGUNTA": "AS HÉLICES DE PASSO VARIÁVEL SÃO TAMBÉM CONHECIDAS COMO HÉLICES DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "velocidade constante",
+    "B": "velocidade variável",
+    "C": "velocidade instável",
+    "D": "passo reverso",
+    "RESP": "A"
+  },
+  {
+    "ID": 1997,
+    "PERGUNTA": "OS FUSÍVEIS E OS DISJUNTORES SÃO COMPONENTES ELÉTRICOS QUE TEM COMO FINALIDADE PRINCIPAL:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "controlar a corrente elétrica",
+    "B": "manter a voltagem constante",
+    "C": "ligar e desligar circuitos elétricos energizados",
+    "D": "evitar que sobrecargas danifiquem o equipamento\nelétrico",
+    "RESP": "D"
+  },
+  {
+    "ID": 1925,
+    "PERGUNTA": "COM  O AQUECIMENTO DO AR DE INDUÇÃO ACIONADO A/O:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "densidade do ar induzido diminuirá",
+    "B": "temperatura do motor aumentará",
+    "C": "mistura combustível empobrecerá",
+    "D": "consumo específico diminuirá",
+    "RESP": "A"
+  },
+  {
+    "ID": 1814,
+    "PERGUNTA": "A POTÊNCIA UTILIZADA POR UM MOTOR A PISTÃO PARA O ACIONAMENTO DOS ACESSÓRIOS (TAIS COMO GERADOR, MAGNETO, BOMBAS, ETC) É DENOMINADA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "efetiva",
+    "B": "útil ou tratora",
+    "C": "de atrito",
+    "D": "indicada",
+    "RESP": "C"
+  },
+  {
+    "ID": 2067,
+    "PERGUNTA": "A RAZÃO EXISTENTE ENTRE A MASSA DE UM CORPO E O VOLUME POR ELE OCUPADO É DEFINIÇÃO DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "potência",
+    "B": "energia cinética",
+    "C": "quantidade de movimento",
+    "D": "densidade ou massa específica",
+    "RESP": "D"
+  },
+  {
+    "ID": 1880,
+    "PERGUNTA": "UMA GASOLINA DE VOLATILIDADE É UM COMBUSTÍVEL QUE TEM COMO CARACTERÍSTICA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "facilitar a partida do motor",
+    "B": "dificultar a partida do motor",
+    "C": "provocar aquecimento e pré- ignição",
+    "D": "ocasionar muita detonação",
+    "RESP": "A"
+  },
+  {
+    "ID": 1779,
+    "PERGUNTA": "A LEVEZA DE UM MOTOR AERONÁUTICO A PISTÃO É O QUOCIENTE ENTRE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "massa do motor dividida pela eficiência da hélice",
+    "B": "massa do motor dividida pela potência desenvolvida",
+    "C": "massa acrescida da potência",
+    "D": "consumo pela razão entre a massa do motor e sua potência",
+    "RESP": "B"
+  },
+  {
+    "ID": 1879,
+    "PERGUNTA": "O ADITIVO ADICIONADO AO COMBUSTÍVEL PARA AUMENTAR SEU ÍNDICE DE OCTANA, DENOMINA-SE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "poder anti-detonante",
+    "B": "iso-octano",
+    "C": "chumbo tetra-etila",
+    "D": "octanagem",
+    "RESP": "C"
+  },
+  {
+    "ID": 2098,
+    "PERGUNTA": "SÃO CONSIDERADOS INSTRUMENTOS DE VOO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "climb e manômetro",
+    "B": "bússola, giro direcional e tacômetro",
+    "C": "altímetro, velocímetro e climb",
+    "D": "inclinômetro, liquidômetro e fluxômetro",
+    "RESP": "C"
+  },
+  {
+    "ID": 1888,
+    "PERGUNTA": "A MISTURA AR-GASOLINA DE 15:1, CONHECIDA COMO QUIMICAMENTE CORRETA, NÃO É UTILIZADA NOS MOTORES AERONÁUTICOS, TENDO EM VISTA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "a dificuldade que apresenta para queimar",
+    "B": "que libera muito calor, causando aquecimento demasiado dos cilindros",
+    "C": "ambas as anteriores",
+    "D": "ser antipoluidora",
+    "RESP": "C"
+  },
+  {
+    "ID": 2071,
+    "PERGUNTA": "A TRANSFORMAÇÃO QUE OCORRE EM UM GÁS, QUANDO SEU VOLUME É MANTIDO CONSTANTE,\nDENOMINA-SE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "isotérmica",
+    "B": "isobárica",
+    "C": "isométrica",
+    "D": "adiabática",
+    "RESP": "C"
+  },
+  {
+    "ID": 1787,
+    "PERGUNTA": "NO SEGUNDO TEMPO DE UM MOTOR A QUATRO TEMPOS, EVIDENCIA-SE O/A",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "tempo útil desse motor",
+    "B": "deslocamento do pistão do PMA para PMB",
+    "C": "taxa de compressão",
+    "D": "avanço na abertura da válvula de escapamento",
+    "RESP": "C"
+  },
+  {
+    "ID": 1869,
+    "PERGUNTA": "UM MOTOR A PISTÃO QUANDO FOR SUPERALIMENTADO DESENVOLVERÁ MAIOR POTÊNCIA QUE SE FUNCIONAR POR ASPIRAÇÃO NORMAL. ISSO OCORRE, PORQUE O MOTOR QUANDO FOR\nSUPERALIMENTADO TERÁ:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "a taxa de compressão aumentada",
+    "B": "a cilindrada aumentada",
+    "C": "um aumento de pressão da mistura, face ao aumento da massa de mistura admitida",
+    "D": "um aumento muito grande na velocidade de rotação",
+    "RESP": "C"
+  },
+  {
+    "ID": 1710,
+    "PERGUNTA": "QUANDO UMA ASA É PRESA À FUSELAGEM, DISPENSADOS A AMARRAÇÃO POR MEIO DE\nMONTANTES, ESTAIS OU SUPORTE, É DO TIPO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "semi-monocoque",
+    "B": "semi-cantilever",
+    "C": "cantilever",
+    "D": "monocoque",
+    "RESP": "C"
+  },
+  {
+    "ID": 1793,
+    "PERGUNTA": "TRÊS TEMPOS NO MOTOR A QUATRO TEMPOS SÃO PREPARATÓRIOS. O ÚNICO QUE PRODUZ TRABALHO É\nO TEMPO (DE):",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "admissão",
+    "B": "motor",
+    "C": "compressão",
+    "D": "escapamento",
+    "RESP": "B"
+  },
+  {
+    "ID": 2035,
+    "PERGUNTA": "PARA QUE HAJA COMBUSTÃO É NECESSÁRIA A PRESENÇA E UNIÃO DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "calor e oxigênio",
+    "B": "combustível e oxigênio",
+    "C": "combustível, oxigênio e calor",
+    "D": "combustível, oxigênio e carbono",
+    "RESP": "C"
+  },
+  {
+    "ID": 1916,
+    "PERGUNTA": "O PRIMEIRO INSTRUMENTO QUE DEVE SER\nOBSERVADO DURANTE A PARTIDA DE UM MOTOR A PISTÃO É:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "termômetro do óleo",
+    "B": "manômetro de pressão de admissão",
+    "C": "manômetro do óleo",
+    "D": "tacômetro (indicador de RPM)",
+    "RESP": "C"
+  },
+  {
+    "ID": 1945,
+    "PERGUNTA": "A VÁLVULA ECONOMIZADORA DO CARBURADOR ENTRA EM OPERAÇÃO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "quando o motor funcionar em altos regimes operacionais",
+    "B": "somente nas arremetidas",
+    "C": "quando o motor estiver em potência de cruzeiro (voo econômico)",
+    "D": "quando o motor estiver sendo alimentado com mistura quimicamente correta",
+    "RESP": "A"
+  },
+  {
+    "ID": 1835,
+    "PERGUNTA": "NO MOTOR TURBOÉLICE A FORÇA PROPULSIVA PRODUZIDA PELA HÉLICE E PELOS GASES DE ESCAPAMENTO, SÃO EM MÉDIA, RESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "10% e 90%",
+    "B": "90% e 10%",
+    "C": "50% e 50%",
+    "D": "80% e 20%",
+    "RESP": "B"
+  },
+  {
+    "ID": 2066,
+    "PERGUNTA": "A FORÇA QUE MANTÉM UM CORPO EM MOVIMENTO CIRCULAR, ATUANDO NA HORIZONTAL E PARA O CENTRO DA CURVA, É DENOMINADA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "centrífuga",
+    "B": "de inércia",
+    "C": "tangencial",
+    "D": "centrípeta",
+    "RESP": "D"
+  },
+  {
+    "ID": 1993,
+    "PERGUNTA": "OS PÓLOS IGUAIS DE DOIS IMÃS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "se atraem",
+    "B": "se repelem",
+    "C": "ora se atraem, ora se repelem",
+    "D": "se anulam",
+    "RESP": "B"
+  },
+  {
+    "ID": 1878,
+    "PERGUNTA": "A EQUALIZAÇÃO DAS PRESSÕES INTERNAS E EXTERNAS DE UM TANQUE DE COMBUSTÍVEL É FEITA PELO\nSISTEMA DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "drenagem",
+    "B": "alimentação",
+    "C": "pressão",
+    "D": "ventilação",
+    "RESP": "D"
+  },
+  {
+    "ID": 2080,
+    "PERGUNTA": "DENSIDADE OU MASSA ESPECÍFICA DE UM CORPO É DEFINIDA COMO O/A:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "produto entre a força e a velocidade",
+    "B": "razão entre a força e a área",
+    "C": "produto entre a massa e a velocidade",
+    "D": "razão entre a massa e o volume",
+    "RESP": "D"
+  },
+  {
+    "ID": 2113,
+    "PERGUNTA": "A BLINDAGEM EXISTENTE NOS FIOS DAS VELAS, DO SISTEMA DE IGNIÇÃO DE ALTA VOLTAGEM, SERVEM PARA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "isolar os fios  da carcaça metálica do motor",
+    "B": "tornar os fios das velas flexíveis e resistentes",
+    "C": "evitar a interferência das radiações eletromagnéticas nos equipamentos eletrônicos",
+    "D": "tornar os fios resistentes ao calor dos cilindros e as eventuais chamas",
+    "RESP": "C"
+  },
+  {
+    "ID": 1724,
+    "PERGUNTA": "AS LONGARINAS E NERVURAS SÃO ELEMENTOS ESTRUTURAIS UTILIZADOS NORMALMENTE NAS:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "superfícies próprias ao aparecimento da sustentação",
+    "B": "asas, empenagens e superfícies de comando",
+    "C": "fuselagens tubulares e monocoques",
+    "D": "NDA",
+    "RESP": "B"
+  },
+  {
+    "ID": 2094,
+    "PERGUNTA": "A QUALIDADE DO ÓLEO LUBRIFICANTE QUE INDICA A AUSÊNCIA DE ACIDEZ NO MESMO, DENOMINA-SE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "fluidez",
+    "B": "anti-acidez",
+    "C": "estabilidade",
+    "D": "neutralidade",
+    "RESP": "D"
+  },
+  {
+    "ID": 1747,
+    "PERGUNTA": "OS ANÉIS DE SEGMENTO SÃO INSTALADOS NA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "cabeça do pistão",
+    "B": "biela",
+    "C": "saia do pistão",
+    "D": "câmara de combustão",
+    "RESP": "C"
+  },
+  {
+    "ID": 2012,
+    "PERGUNTA": "O MAGNETO GERA ENERGIA ELÉTRICA PARA O SISTEMA DE IGNIÇÃO, SENDO QUE ESSA GERAÇÃO É\nEM CORRENTE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "contínua",
+    "B": "retificada",
+    "C": "alternada",
+    "D": "dente de serra",
+    "RESP": "C"
+  },
+  {
+    "ID": 1868,
+    "PERGUNTA": "SE NUMA ARREMETIDA O PILOTO DEIXAR A VÁLVULA DE AR QUENTE ABERTA, O MOTOR PODERÁ PARAR OU PERDER POTÊNCIA DEVIDO A (O):",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "empobrecimento demasiado da mistura",
+    "B": "excesso de ar que será admitido",
+    "C": "enriquecimento demasiado da mistura",
+    "D": "diminuição do volume de ar que será admitido",
+    "RESP": "C"
+  },
+  {
+    "ID": 1873,
+    "PERGUNTA": "UMA GASOLINA É CONSIDERADA DE VALOR 90 OCTANAS, QUANDO POSSUIR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "90% de normal-heptana e 10% de iso-octana",
+    "B": "90% de iso-octana e 10% de normal-heptana",
+    "C": "90% de iso-octana e 90% de normal-heptana",
+    "D": "nenhuma das alternativas anteriores é correta",
+    "RESP": "B"
+  },
+  {
+    "ID": 1786,
+    "PERGUNTA": "DURANTE O FUNCIONAMENTO DE UM MOTOR A PISTÃO OS CONJUNTOS PISTÃO E BIELA EM TEMPOS DIFERENTES DO TEMPO MOTOR SÃO MOVIMENTADOS\nPOR MEIO DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "inércia das peças rotativas",
+    "B": "inércia dos volantes presos ao eixo de manivelas",
+    "C": "força dos pistões dos outros cilindros no tempo motor",
+    "D": "todas as anteriores",
+    "RESP": "B"
+  },
+  {
+    "ID": 2053,
+    "PERGUNTA": "O INDICADOR DE SUBIDA E DESCIDA \"CLIMB\" UTILIZA PARA O SEU FUNCIONAMENTO:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "pressão estática",
+    "B": "pressão dinâmica",
+    "C": "pressão padrão",
+    "D": "pressões estática e dinâmica",
+    "RESP": "A"
+  },
+  {
+    "ID": 1965,
+    "PERGUNTA": "A FINALIDADE DAS ALHETAS, NOS CILINDROS DE UM MOTOR A PISTÃO, É:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "dirigir o fluxo de ar através do motor",
+    "B": "dar mais resistência a estrutura do cilindro",
+    "C": "aumentar a superfície de contato com o ar em movimento para promover a\ntroca do calor",
+    "D": "servir de isolação de um cilindro para o outro",
+    "RESP": "C"
+  },
+  {
+    "ID": 1956,
+    "PERGUNTA": "O DISPOSITIVO ELÉTRICO QUE PERMITE A RECARGA DA BATERIA APÓS A PARTIDA DO MOTOR; EVITA A MOTORIZAÇÃO DO GERADOR E CONECTA A FONTE QUE ESTIVER COM MAIOR VOLTAGEM À BARRA DE FORÇA, É DENOMINADO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "relé ou disjuntor de corrente reversa",
+    "B": "relé de sobre voltagem",
+    "C": "regulador de voltagem ou tensão",
+    "D": "disjuntor ou fusível",
+    "RESP": "A"
+  },
+  {
+    "ID": 2007,
+    "PERGUNTA": "NOS TESTES DE MAGNETO, ANTES DE CADA VOO ESPERA-SE UMA QUEDA DE RPM QUANDO O MOTOR OPERA COM UM ÚNICO MAGNETO. ISTO OCORRE\nPORQUE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "com um magneto, metade dos cilindros não funciona",
+    "B": "todas as velas passam a receber alimentação de um único magneto",
+    "C": "em apenas uma das velas de cada cilindro haverá ignição",
+    "D": "os magnetos passam a operar sem a corrente da bateria",
+    "RESP": "C"
+  },
+  {
+    "ID": 1785,
+    "PERGUNTA": "OS MOTORES AERONÁUTICOS, TÊM COMO CARACTERÍSTICAS POSSUÍREM ALGUNS COMPONENTES FEITOS DE LIGA DE ALUMÍNIO. TAIS\nCOMPONENTES SÃO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "eixo de manivelas e válvulas",
+    "B": "cilindro, camisa e anéis",
+    "C": "cabeça do cilindro, pistão e cárter",
+    "D": "bielas, pistões e cilindros",
+    "RESP": "C"
+  },
+  {
+    "ID": 1791,
+    "PERGUNTA": "ASSINALE A AFIRMATIVA ERRADA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "pressão é a força por unidade de área",
+    "B": "peso de um corpo é a\nquantidade de matéria do qual ele é formado",
+    "C": "potência é a força vezes a velocidade",
+    "D": "energia é a capacidade de produzir trabalho",
+    "RESP": "B"
+  },
+  {
+    "ID": 1815,
+    "PERGUNTA": "A POTÊNCIA QUE OS GASES POSSUEM AO SE EXPANDIREM, ATUANDO SOBRE OS PISTÕES, É\nTAMBÉM CONHECIDA COMO POTÊNCIA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "efetiva",
+    "B": "indicada",
+    "C": "inútil",
+    "D": "de atrito",
+    "RESP": "B"
+  },
+  {
+    "ID": 2016,
+    "PERGUNTA": "O SISTEMA DE IGNIÇÃO DUPLO EM CADA MOTOR PROPICIA, ALÉM DE MAIOR SEGURANÇA:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "uma menor trepidação",
+    "B": "maior potência",
+    "C": "maior resfriamento do cilindro",
+    "D": "menor desgaste interno",
+    "RESP": "B"
+  },
+  {
+    "ID": 1954,
+    "PERGUNTA": "QUANDO EM VOO O PILOTO PERDER O GERADOR DEVERÁ:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "cortar imediatamente o motor",
+    "B": "utilizar somente o equipamento elétrico indispensável e pousar o mais\nrapidamente possível",
+    "C": "reduzir o motor para poupar a bateria",
+    "D": "continuar o voo normalmente, pois a bateria substitui perfeitamente o gerador",
+    "RESP": "B"
+  },
+  {
+    "ID": 2096,
+    "PERGUNTA": "O DISPOSITIVO ELÉTRICO QUE UTILIZA O ELETROÍMÃ PARA PRODUZIR UM  ACIONAMENTO MECÂNICO,\nDENOMINA-SE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "dínamo",
+    "B": "bobina",
+    "C": "inversor",
+    "D": "solenóide",
+    "RESP": "D"
+  },
+  {
+    "ID": 1972,
+    "PERGUNTA": "AS CHAPAS METÁLICAS USADAS NOS CILINDROS PARA AUMENTAR O CONTATO DO AR COM OS MESMOS,\nCHAMA-SE",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "defletores",
+    "B": "alhetas",
+    "C": "supressores de calor",
+    "D": "carburador",
+    "RESP": "A"
+  },
+  {
+    "ID": 1942,
+    "PERGUNTA": "A DRENAGEM DA GASOLINA É UM PROCEDIMENTO OBRIGATÓRIO ANTES DE CADA VOO E VISA PRINCIPALMENTE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "verificar se existe gasolina nos tanques",
+    "B": "eliminar ar da tubulação e tanques de gasolina",
+    "C": "retirar impurezas que podem se depositar no fundo do tanque",
+    "D": "eliminar a água que pode ter se acumulado nos tanques, filtro ou tubulação de gasolina",
+    "RESP": "D"
+  },
+  {
+    "ID": 1765,
+    "PERGUNTA": "AS MODIFICAÇÕES NOS TEMPOS DE ABERTURA E FECHAMENTO DAS VÁLVULAS NOS MOTORES ATUAIS FORAM INTRODUZIDAS PORQUE, NOS PRIMITIVOS\nMOTORES CICLO OTTO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "a admissão da mistura era deficiente",
+    "B": "o escapamento dos gases era incompleto",
+    "C": "a combustão não era instantânea",
+    "D": "as alternativas A e B são corretas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1722,
+    "PERGUNTA": "NUMA DECOLAGEM, A MENOS QUE O MANUAL DO AVIÃO ESTABELEÇA OUTRA POSIÇÃO, OS COMPENSADORES DEVERÃO SER COLOCADOS NA\nPOSIÇÃO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "neutra",
+    "B": "de deflexão mínima",
+    "C": "de deflexão máxima",
+    "D": "que permita ao avião cabrar",
+    "RESP": "A"
+  },
+  {
+    "ID": 1981,
+    "PERGUNTA": "PARA SE OBTER VALORES MAIORES DE VOLTAGEM INDUZIDA É NECESSÁRIO AUMENTAR",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "a quantidade de fios dentro do campo magnético",
+    "B": "a quantidade de linhas de forças do imã",
+    "C": "a velocidade com que o fio corta as linhas de campo",
+    "D": "todos os itens anteriores",
+    "RESP": "D"
+  },
+  {
+    "ID": 2091,
+    "PERGUNTA": "O CONJUNTO QUE ADMITE, FILTRA E AQUECE O AR, CHAMA-SE SISTEMA DE:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "indução",
+    "B": "ignição",
+    "C": "carburação",
+    "D": "alimentação",
+    "RESP": "A"
+  },
+  {
+    "ID": 1985,
+    "PERGUNTA": "A BATERIA DAS AERONAVES, QUANDO LIGADAS EM SÉRIE PROPORCIONAM MAIOR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "amperagem ou corrente",
+    "B": "voltagem ou tensão",
+    "C": "resistência elétrica",
+    "D": "capacitância",
+    "RESP": "B"
+  },
+  {
+    "ID": 2058,
+    "PERGUNTA": "A FONTE DE ENERGIA PARA O FUNCIONAMENTO DO TACÔMETRO ELÉTRICO É CONSEGUIDA DE/DO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS\nTÉCNICOS",
+    "A": "baterias",
+    "B": "gerador da aeronave",
+    "C": "sistema de ignição",
+    "D": "gerador de tacômetro",
+    "RESP": "D"
+  },
+  {
+    "ID": 1895,
+    "PERGUNTA": "A VÁLVULA DE AR QUENTE É NECESSÁRIA QUANDO HOUVER POSSIBILIDADE DE FORMAÇÃO DE GELO NO CARBURADOR. NAS DECOLAGENS, A MENOS QUE NO MANUAL DA AERONAVE CONSTE ALGO EM CONTRÁRIO, ELA DEVERÁ ESTAR:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "aberta",
+    "B": "fechada",
+    "C": "ligada",
+    "D": "mandando ar quente para o interior do motor",
+    "RESP": "B"
+  },
+  {
+    "ID": 2088,
+    "PERGUNTA": "AS CARACTERÍSTICAS \"RESISTÊNCIA SATISFATÓRIA E PEQUENOS ESFORÇOS\", \"MAIOR PESO ESTRUTURAL\" E \"CAPACIDADE DE SUPORTAR GRANDES ESFORÇOS\", SÃO, RESPECTIVAMENTE, AS QUALIDADES DAS ESTRUTURAS DE FUSELAGEM DO TIPO:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "monocoque, tubular e semi- monocoque",
+    "B": "tubular, monocoque e semi- monocoque",
+    "C": "semi-monocoque, tubular e monocoque",
+    "D": "semi-monocoque, monocoque e tubular",
+    "RESP": "A"
+  },
+  {
+    "ID": 2020,
+    "PERGUNTA": "O CONDENSADOR, NUM SISTEMA DE IGNIÇÃO, SERVE PARA:",
+    "MATÉRIA": "PP Avião -\nCONHECIMENTOS TÉCNICOS",
+    "A": "proteção dos platinados",
+    "B": "aumentar a tensão induzida na bobina",
+    "C": "manter a seqüência de centelhamento",
+    "D": "\"A\" e \"B\" são corretas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1778,
+    "PERGUNTA": "NUM MOTOR A COMBUSTÃO INTERNA, A RELAÇÃO ENTRE O VOLUME DO CILINDRO E O VOLUME DA CÂMARA DE COMBUSTÃO, RECEBE O NOME DE:",
+    "MATÉRIA": "PP Avião - CONHECIMENTOS TÉCNICOS",
+    "A": "diferencial de compressão",
+    "B": "razão de cilindrada",
+    "C": "taxa de compressão",
+    "D": "compressão de cilindrada",
+    "RESP": "C"
+  }
+]}

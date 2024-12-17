@@ -1,0 +1,1872 @@
+{"Question":[
+  {
+    "ID": 1227,
+    "PERGUNTA": "VOANDO PARA SUL ENTRE AS LINHAS ISOGÔNICAS 4°\nLESTE E 2° OESTE, QUAL A DECLINAÇÃO MAGNÉTICA MÉDIA:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "6° E",
+    "B": "zero grau",
+    "C": "2° W",
+    "D": "1° E",
+    "RESP": "D"
+  },
+  {
+    "ID": 1167,
+    "PERGUNTA": "DADOS:\nTEMPERATURA DO AR VERDADEIRA: -20°C NÚMERO MACH: .42\nA TAS SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "260 Km/h",
+    "B": "350 Km/h",
+    "C": "479 Km/h",
+    "D": "498 Km/h",
+    "RESP": "C"
+  },
+  {
+    "ID": 1354,
+    "PERGUNTA": "O AJUSTE ALTIMÉTRICO UTILIZADO NORMALMENTE\nNAS OPERAÇÕES DE POUSO E DECOLAGEM DE UMA AERONAVE É O",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "QNH",
+    "B": "QNE",
+    "C": "QFE",
+    "D": "QFF",
+    "RESP": "A"
+  },
+  {
+    "ID": 1193,
+    "PERGUNTA": "A LINHA QUE UNE PONTOS DE DMG NULA,\nDENOMINAM-SE",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "isoípsa",
+    "B": "agônica",
+    "C": "isogônica",
+    "D": "isoclínica",
+    "RESP": "B"
+  },
+  {
+    "ID": 1181,
+    "PERGUNTA": "EM UMA PROJEÇÃO LAMBERT, A ESCALA DE\nDISTÂNCIA É CONSIDERADA:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "constante",
+    "B": "igual a Mercator",
+    "C": "variável com a latitude",
+    "D": "variável com a longitude",
+    "RESP": "A"
+  },
+  {
+    "ID": 1300,
+    "PERGUNTA": "UM PILOTO QUE ESTEJA NA LATITUDE 32°40'S, DESEJA SABER QUAL A SUA COLATITUDE. ESTA SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "90°00'",
+    "B": "75°40'",
+    "C": "70°20'",
+    "D": "57°20'",
+    "RESP": "D"
+  },
+  {
+    "ID": 1331,
+    "PERGUNTA": "A PROJEÇÃO QUE TEM COMO CARACTERÍSTICA A PERFEIÇÃO NAS ÁREAS PROJETADAS, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "Lambert",
+    "B": "Mercator",
+    "C": "ortodrômica",
+    "D": "loxodrômica",
+    "RESP": "A"
+  },
+  {
+    "ID": 1349,
+    "PERGUNTA": "A VELOCIDADE CALIBRADA, CORRIGIDA PARA\nALTITUDE E TEMPERATURA CHAMA-SE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "VA",
+    "B": "VI",
+    "C": "VS",
+    "D": "VC",
+    "RESP": "A"
+  },
+  {
+    "ID": 1325,
+    "PERGUNTA": "UMA AERONAVE EM VOO MANTÉM PV MAIOR QUE RV E OBSERVA VS MENOR QUE VA. COM RELAÇÃO AO VENTO PODE-SE AFIRMAR QUE SOPRA DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "través direito e proa",
+    "B": "través esquerdo e cauda",
+    "C": "través esquerdo e proa",
+    "D": "través direito e cauda",
+    "RESP": "A"
+  },
+  {
+    "ID": 1187,
+    "PERGUNTA": "O ÂNGULO FORMADO ENTRE UMA LINHA NORTE/SUL MAGNÉTICA QUE PASSA PELA ESTAÇÃO E A LINHA QUE LIGA O AVIÃO A ESTAÇÃO DENOMINA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "PM",
+    "B": "MR",
+    "C": "QDR",
+    "D": "QDM",
+    "RESP": "C"
+  },
+  {
+    "ID": 1332,
+    "PERGUNTA": "UMA AERONAVE MANTÉM PB 030° E SUA LINHA DE ROTA CORTA AS ISOGÔNICAS DE 05°W E 03°E. A DMG MÉDIA QUE DEVERÁ SER APLICADA SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "01°W",
+    "B": "02°W",
+    "C": "04°E",
+    "D": "08°E",
+    "RESP": "A"
+  },
+  {
+    "ID": 1237,
+    "PERGUNTA": "A CORREÇÃO QUE SE FAZ NA PROA DE UMA AERONAVE PARA NEUTRALIZAR O EFEITO DO VENTO,\nCOM RELAÇÃO A DERIVA, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "ajuste",
+    "B": "ângulo de acerto",
+    "C": "correção de desvio",
+    "D": "ângulo de correção de deriva",
+    "RESP": "D"
+  },
+  {
+    "ID": 1210,
+    "PERGUNTA": "OS DOIS TIPOS DE PRESSÃO CAPTADOS PELO TUBO DE\nPITOT DENOMINAM-SE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "dinâmica e impacto",
+    "B": "impacto e estática",
+    "C": "dinâmica e alta pressão",
+    "D": "estática e baixa pressão",
+    "RESP": "B"
+  },
+  {
+    "ID": 1279,
+    "PERGUNTA": "A COMPONENTE VERTICAL DA BÚSSOLA É MÁXIMA:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "em qualquer ponto da\nsuperfície da Terra",
+    "B": "na latitude 45° ao Norte ou ao\nSul",
+    "C": "sobre a linha do Equador\nmagnético",
+    "D": "nos pólos",
+    "RESP": "D"
+  },
+  {
+    "ID": 1290,
+    "PERGUNTA": "CALCULE ENTRE OS PONTOS A E B, A LONGITUDE MÉDIA.\nCOORDENADAS:\nA: 20°43'S / 045°15'W B: 16°27'N / 025°10'E",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "020°05'W",
+    "B": "010°02'30\"W",
+    "C": "015°17'26\"W",
+    "D": "035°12'30\"W",
+    "RESP": "B"
+  },
+  {
+    "ID": 1269,
+    "PERGUNTA": "EM QUE SE BASEIA A PROJEÇÃO MERCATOR?",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "cone",
+    "B": "vários cones",
+    "C": "cilindro",
+    "D": "infinito",
+    "RESP": "C"
+  },
+  {
+    "ID": 1323,
+    "PERGUNTA": "A LINHA IRREGULAR EQÜIDISTANTE DOS PÓLOS MAGNÉTICOS NA QUAL A COMPONENTE VERTICAL DA BÚSSOLA MAGNÉTICA É MÍNINA E A HORIZONTAL É\nMÁXIMA, É CHAMADA:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "componente horizontal",
+    "B": "componente vertical",
+    "C": "Equador magnético",
+    "D": "linha de inclinação",
+    "RESP": "C"
+  },
+  {
+    "ID": 1313,
+    "PERGUNTA": "PROA MAGNÉTICA É O ÂNGULO FORMADO ENTRE O\nMERIDIANO:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "magnético e o eixo longitudinal\nda aeronave",
+    "B": "verdadeiro e o eixo\nlongitudinal da aeronave",
+    "C": "magnético e a linha de rota",
+    "D": "verdadeiro e magnético",
+    "RESP": "A"
+  },
+  {
+    "ID": 1206,
+    "PERGUNTA": "O ANTIMERIDIANO DE UM OBSERVADOR, CUJO MERIDIANO É DE 060° W, TERÁ, EM RELAÇÃO A\nGREENWICH, UMA SEPARAÇÃO ANGULAR DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "030°",
+    "B": "090°",
+    "C": "120°",
+    "D": "180°",
+    "RESP": "C"
+  },
+  {
+    "ID": 1230,
+    "PERGUNTA": "A UTC NUM LUGAR DE LONGITUDE 147°33'W É 09:00H DO DIA 16/04/87. PEDE-SE: HLO/HLE/DATA E NÚMERO DO FUSO DESSE LUGAR:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "00:09:48 / 23:00h - dia 15 / F+11",
+    "B": "23:09:48 / 19:00h - dia 15 / F+10",
+    "C": "00:09:48 / 19:00h - dia 15 / F+11",
+    "D": "23:09:48 / 23:00h - dia 15 / F+10",
+    "RESP": "D"
+  },
+  {
+    "ID": 1176,
+    "PERGUNTA": "CONSIDERANDO-SE A PV MENOR DO QUE O RV E VA\nMENOR DO QUE A VS, O VENTO SOPRARÁ DO SETOR DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "proa pela direita",
+    "B": "proa pela esquerda",
+    "C": "cauda pela direita",
+    "D": "cauda pela esquerda",
+    "RESP": "D"
+  },
+  {
+    "ID": 1329,
+    "PERGUNTA": "A DLO ENTRE OS PONTOS A: 22°00'S / 044°50'W E\nB: 42°20'S / 034°30'W SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "05°10'",
+    "B": "10°20'",
+    "C": "39°40'",
+    "D": "78°20'",
+    "RESP": "B"
+  },
+  {
+    "ID": 1184,
+    "PERGUNTA": "UMA AERONAVE, PARA SE MANTER SOBRE A LINHA DE ROTA DESEJADA, COM UM VENTO DO SETOR DE\nCAUDA E DA ESQUERDA, DEVERÁ TER:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "ACD nulo",
+    "B": "deriva nula",
+    "C": "ACD negativo",
+    "D": "deriva negativa",
+    "RESP": "C"
+  },
+  {
+    "ID": 1351,
+    "PERGUNTA": "DADOS:\nRV: 100°\nACD: +5° DMG: 10°W\nDISTÂNCIA: 25 NM TEMPO DE VÔO: 10 MIN VA: 140 KT\nO VENTO SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "206° / 02 KT",
+    "B": "212° / 06 KT",
+    "C": "220° / 10 KT",
+    "D": "231° / 16 KT",
+    "RESP": "D"
+  },
+  {
+    "ID": 1289,
+    "PERGUNTA": "AS PROJEÇÕES EM QUE O PONTO DE ORIGEM SE\nENCONTRA NO INFINITO SÃO CHAMADAS:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "azimutais",
+    "B": "estereográficas",
+    "C": "gnomônicas",
+    "D": "ortográficas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1358,
+    "PERGUNTA": "O SEMICÍRCULO MÁXIMO CUJO PLANO COINCIDE COM\nO EIXO DA TERRA É O:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "Equador",
+    "B": "paralelo",
+    "C": "meridiano",
+    "D": "colatitude",
+    "RESP": "C"
+  },
+  {
+    "ID": 1288,
+    "PERGUNTA": "UM AVIÃO PARA MANTER-SE SOBRE A LINHA DE ROTA DESEJADA, COM UM VENTO DO SETOR DE PROA E\nPELA DIREITA DEVERÁ:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "ACD positivo",
+    "B": "ACD nulo",
+    "C": "ACD negativo",
+    "D": "deriva nulo",
+    "RESP": "A"
+  },
+  {
+    "ID": 1311,
+    "PERGUNTA": "OS FATORES CAPAZES DE MODIFICAR O VALOR DA VA\nSÃO:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "vento de proa",
+    "B": "mudança de nível,\ntemperatura e VI",
+    "C": "mudança de nível e vento",
+    "D": "vento de cauda",
+    "RESP": "B"
+  },
+  {
+    "ID": 1283,
+    "PERGUNTA": "A LATITUDE MÉDIA ENTRE OS PONTOS A: 27°47'S / 035°15'W E\nB: 54°35'N / 040°20'W É:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "26°48'N",
+    "B": "40°41'N",
+    "C": "26°48'S",
+    "D": "13°24'N",
+    "RESP": "D"
+  },
+  {
+    "ID": 1310,
+    "PERGUNTA": "A PROJEÇÃO QUE APRESENTA OS MERIDIANOS COMO LINHAS RETAS, PARALELAS E EQÜIDISTANTES E OS PARALELOS COMO LINHAS RETAS, PARALELAS E NÃO EQÜIDISTANTES, É CHAMADA DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "Mercator",
+    "B": "Lambert",
+    "C": "azimutal",
+    "D": "gnomônica polar",
+    "RESP": "A"
+  },
+  {
+    "ID": 1271,
+    "PERGUNTA": "AO NÍVEL DO MAR A TEMPERATURA É 17° POSITIVOS.\nNO NÍVEL 110 SERÁ:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "5° negativos",
+    "B": "7° negativos",
+    "C": "22° positivos",
+    "D": "39° negativos",
+    "RESP": "A"
+  },
+  {
+    "ID": 1263,
+    "PERGUNTA": "UMA AERONAVE NO FL 060 E UMA VA DE 120 KT VOA A 10°C. 15 MINUTOS DEPOIS A TEMPERATURA OBSERVADA NO MESMO FL É DE 15°C. ELA AGORA\nESTÁ COM:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "a mesma VA inicial",
+    "B": "uma VA menor",
+    "C": "uma VA maior",
+    "D": "altitude de voo menor",
+    "RESP": "C"
+  },
+  {
+    "ID": 1270,
+    "PERGUNTA": "CONSIDERANDO A LATITUDE 23°39'S, A COLATITUDE\nSERÁ:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "156°21'S",
+    "B": "66°39'S",
+    "C": "66°21'S",
+    "D": "55°49'N",
+    "RESP": "C"
+  },
+  {
+    "ID": 1201,
+    "PERGUNTA": "AS LINHAS TRAÇADAS NAS CARTAS, UNINDO PONTOS\nDE MESMA DMG, CHAMAM-SE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "agônicas",
+    "B": "isogônicas",
+    "C": "anagônicas",
+    "D": "isoclínicas",
+    "RESP": "B"
+  },
+  {
+    "ID": 1229,
+    "PERGUNTA": "AS DISTÂNCIAS NA PROJEÇÃO MERCATOR DEVEM SER MEDIDAS NA LATITUDE MÉDIA DA REGIÃO DEVIDO A:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "distorção das longitudes",
+    "B": "distorção da declinação magnética",
+    "C": "distorção da projeção na\nproporção em que as latitudes aumentam",
+    "D": "variação dos fusos horários",
+    "RESP": "C"
+  },
+  {
+    "ID": 1262,
+    "PERGUNTA": "A VA DE UMA AERONAVE AUMENTA APROXIMADAMENTE DE 2 POR CENTO DA VI PARA\nCADA:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "1.000 m de altitude",
+    "B": "100 m de altitude",
+    "C": "100 FT de altitude",
+    "D": "1.000 FT de altitude",
+    "RESP": "D"
+  },
+  {
+    "ID": 1228,
+    "PERGUNTA": "ÂNGULO FORMADO ENTE O MERIDIANO VERDADEIRO E O MERIDIANO MAGNÉTICO É CHAMADO:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "declinação magnética",
+    "B": "desvio de bússola",
+    "C": "variação de bússola",
+    "D": "correção de deriva",
+    "RESP": "A"
+  },
+  {
+    "ID": 1250,
+    "PERGUNTA": "DADOS:\nNÚMERO MACH: .55\nTEMPERATURA INDICADA DO AR: 20°C A TAS É DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "370 KT",
+    "B": "390 KT",
+    "C": "410 KT",
+    "D": "430 KT",
+    "RESP": "A"
+  },
+  {
+    "ID": 1231,
+    "PERGUNTA": "NA CARTA MERCATOR PODEMOS MEDIR AS\nDISTÂNCIAS:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "na longitude média",
+    "B": "na latitude média",
+    "C": "em qualquer latitude",
+    "D": "na colatitude média",
+    "RESP": "B"
+  },
+  {
+    "ID": 1202,
+    "PERGUNTA": "SE UMA AERONAVE CONSOME 23 LITROS EM 50\nMINUTOS, M 13 MINUTOS CONSUMIRÁ:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "1.0 US Gal.",
+    "B": "1.6 US Gal.",
+    "C": "2.3 US Gal.",
+    "D": "5.9 US Gal.",
+    "RESP": "B"
+  },
+  {
+    "ID": 1177,
+    "PERGUNTA": "DENTRE AS ALTERNATIVAS ABAIXO, IDENTIFIQUE OS FATORES QUE SÃO CAPAZES DE MODIFICAR A TAS:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "umidade, vento e densidade do ar",
+    "B": "FL, umidade e altitude densidade",
+    "C": "altitude pressão, temperatura e IAS",
+    "D": "altitude pressão, vento e temperatura",
+    "RESP": "C"
+  },
+  {
+    "ID": 1309,
+    "PERGUNTA": "DADOS:\nPV: 245°\nVA: 120 KT\nDV/VV: 075°/20 KT\nRV E VS SERÃO RESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "067° / 130 KT",
+    "B": "246° / 140 KT",
+    "C": "200° / 180 KT",
+    "D": "025° / 200 KT",
+    "RESP": "B"
+  },
+  {
+    "ID": 1273,
+    "PERGUNTA": "AS LINHAS QUE UNEM PONTOS DE MESMA\nINCLINAÇÃO MAGNÉTICA CHAMAM-SE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "isóbaras",
+    "B": "isogônicas",
+    "C": "isoclínicas",
+    "D": "isotérmicas",
+    "RESP": "C"
+  },
+  {
+    "ID": 1212,
+    "PERGUNTA": "UMA ACFT, VOANDO EM UMA CERTA DIREÇÃO, RECEBERÁ UM VENTO DO SEU TRAVÉS DIREITO E PELA CAUDA. PARA QUE A TAL ACFT SE MANTENHA NO RUMO, A CORREÇÃO PARA O VENTO SERÁ:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "desconsiderada",
+    "B": "contra o vento",
+    "C": "a favor do vento",
+    "D": "para qualquer lado",
+    "RESP": "B"
+  },
+  {
+    "ID": 1217,
+    "PERGUNTA": "O PILOTO TERÁ SEMPRE A PROA IGUAL A ROTA VOADA\nQUANDO O VENTO FOR:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "de proa",
+    "B": "de cauda",
+    "C": "nulo",
+    "D": "todas as citadas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1238,
+    "PERGUNTA": "UMA AERONAVE QUE MANTÉM PM 030° E VA 250 KT, NUM LUGAR ONDE A DMG É DE 10°W, ENCONTRA NUM DETERMINADO MOMENTO UM VENTO DE 080°/30 KT. RV E VS SERÃO RESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "014° / 236 KT",
+    "B": "024° / 262 KT",
+    "C": "026° / 238 KT",
+    "D": "036° / 262 KT",
+    "RESP": "A"
+  },
+  {
+    "ID": 1261,
+    "PERGUNTA": "QUAL A DIFERENÇA DE HORAS (HLE) EXISTENTE ENTRE UMA CIDADE DE LONGITUDE 107°W E OUTRA DE\nLONGITUDE 048°E?",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": 24,
+    "B": 10,
+    "C": 7,
+    "D": 3,
+    "RESP": "B"
+  },
+  {
+    "ID": 1265,
+    "PERGUNTA": "DADOS:\nPV: 200°\nVA: 140 KT\nDV/VV: 150°/20 KT.\nQUAL O RV E A VS RESPECTIVAMENTE?",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "207° / 128 KT",
+    "B": "194° / 153 KT",
+    "C": "168° / 140 KT",
+    "D": "185° / 140 KT",
+    "RESP": "A"
+  },
+  {
+    "ID": 1299,
+    "PERGUNTA": "CONHECENDO O RV, PARA SE OBTER UM RM A DMG\nSERÁ:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "subtraída se for W",
+    "B": "somada se for W",
+    "C": "subtraída se for S",
+    "D": "somada se for E",
+    "RESP": "B"
+  },
+  {
+    "ID": 1266,
+    "PERGUNTA": "O CÍRCULO MÁXIMO QUE DIVIDE A TERRA EM DOIS HEMISFÉRIOS. NORTE E SUL, CUJO PLANO PASSA PELO CENTRO DA TERRA E É PERPENDICULAR AO SEU EIXO\nCHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "círculo menor",
+    "B": "paralelo",
+    "C": "meridiano",
+    "D": "Equador",
+    "RESP": "D"
+  },
+  {
+    "ID": 1204,
+    "PERGUNTA": "EM UM LUGAR DE LONGITUDE 130°W SÃO 05:00 UTC\nDO DIA 20/11/96. A HLO, HLE E A DATA DO FUSO, RESPECTIVAMENTE SÃO:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "19:48 / 20:00 / 19/11/96",
+    "B": "19:48 / 20:00 / 20/11/96",
+    "C": "20:00 / 19:48 / 19/11/96",
+    "D": "20:00 / 19:48 / 20/11/96",
+    "RESP": "A"
+  },
+  {
+    "ID": 1287,
+    "PERGUNTA": "O CLIMB É UM INSTRUMENTO QUE FUNCIONA LIGADO\nA(S) LINHA(S) DE PRESSÃO:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "estática",
+    "B": "impacto",
+    "C": "estática e impacto",
+    "D": "impacto e dinâmica",
+    "RESP": "A"
+  },
+  {
+    "ID": 1333,
+    "PERGUNTA": "QUANDO O VENTO FOR DE PROA, DE CAUDA OU\nNULO, A PV EM RELAÇÃO AO RV SERÁ:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "maior",
+    "B": "igual",
+    "C": "menor",
+    "D": "diferente",
+    "RESP": "B"
+  },
+  {
+    "ID": 1220,
+    "PERGUNTA": "A MEDIDA ANGULAR DO ARCO DE MERIDIANO COMPREENDIDO ENTRE DOIS PARALELOS CHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "diferença de latitude",
+    "B": "diferença de longitude",
+    "C": "longitude",
+    "D": "latitude média",
+    "RESP": "A"
+  },
+  {
+    "ID": 1197,
+    "PERGUNTA": "O EQUADOR É UM CÍRCULO MÁXIMO, CUJA LATITUDE\nÉ:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "00°",
+    "B": "90°",
+    "C": "180°",
+    "D": "270°",
+    "RESP": "A"
+  },
+  {
+    "ID": 1213,
+    "PERGUNTA": "NA CONVERSÃO DAS DISTÂNCIAS, 12 KM EQUIVALEM\nA:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "6,5 ST",
+    "B": "7,5 ST",
+    "C": "8,5 ST",
+    "D": "9,5 ST",
+    "RESP": "B"
+  },
+  {
+    "ID": 1307,
+    "PERGUNTA": "UMA ACFT MANTÉM PM 030 E VA 200 KT EM UM LUGAR ONDE A DMG É DE 10°W. EM UM DETERMINADO MOMENTO ENCONTRA UM VENTO DE 100°/20 KT. O RV E A VS ENCONTRADAS SERÃO:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "014° / 197 KT",
+    "B": "014° / 204 KT",
+    "C": "024° / 197 KT",
+    "D": "024° / 204 KT",
+    "RESP": "A"
+  },
+  {
+    "ID": 1282,
+    "PERGUNTA": "QUANTAS NM POSSUI UM FUSO HORÁRIO, NO\nEQUADOR?",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "15 NM",
+    "B": "600 NM",
+    "C": "900 NM",
+    "D": "1.200 NM",
+    "RESP": "C"
+  },
+  {
+    "ID": 1253,
+    "PERGUNTA": "COM RELAÇÃO ÀS ONDAS DE RÁDIO, A DISTÂNCIA COMPREENDIDA ENTRE DUAS CRISTAS CONSECUTIVAS DE UM CICLO, DENOMINA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "difração",
+    "B": "refração",
+    "C": "freqüência",
+    "D": "comprimento de onda",
+    "RESP": "D"
+  },
+  {
+    "ID": 1188,
+    "PERGUNTA": "O SISTEMA DE ILUMINAÇÃO, LOCALIZADO EM AMBOS OS LADOS DA RWY, QUE MOSTRA AO PILOTO A SUA CORRETA FAIXA DE PLANEIO, RECEBE A SEGUINTE\nABREVIATURA:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "ALS",
+    "B": "ILS",
+    "C": "AVAS",
+    "D": "VASIS",
+    "RESP": "D"
+  },
+  {
+    "ID": 1284,
+    "PERGUNTA": "NUMA PROJEÇÃO LAMBERT, UM CÍRCULO MÁXIMO É\nREPRESENTADO POR UMA LINHA:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "reta",
+    "B": "curva",
+    "C": "ondulada",
+    "D": "conformal",
+    "RESP": "A"
+  },
+  {
+    "ID": 1294,
+    "PERGUNTA": "NA CARTA MERCATOR AS LATITUDES SÃO:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "crescentes do Equador para os\npólos",
+    "B": "igual do Equador aos pólos",
+    "C": "crescente só até a latitude 60°\nN",
+    "D": "crescente só até a latitude 60°\nS",
+    "RESP": "A"
+  },
+  {
+    "ID": 1281,
+    "PERGUNTA": "PROA BÚSSOLA É O ÂNGULO FORMADO ENTRE O EIXO\nLONGITUDINAL DA AERONAVE E O(A):",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "meridiano magnético",
+    "B": "meridiano verdadeiro",
+    "C": "linha Norte/Sul da bússola",
+    "D": "estação",
+    "RESP": "C"
+  },
+  {
+    "ID": 1260,
+    "PERGUNTA": "A ROTA ORTODRÔMICA NUMA PROJEÇÃO MERCATOR\nÉ REPRESENTADA POR UMA LINHA:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "curva",
+    "B": "reta",
+    "C": "cônica",
+    "D": "loxodrômica",
+    "RESP": "A"
+  },
+  {
+    "ID": 1336,
+    "PERGUNTA": "NA LONGITUDE DE 120°W SÃO 18:00 HORAS UTC. NO MESMO INSTANTE, A HORA UTC NA LONGITUDE DE\n135°E É DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "06:00h",
+    "B": "09:00h",
+    "C": "18:00h",
+    "D": "22:00h",
+    "RESP": "C"
+  },
+  {
+    "ID": 1189,
+    "PERGUNTA": "A LONGITUDE DO ANTI-MERIDIANO DE LONGITUDE\n120° LESTE É DE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "060° E",
+    "B": "060° W",
+    "C": "150° E",
+    "D": "150° W",
+    "RESP": "B"
+  },
+  {
+    "ID": 1304,
+    "PERGUNTA": "AS DISTÂNCIAS NA CARTA MERCATOR, EM RELAÇÃO À\nREGIÃO QUE A ACFT ESTIVER OPERANDO, DEVEM SER MEDIDAS NA:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "latitude média",
+    "B": "longitude média",
+    "C": "colatitude média",
+    "D": "colongitude média",
+    "RESP": "A"
+  },
+  {
+    "ID": 1302,
+    "PERGUNTA": "A LATITUDE QUE FICA IGUALMENTE DISTANTE ENTRE DUAS LATITUDES CONSIDERADAS, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "latitude média",
+    "B": "longitude média",
+    "C": "diferença de latitude",
+    "D": "diferença de longitude",
+    "RESP": "A"
+  },
+  {
+    "ID": 1303,
+    "PERGUNTA": "EM RELAÇÃO À PROJEÇÃO LAMBERT, A MERCATOR POSSUI A SEGUINTE VANTAGEM:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "fácil construção",
+    "B": "escala de distância constante",
+    "C": "perfeição nas áreas projetadas",
+    "D": "o círculo máximo é representado por uma linha\nreta",
+    "RESP": "A"
+  },
+  {
+    "ID": 1235,
+    "PERGUNTA": "OS COMPENSADORES MAGNÉTICOS DE UMA BÚSSOLA SE DESTINAM A:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "corrigir a PM",
+    "B": "amortecer as oscilações do cartão",
+    "C": "manter lubrificado o pivot de sustentação",
+    "D": "neutralizar as influências magnéticas próximas a bússola",
+    "RESP": "D"
+  },
+  {
+    "ID": 1345,
+    "PERGUNTA": "O MÉTODO DE NAVEGAÇÃO NO QUAL A POSIÇÃO DE UMA ACFT É OBTIDA POR ONDAS DE RÁDIO É\nCHAMADA DE NAVEGAÇÃO:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "estimada",
+    "B": "celestial",
+    "C": "eletrônica",
+    "D": "radiogoniométrica",
+    "RESP": "D"
+  },
+  {
+    "ID": 1256,
+    "PERGUNTA": "O ÂNGULO FORMADO ENTRE O MERIDIANO MAGNÉTICO E A LINHA NORTE/SUL DA BÚSSOLA\nCHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "PB",
+    "B": "PM",
+    "C": "desvio de bússola",
+    "D": "declinação magnética",
+    "RESP": "C"
+  },
+  {
+    "ID": 1257,
+    "PERGUNTA": "DADOS:\nPV: 100°\nDV/VV: 080°/20 KT VA: 120 KT.\nO RV EM GRAUS SERÁ:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": 91,
+    "B": 94,
+    "C": 97,
+    "D": 103,
+    "RESP": "D"
+  },
+  {
+    "ID": 1207,
+    "PERGUNTA": "A LATITUDE MÉDIA ENTRE AS LATITUDES 34°20'S E\n35°40'N SERÁ DE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "00°40'N",
+    "B": "01°20'S",
+    "C": "17°10'N",
+    "D": "35°00'S",
+    "RESP": "A"
+  },
+  {
+    "ID": 1165,
+    "PERGUNTA": "A COMPONENTE VERTICAL DA BÚSSOLA É MÁXIMA:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "nos pólos magnéticos",
+    "B": "próximo a o Equador\nmagnético",
+    "C": "na latitude de 45° Norte ou Sul",
+    "D": "na longitude de 060° Norte ou\nSul",
+    "RESP": "A"
+  },
+  {
+    "ID": 1337,
+    "PERGUNTA": "CALCULAR ENTRE OS PONTOS \"A\" E \"B\" A LATITUDE\nMÉDIA. A: 20°30'N B: 20°33'S",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "00°01'30\"S",
+    "B": "00°01'30\"N",
+    "C": "01°30'30\"S",
+    "D": "01°30'30\"N",
+    "RESP": "A"
+  },
+  {
+    "ID": 1292,
+    "PERGUNTA": "QUE VELOCIDADE DEVERÁ TER UMA AERONAVE PARA REALIZAR UM PERCURSO DE 425 NM EM 2 HORAS E 30\nMIN?",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "170 Km/h",
+    "B": "425 NM",
+    "C": "315 Km/h",
+    "D": "315 NM",
+    "RESP": "C"
+  },
+  {
+    "ID": 1254,
+    "PERGUNTA": "O RÁDIO RECEPTOR COM A ANTENA LOOP, QUE É CAPAZ DE DETERMINAR A DIREÇÃO DAS ONDAS EMITIDAS POR UMA ESTAÇÃO E QUE COMUMENTE SOFRE COM OS PROBLEMAS DE DESCARGAS ELÉTRICAS DA ATMOSFERA, DENOMINA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "ADF",
+    "B": "VOR",
+    "C": "ILS",
+    "D": "ALS",
+    "RESP": "A"
+  },
+  {
+    "ID": 1163,
+    "PERGUNTA": "UMA LINHA RETA TRAÇADA EM UMA CARTA LAMBERT\nCONFORMAL REPRESENTA UMA ROTA:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "loxodrômica",
+    "B": "ortodrômica",
+    "C": "cônica dupla",
+    "D": "de círculo mínimo",
+    "RESP": "B"
+  },
+  {
+    "ID": 1276,
+    "PERGUNTA": "UMA AERONAVE PARA SE MANTER SOBRE A LINHA DE ROTA DESEJADA COM UM VENTO DO SETOR DE\nCAUDA E PELA ESQUERDA DEVERÁ TER:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "ACD positivo",
+    "B": "ACD negativo",
+    "C": "ACD nulo",
+    "D": "deriva nula",
+    "RESP": "B"
+  },
+  {
+    "ID": 1194,
+    "PERGUNTA": "O ÂNGULO FORMADO ENTRE UM MERIDIANO\nMAGNÉTICO E UMA LINHA DE ROTA, CHAMA-SE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "proa magnética",
+    "B": "rumo magnético",
+    "C": "proa verdadeira",
+    "D": "rumo verdadeiro",
+    "RESP": "B"
+  },
+  {
+    "ID": 1338,
+    "PERGUNTA": "EM LATITUDES ELEVADAS, AS LINHAS TRAÇADAS NAS CARTAS UNINDO OS PONTOS DE MESMA INCLINAÇÃO\nMAGNÉTICA, CHAMAM-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "desvios",
+    "B": "agônicas",
+    "C": "isogônicas",
+    "D": "isoclínicas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1234,
+    "PERGUNTA": "A COMPONENTE CUJA FORÇA DIRECIONAL É MÍNIMA\nNOS PÓLOS MAGNÉTICOS CHAMA-SE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "agônica",
+    "B": "vertical",
+    "C": "inclinada",
+    "D": "horizontal",
+    "RESP": "D"
+  },
+  {
+    "ID": 1334,
+    "PERGUNTA": "DADOS:\nPV: 200°\nVA: 150 KT\nDV/VV: 120°/25 KT\nO ÂNGULO DE CORREÇÃO DE DERIVA SERÁ:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "09° negativos",
+    "B": "09° positivos",
+    "C": "24° negativos",
+    "D": "24° positivos",
+    "RESP": "A"
+  },
+  {
+    "ID": 1346,
+    "PERGUNTA": "A REPRESENTAÇÃO GRÁFICA DA SUPERFÍCIE DA TERRA\nDESENVOLVIDA NUM PLANO, SEM GRANDES DETALHES DE PROJEÇÃO CHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "mapa",
+    "B": "visão",
+    "C": "projeção",
+    "D": "carta de navegação",
+    "RESP": "A"
+  },
+  {
+    "ID": 1252,
+    "PERGUNTA": "AS HORAS UTC, HLE E HLO SÃO IGUAIS NO\nMERIDIANO:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "05°",
+    "B": "10°",
+    "C": "15°",
+    "D": "zero grau",
+    "RESP": "D"
+  },
+  {
+    "ID": 1245,
+    "PERGUNTA": "A ROTA ORTODRÔMICA, TAMBÉM CONHECIDA COMO\nROTA E CÍRCULO MÁXIMO, CORTA OS MERIDIANOS EM ÂNGULOS:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "iguais",
+    "B": "agudos",
+    "C": "diferentes",
+    "D": "retos",
+    "RESP": "C"
+  },
+  {
+    "ID": 1205,
+    "PERGUNTA": "EM RELAÇÃO A HORA LEGAL, PARA LOCAIS QUE\nESTEJAM DO LADO OESTE, A HORA UTC SERÁ:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "mais cedo",
+    "B": "mais tarde",
+    "C": "no Brasil, mais cedo",
+    "D": "na França, mais tarde",
+    "RESP": "B"
+  },
+  {
+    "ID": 1335,
+    "PERGUNTA": "DADOS:\nTAS: 300 KT\nTEMPERATURA: 20°C NEGATIVOS O NÚMERO MACH SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": 0.39,
+    "B": 0.42,
+    "C": 0.45,
+    "D": 0.48,
+    "RESP": "D"
+  },
+  {
+    "ID": 1347,
+    "PERGUNTA": "A VA SOFRENDO A INFLUÊNCIA DE UMA\nCOMPONENTE DE VENTO POSITIVO OU NEGATIVO PASSARÁ A SER:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "VS",
+    "B": "VC",
+    "C": "VI",
+    "D": "VE",
+    "RESP": "A"
+  },
+  {
+    "ID": 1191,
+    "PERGUNTA": "DURANTE 1H E 30MIN, UMA ACFT PERCORRERÁ 232 NM. A VELOCIDADE DESENVOLVIDA SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "148 KT",
+    "B": "155 Km/h",
+    "C": "275 KT",
+    "D": "285 Km/h",
+    "RESP": "D"
+  },
+  {
+    "ID": 1222,
+    "PERGUNTA": "O ÂNGULO ENTRE O EIXO LONGITUDINAL DA AERONAVE E A TRAJETÓRIA PERCORRIDA PELA\nAERONAVE CHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "deriva",
+    "B": "correção de deriva",
+    "C": "ângulo de interceptação",
+    "D": "de erro do piloto",
+    "RESP": "A"
+  },
+  {
+    "ID": 1322,
+    "PERGUNTA": "O ALTÍMETRO É LIGADO A(S) LINHA(S) DE PRESSÃO:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "de impacto",
+    "B": "estática",
+    "C": "estática e impacto",
+    "D": "de impacto e dinâmica",
+    "RESP": "B"
+  },
+  {
+    "ID": 1162,
+    "PERGUNTA": "A MEDIDA ANGULAR DO ARCO DE MERIDIANO, COMPREENDIDO ENTRE DOIS PARALELOS, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "latitude média",
+    "B": "longitude média",
+    "C": "diferença de latitude",
+    "D": "diferença de longitude",
+    "RESP": "C"
+  },
+  {
+    "ID": 1224,
+    "PERGUNTA": "PARA SE MANTER SOBRE A ROTA O PILOTO NECESSITOU USAR PROA MAIOR DO QUE  O RUMO E UMA VA MENOR DO QUE VS. O VENTO É DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "direita e proa",
+    "B": "esquerda e proa",
+    "C": "direita e cauda",
+    "D": "esquerda e cauda",
+    "RESP": "C"
+  },
+  {
+    "ID": 1315,
+    "PERGUNTA": "PARA SE MANTER EM SUA ROTA, O PILOTO NECESSITOU USAR PROA MAIOR DO QUE A ROTA E UMA VA MAIOR DO QUE A VS. PERGUNTA-SE: O\nVENTO VEM DE?",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "direita e proa",
+    "B": "direita e cauda",
+    "C": "esquerda e proa",
+    "D": "esquerda e cauda",
+    "RESP": "A"
+  },
+  {
+    "ID": 1295,
+    "PERGUNTA": "DIZEMOS QUE O VENTO SEMPRE SOPRA DA PROA PARA O RUMO E COM ISSO DETERMINA UM ÂNGULO\nCHAMADO:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "deriva",
+    "B": "desvio",
+    "C": "correção",
+    "D": "declinação",
+    "RESP": "A"
+  },
+  {
+    "ID": 1291,
+    "PERGUNTA": "O PILOTO TERÁ SEMPRE A PROA IGUAL A ROTA VOADA\nQUANDO O VENTO FOR:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "de proa",
+    "B": "de cauda",
+    "C": "nulo",
+    "D": "todas as citadas",
+    "RESP": "D"
+  },
+  {
+    "ID": 1192,
+    "PERGUNTA": "AO COMPLEMENTO DA LATITUDE DÁ-SE O NOME DE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "colatitude",
+    "B": "antilatitude",
+    "C": "latitude inferior",
+    "D": "latitude superior",
+    "RESP": "A"
+  },
+  {
+    "ID": 1353,
+    "PERGUNTA": "QUAL A LATITUDE MÉDIA DAS LATITUDES 34°20'S E\n36°40'N?",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "35°00'N",
+    "B": "00°40'N",
+    "C": "01°10'N",
+    "D": "18°10'S",
+    "RESP": "C"
+  },
+  {
+    "ID": 1316,
+    "PERGUNTA": "UMA AERONAVE PERCORRE 105 NM EM 45 MIN. EM\nUMA HORA PERCORRERÁ:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "258 NM",
+    "B": "140 NM",
+    "C": "140 Km",
+    "D": "147 NM",
+    "RESP": "B"
+  },
+  {
+    "ID": 1280,
+    "PERGUNTA": "A ALTITUDE OBTIDA QUANDO SE AJUSTA O\nALTÍMETRO PARA 1013.2 HPA É:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "indicada",
+    "B": "verdadeira",
+    "C": "absoluta",
+    "D": "pressão",
+    "RESP": "D"
+  },
+  {
+    "ID": 1233,
+    "PERGUNTA": "É CONSIDERADA UMA DESVANTAGEM DA PROJEÇÃO LAMBERT:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "difícil construção",
+    "B": "escala de distância constate",
+    "C": "paralelos e meridianos cortam- se a 90°",
+    "D": "um círculo máximo é\nrepresentado por uma linha reta",
+    "RESP": "A"
+  },
+  {
+    "ID": 1343,
+    "PERGUNTA": "QUANDO UMA ACFT VOA DE UMA REGIÃO DE ALTA\nPRESSÃO PARA UMA DE BAIXA PRESSÃO, A ALTITUDE VERDADEIRA:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "diminui",
+    "B": "aumenta",
+    "C": "não se altera",
+    "D": "é igual a absoluta",
+    "RESP": "A"
+  },
+  {
+    "ID": 1179,
+    "PERGUNTA": "O ARCO DE MERIDIANO, COMPREENDIDO ENTRE OS\nPARALELOS DE DOIS PONTOS, CHAMA-SE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "latitude média",
+    "B": "longitude média",
+    "C": "diferença de latitude",
+    "D": "diferença de longitude",
+    "RESP": "C"
+  },
+  {
+    "ID": 1199,
+    "PERGUNTA": "NUMA PROJEÇÃO MERCATOR OS MERIDIANOS E\nPARALELOS CORTAM-SE EM ÂNGULOS:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "retos",
+    "B": "agudos",
+    "C": "obtusos",
+    "D": "diferentes",
+    "RESP": "A"
+  },
+  {
+    "ID": 1330,
+    "PERGUNTA": "EM UMA PROJEÇÃO ESTEREOGRÁFICA, AS LINHAS DE\nPROJEÇÃO TEM ORIGEM NO:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "infinito",
+    "B": "centro da Terra",
+    "C": "ponto de tangência",
+    "D": "ponto oposto ao ponto de\ntangência",
+    "RESP": "D"
+  },
+  {
+    "ID": 1321,
+    "PERGUNTA": "DADOS:\nPM: 100°\nRM: 090° DB: 5°E\nNESTE CASO A DERIVA É:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "-5°",
+    "B": "-10°",
+    "C": "+5°",
+    "D": "+10°",
+    "RESP": "B"
+  },
+  {
+    "ID": 1319,
+    "PERGUNTA": "NA TEORIA DOS FUSOS HORÁRIOS, O MERIDIANO DE\n180° É CONHECIDO COMO:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "antimeridiano",
+    "B": "colatitude",
+    "C": "referência inicial para\ncontagem das longitudes",
+    "D": "linha internacional de\nmudança de data",
+    "RESP": "D"
+  },
+  {
+    "ID": 1203,
+    "PERGUNTA": "DADOS:\nTEMPERATURA VERDADEIRA DO AR 30°C NEGATIVOS: NÚMERO MACH: .45\nA TAS SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "273 Km/h",
+    "B": "305 Km/h",
+    "C": "506 Km/h",
+    "D": "515 Km/h",
+    "RESP": "A"
+  },
+  {
+    "ID": 1277,
+    "PERGUNTA": "A PB É 150°, A DMG É 16°W, O DESVIO É 01°E, A CORREÇÃO DE DERIVA É 05° POSITIVOS. O RV SERÁ:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "130°",
+    "B": "140°",
+    "C": "160°",
+    "D": "170°",
+    "RESP": "A"
+  },
+  {
+    "ID": 1305,
+    "PERGUNTA": "QUANDO A ALTITUDE INDICADA É CORRIGIDA PARA OS ERROS DE INSTRUMENTO E DE INSTALAÇÃO DO\nMESMO, DENOMINA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "absoluta",
+    "B": "calibrada",
+    "C": "densidade",
+    "D": "verdadeira",
+    "RESP": "B"
+  },
+  {
+    "ID": 1161,
+    "PERGUNTA": "EM SEU MOVIMENTO DE ROTAÇÃO, A TERRA GIRA EM TORNO DE SEU EIXO IMAGINÁRIO, NO SENTIDO:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "Norte-Sul",
+    "B": "Sul-Norte",
+    "C": "Oeste-Leste",
+    "D": "Leste-Oeste",
+    "RESP": "C"
+  },
+  {
+    "ID": 1243,
+    "PERGUNTA": "O ÂNGULO FORMADO ENTRE O MERIDIANO VERDADEIRO E O EIXO LONGITUDINAL DA AERONAVE\nCHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "PM",
+    "B": "PB",
+    "C": "PV",
+    "D": "DMC",
+    "RESP": "C"
+  },
+  {
+    "ID": 1241,
+    "PERGUNTA": "O ARCO DE EQUADOR COMPREENDIDO ENTRE O\nMERIDIANO DE GREENWICH E UM MERIDIANO QUALQUER É CHAMADO:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "longitude",
+    "B": "colatitude",
+    "C": "latitude",
+    "D": "diferença de latitude",
+    "RESP": "A"
+  },
+  {
+    "ID": 1355,
+    "PERGUNTA": "EM QUANTO TEMPO O SOL PERCORRERÁ EM SEU MOVIMENTO APARENTE UM ARCO DE LONGITUDE\nCORRESPONDENTE A 078°30'?",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "05h 11m",
+    "B": "05h 12m",
+    "C": "05h 13m",
+    "D": "05h 14m",
+    "RESP": "D"
+  },
+  {
+    "ID": 1171,
+    "PERGUNTA": "O MENOR ARCO DE PARALELO OU DE EQUADOR COMPREENDIDO ENTRE OS MERIDIANOS DOS PONTOS\nCONSIDERADOS, DENOMINA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "latitude",
+    "B": "longitude",
+    "C": "diferença da latitude",
+    "D": "diferença de longitude",
+    "RESP": "D"
+  },
+  {
+    "ID": 1352,
+    "PERGUNTA": "CONSIDERANDO PV MENOR QUE RV E VA MENOR QUE\nVS, O VENTO SOPRA DO SETOR DE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "cauda e pala direita",
+    "B": "proa e pela direita",
+    "C": "proa e pela esquerda",
+    "D": "cauda e pela esquerda",
+    "RESP": "D"
+  },
+  {
+    "ID": 1200,
+    "PERGUNTA": "A DISTÂNCIA VERTICAL REAL, ACIMA DO NÍVEL DO\nMAR, CORRIGIDA PARA AS VARIAÇÕES DE PRESSÃO E TEMPERATURA, E A ALTITUDE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "pressão",
+    "B": "absoluta",
+    "C": "calibrada",
+    "D": "verdadeira",
+    "RESP": "D"
+  },
+  {
+    "ID": 1356,
+    "PERGUNTA": "CÍRCULO MÁXIMO É UM CÍRCULO:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "paralelo ao Equador",
+    "B": "cujo plano não passa pelo\ncentro da Terra",
+    "C": "que não divide a Terra em\nduas partes iguais",
+    "D": "cujo centro e raio são os\nmesmos da própria esfera",
+    "RESP": "D"
+  },
+  {
+    "ID": 1218,
+    "PERGUNTA": "QUE VELOCIDADE DEVERÁ TER UMA AERONAVE PARA REALIZAR UM PERCURSO DE 425 NM EM 02H E\n30MIN?",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "170 Km/h",
+    "B": "160 KT",
+    "C": "315 Km/h",
+    "D": "320 KT",
+    "RESP": "C"
+  },
+  {
+    "ID": 1293,
+    "PERGUNTA": "UMA PROJEÇÃO GNOMÔNICA TEM SEU PONTO DE\nORIGEM NO:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "pólo",
+    "B": "Equador",
+    "C": "centro da Terra",
+    "D": "infinito",
+    "RESP": "C"
+  },
+  {
+    "ID": 1314,
+    "PERGUNTA": "DADOS:\nPROA MAGNÉTICA: 060° DESVIO DE BÚSSOLA: 05°W\nDECLINAÇÃO MAGNÉTICA: 20°W\nPEDE-SE A PROA VERDADEIRA E A PROA BÚSSOLA.",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "PV 040° / PB 055°",
+    "B": "PV 040° / PB 065°",
+    "C": "PV 080° / PB 065°",
+    "D": "PV 080° / PB 055°",
+    "RESP": "B"
+  },
+  {
+    "ID": 1348,
+    "PERGUNTA": "NA TEORIA DOS FUSOS HORÁRIOS, A LINHA\nINTERNACIONAL DE MUDANÇA DE DATA É A(O):",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "colatitude",
+    "B": "antimeridiano",
+    "C": "meridiano de 180°",
+    "D": "referência inicial para\ncontagem das longitudes",
+    "RESP": "C"
+  },
+  {
+    "ID": 1267,
+    "PERGUNTA": "UMA AERONAVE NO FL 090 COM TEMPERATURA DO AR DE 10°C POSITIVOS E UMA VI DE 140 KT TERÁ UMA\nVA DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "164 Km/h",
+    "B": "292 Km/h",
+    "C": "294 Km/h",
+    "D": "304 Km/h",
+    "RESP": "D"
+  },
+  {
+    "ID": 1226,
+    "PERGUNTA": "UMA AERONAVE MANTÉM PV 350° E SUA LINHA DE\nROTA CORTA AS ISOGÔNICAS DE 12°W A 18°W. QUAL A PM MÉDIA QUE DEVERÁ MANTER?",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "365°",
+    "B": "335°",
+    "C": "005°",
+    "D": "356°",
+    "RESP": "C"
+  },
+  {
+    "ID": 1178,
+    "PERGUNTA": "PARA AS LOCALIDADES QUE ESTEJAM DO LADO LESTE,\nA HORA LEGAL EM RELAÇÃO À UTC, É:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "a mesma",
+    "B": "mais cedo",
+    "C": "mais tarde",
+    "D": "igual a HLO",
+    "RESP": "C"
+  },
+  {
+    "ID": 1246,
+    "PERGUNTA": "A ABREVIATURA \"SSW\" PERTENCE AO GRUPO DE\nPONTOS:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "cardeais",
+    "B": "colaterais",
+    "C": "subcardeais",
+    "D": "subcolaterais",
+    "RESP": "D"
+  },
+  {
+    "ID": 1190,
+    "PERGUNTA": "O CÍRCULO MÁXIMO ONDE É INICIADA A CONTAGEM\nDAS LATITUDES É O:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "Equador",
+    "B": "Trópico de Câncer",
+    "C": "Meridiano de Greenwich",
+    "D": "Trópico de Capricórnio",
+    "RESP": "A"
+  },
+  {
+    "ID": 1339,
+    "PERGUNTA": "DADOS:\nPM: 300° DMG: 10°E\nDESVIO DE BÚSSOLA: 06°W\nPEDE-SE, RESPECTIVAMENTE, A PB E A PV:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "290° / 294°",
+    "B": "290° / 306°",
+    "C": "294° / 310°",
+    "D": "306° / 310°",
+    "RESP": "D"
+  },
+  {
+    "ID": 1180,
+    "PERGUNTA": "A UNIDADE DE VELOCIDADE KT (NÓ) É A RELAÇÃO\nENTRE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "NM e hora",
+    "B": "Km e hora",
+    "C": "m e hora",
+    "D": "FT e hora",
+    "RESP": "A"
+  },
+  {
+    "ID": 1169,
+    "PERGUNTA": "O ADF É UM RECEPTOR QUE SERVE PARA SINTONIZAR\nESTAÇÕES DE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "VOR",
+    "B": "NDB",
+    "C": "DME",
+    "D": "RDL",
+    "RESP": "B"
+  },
+  {
+    "ID": 1221,
+    "PERGUNTA": "O INSTRUMENTO QUE INDICA AO PILOTO A RAZÃO DE\nSUBIDA OU DESCIDA CHAMA-SE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "altímetro",
+    "B": "RMI",
+    "C": "climb",
+    "D": "DME",
+    "RESP": "C"
+  },
+  {
+    "ID": 1239,
+    "PERGUNTA": "QUAL DAS ALTERNATIVAS ABAIXO É CONSIDERADA\nCOMO UM CÍRCULO MENOR?",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "Equador",
+    "B": "paralelo",
+    "C": "meridiano",
+    "D": "antimeridiano",
+    "RESP": "B"
+  },
+  {
+    "ID": 1166,
+    "PERGUNTA": "DADOS: PB: 200° DMG: 20°W DESVIO DE BÚSSOLA: 05°E A PV E PM SERÃO, RESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "175° / 195°",
+    "B": "175° / 215°",
+    "C": "205° / 225°",
+    "D": "185° / 205°",
+    "RESP": "D"
+  },
+  {
+    "ID": 1275,
+    "PERGUNTA": "A UTC NUM LUGAR DE LONGITUDE 147°W É 09:00H DO DIA 24/09/89. PEDE-SE HLO/HLE/DATA E NÚMERO\nDO FUSO DO LUGAR.",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "19:00h / 23:00h / dia 23 / F+10",
+    "B": "23:12h / 23:00h / dia 24 / F+9",
+    "C": "18:48h / 23:12h / dia 23 / F+10",
+    "D": "23:12h / 23:00h / dia 23 / F+10",
+    "RESP": "D"
+  },
+  {
+    "ID": 1232,
+    "PERGUNTA": "A ROTA QUE CORTA TODOS OS MERIDIANOS EM\nÂNGULOS IGUAIS É CHAMADA:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "ortodrômica",
+    "B": "magnética",
+    "C": "loxodrômica",
+    "D": "bússola",
+    "RESP": "C"
+  },
+  {
+    "ID": 1209,
+    "PERGUNTA": "DADOS:\nTAS: 300 KT\nTEMPERATURA: 14°C NEGATIVOS O NÚMERO MACH SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": 0.39,
+    "B": 0.42,
+    "C": 0.45,
+    "D": 0.48,
+    "RESP": "D"
+  },
+  {
+    "ID": 1297,
+    "PERGUNTA": "COM VENTO EXATAMENTE DE PROA, TERÍAMOS A\nSEGUINTE CONDIÇÃO:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "RV igual a PV e VS menor do\nque a VA",
+    "B": "RV igual a PV e VS igual a VA",
+    "C": "RV igual a PV e VS maior do\nque a VA",
+    "D": "RV menor do que a PV e VS\nigual a VA",
+    "RESP": "A"
+  },
+  {
+    "ID": 1168,
+    "PERGUNTA": "A DIFERENÇA HORÁRIA ENTRE O FUSO 120°W E O\nFUSO 135°E É DE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "01 h",
+    "B": "08 h",
+    "C": "09 h",
+    "D": "17 h",
+    "RESP": "D"
+  },
+  {
+    "ID": 1198,
+    "PERGUNTA": "WSW PERTENCENTE AO GRUPO DE PONTOS\nSUBCOLATERAIS, MAIS PRECISAMENTE NO SETOR DIRECIONAL, É A ABREVIATURA DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "Oestesudeste",
+    "B": "Oestenoroeste",
+    "C": "Oestenordeste",
+    "D": "Oestesudoeste",
+    "RESP": "D"
+  },
+  {
+    "ID": 1172,
+    "PERGUNTA": "A PROJEÇÃO QUE APRESENTA GRANDES DISTORÇÕES\nNAS ÁREAS PROJETADAS EM ALTAS LATITUDES, DENOMINA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "Lambert",
+    "B": "zenital",
+    "C": "azimutal",
+    "D": "Mercator",
+    "RESP": "D"
+  },
+  {
+    "ID": 1341,
+    "PERGUNTA": "SUBTRAINDO-SE A ELEVAÇÃO DO TERRENO DA\nALTITUDE VERDADEIRA, TEM-SE A ALTITUDE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "absoluta",
+    "B": "indicada",
+    "C": "calibrada",
+    "D": "densidade",
+    "RESP": "A"
+  },
+  {
+    "ID": 1219,
+    "PERGUNTA": "NUMA PROJEÇÃO GNOMÔNICA POLAR, O PONTO DE\nORIGEM DA PROJEÇÃO É O:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "pólo",
+    "B": "Equador",
+    "C": "centro da Terra",
+    "D": "infinito",
+    "RESP": "C"
+  },
+  {
+    "ID": 1249,
+    "PERGUNTA": "O ÂNGULO FORMADO ENTRE O RUMO E A PROA,\nDENOMINA-SE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "desvio",
+    "B": "deriva",
+    "C": "correção de desvio",
+    "D": "correção de deriva",
+    "RESP": "D"
+  },
+  {
+    "ID": 1296,
+    "PERGUNTA": "VOANDO ENTRE AS DMG 5°E E 9°W, PARA MANTER UMA PM MÉDIA QUAL A DMG A SER USADA?",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "2°W",
+    "B": "5°W",
+    "C": "7°W",
+    "D": "9°W",
+    "RESP": "A"
+  },
+  {
+    "ID": 1327,
+    "PERGUNTA": "O MÉTODO DE CONDUZIR UMA AERONAVE SOBRE A SUPERFÍCIE DA TERRA, PROCURANDO ELEMENTOS DE DESTAQUE PARA ORIENTAR SUA ROTA, CHAMA-SE\nNAVEGAÇÃO:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "rádio",
+    "B": "por estima",
+    "C": "eletrônica",
+    "D": "por contato",
+    "RESP": "D"
+  },
+  {
+    "ID": 1342,
+    "PERGUNTA": "QUANDO A ORIGEM DE UMA PROJEÇÃO É UM DOS\nPÓLOS E A SUPERFÍCIE TANGENTE ESTÁ NO PÓLO OPOSTO, ELA É CLASSIFICADA COMO:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "gnomônica",
+    "B": "estereográfica",
+    "C": "ortográfica",
+    "D": "infinita",
+    "RESP": "B"
+  },
+  {
+    "ID": 1182,
+    "PERGUNTA": "A DISTÂNCIA VERTICAL DE UM PONTO OU DE UMA AERONAVE, ACIMA DO NÍVEL DO MAR, CORRIGIDA PARA AS VARIAÇÕES DE PRESSÃO E TEMPERATURA,\nDENOMINA-SE ALTITUDE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "pressão",
+    "B": "absoluta",
+    "C": "calibrada",
+    "D": "verdadeira",
+    "RESP": "D"
+  },
+  {
+    "ID": 1196,
+    "PERGUNTA": "O MÉTODO DE NAVEGAÇÃO PELO QUAL A POSIÇÃO DA ACFT É OBTIDA ATRAVÉS DE INSTRUMENTOS ELETRÔNICOS, SENDO BASEADO NA RECEPÇÃO DE SINAIS EMISSORES ESPECIAIS, CHAMA-SE",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "estimada",
+    "B": "eletrônica",
+    "C": "por contato",
+    "D": "astronômica",
+    "RESP": "B"
+  },
+  {
+    "ID": 1326,
+    "PERGUNTA": "O NÚMERO DE CICLOS POR SEGUNDO É CHAMADO DE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "absorção",
+    "B": "difração",
+    "C": "refração",
+    "D": "freqüência",
+    "RESP": "D"
+  },
+  {
+    "ID": 1240,
+    "PERGUNTA": "A FORÇA DO CAMPO MAGNÉTICO DA TERRA QUE FAZ UMA AGULHA ALINHAR-SE NA DIREÇÃO NORTE/SUL\nCHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "inclinação magnética",
+    "B": "isoclínica",
+    "C": "componente vertical",
+    "D": "componente horizontal",
+    "RESP": "D"
+  },
+  {
+    "ID": 1214,
+    "PERGUNTA": "UMA ACFT POUSARÁ ÀS 10:00H UTC DO DIA 10/11/96 EM UM LUGAR DE LONGITUDE 078°W. A HLO, HLE E O FUSO DAQUELE LUGAR SERÃO, RESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "05:00h / 04:48h e 5",
+    "B": "04:48h / 05:00h e 6",
+    "C": "04:48h / 05:00h e 5",
+    "D": "05:00h / 04:48h e 6",
+    "RESP": "C"
+  },
+  {
+    "ID": 1173,
+    "PERGUNTA": "NAS CARTAS DE NAVEGAÇÃO, AS LINHAS UNINDO OS PONTOS DE MESMA DMG, DENOMINAM-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "isóbaras",
+    "B": "isogônicas",
+    "C": "isoclínicas",
+    "D": "isotérmicas",
+    "RESP": "B"
+  },
+  {
+    "ID": 1324,
+    "PERGUNTA": "SENDO DADOS PM 050 E DR -6°. QUAL O RM?",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "040°",
+    "B": "044°",
+    "C": "050°",
+    "D": "056°",
+    "RESP": "B"
+  },
+  {
+    "ID": 1328,
+    "PERGUNTA": "O ARCO DE MERIDIANO COMPREENDIDO ENTRE O EQUADOR E O PARALELO DE UM LUGAR CHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "latitude",
+    "B": "longitude",
+    "C": "diferença de latitude",
+    "D": "diferença de longitude",
+    "RESP": "A"
+  },
+  {
+    "ID": 1272,
+    "PERGUNTA": "UMA AERONAVE VOANDO COM PV 120° CORTA LINHAS ISOGÔNICAS DE 20°W A 28°W. QUAL A PM\nMÉDIA QUE DEVERÁ VOAR?",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "122°",
+    "B": "128°",
+    "C": "144°",
+    "D": "168°",
+    "RESP": "C"
+  },
+  {
+    "ID": 1274,
+    "PERGUNTA": "NUMA CARTA DE ESCALA 1 POR 3.500.000, 3 CM\nREPRESENTA:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "10.500 Km",
+    "B": "1.050 Km",
+    "C": "105 NM",
+    "D": "56.5 NM",
+    "RESP": "D"
+  },
+  {
+    "ID": 1175,
+    "PERGUNTA": "O ÂNGULO FORMADO ENTRE A PROA DA AERONAVE E A ROTA A SER PERCORRIDA PELA MESMA, DENOMINA-\nSE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "deriva",
+    "B": "desvio de bússola",
+    "C": "correção de deriva",
+    "D": "declinação magnética",
+    "RESP": "A"
+  },
+  {
+    "ID": 1242,
+    "PERGUNTA": "PARA VOAR NO RV 120° A AERONAVE MANTÉM PV 125°. QUAL SERÁ A PV DE REGRESSO, SABENDO-SE\nQUE O VENTO É O MESMO?",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "125°",
+    "B": "295°",
+    "C": "300°",
+    "D": "305°",
+    "RESP": "B"
+  },
+  {
+    "ID": 1301,
+    "PERGUNTA": "A PERDA DE ENERGIA ELETROMAGNÉTICA DE UM RÁDIO-TRANSMISSOR, ABSORVIDA POR OBJETOS PRÓXIMOS AO MESMO, TAIS COMO ÁRVORES E\nEDIFÍCIOS, CHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "absorção",
+    "B": "refração",
+    "C": "reflexão",
+    "D": "difração",
+    "RESP": "A"
+  },
+  {
+    "ID": 1286,
+    "PERGUNTA": "DADOS:\nPV: 240°\nTAS: 100 KT DV/VV: 080°/20 KT\nRV E VS SERÃO, RESPECTIVAMENTE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "237° / 81 KT",
+    "B": "243° / 119 KT",
+    "C": "237° / 119 KT",
+    "D": "243° / 81 KT",
+    "RESP": "B"
+  },
+  {
+    "ID": 1317,
+    "PERGUNTA": "NUMA CIDADE SITUADA NA LONGITUDE 120°W SÃO\n10 HORAS (HLO). PEDE-SE A UTC:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "18:00Z",
+    "B": "13:00Z",
+    "C": "02:00Z",
+    "D": "07:00Z",
+    "RESP": "A"
+  },
+  {
+    "ID": 1340,
+    "PERGUNTA": "FAZENDO-SE A CONVERSÃO DE 50 LITROS EM US\nGALÕES TEM-SE:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": 1.32,
+    "B": 13.2,
+    "C": 132,
+    "D": 1320,
+    "RESP": "B"
+  },
+  {
+    "ID": 1259,
+    "PERGUNTA": "O ÂNGULO DE DERIVA É O ÂNGULO FORMADO ENTRE\nA PROA DA AERONAVE E A/O:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "Norte verdadeiro",
+    "B": "Norte magnético",
+    "C": "rumo a seguir",
+    "D": "linha Norte/Sul da bússola",
+    "RESP": "C"
+  },
+  {
+    "ID": 1183,
+    "PERGUNTA": "A COMPONENTE DA FORÇA DO CAMPO MAGNÉTICO DA TERRA, QUE CAUSA O ÂNGULO DE INCLINAÇÃO, É\nA:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "vertical",
+    "B": "horizontal",
+    "C": "do Equador",
+    "D": "do círculo máximo",
+    "RESP": "A"
+  },
+  {
+    "ID": 1208,
+    "PERGUNTA": "DADOS:\nPV: 200°\nVA: 150 KT\nDV/VV: 120°/25 KT\nO ÂNGULO DE CORREÇÃO DE DERIVA SERÁ:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "09° negativos",
+    "B": "09° positivos",
+    "C": "24° negativos",
+    "D": "24° positivos",
+    "RESP": "A"
+  },
+  {
+    "ID": 1320,
+    "PERGUNTA": "UMA AERONAVE PERCORREU 150 NM EM 34 MIN E MANTEVE PB 070° E VA 280 KT. O RM ERA DE 060°, DMG 24°E, DESVIO DE BÚSSOLA 05°W. QUAL O VENTO\nENCONTRADO?",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "160° / 40 KT",
+    "B": "150° / 35 KT",
+    "C": "140° / 30 KT",
+    "D": "130° / 20 KT",
+    "RESP": "C"
+  },
+  {
+    "ID": 1312,
+    "PERGUNTA": "AO EFETUAR UMA SUBIDA NUMA ATMOSFERA\nPADRÃO, O PILOTO OBSERVA QUE A TEMPERATURA DECRESCE EM 2°C PARA CADA.",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "1.000 pés",
+    "B": "500 pés",
+    "C": "1.000 metros",
+    "D": "500 metros",
+    "RESP": "A"
+  },
+  {
+    "ID": 1195,
+    "PERGUNTA": "DADOS: ALTITUDE PRESSÃO: 10.000 FT | TEMPERATURA VERDADEIRA DO AR: 15°C | ALTITUDE CALIBRADA: 15.000 FT | AJUSTE DE PRESSÃO QNH: 1002,3 HPA. A ALTITUDE VERDADEIRA SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "10.470 FT",
+    "B": "11.130 FT",
+    "C": "10.070 FT",
+    "D": "9.530 FT",
+    "RESP": "A"
+  },
+  {
+    "ID": 1264,
+    "PERGUNTA": "O ARCO DE MERIDIANO COMPREENDIDO ENTRE UM PARALELO DE LATITUDE E O PÓLO CHAMA-SE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "latitude média",
+    "B": "diferença de longitude",
+    "C": "latitude",
+    "D": "colatitude",
+    "RESP": "D"
+  },
+  {
+    "ID": 1247,
+    "PERGUNTA": "EM UMA PROJEÇÃO LAMBERT, UMA ROTA\nLOXODRÔMICA É REPRESENTADA POR UM(A):",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "linha reta",
+    "B": "linha curva",
+    "C": "círculo menor",
+    "D": "círculo máximo",
+    "RESP": "B"
+  },
+  {
+    "ID": 1350,
+    "PERGUNTA": "UMA AERONAVE ENCONTRA-SE POUSADA NUM AEROPORTO SITUADO A 2.500 FT DE ALTITUDE E TEM SEU ALTÍMETRO AJUSTADO EM QFE. A ALTITUDE\nINDICADA NO INSTRUMENTO SERÁ:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "zero",
+    "B": "2.500 FT acima do nível do mar",
+    "C": "2.500 FT acima do nível de pressão padrão",
+    "D": "2.500 FT acima do nível de pressão da estação",
+    "RESP": "A"
+  },
+  {
+    "ID": 1185,
+    "PERGUNTA": "EM UMA CIDADE SITUADA NA LONGITUDE 120°W SÃO\n10 HORAS (HLO). A UTC É:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "02:00 Z",
+    "B": "07:00 Z",
+    "C": "13:00 Z",
+    "D": "18:00 Z",
+    "RESP": "D"
+  },
+  {
+    "ID": 1255,
+    "PERGUNTA": "A PROJEÇÃO EM QUE OS PARALELOS E MERIDIANOS\nCORTAM-SE A 090° É A:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "gnomônica",
+    "B": "Mercator",
+    "C": "poligônica",
+    "D": "estereográfica",
+    "RESP": "B"
+  },
+  {
+    "ID": 1306,
+    "PERGUNTA": "UMA ACFT VOARÁ COM O AJUSTE QNE A 10.500 FT E SOBREVOARÁ UM LUGAR ONDE O QNH NAQUELE MOMENTO SERÁ DE 1015 HPA. NESTE CASO A\nALTITUDE PRESSÃO SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "9.600 FT",
+    "B": "10.500 FT",
+    "C": "11.100 FT",
+    "D": "11.150 FT",
+    "RESP": "B"
+  },
+  {
+    "ID": 1211,
+    "PERGUNTA": "VOANDO PARA O SUL, ENTRE AS LINHAS ISOGÔNICAS 4° LESTE E 2° OESTE, A DMG MÉDIA SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "1° E",
+    "B": "2° W",
+    "C": "3° E",
+    "D": "6° W",
+    "RESP": "A"
+  },
+  {
+    "ID": 1223,
+    "PERGUNTA": "QUAL A DIREÇÃO E A DISTÂNCIA DE A PARA B SITUADOS NAS COORDENADAS:\nA: 20°40'S/045°W\nB: 22°50'S/045°W",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "Norte/120 NM",
+    "B": "Norte/130 NM",
+    "C": "Sul/120 NM",
+    "D": "Sul/130 NM",
+    "RESP": "D"
+  },
+  {
+    "ID": 1285,
+    "PERGUNTA": "A LATITUDE MÉDIA É O PARALELO EQÜIDISTANTE\n(DISTÂNCIA ANGULAR) DOS:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "pólos",
+    "B": "trópicos",
+    "C": "paralelos de dois pontos",
+    "D": "meridianos de dois pontos",
+    "RESP": "C"
+  },
+  {
+    "ID": 1215,
+    "PERGUNTA": "UM SEMICÍRCULO MÁXIMO LIMITADO PELOS PÓLOS,\nOPOSTO AO MERIDIANO DE UM OBSERVADOR É CHAMADO DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "antimeridiano",
+    "B": "colatitude",
+    "C": "meridiano 180°",
+    "D": "círculo menor",
+    "RESP": "A"
+  },
+  {
+    "ID": 1244,
+    "PERGUNTA": "UMA AERONAVE PERCORRE 105 NM EM 45 MIN. EM\nUMA HORA PERCORRERÁ:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "140 Km",
+    "B": "135 NM",
+    "C": "260 Km",
+    "D": "150 NM",
+    "RESP": "C"
+  },
+  {
+    "ID": 1258,
+    "PERGUNTA": "UMA AERONAVE ENCONTRA-SE POUSADA EM UM AEROPORTO SITUADO A 2.500 FT DE ALTITUDE E TEM SEU ALTÍMETRO AJUSTADO QFE. A ALTITUDE\nINDICADA NO INSTRUMENTO SERÁ:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "zero",
+    "B": "2.500 FT acima do NMM",
+    "C": "2.500 FT acima do nível de pressão padrão",
+    "D": "2.500 FT acima do nível de pressão da estação",
+    "RESP": "A"
+  },
+  {
+    "ID": 1344,
+    "PERGUNTA": "NUMA LONGITUDE DE 150°W SÃO 08:00 UTC DO DIA\n01 DE DEZEMBRO. A HORA LOCAL SERÁ:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "18:00h do dia 30/11",
+    "B": "18:00h do dia 01/12",
+    "C": "22:00h do dia 30/11",
+    "D": "22:00h do dia 01/12",
+    "RESP": "C"
+  },
+  {
+    "ID": 1251,
+    "PERGUNTA": "DADOS:\nALTITUDE PRESSÃO 15.000 FT TEMPERATURA: 30°C  ALTITUDE INDICADA: 12.000 FT\nA ALTITUDE VERDADEIRA SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "4.150 m",
+    "B": "4.260 m",
+    "C": "4.400 m",
+    "D": "4.560 m",
+    "RESP": "B"
+  },
+  {
+    "ID": 1225,
+    "PERGUNTA": "UMA PROJEÇÃO LAMBERT TEM SUA SUPERFÍCIE\nGERADA NUM:",
+    "MATÉRIA": "PP Avião -\nNAVEGAÇÃO",
+    "A": "cone",
+    "B": "plano",
+    "C": "cilindro",
+    "D": "grupo de cones",
+    "RESP": "A"
+  },
+  {
+    "ID": 1216,
+    "PERGUNTA": "A VELOCIDADE INDICADA CORRIGIDA PARA OS ERROS DO INSTRUMENTO E INSTALAÇÃO CHAMA-SE\nVELOCIDADE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "indicada",
+    "B": "aerodinâmica",
+    "C": "calibrada",
+    "D": "no solo",
+    "RESP": "C"
+  },
+  {
+    "ID": 1174,
+    "PERGUNTA": "UMA AERONAVE VOANDO COM PV 140°, CORTA\nLINHAS ISOGÔNICAS DE 20°W A 28°W. A PM MÉDIA COM QUE DEVERÁ VOAR, SERÁ DE:",
+    "MATÉRIA": "PP Avião - NAVEGAÇÃO",
+    "A": "142°",
+    "B": "152°",
+    "C": "164°",
+    "D": "188°",
+    "RESP": "C"
+  }
+]}

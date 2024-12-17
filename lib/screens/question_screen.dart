@@ -7,19 +7,19 @@ import '../widgets/question_widget.dart';
 import '../widgets/next_button.dart';
 import '../helpers/shared_preferences_helper.dart';
 import '../models/db_connect.dart';
-import './initial_screen.dart';
+import './test_type_screen.dart';
 import './results_screen.dart';
 
-class HomeScreen extends StatefulWidget {
+class QuestionScreen extends StatefulWidget {
   final String jsonPath;
 
-  const HomeScreen({Key? key, required this.jsonPath}) : super(key: key);
+  const QuestionScreen({Key? key, required this.jsonPath}) : super(key: key);
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<QuestionScreen> createState() => _QuestionScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _QuestionScreenState extends State<QuestionScreen> {
   List<Question> _questions = [];
   int index = 0;
   int score = 0;
@@ -143,26 +143,83 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _saveResultAndNavigate() async {
     try {
-      String filtered = criarStringResultScreen(widget.jsonPath);
-
+      String filtered = resultScreenName(widget.jsonPath);
 
       await SharedPreferencesHelper.saveResult(
           filtered, score, _questions, _selectedAnswers);
 
-
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-          builder: (context) => InitialScreen(),
-        ),
-      );
+      // Mostrar popup de aprovação/reprovação
+      _showResultPopup();
     } catch (e) {
       print('Failed to save result: $e');
       _showErrorDialog('Erro', 'Não foi possível salvar o resultado.');
     }
   }
 
-  String criarStringResultScreen(String jsonPath) {
+  void _showResultPopup() {
+    bool isApproved = score >= 14; // Aprovado se acertou 14 ou mais
+    String message = isApproved
+        ? 'Parabéns! Você foi APROVADO no teste com $score pontos.'
+        : 'Você foi REPROVADO no teste com $score pontos.';
+
+    // Escolha da cor com base no resultado
+    Color backgroundColor = isApproved ? Colors.green : Colors.red;
+
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: backgroundColor, // Define a cor de fundo
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(16.0), // Bordas arredondadas
+        ),
+        title: Center( // Alinha o título ao centro
+          child: Text(
+            isApproved ? 'Aprovado!' : 'Reprovado!',
+            style: const TextStyle(
+              color: Colors.white, // Texto branco para contraste
+              fontSize: 22.0,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              message,
+              style: const TextStyle(
+                color: Colors.white, // Texto branco para contraste
+                fontSize: 18.0,
+              ),
+              textAlign: TextAlign.center, // Alinha o texto ao centro
+            ),
+          ],
+        ),
+        actions: [
+          Center(
+            child: TextButton(
+              onPressed: () {
+                // Fechar o popup e voltar para a tela anterior
+                Navigator.of(ctx).pop(); // Fecha o popup
+                Navigator.of(context).pop(); // Retorna para a tela anterior (InitialScreen)
+              },
+              child: const Text(
+                'OK',
+                style: TextStyle(
+                  color: Colors.white, // Texto branco para contraste
+                  fontSize: 16.0,
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+
+  String resultScreenName(String jsonPath) {
     String filtered = jsonPath.split('/').last;
     filtered = filtered.split('.').first;
     filtered = filtered.replaceAll('_', ' ');
@@ -185,18 +242,6 @@ class _HomeScreenState extends State<HomeScreen> {
               'Score: $score',
               style: const TextStyle(fontSize: 18.0),
             ),
-          ),
-          IconButton(
-            icon: Icon(Icons.history),
-            onPressed: () {
-
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => ResultsScreen(),
-                ),
-              );
-            },
           ),
         ],
       ),
