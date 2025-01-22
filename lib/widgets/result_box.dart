@@ -34,23 +34,23 @@ class ResultBox extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
+            const Text(
               'Score',
               style: TextStyle(color: neutral, fontSize: 22.0),
             ),
             const SizedBox(height: 20.0),
             CircleAvatar(
-              child: Text(
-                '$result/$questionLength',
-                style: TextStyle(fontSize: 30.0),
-              ),
               radius: 70.0,
               backgroundColor: backgroundColor,
+              child: Text(
+                '$result/$questionLength',
+                style: const TextStyle(fontSize: 30.0),
+              ),
             ),
             const SizedBox(height: 20.0),
             Text(
               message,
-              style: TextStyle(color: neutral),
+              style: const TextStyle(color: neutral),
             ),
             const SizedBox(height: 25.0),
             GestureDetector(

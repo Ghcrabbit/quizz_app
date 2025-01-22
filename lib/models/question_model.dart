@@ -6,6 +6,7 @@ class Question {
   final String subject;
   final Map<String, String> options;
   final String correctOption;
+  final String? course; // Adicione o contexto opcional
 
   Question({
     required this.id,
@@ -13,6 +14,7 @@ class Question {
     required this.subject,
     required this.options,
     required this.correctOption,
+    this.course, // Campo opcional
   });
 
 
@@ -28,9 +30,9 @@ class Question {
     }
   }
 
-  factory Question.fromJson(Map<String, dynamic> json) {
+  factory Question.fromJson(Map<String, dynamic> json, {String? course}) {
     try {
-
+      // Criação do mapa de opções
       Map<String, String> options = {
         'A': toStringValue(json['A']),
         'B': toStringValue(json['B']),
@@ -38,28 +40,30 @@ class Question {
         'D': toStringValue(json['D']),
       };
 
-
+      // Obtenção da chave correta (RESP)
       String correctOptionKey = toStringValue(json['RESP']).toUpperCase();
 
-
+      // Verificação se a resposta está nas opções
       if (!options.containsKey(correctOptionKey)) {
         throw Exception(
             "A resposta correta não está entre as opções fornecidas.");
       }
 
-
+      // Retorna a instância da pergunta com o curso incluído
       return Question(
         id: int.parse(json['ID'].toString()),
         question: toStringValue(json['PERGUNTA']),
         subject: toStringValue(json['MATÉRIA']),
         options: options,
         correctOption: options[correctOptionKey]!,
+        course: course, // Adiciona o contexto do curso
       );
     } catch (e) {
       developer.log('Erro ao converter JSON para Question: $e');
       throw Exception('Erro ao converter JSON para Question: $e');
     }
   }
+
 
   Map<String, dynamic> toJson() {
     return {

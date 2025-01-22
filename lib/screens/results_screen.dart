@@ -14,7 +14,8 @@ class ResultsScreen extends StatefulWidget {
 class _ResultsScreenState extends State<ResultsScreen> {
   List<Map<String, dynamic>> _results = [];
   bool _isSelecting = false;
-  List<Map<String, dynamic>> _selectedResults = [];
+  final List<Map<String, dynamic>> _selectedResults = [];
+  Map<String, List<Map<String, dynamic>>> _groupedResults = {};
 
   @override
   void initState() {
@@ -27,10 +28,23 @@ class _ResultsScreenState extends State<ResultsScreen> {
       final results = await SharedPreferencesHelper.loadResults();
       setState(() {
         _results = results.reversed.toList();
+        _groupedResults = _groupResultsByCourse(_results);
       });
     } catch (e) {
-      print('Failed to load results: $e');
+      ('Failed to load results: $e');
     }
+  }
+
+  Map<String, List<Map<String, dynamic>>> _groupResultsByCourse(List<Map<String, dynamic>> results) {
+    Map<String, List<Map<String, dynamic>>> groupedResults = {};
+    for (var result in results) {
+      final course = result['course'] ?? 'Sem Curso';
+      if (!groupedResults.containsKey(course)) {
+        groupedResults[course] = [];
+      }
+      groupedResults[course]!.add(result);
+    }
+    return groupedResults;
   }
 
   String _formatDate(String dateStr) {
@@ -38,6 +52,15 @@ class _ResultsScreenState extends State<ResultsScreen> {
     return DateFormat('dd/MM/yyyy - HH:mm').format(date);
   }
 
+  void _selectAllResults(bool select) {
+    setState(() {
+      if (select) {
+        _selectedResults.addAll(_results);
+      } else {
+        _selectedResults.clear();
+      }
+    });
+  }
 
   void _deleteSelectedResults() {
     showDialog(
@@ -57,20 +80,22 @@ class _ResultsScreenState extends State<ResultsScreen> {
                   _results.removeWhere((result) => _selectedResults.contains(result));
                 });
                 await SharedPreferencesHelper.updateResults(_results);
-                setState(() {
-                  _selectedResults.clear();
-                  _isSelecting = false;
-                });
-                Navigator.of(context).pop();
+                if (mounted) {
+                  setState(() {
+                    _selectedResults.clear();
+                    _isSelecting = false;
+                  });
+                  Navigator.of(context).pop();
+                }
               },
               child: const Text('Confirmar'),
             ),
+
           ],
         );
       },
     );
   }
-
 
   void _deleteAllResults() {
     showDialog(
@@ -100,18 +125,12 @@ class _ResultsScreenState extends State<ResultsScreen> {
     );
   }
 
-
-  void _selectAllResults(bool select) {
-    setState(() {
-      select ? _selectedResults.addAll(_results) : _selectedResults.clear();
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(_isSelecting ? 'Selecionar Testes' : 'Resultados Anteriores'),
+        title: Text(
+            _isSelecting ? 'Selecionar Testes' : 'Resultados Anteriores'),
         actions: _isSelecting
             ? [
           IconButton(
@@ -122,9 +141,9 @@ class _ResultsScreenState extends State<ResultsScreen> {
             icon: const Icon(Icons.select_all),
             onPressed: () {
               if (_selectedResults.length == _results.length) {
-                _selectAllResults(false);
+                _selectAllResults(false); // Deselect all if all are selected
               } else {
-                _selectAllResults(true);
+                _selectAllResults(true); // Select all
               }
             },
           ),
@@ -159,68 +178,101 @@ class _ResultsScreenState extends State<ResultsScreen> {
       body: _results.isEmpty
           ? const Center(child: Text('Nenhum resultado disponível.'))
           : ListView.builder(
-        itemCount: _results.length,
+        itemCount: _groupedResults.keys.length,
         itemBuilder: (context, index) {
-          final result = _results[index];
-          final isSelected = _selectedResults.contains(result);
+          final course = _groupedResults.keys.elementAt(index);
+          final resultsForCourse = _groupedResults[course]!;
 
-          return Card(
-            color: result.containsKey('color')
-                ? Color(result['color'])
-                : (result['score'] >= 14 ? Colors.green[200] : Colors.red[200]),
+          return Container(
             margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
-            child: ListTile(
-              leading: _isSelecting
-                  ? Checkbox(
-                value: isSelected,
-                onChanged: (bool? value) {
-                  setState(() {
-                    value ?? false
-                        ? _selectedResults.add(result)
-                        : _selectedResults.remove(result);
-                  });
-                },
-              )
-                  : null,
-              title: Align(
-                alignment: Alignment.center,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(10),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.withOpacity(0.2),
+                  blurRadius: 5,
+                  offset: const Offset(0, 2),
+                ),
+              ],
+            ),
+            child: ExpansionTile(
+              title: Center(
                 child: Text(
-                  result['quiz'],
-                  style: const TextStyle(fontWeight: FontWeight.bold),
+                  course,
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                 ),
               ),
-              subtitle: Center(
-                child: Text(
-                  '${_formatDate(result['date'])} - Acertos: ${result['score']}',
-                  style: const TextStyle(fontSize: 14),
-                ),
-              ),
-              onTap: () async {
-                if (_isSelecting) {
-                  setState(() {
-                    isSelected
-                        ? _selectedResults.remove(result)
-                        : _selectedResults.add(result);
-                  });
-                } else {
-                  final questions = (result['questions'] as List)
-                      .map((q) => Question.fromJson(q))
-                      .toList();
-
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => ResultDetailScreen(
-                        quizName: result['quiz'],
-                        score: result['score'],
-                        date: _formatDate(result['date']),
-                        questions: questions,
-                        selectedAnswers: List<String>.from(result['selectedAnswers']),
+              tilePadding: const EdgeInsets.symmetric(horizontal: 16),
+              expandedCrossAxisAlignment: CrossAxisAlignment.center,
+              childrenPadding: const EdgeInsets.symmetric(vertical: 8),
+              backgroundColor: Colors.grey[100],
+              children: resultsForCourse.map((result) {
+                final isSelected = _selectedResults.contains(result);
+                return Card(
+                  color: result.containsKey('color')
+                      ? Color(result['color'])
+                      : (result['score'] >= 14 ? Colors.green[200] : Colors.red[200]),
+                  margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+                  child: ListTile(
+                    leading: _isSelecting
+                        ? Checkbox(
+                      value: isSelected,
+                      onChanged: (bool? value) {
+                        setState(() {
+                          value ?? false
+                              ? _selectedResults.add(result)
+                              : _selectedResults.remove(result);
+                        });
+                      },
+                    )
+                        : null,
+                    title: Align(
+                      alignment: Alignment.center,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Text(result['quiz'], style: const TextStyle(fontWeight: FontWeight.bold)),
+                          Text(result['course'] ?? 'Sem Curso', style: const TextStyle(fontSize: 14, fontStyle: FontStyle.italic)),
+                        ],
                       ),
                     ),
-                  );
-                }
-              },
+                    subtitle: Center(
+                      child: Text(
+                        '${_formatDate(result['date'])} - Acertos: ${result['score']}',
+                        style: const TextStyle(fontSize: 14),
+                      ),
+                    ),
+                    onTap: () async {
+                      if (_isSelecting) {
+                        setState(() {
+                          isSelected
+                              ? _selectedResults.remove(result)
+                              : _selectedResults.add(result);
+                        });
+                      } else {
+                        final questions = (result['questions'] as List)
+                            .map((q) => Question.fromJson(q))
+                            .toList();
+
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                ResultDetailScreen(
+                                  quizName: result['quiz'],
+                                  score: result['score'],
+                                  date: _formatDate(result['date']),
+                                  questions: questions,
+                                  selectedAnswers: List<String>.from(result['selectedAnswers']),
+                                ),
+                          ),
+                        );
+                      }
+                    },
+                  ),
+                );
+              }).toList(),
             ),
           );
         },

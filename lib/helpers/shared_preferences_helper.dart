@@ -8,12 +8,18 @@ class SharedPreferencesHelper {
   static const String _keySelectedAnswers = 'selected_answers';
 
   static Future<void> saveResult(
-      String quizName, int score, List<Question> questions, List<String> selectedAnswers) async {
+      String quizName,
+      int score,
+      List<Question> questions,
+      List<String> selectedAnswers,
+      [String? course]) async {
     try {
       final prefs = await SharedPreferences.getInstance();
+
+      // Caso o curso não tenha sido fornecido, busque o salvo
+      course ??= prefs.getString('selected_course') ?? 'Curso Desconhecido';
+
       final results = prefs.getStringList(_keyResults) ?? [];
-
-
       final color = score >= 14 ? Colors.green[200]?.value : Colors.red[200]?.value;
 
       final newResult = {
@@ -23,17 +29,20 @@ class SharedPreferencesHelper {
         'questions': questions.map((q) => q.toJson()).toList(),
         'selectedAnswers': selectedAnswers,
         'color': color,
+        'course': course, // Campo do curso
       };
 
       results.add(json.encode(newResult));
-
       await prefs.setStringList(_keyResults, results);
     } catch (e) {
       print('Failed to save result: $e');
       throw Exception('Failed to save result: $e');
     }
   }
-
+  Future<String?> getSelectedCourse() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString('selected_course');
+  }
 
   static Future<List<Map<String, dynamic>>> loadResults() async {
     try {
@@ -76,6 +85,8 @@ class SharedPreferencesHelper {
       throw Exception('Failed to clear results: $e');
     }
   }
+
+
 
 
   static Future<void> removeResult(String quizName) async {
@@ -150,4 +161,6 @@ class SharedPreferencesHelper {
       throw Exception('Failed to load selected answers: $e');
     }
   }
+  
 }
+

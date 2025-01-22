@@ -1,5 +1,4 @@
   import 'package:flutter/material.dart';
-  import '../models/db_connect.dart';
   import '../models/question_model.dart';
   import '../widgets/question_widget.dart';
   import '../constants.dart';
@@ -29,7 +28,7 @@
     Widget build(BuildContext context) {
       return Scaffold(
         appBar: AppBar(
-          title: Text('Detalhes do Resultado'),
+          title: const Text('Detalhes do Resultado'),
         ),
         backgroundColor: const Color.fromARGB(186, 66, 160, 202),
         body: SingleChildScrollView(

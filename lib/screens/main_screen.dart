@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'test_type_screen.dart';
 import './results_screen.dart'; // Verifique o caminho correto se necessário
+
 
 // Constantes para melhorar a manutenção
 const String pilotoPrivadoTitle = 'Piloto Privado Avião';
@@ -12,7 +14,7 @@ class CustomButton extends StatelessWidget {
   final String text;
   final VoidCallback onPressed;
 
-  const CustomButton({required this.text, required this.onPressed});
+  const CustomButton({Key? key, required this.text, required this.onPressed}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -40,30 +42,23 @@ class CustomButton extends StatelessWidget {
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
 
-  // Navegação para a tela de TestTypeScreen para Piloto Privado
-  void _navigateToTypeTestPilotoPrivado(BuildContext context) {
-    final Map<String, String> pilotoPrivadoBlocks = {
+  // Método para salvar o curso selecionado
+  Future<void> _saveSelectedCourseAndNavigate(BuildContext context, String course) async {
+    await saveSelectedCourse(course); // Chama o método para salvar o curso selecionado
+    _navigateToTypeTest(context, course);
+  }
+
+  // Navegação para a tela de TestTypeScreen
+  void _navigateToTypeTest(BuildContext context, String title) {
+    final Map<String, String> blocks = title == pilotoPrivadoTitle
+        ? {
       'Conhecimentos Técnicos': 'assets/data/conhecimentos tecnicos.json',
       'Meteorologia': 'assets/data/meteorologia.json',
       'Navegação': 'assets/data/navegacao.json',
       'Regulamentos de Voo': 'assets/data/regulamentos.json',
       'Teoria de Voo': 'assets/data/teoria de voo.json',
-    };
-
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => TestTypeScreen(
-          title: pilotoPrivadoTitle,
-          course: pilotoPrivadoBlocks,
-        ),
-      ),
-    );
-  }
-
-  // Navegação para a tela de TestTypeScreen para Comissário de Voo
-  void _navigateToInitialScreenCMS(BuildContext context) {
-    final Map<String, String> cmsBlocks = {
+    }
+        : {
       'Emergência e Segurança': 'assets/data/Emergência e Segurança.json',
       'Regulamentação da Profissão': 'assets/data/Regulamentação da Profissão.json',
       'Primeiros Socorros': 'assets/data/Primeiros Socorros.json',
@@ -74,8 +69,8 @@ class MainScreen extends StatelessWidget {
       context,
       MaterialPageRoute(
         builder: (context) => TestTypeScreen(
-          title: comissarioDeVooTitle,
-          course: cmsBlocks,
+          title: title,
+          course: blocks,
         ),
       ),
     );
@@ -86,7 +81,7 @@ class MainScreen extends StatelessWidget {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => ResultsScreen(),
+        builder: (context) => const ResultsScreen(),
       ),
     );
   }
@@ -119,22 +114,26 @@ class MainScreen extends StatelessWidget {
               _buildButton(
                 context,
                 pilotoPrivadoTitle,
-                    () => _navigateToTypeTestPilotoPrivado(context),
+                    () => _saveSelectedCourseAndNavigate(context, pilotoPrivadoTitle), // Salva o curso e navega
               ),
               _buildButton(
                 context,
                 comissarioDeVooTitle,
-                    () => _navigateToInitialScreenCMS(context),
+                    () => _saveSelectedCourseAndNavigate(context, comissarioDeVooTitle), // Salva o curso e navega
               ),
               _buildButton(
                 context,
                 resultadosTitle,
-                    () => _navigateToResultsScreen(context),
+                    () => _navigateToResultsScreen(context), // Apenas navega
               ),
             ],
           ),
         ),
       ),
     );
+  }
+  Future<void> saveSelectedCourse(String course) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString('selected_course', course);
   }
 }

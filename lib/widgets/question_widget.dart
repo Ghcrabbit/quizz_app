@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import '../constants.dart'; // aqui estão nossas cores
 
 class QuestionWidget extends StatelessWidget {
-  const QuestionWidget({
+  const QuestionWidget({Key? key,
     required this.questions,
     required this.indexAction,
     required this.totalQuestions,
-  });
+  }) : super(key: key);
 
   final String questions;
   final int indexAction;

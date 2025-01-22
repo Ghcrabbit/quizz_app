@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import '../constants.dart';
 import '../models/question_model.dart';
 import '../widgets/question_widget.dart';
 import '../widgets/next_button.dart';
 import '../helpers/shared_preferences_helper.dart';
 import '../models/db_connect.dart';
-import './test_type_screen.dart';
-import './results_screen.dart';
 
 class QuestionScreen extends StatefulWidget {
   final String jsonPath;
@@ -61,7 +57,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
             List.filled(questions.length, '');
       });
     } catch (error) {
-      print('Erro ao carregar perguntas: $error');
+      ('Erro ao carregar perguntas: $error');
       setState(() {
         loading = false;
       });
@@ -146,12 +142,12 @@ class _QuestionScreenState extends State<QuestionScreen> {
       String filtered = resultScreenName(widget.jsonPath);
 
       await SharedPreferencesHelper.saveResult(
-          filtered, score, _questions, _selectedAnswers);
+          filtered, score, _questions, _selectedAnswers,  );
 
       // Mostrar popup de aprovação/reprovação
       _showResultPopup();
     } catch (e) {
-      print('Failed to save result: $e');
+      ('Failed to save result: $e');
       _showErrorDialog('Erro', 'Não foi possível salvar o resultado.');
     }
   }
